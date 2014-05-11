@@ -1,0 +1,61 @@
+\addchap{Introduction}
+
+%\section{To Do}
+%Parler de la croissance (de l'explosion même) de l'utilisation de l'internet. Du hypertexte aux applications dynamiques. Puis la virtualisation et le cloud computing. Ensuite le big data. Montrer que ça évolue en grande vitesse.
+%\par Expliquer que l'architecture et l'infrastructure réseau n'avaient pas été conçues pour ce scénario. Donc ça commence à se saturer ne correspondant plus aux besoins actuels. Les choses sont plus éphémères, il y a besoin de quelque chose plus flexible, adaptable. Et l'architecture actuelle pose des difficultés pour l'expérimentation des nouveaux protocoles, services, applications etc. 
+%\par Introduire SDN comme une réponse à cette problématique. Expliquer brièvement ce que c'est et pour quoi cela apporte une évolution. Montrer comment ça pourrait être utilisé pour répondre aux besoins actuels.
+%\par Expliquer les objectifs du texte : ré-définir SDN, présenter les enjeux et les cas d'utilisation et un état de l'art des technologies qui sont sorties.
+%\par Présenter la méthodologie, le développement du texte et de quoi va parler chaque section. 
+ 
+
+%\section{Évolution de l'utilisation Internet pendant une décade}
+
+
+%SDN is an emerging architecture that is dynamic, manageable, cost-effective, and adaptable, making it ideal for the high-bandwidth, dynamic nature of today’s applications. This architecture decouples the network control and forwarding functions, enabling the network control to become directly programmable and the underlying infrastructure to be abstracted for applications and network services. The protocol or messaging scheme that forms the communication between the controller and switches is defined separately.
+
+%On cherche à concevoir une architecture plus adaptée aux enjeux de la communication actuelle. Cette problématique a amené les scientifiques et les ingénieurs impliqués à concevoir \gls{sdn}. \gls{sdn} est un nouveau \gls{paradigme} réseau qu'on est actuellement en cours de développer pour adapter l'infrastructure existante aux nouveaux scénarios. \cite{OpenFlowStanford}
+%Au long de cette étude ce nouveau scénario sera discuté et SDN sera présenté en réponse à ses besoins.
+
+\gls{sdn} est un \gls{paradigme} réseau conçu pour adapter les infrastructures courantes aux enjeux de la communication actuelle.
+% : haute bande passante et nature dynamique des applications. 
+\gls{sdn} propose une nouvelle architecture plus dynamique et d'administration simplifiée. Cette architecture dissocie le contrôle du réseau (\gls{controlplane}) des fonctions de transmission (\gls{dataplane}). L'approche permet de rendre le contrôle directement programmable et l'infrastructure sous-jacente d'être \glslink{abstraction}{abstraite} aux applications réseaux et services. Le protocole déterminant les interfaces de communication entre le contrôleur et les switches est défini séparément, le plus populaire et standardisé étant \gls{openflow}. \cite{OpenFlowStanford} \cite{ODCAintro} \cite{SDNNewNormONFExecutiveSummary}
+
+\vspace*{1\baselineskip}
+
+
+
+
+Internet a évolué de trois manières importantes dans les dix dernières années. %\\
+\begin{itemize}
+\itemsep0.5em 
+\item Haut-débit: le contenu a évolué à partir de texte et pages web relativement statiques, pour progresser vers un contenu dynamique avec des flux de données importants et exigeant  une latence réduite. 
+\item Expansion: l'utilisation s'est rapidement mondialisée; par exemple le débit international servant l'Afrique a augmenté de 1.21Gbit/s en 2001 à 570.92Gbit/s en 2011 \cite{InternetGlobalGrowthImpactDevelopingCountries}. 
+\item  Nouveaux supports : l'accès s'est étendu des ordinateurs de bureau à une variété de nouveaux dispositifs, comme les téléphones mobiles et les tablettes. Le trafic global des données a ainsi augmenté de 70\% en 2012. \cite{CiscoVNI2013}. \\
+\end{itemize}
+
+\par
+La rapidité d'une telle évolution technologique et son adoption sont sans précédent dans l'histoire de l'informatique. \cite{InternetGlobalGrowthImpactDevelopingCountries}.
+
+
+\par
+%La capacité d'évolution pour s'adapter aux nouvelles exigences des usagers est récurrente dans l'histoire d'internet. 
+%La croissance accélérée de l'accès de partout, notamment dans les pays en développement et la rapide augmentation de l'utilisation par les utilisateurs existants, dirigées par les contenus multimédias et application machine-à-machine sont des 
+Dans le scénario actuel on voit 
+%poindre de 
+partout une croissance accélérée de l'accès, notamment dans les pays en voie de développement, ainsi qu'une rapide augmentation de l'utilisation en général, engendrée par les contenus multimédias et les applications machine-à-machine. Par exemple, en moins de deux ans depuis la parution d'Instagram, plus de 50 millions de personnes on partagé plus d'un milliard de photos. \cite{deuxAnsInstagram}.
+Dans ce contexte, la capacité d'internet de continuer à fournir l'infrastructure nécessaire est remise en cause. \cite{InternetSustainGrowthIntro}
+\par
+De nouvelles technologies et concepts émergent pour répondre à ces nouveaux besoins.
+% des utilisateurs qui exigent de plus en plus du haut-débit et une latence réduite. 
+Le \gls{bigdata} a modifié le traitement des données pour permettre aux entreprises de gérer et valoriser la quantité massive de données disponibles. \cite{IMBigData} Le \gls{cloudcomputing} et la \gls{virtualisation} ont apporté une nouvelle approche pour le management et l'hébergement de ressources et de services de \gls{ti}  dans le but de les rendre plus agiles, plus efficaces, plus sécurisées et plus flexibles tout en réduisant les coûts. \cite{CloudComputingIntelVision} 
+%Pour accompagner ces évolutions, une 
+L'innovation technologique dans le domaine des réseaux informatiques est indispensable. \cite{InternetEvolutionRoleSoftwareEngineeringConclusion}
+\par
+En réponse à ces nouveaux besoins émergents, les acteurs impliqués dans ce secteur se sont unis pour la conception et la proposition de \gls{sdn}.
+%\gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qui est actuellement développé en collaboration pour adapter l'infrastructure existante au nouveau scénario.\cite{OpenFlowStanford} 
+Le présent document a donc pour but d'explorer cette solution et analyser les approches qui ont été faites dans ce domaine. Il propose un état de l'art des technologies existantes pour déployer \gls{sdn} ainsi que divers cas d'utilisations dont les enjeux seront présentés.
+\par
+%[un paragraphe pour le plan du texte (de quoi parle chaque section)]
+Le premier chapitre reprend la problématique et définit les pré-requis des réseaux modernes. Le deuxième chapitre redéfinit SDN, présente l'architecture proposée et montre les enjeux de cette solution. Le troisième chapitre suggère quelques possibilités d'application et cas d'utilisation de SDN. Le quatrième et dernier chapitre réalise un état de l'art de la technologie, présentant les solutions et produits proposés par les principaux fournisseurs du marché.
+
+

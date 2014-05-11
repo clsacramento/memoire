@@ -1,0 +1,96 @@
+\documentclass[a4paper,12pt,francais,twoside]{article}
+%\documentclass[a4paper,12pt,twoside,francais,headinclude]{scrartcl}
+%\documentclass[a4paper,12pt,twoside,francais,DIVcalc]{scrreprt,scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage[margin=2cm]{geometry}
+\usepackage[english,frenchb]{babel}
+\parindent 0pt
+\pagestyle{empty}
+
+\newcommand{\promo}{RIE07 2012 -- 2014}
+\newcommand{\datesoutenance}{10 avril 2014}
+\begin{document}
+
+\begin{titlepage}
+%\raisebox{0.5cm}{\includegraphics[width=2.8cm]{logo-cnam}}\hfill%
+%\raisebox{0.5cm}{\large Master Réseaux Informatiques d'Entreprise}\hfill%
+%\includegraphics[width=3.0cm]{logo-fc}
+\includegraphics[width=2.8cm]{logo-cnam}\hfill%
+\large Master Réseaux Informatiques d'Entreprise\hfill%
+\raisebox{-0.5cm}{\includegraphics[width=3.0cm]{logo-fc}}
+\vspace{-0.5cm}
+\begin{center}
+\promo\\
+\end{center}
+
+\vspace{\stretch{.5}}
+\begin{center} \large
+Épreuve bibliographique tutorée\\
+\end{center}
+\begin{center}
+présentée et soutenue le \datesoutenance{} par \\
+\large Cynthia \bsc{Lopes do Sacramento}
+\end{center}
+
+\vspace{\stretch{1}}
+\hrulefill
+\begin{flushleft} \bfseries\sffamily\LARGE
+  SDN : Software-Defined Netowrking
+\end{flushleft}
+\begin{flushright} \large
+  Réseau Informatique Défini par Logiciel
+\end{flushright}
+\hrulefill
+
+
+\vspace{\stretch{4}}
+\begin{flushleft}
+\begin{tabular}{ll}
+Jury : & Romain \bsc{Kobylanski} \\
+& François \bsc{Miller} \\
+& Véronique \bsc{Panne} \\ \\
+Tuteur : & Prénom \bsc{Nom} \\
+Entreprise : & Entreprise \\
+\end{tabular}
+\end{flushleft}
+\end{titlepage}
+
+%%%% quatrième de couverture
+\cleardoublepage
+\strut
+\clearpage
+Épreuve bibliographique tutorée \hfill Master Réseaux Informatiques d'Entreprise  -- 2014 \\
+
+\begin{center} \large
+SDN : Software-Defined Netowrking
+\end{center}
+\begin{flushright}
+rédigé par Cynthia \textsc{Lopes do Sacramento}
+\end{flushright}
+
+\vspace{1cm}
+\hrulefill
+\begin{abstract}
+Résumé en français \ldots
+
+\bigskip\noindent
+Mots clés : SDN, Réseaux Programmables, Plan de Contrôle, Plan de Données, Système d'Exploitation Réseau
+\end{abstract}
+
+\hrulefill
+\selectlanguage{english}
+\begin{abstract}
+Résumé en anglais \ldots
+
+\bigskip\noindent
+Keywords : SDN, Programmable Networks, Control Plane, Data Plane, Network Operating System
+\end{abstract}
+
+\hrulefill
+\end{document}

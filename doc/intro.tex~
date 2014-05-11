@@ -1,0 +1,24 @@
+\addchap{Introduction}
+
+\section{To Do}
+Parler de la croissance (de l'explosion même) de l'utilisation de l'internet. Du hypertexte aux applications dynamiques. Puis la virtualisation et le cloud computing. Ensuite le big data. Montrer que ça évolue en grande vitesse.
+\par
+Expliquer que l'architecture et l'infrastructure réseau n'avaient pas été conçues pour ce scénario. Donc ça commence à se saturer ne correspondant plus aux besoins actuels. Les choses sont plus éphémères, il y a besoin de quelque chose plus flexible, adaptable. Et l'architecture actuelle pose des difficultés pour l'expérimentation des nouveaux protocoles, services, applications etc. 
+\par
+Introduire SDN comme une réponse à cette problématique. Expliquer brièvement ce que c'est et pour quoi cela apporte une évolution. Montrer comment ça pourrait être utilisé pour répondre aux besoins actuels.
+\par
+Expliquer les objectifs du texte : ré-définir SDN, présenter les enjeux et les cas d'utilisation et un état de l'art des technologies qui sont sorties.
+\par
+Présenter la méthodologie, le développement du texte et de quoi va parler chaque section. 
+ 
+ 
+\section{Faits intéressants}
+Le débit international servant l'Afrique a augmenter de 1.21Gbit/s en 2001 à 570.92Gbit/s.
+ITU prévoit une croissance le nombre global d'utilisateurs de internet de 2.2 milliards en 2012 à 3.5 milliards en 2020.
+
+\section{É}
+
+\section{Présentation de la Problématique}
+
+Il y a une extrêmement haute barrière pour l'entrée de nouvelles idées dans le domaine des réseaux à cause de l'énorme base d'équipements et de protocoles installée ainsi qu'une résistance d'expérimenter avec le trafique de production. Finalement, il ne reste pratiquement pas de moyen pratique pour expérimenter des nouveaux protocoles réseau dans une configuration assez réaliste pour assurer et distribuer leurs déploiements. Comme résultat, la majorité des nouvelles idées de la recherche en réseau finissent sans essais et sans tests, ce qui apporte la croyance répandue que l'infrastructure réseau "s'est ossifiée". \cite{OpenFlowStanford} \par
+Cette problématique a amené scientistes et tout le personnel impliqué à concevoir \gls{sdn}. \gls{sdn} est un nouveau \glslink{paradigme}{paradigme} réseau qu'on fait actuellement l'effort développer pour adapter l'infrastructure existante au nouveau scénario.

@@ -1,0 +1,103 @@
+@misc{SurveySDN,
+    hal_id = {hal-00825087},
+    author = {Astuto, Bruno Nunes and Mendon{\c c}a, Marc and Nguyen, Xuan Nam and Obraczka, Katia and Turletti, Thierry},
+    title       = {A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks},    
+    keywords = {Programmable Networks, Software Defined Networking (SDN).},
+    language = {Anglais},
+    affiliation = {DIANA - Inria Sophia Antipolis , Jack Baskin School of Engineering - UCSC},
+    month = jan,
+    year = {2014},
+    pdf = {http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf},
+}
+
+@article{OpenFlowStanford,
+    author = {McKeown, Nick and Anderson, Tom and Balakrishnan, Hari and Parulkar, Guru and Peterson, Larry and Rexford, Jennifer and Shenker, Scott and Turner, Jonathan},
+    title = {OpenFlow: Enabling Innovation in Campus Networks},
+    journal = {SIGCOMM Comput. Commun. Rev.},
+    issue_date = {April 2008},
+    volume = {38},
+    number = {2},
+    month = mar,
+    year = {2008},
+    issn = {0146-4833},
+    pages = {69--74},
+    numpages = {6},
+    url = {http://doi.acm.org/10.1145/1355734.1355746},
+    doi = {10.1145/1355734.1355746},
+    acmid = {1355746},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {ethernet switch, flow-based, virtualization},
+} 
+
+@Book{lc2fr,
+    author      = {Mittelbach, Frank and Goossens, Michael},
+    title       = {{\LaTeX{}} {C}ompanion},
+    year        = {2005},
+    booktitle   = {{\LaTeX{}} {C}ompanion},
+    publisher   = {Paerson Education France},
+    address     = {Paris},
+    edition     = {2},
+    isbn        = {2-7440-7133-1},
+    translator  = {Andr{\'e}, Jacques and Belet, Beno{\^\i}t and Charpentier,
+        Jean-C{\^o}me and Hufflen, Jean-Michel and Soulet, Yves},
+    language    = {french}
+}
+
+@Book{tbt,
+    author      = {Eijkhout, Victor},
+    title       = {{\TeX{}} by Topic},
+    subtitle    = {A {\TeX}nician's reference},
+    year        = {1991},
+    publisher   = {Addison Wesley},
+    address     = {Wokingham},
+    isbn        = {0-201-56882-9},
+    url         = {http://www.eijkhout.net/tbt/},
+    language    = {english}
+}
+
+@Manual{etexman,
+    author      = {Breitenlohner, Peter},
+    title       = {The {\eTeX{}} Manual},
+    year        = {1998},
+    version     = {2},
+    url         =
+    {http://ctan.org/tex-archive/systems/e-tex/v2/doc/etex_man.pdf},
+    language    = {english}
+}
+
+@Manual{flshort,
+    author      = {Oetiker, Tobias and Partl, Hubert and Hyna, Irene and
+        Schlegl, Elisabeth},
+    title       = {Une courte (?) introduction {\`a} {\LaTeXe}},
+    year        = {2001},
+    version     = {3.20},
+    translator  = {Herrb, Matthieu},
+    subtitle    = {ou {\LaTeXe} en 84 minutes},
+    url         =
+    {http://ctan.org/tex-archive/info/lshort/french/flshort-3.20.pdf},
+    language    = {french}
+}
+
+@Article{texerrors,
+    author      = {Knuth, Donald E.},
+    title       = {The errors of {\TeX}},
+    journal     = {Softw. Pract. Exper.},
+    volume      = {19},
+    number      = {7},
+    year        = {1989},
+    issn        = {0038-0644},
+    pages       = {607--685},
+    publisher   = {John Wiley \& Sons, Inc.},
+    address     = {New York, NY, USA},
+}
+
+@Book{cntb,
+    author      = {Knuth, Donald},
+    title       = {Computers and Typesetting},
+    volume      = {B},
+    subtitle    = {{\TeX}: the Program},
+    year        = {1986},
+    publisher   = {Addison-Wesley},
+    language    = {english},
+}
