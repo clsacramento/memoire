@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  11 MAY 2014 12:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  31 MAY 2014 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,16 +1355,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout2 = `intro.aux'.
 
  (./intro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
- []
+LaTeX Warning: Citation 'cloudCosts' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'cloudCostsAgility' on page 1 undefined on input line 1
+9.
+
+
+LaTeX Warning: Citation 'algoSecSurvey' on page 1 undefined on input line 24.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 \par
-          [1
+l.25 
+      [1
 
 
 
@@ -1378,134 +1384,67 @@ l.265 \include{intro}
 
  (./chap1.tex
 Chapitre 1.
-[3
+) [3
 
 
 
-
-]
-<images/IncreasingPressureOnNetworkInfra2.png, id=277, 437.38406pt x 441.14813p
-t>
-File: images/IncreasingPressureOnNetworkInfra2.png Graphic file (type png)
- <use images/IncreasingPressureOnNetworkInfra2.png>
-Package pdftex.def Info: images/IncreasingPressureOnNetworkInfra2.png used on i
-nput line 94.
-(pdftex.def)             Requested size: 341.43306pt x 344.37688pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] [5 <./images/IncreasingPressureOnNetworkInfra2.png>]) [6
 
 ]
 \openout2 = `chap2.aux'.
 
- (./chap2.tex
-Chapitre 2.
-
-Overfull \hbox (9.10292pt too wide) in paragraph at lines 24--25
-[]\T1/lmr/m/n/12 Dans l'ar-chi-tec-ture ré-seau tra-di-tion-nel-le-ment dé-ploy
-ée, chaque équi-pe-ment ac-tif contient
- []
-
-[7
+ (./chap2.tex [4
 
 
 
-
-] <images/TraditionalVsSDN.png, id=351, 691.83469pt x 471.26062pt>
-File: images/TraditionalVsSDN.png Graphic file (type png)
-
-<use images/TraditionalVsSDN.png>
-Package pdftex.def Info: images/TraditionalVsSDN.png used on input line 44.
-(pdftex.def)             Requested size: 426.79134pt x 290.72601pt.
-
-Underfull \vbox (badness 2538) has occurred while \output is active []
-
- [8 <./images/TraditionalVsSDN.png>] [9]) [10
 
 ]
+Chapitre 2.
+) [5]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex
+ (./chap4.tex [6
+
+
+
+
+]
 Chapitre 3.
-[11
-
-
-
-
-] [12
-
-] <images/DataCenterL2Bridging.png, id=448, 1035.87pt x 547.04375pt>
-File: images/DataCenterL2Bridging.png Graphic file (type png)
-
-<use images/DataCenterL2Bridging.png>
-Package pdftex.def Info: images/DataCenterL2Bridging.png used on input line 109
-.
-(pdftex.def)             Requested size: 426.79134pt x 225.3912pt.
- [13 <./images/DataCenterL2Bridging.png>]
-Overfull \hbox (8.42497pt too wide) in paragraph at lines 151--157
-[]\T1/lmr/m/n/12 Avec SDN, le tra-fic WAN peut être aussi dy-na-mi-que-ment re-
-routé pour ré-duire/contrôler
- []
-
-[14] <images/GoogleOpenFlowWAN.jpg, id=483, 639.38875pt x 286.06876pt>
-File: images/GoogleOpenFlowWAN.jpg Graphic file (type jpg)
-
-<use images/GoogleOpenFlowWAN.jpg>
-Package pdftex.def Info: images/GoogleOpenFlowWAN.jpg used on input line 165.
-(pdftex.def)             Requested size: 369.88582pt x 165.49222pt.
-) [15 <./images/GoogleOpenFlowWAN.jpg>]
+) [7]
 \openout2 = `chap5.aux'.
 
-
-(./chap5.tex [16
+ (./chap5.tex [8
 
 
 
 
 ]
 Chapitre 4.
-[17] <images/openflowArchi.jpg, id=521, 602.25pt x 402.50375pt>
-File: images/openflowArchi.jpg Graphic file (type jpg)
-
-<use images/openflowArchi.jpg>
-Package pdftex.def Info: images/openflowArchi.jpg used on input line 57.
-(pdftex.def)             Requested size: 426.79134pt x 285.25146pt.
-
-Underfull \vbox (badness 1163) has occurred while \output is active []
-
- [18 <./images/openflowArchi.jpg>]
-Overfull \hbox (3.86035pt too wide) in paragraph at lines 70--91
- [][] 
- []
-
-[19] [20]) [21]
+) [9]
 \openout2 = `concl.aux'.
 
- (./concl.tex [22
+ (./concl.tex [10
 
 
 
 
-]) [23] [24
+]) [11] [12
 
 
 
 ]
 No file ebt.ind.
-(./ebt.acr) (./ebt.gls [25
+(./ebt.acr) (./ebt.gls [13
 
 
 
 
-] [26
+] [14
 
 
-] [27
+] [15
 
 
-] [28]) [29] [30
+] [16]) [17] [18
 
 
 ]
@@ -1535,7 +1474,7 @@ Overfull \hbox (0.85542pt too wide) in paragraph at lines 294--294
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[31] [32] [33]
+[19] [20] [21]
 Overfull \hbox (4.1795pt too wide) in paragraph at lines 294--294
 \T1/lmr/m/n/12 Ethan Banks, http://searchsdn.techtarget.com/news/2240212374/Thi
 nking-about-
@@ -1547,7 +1486,7 @@ Overfull \hbox (24.04268pt too wide) in paragraph at lines 294--294
 orking.org/sdn-resources/onf-products-
  []
 
-[34]
+[22]
 Overfull \hbox (16.74628pt too wide) in paragraph at lines 294--294
 \T1/lmr/m/it/12 9000 switches\T1/lmr/m/n/12 . Web Site. http://searchsdn.techta
 rget.com/news/2240208657/Insieme-
@@ -1571,7 +1510,7 @@ Overfull \hbox (2.4868pt too wide) in paragraph at lines 294--294
 big-switchs-
  []
 
-[35] [36]
+[23] [24]
 Overfull \hbox (124.27075pt too wide) in paragraph at lines 294--294
 []\T1/lmr/m/sc/12 Cisco\T1/lmr/m/n/12 . \T1/lmr/m/it/12 Cisco Ap-pli-ca-tion Ce
 n-tric In-fra-struc-ture\T1/lmr/m/n/12 . Web Site. http://www.cisco.com/c/en/us
@@ -1585,10 +1524,10 @@ Overfull \hbox (72.9929pt too wide) in paragraph at lines 294--294
 inition/network-
  []
 
-[37] [38
+[25] [26
 
 
-] <couverture-ebt.pdf, id=773, page=3, 597.50829pt x 845.0471pt>
+] <couverture-ebt.pdf, id=521, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1612,8 +1551,8 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 3>
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 296.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [39 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=778, page=4, 597.50829pt x 845.0471pt>
+ [27 <./couverture-ebt.pdf>]
+<couverture-ebt.pdf, id=526, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1628,7 +1567,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 4>
 Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 296.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [40 <./couverture-ebt.pdf>]
+ [28 <./couverture-ebt.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
  (./ebt.aux
@@ -1636,36 +1575,81 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
 (./concl.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
-Package rerunfilecheck Info: File `ebt.out' has not changed.
-(rerunfilecheck)             Checksum: BE1ADAFC003FE199DD2B7715FF4FF542;1710.
+
+
+Package rerunfilecheck Warning: File `ebt.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ebt.out':
+(rerunfilecheck)             Before: BE1ADAFC003FE199DD2B7715FF4FF542;1710
+(rerunfilecheck)             After:  838B24A9E0380837E905308AC08ECC28;1170.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                ebt
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'ebt.run.xml'.
 \openout1 = `ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20666 strings out of 493315
- 327708 string characters out of 6137904
- 866381 words of memory out of 5000000
- 23487 multiletter control sequences out of 15000+600000
+ 20621 strings out of 493315
+ 326718 string characters out of 6137904
+ 866164 words of memory out of 5000000
+ 23462 multiletter control sequences out of 15000+600000
  46209 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,18n,51p,1453b,2424s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
-lic/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr1
-2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (48 pages, 1318923 bytes).
+pdfTeX warning (dest): name{figure.4.1} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.3.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.3.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.2.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.1.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.4.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{table.3.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
+l/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
+c/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/lm/lmtt12.pfb>
+Output written on ebt.pdf (36 pages, 479082 bytes).
 PDF statistics:
- 871 PDF objects out of 1000 (max. 8388607)
- 778 compressed objects within 8 object streams
- 210 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 615 PDF objects out of 1000 (max. 8388607)
+ 549 compressed objects within 6 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
