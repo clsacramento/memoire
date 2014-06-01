@@ -1,12 +1,57 @@
-\chapter{Un data centre de base}
+\chapter{Le contexte data centre}
 \label{chap-1}
 
 Ce chapitre a pour but de définir un data centre de base afin de pouvoir analyser ses problématiques, enjeux et possibles solutions.
 
-\section{Architecture}
+\section{Data centres et ses objectifs}
 
+Un data centre (ainsi détoné ferme de serveurs) est un répertoire centralisé pour le stockage, management et distribution de donnée et information. Typiquement, un data centre est une installation utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. \cite{understandingCloudWhatDC}
+
+Les data centres traditionnels hébergent typiquement des nombreuses applications relativement petites ou moyennes, chacune exécutant dans une infrastructure matérielle dédiée qui est isolée et protégée des autres systèmes dans la même installation. Ces data centres accueillent du matériel et du logiciel pour multiples unités organisationnelles ou même diverses entreprises. Différents systèmes informatiques au sein d'un tel data centre ont souvent très peu en commun en termes de matériel, logiciel ou infrastructure de maintenance, et en général ne se communiquent pas entre eux. 
+
+
+Les tendances vers l'informatique côté serveur et l'explosion en popularité des services sur internet ont changé ce scénario. Des infrastructures data centre entières ont été dédiée à un seul acteur pour faire fonctionner ses services offerts. Dans ce cadre, un data centre appartient à une seule organisation et utilise du matériel et plateforme logicielle relativement homogènes qui partagent une couche commune de systèmes de management. Surtout, ces data centres dédiés exécutent un nombre réduit d'applications (ou services internet) beaucoup plus important en taille, l'infrastructure commune de management permettant une significative flexibilité de déploiement. 
+
+Ces infrastructures sont montées pour gérer la taille des applications déployées et la haute disponibilité exigée pour ces services, visant en général 99,99\% de durée de fonctionnement (une heure au maximum de temps d'arrêt par an). Atteindre un fonctionnement libre des failles dans une large collection de systèmes matériel et logiciel dur et devient encore plus difficile avec le grand nombre de serveurs impliqués. Par conséquence, des nouvelles approches ont été proposées pour la construction et opération de ces systèmes qui doivent être conçus pour tolérer un nombre important des failles avec très peu ou aucun impact sur la performance et disponibilité des services offerts. \cite{datacenterAsComputerIntro}
+
+\section{Organisation d'un data centre et difficultés}
+
+%A data center is generally organized in rows of ‘‘racks” where each rack contains modular assets such as servers, switches, storage ‘‘bricks”, or specialized appliances
+Un data centre est en général organisé en lignes de racks où chaque rack contient biens modulaires tels que serveurs, switches, briques de stockages ou instruments spécialisés.
+
+\section{Virtualisation}
+
+Integrated infrastructure solutions are specifically designed to provide advantages compared to a conventional physical infrastructure because they are: 
+•	 Efficient in power usage, space utilization and IT employee productivity
+•	 Economical in initial cost by making use of existing infrastructure and not requiring expensive room upgrades
+•	 Interoperable through simplified design and implementation of systems and components 
+•	 Controllable through planning, monitoring and management over the changing IT environment
+
+\section{Technologies Associées}
 
 \section{Principaux Challenges}
 
+%According to a recent Gartner study, the leading challenges facing today’s data centers are intrinsic to many of the aforementioned business drivers and their associated IT solutions. Top challenges cited include: 
+%• Keeping up with data growth 
+%• Maintaining system performance and scalability
+%• Mitigating network congestion and connectivity issues
+%• Minimizing power, cooling and space costs
+%• Effectively managing the data center and its infrastructure
+%Furthermore, according to a 2011 survey of the Data Center Users’ Group (DCUG), the leading infrastructure challenges included data center availability, high heat densities, energy efficiency and maintaining adequate power densities (see Figure 1). Each of these challenges resonates closely with the leading data center challenges faced by IT professionals.
 
-\section{Aspect Réseau}
+\section{Tendances des meilleures pratiques}
+
+\subsection{Énergie}
+1. Maximize the return temperature at the cooling units to improve capacity and efficiency
+2. Match cooling capacity and airflow with IT loads
+3. Utilize cooling designs that reduce energy consumption
+4. Select a power system to optimize your availability and efficiency needs
+5. Design for flexibility using scalable architectures that minimizes footprint
+
+%Integrated infrastructure solutions are specifically designed to provide advantages compared to a conventional physical infrastructure because they are: 
+%•	 Efficient in power usage, space utilization and IT employee productivity
+%•	 Economical in initial cost by making use of existing infrastructure and not requiring expensive room upgrades
+%•	 Interoperable through simplified design and implementation of systems and components 
+%•	 Controllable through planning, monitoring and management over the changing IT environment
+\section{Architecture}
+

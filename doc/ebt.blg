@@ -1,2 +1,32 @@
-[0] de39bb48.pm:387> INFO - This is Biber 1.6
-[0] de39bb48.pm:390> INFO - Logfile is 'ebt.blg'
+[0] Config.pm:387> INFO - This is Biber 1.6
+[0] Config.pm:390> INFO - Logfile is 'ebt.blg'
+[80] biber-darwin:218> INFO - === Sun Jun  1, 2014, 14:31:16
+[80] Biber.pm:325> INFO - Reading 'ebt.bcf'
+[144] Biber.pm:600> INFO - Using all citekeys in bib section 0
+[153] Biber.pm:2995> INFO - Processing section 0
+[165] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[168] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[176] bibtex.pm:775> INFO - Found BibTeX data source 'biblio.bib'
+[186] Utils.pm:169> WARN - Name "Vishy Ganti, Verizon; Vince Lubsey, Virtustream; Mrigank Shekhar, Intel; Chris Swan, CohesiveFT" has too many commas: skipping name
+[194] Utils.pm:169> WARN - Name "Vishy Ganti Verizon, Vince Lubsey Virtustream, Mrigank Shekhar Intel, Chris Swan, CohesiveFT" has too many commas: skipping name
+[242] Utils.pm:169> WARN - Name "Vishy Ganti, Verizon; Vince Lubsey, Virtustream; Mrigank Shekhar, Intel; Chris Swan, CohesiveFT" has too many commas: skipping name
+[258] Utils.pm:169> WARN - Name "B. Heller, S. Seetharaman, P. Mahadevan, Y. Yiakoumis, P. Sharma, S. Banerjee," has too many commas: skipping name
+[259] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/SgaGLg0jxy/biblio.bib_36434.utf8, line 240, warning: undefined macro "August"
+[260] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/SgaGLg0jxy/biblio.bib_36434.utf8, line 249, warning: undefined macro "August"
+[260] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[260] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[260] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[260] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[300] Utils.pm:169> WARN - The field 'month' in entry 'CloudComputingIntelVision' cannot be null, deleting it
+[301] Utils.pm:169> WARN - The field 'month' in entry 'CloudComputingIntelVisionSpeeding' cannot be null, deleting it
+[310] Utils.pm:169> WARN - The field 'note' in entry 'FlowScale' cannot be null, deleting it
+[310] Utils.pm:169> WARN - The field 'author' in entry 'ODCA' cannot be null, deleting it
+[310] Utils.pm:169> WARN - The field 'note' in entry 'ODCA' cannot be null, deleting it
+[310] Utils.pm:169> WARN - The field 'author' in entry 'ODCAusageScenarios' cannot be null, deleting it
+[310] Utils.pm:169> WARN - The field 'author' in entry 'ODCAintro' cannot be null, deleting it
+[536] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[536] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
+[536] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1001] bbl.pm:472> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
+[1014] bbl.pm:545> INFO - Output to ebt.bbl
+[1014] Biber.pm:105> INFO - WARNINGS: 17

@@ -4,33 +4,33 @@
 
 %When equipped with a highly efficient, shared, and dynamic infrastructure, along with the tools needed to free up resources from traditional operational demands, IT can more efficiently respond to new business needs. As a result, organizations can focus on innovation and on aligning resources to broader strategic priorities. Decisions can be based on real-time information.
 
-Les centres de traitement de données évoluent aujourd'hui à un rythme intense pour accompagner l'explosion de l'usage des données. L'accélération de l'innovation dans l'informatique impose une rénovation constante du business. La virtualisation a permis aux centres de données d'améliorer la productivité de ses serveurs, mais pour arriver à l'agilité envisagée, les data centres doivent évoluer leurs réseaux et débloquer le Cloud Computing. Cette étude analyse les applications \gls{sdn} pour distinguer ses apports dans le contexte des data centres et habiliter la passage au Cloud Computing.
+Les centres de traitement de données évoluent aujourd'hui à un rythme intense pour accompagner l'explosion de l'usage des données. L'accélération de l'innovation dans l'informatique impose une rénovation constante du business. La virtualisation a permis aux centres de données d'améliorer la productivité de ses serveurs, mais pour arriver à l'agilité envisagée, les data centres doivent évoluer leurs réseaux et débloquer le Cloud Computing. Cette étude analyse les applications \gls{sdn} pour distinguer ses apports dans le contexte des data centres et habiliter le passage au Cloud Computing.
 
 \par 
-La plus part des infrastructures \gls{ti} n'ont pas été construite pour supporter la croissance explosive de la capacité de traitement de l'information qu'on observe aujourd'hui. Plusieurs centre de données sont devenus hautement distribués et relativement fragmentés. Comme résultat, ils sont limités dans leur capacité d'évoluer rapidement et de supporter l'intégration des nouveaux types de technologies ou se mettre à l'échelle pour monter le business en puissance selon les besoins de ses consommateurs.
+La plupart des infrastructures de \gls{ti} n'ont pas été construites pour supporter la croissance explosive de la capacité de traitement de l'information qu'on observe aujourd'hui. Plusieurs centres de données sont devenus hautement distribués et relativement fragmentés. Comme résultat, ils sont limités dans leur capacité d'évoluer rapidement et de supporter l'intégration des nouveaux types de technologies ou se mettre à l'échelle pour monter le business en puissance selon les besoins de ses consommateurs.
 
 \par 
-Quand équipée avec des infrastructures assez performantes, partagés et dynamiques ainsi qu'avec des outils nécessaires pour libérer ressources de la demande traditionnelle, \gls{ti} pourra répondre plus efficacement aux besoins métiers. Par conséquence, les organisations pourraient se focaliser dans l'innovation et l'alignement les ressources à leurs priorités stratégiques plus larges. Cela soulagerait la prise de décisions, qui pourrait passer se baser en information temps-réel.
+Quand équipée avec des infrastructures assez performantes, partagés et dynamiques ainsi qu'avec des outils nécessaires pour libérer ressources de la demande traditionnelle, les \gls{si} peuvent répondre plus efficacement aux besoins métiers. Par conséquence, les organisations pourraient se focaliser dans l'innovation et l'alignement de ses ressources à leurs priorités stratégiques plus larges. Cela soulagerait la prise de décisions, qui pourrait passer à se baser sur l'information en temps-réel.
 
 \par
-Alors que les coûts du réseau dans un data centre est estimé à 15\% \cite{cloudCosts} du total et n'étant pas un des plus larges, il est largement argumenté qu'il représente un élément clé pour la réduction des coûts et augmentation du retour sur l'investissement. Dans cette même étude, les coûts d'investissement dans le serveurs ont été évalués à 45\% des coûts des data centres. Malheureusement l'usage utile des serveurs est remarquablement bas, pouvant arriver à seulement 10\% d'utilisation dans certains exemples.
+Alors que les coûts du réseau dans un data centre est estimé à 15\% \cite{cloudCosts} du total et n'étant pas un des plus larges, il est largement argumenté qu'il représente un élément clé pour la réduction des coûts et augmentation du retour sur l'investissement. Les coûts d'investissement dans le serveurs ont été évalués à 45\% des coûts des data centres. Malheureusement l'usage utile des serveurs est remarquablement bas, pouvant arriver à seulement 10\% d'utilisation dans certains exemples.
 
 \par 
-La technique de la virtualisation a réussi à habiliter les processus d'être déplacés entre machines, mais des contraintes réseau continuent à limiter l'agilité dans les data centres. L'agilité est définie par la capacité d'assigner n'importe quel service n'importe où dans le data centre, tout en assurant la sécurité, la performance et l'isolation entre tous les services. Les designs des réseaux conventionnels dans un data centre empêchent cette agilité ; ils fragmentent par nature tout ensemble les réseaux et la capacité de serveurs, limitant et réduisant la croissance dynamique des pools de serveur. \cite{cloudCostsAgility}
+La technique de la virtualisation a réussi à habiliter les processus d'être déplacés entre machines, mais des contraintes réseau continuent à limiter l'agilité dans les data centres. L'agilité est définie par la capacité d'assigner n'importe quel service n'importe où dans le data centre, tout en assurant la sécurité, la performance et l'isolation entre tous les services. Les designs des réseaux conventionnels dans un data centre empêchent cette agilité ; ils fragmentent par nature tout ensemble les réseaux et la capacité des serveurs, limitant et réduisant la croissance dynamique des pools de serveur. \cite{cloudCostsAgility}
 
 
 
 \par 
-L'agilité est un élément clé ; diverses entreprises bataillent péniblement pour déployer des nouvelles applications ou faire évoluer les existantes à l'allure de leurs business. Selon le sondage mené par AlgoSec avec 240 professionnels de l'informatique 25\% des organisations participantes doivent attendre plus de 11 semaines pour qu'une nouvelle application soit mise en ligne (et dans 14\%, ce temps se lève à plus de 5 mois). Les résultats affichent également que 59\% des organisations nécessitent plus de huit heure pour réaliser un changement de connectivité dans une application. \cite{algoSecSurvey}
+L'agilité est donc un élément clé ; diverses entreprises bataillent péniblement pour déployer des nouvelles applications ou faire évoluer les existantes à l'allure de croissance de leurs business. Selon le sondage mené par AlgoSec avec 240 professionnels de l'informatique, 25\% des organisations participantes doivent attendre plus de 11 semaines pour qu'une nouvelle application soit mise en ligne (et dans 14\%, ce temps se lève à plus de 5 mois). Les résultats affichent également que 59\% des organisations nécessitent plus de huit heures pour réaliser un changement de connectivité dans une application. \cite{algoSecSurvey}
 
 
 \par
-Cependant, lors du passage au Cloud, les organisations réalisent que la virtualisation des serveur sévèrement limité par les design Ethernet classiques et contrôles de sécurité réseau traditionnels. Avec l'augmentation de la virtualisation au sein des data centres, quatre tâches critiques deviennent pénibles :
+Cependant, lors du passage au Cloud, les organisations réalisent que la virtualisation des serveurs est sévèrement limité par les designs Ethernet classiques et les contrôles de sécurité réseau traditionnels. Avec l'augmentation de la virtualisation au sein des data centres, quatre tâches critiques deviennent pénibles :
 \begin{itemize}
-\item Prévention de la congestion du trafic 
-\item Réduction de la complexité des politiques réseau et garanties du niveau service
-\item Élimination des points aveugles qui conduisent à des pannes
-\item  Scellage des failles de sécurité pour protéger les données
+\item Prévention de la congestion du trafic ;
+\item Réduction de la complexité des politiques réseau et garanties du niveau service ;
+\item Élimination des points aveugles qui conduisent à des pannes ;
+\item  Scellage des failles de sécurité pour protéger les données.
 \end{itemize}
 %But as businesses move to the private cloud, they are finding server virtualization is severely limited by clas- sic Ethernet designs and traditional network security controls. As data center virtualization scales, four critical tasks become increasingly cumbersome:n Preventing traffic bottlenecksn Reducing complexity of network policy and service level assurancen Eliminating management blind spots that lead to outagesn Sealing up security loopholes to protect data
 
