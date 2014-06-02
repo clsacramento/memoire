@@ -1,23 +1,25 @@
-\chapter{Le contexte data centre}
+\chapter{L'évolution des data centres vers le Cloud Computing et le Software-Defined Data Centre}
 \label{chap-1}
 
-Ce chapitre a pour but de définir un data centre de base afin de pouvoir analyser ses problématiques, enjeux et possibles solutions.
+Ce chapitre a pour but de définir un data centre afin de pouvoir analyser ses problématiques, enjeux et possibles solutions. En vue de comprendre l'état actuel des data centres et ses limitations par rapport aux nouveaux besoins et challenges business. Un regard sur le nouveau business model apporté avec le Cloud Computing, les bénéfices de son adoption et les enjeux pour les infrastructures qui doivent répondre à ce nouveau paradigme.
 
 \section{Data centres et ses objectifs}
 
-Un data centre (ainsi détoné ferme de serveurs) est un répertoire centralisé pour le stockage, management et distribution de donnée et information. Typiquement, un data centre est une installation utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. \cite{understandingCloudWhatDC}
+Un data centre (ainsi détoné ferme de serveurs) est un répertoire centralisé pour le stockage, management et distribution de données et informations. Typiquement, un data centre est une installation utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. \cite{understandingCloudWhatDC}
 
 Les data centres traditionnels hébergent typiquement des nombreuses applications relativement petites ou moyennes, chacune exécutant dans une infrastructure matérielle dédiée qui est isolée et protégée des autres systèmes dans la même installation. Ces data centres accueillent du matériel et du logiciel pour multiples unités organisationnelles ou même diverses entreprises. Différents systèmes informatiques au sein d'un tel data centre ont souvent très peu en commun en termes de matériel, logiciel ou infrastructure de maintenance, et en général ne se communiquent pas entre eux. 
 
 
 Les tendances vers l'informatique côté serveur et l'explosion en popularité des services sur internet ont changé ce scénario. Des infrastructures data centre entières ont été dédiée à un seul acteur pour faire fonctionner ses services offerts. Dans ce cadre, un data centre appartient à une seule organisation et utilise du matériel et plateforme logicielle relativement homogènes qui partagent une couche commune de systèmes de management. Surtout, ces data centres dédiés exécutent un nombre réduit d'applications (ou services internet) beaucoup plus important en taille, l'infrastructure commune de management permettant une significative flexibilité de déploiement. 
 
-Ces infrastructures sont montées pour gérer la taille des applications déployées et la haute disponibilité exigée pour ces services, visant en général 99,99\% de durée de fonctionnement (une heure au maximum de temps d'arrêt par an). Atteindre un fonctionnement libre des failles dans une large collection de systèmes matériel et logiciel dur et devient encore plus difficile avec le grand nombre de serveurs impliqués. Par conséquence, des nouvelles approches ont été proposées pour la construction et opération de ces systèmes qui doivent être conçus pour tolérer un nombre important des failles avec très peu ou aucun impact sur la performance et disponibilité des services offerts. \cite{datacenterAsComputerIntro}
+Ces infrastructures sont montées pour gérer la taille des applications déployées et la haute disponibilité exigée pour ces services, visant en général 99,99\% de durée de fonctionnement (une heure au maximum de temps d'arrêt par an). Atteindre un fonctionnement libre des failles dans une large collection de systèmes matériel et logiciel dur et devient encore plus difficile avec le grand nombre de serveurs impliqués. Les infrastructures de ces data centres doivent être dimensionnées précisément pour en fonction de la charge des applications supportées. Par conséquence, des nouvelles approches ont été proposées pour la construction et opération de ces systèmes qui doivent être conçus pour tolérer ce nombre important des failles avec très peu ou aucun impact sur la performance et disponibilité des services offerts. \cite{datacenterAsComputerIntro}
 
 \section{Organisation d'un data centre et difficultés}
 
 %A data center is generally organized in rows of ‘‘racks” where each rack contains modular assets such as servers, switches, storage ‘‘bricks”, or specialized appliances
-Un data centre est en général organisé en lignes de racks où chaque rack contient biens modulaires tels que serveurs, switches, briques de stockages ou instruments spécialisés. Trois principaux éléments d'infrastructure constituent les data centres : stockage, réseau et l'approvisionnement énergétique.
+Un data centre est en général organisé en lignes de racks où chaque rack contient des dispositifs modulaires tels que serveurs, switches, briques de stockages ou instruments spécialisés. %Trois principaux éléments d'infrastructure constituent les data centres : le stockage, le réseau et l'approvisionnement énergétique.
+Des composants essentiels de l'infrastructure des data centres d'entreprises tels que compute, stockage et réseau sont la base sur laquelle les applications business sont construites qui sont branchés aux racks. Un chassis vient complet avec ses propre ventilateurs, source d'alimentation, panier d'interconnexion et module de management. 
+Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans chassis  L'importante croissance en densité de serveurs, réalisée 
 
 \section{Virtualisation}
 
