@@ -1,69 +1,4 @@
-\chapter{Cloud Computing}
 
-\section{Définition}
-In very simple terms, cloud computing is a new consumption and delivery model for information technology (IT) and business services and is characterized by:
- • On-demand self-service
- • Ubiquitous network access
- • Location-independent resource pooling
- • Rapid elasticity and provisioning
- • Pay-per-use
-Cloud has evolved from on demand and grid computing, while building on significant advances in virtualization, networking, provisioning, and multitenant architectures. As with any new technology, the exciting impact comes from enabling new service consumption and delivery models that support business model innovation.
-
-As we have seen, data centers have grown to serve a wide range of business needs, and there are many factors to consider when designing a solution that meets different objectives. Within the past several years, a powerful new paradigm has emerged that has important implications for data center architectures and how they meet these varied objectives. This is the paradigm of cloud computing.
-Cloud computing delivers services dynamically over networks from an abstracted set of resources. The resources are somewhere in the cloud and available on demand. The types of resources and their location are transparent to end users. End users primarily care that their applications, data and content are secure and available, with a desired level of quality.
-From the infrastructure perspective, cloud computing heavily leverages resource pools in a variety of technologies— compute, storage and network—for dynamic allocation in an automated, orchestrated and logically diversified environment, accommodating a variety of applications. Using orchestration, resources can be pooled within and across multiple data centers to provide an environment that responds dynamically to user needs.
-
-\section{Nouveau business model}
-
-Even within the cloud computing space there is a spectrum of offering types. There are five commonly used categories:
-•  Storage as a Service - SaaS
-Provisioning of database-like services, billed on a utility computing basis, for
-example, per gigabyte per month.
-•  Infrastructure as a Service - IaaS
-Provisioning of hardware or virtual computers where the client has control over the OS, therefore allowing the execution of arbitrary software.
-•  Platform as a Service - PaaS
-Provisioning of hardware and OS, frameworks and databases, for which developers write custom applications. There will be restrictions on the type of software they can write, offset by built-in application scalability.
-•  Software as a Service - SaaS
-Provisioning of hardware, OS, and special-purpose software made available
-through the Internet.
-•  Desktop as a Service - DaaS
-Provisioning of the desktop environment, either within a browser or as a Terminal Server.
-
-\section{Principaux avantages du Cloud Computing}
-Key benefits of cloud computing:
-• Flexibility – There is the ability to update hardware and software quickly to adhere to customer demands and updates in technology.
-• Savings – There is a reduction of capital expenditures and IT personnel.
-• Location \& Hardware Independence – Users can access application from a web browser connected anywhere on the internet.
-• Multi-tenancy – Resources and cost are shared among many users, allowing overall cost reduction.
-• Reliability – Many cloud providers replicate their server environments in multiply data centers around the globe, which accounts for business continuity and disaster recovery.
-• Scalability – Multiply resources load balance peak load capacity and utilization across multiply hard- ware platforms in different locations
-• Security – Centralization of sensitive data improves security by removing data from the users’ com- puters. Cloud providers also have the staff resources to maintain all the latest security features to help protect data.
-• Maintenance – Centralized applications are much easier to maintain than their distributed counter parts. All updates and changes are made in one centralized server instead of on each user’s computer.
-
-
-\section{Barrières au Cloud Computing}
-
-IT organizations have identified four major barriers to large-scale adoption of cloud services:
-•  Security, particularly data security
-Interestingly, the security concerns in a cloud environment are no different from those in a traditional data center and network. However, since most of the information exchange between the organization and the cloud service provider is done over the web or a shared network, and because IT security is handled entirely by an external entity, the overall security risks are perceived as higher for cloud services.
-Some additional factors cited as contributing to this perception:
-– Limited knowledge of the physical location of stored data
-– A belief that multitenant platforms are inherently less secure than single-tenant platforms
-– Use of virtualization as the underlying technology, where virtualization is seen as a relatively new technology
-– Limited capabilities for monitoring access to applications hosted in the cloud
-•  Governance and regulatory compliance
-Large enterprises are still trying to sort out the appropriate data governance model for cloud services, and ensuring data privacy. This is particularly significant when there is a regulatory compliance requirement such as SOX or the European Data Protection Laws.
-•  Service level agreements and quality of service
-Quality of service (availability, reliability, and performance) is still cited as a
-major concern for large organizations:
-– Not all cloud service providers have well-defined SLAs, or SLAs that meet stricter corporate standards. Recovery times may be stated as “as soon as possible” rather than a guaranteed number of hours. Corrective measures specified in the cloud provider's SLAs are often fairly minimal and do not cover the potential consequent losses to the client's business in the event of an outage.
-– Inability to influence the SLA contracts. From the cloud service provider's point of view it is impractical to tailor individual SLAs for every client they support.
-– The risk of poor performance is perceived higher for a complex cloud-delivered application than for a relatively simpler on-site service delivery model. Overall performance of a cloud service is dependent on the performance of components outside the direct control of both the client and the cloud service provider, such as the network connection.
-1. Integrationandinteroperability
-Identifying and migrating appropriate applications to the cloud is made complicated by the interdependencies typically associated with business applications. Integration and interoperability issues include:
-– A lack of standard interfaces or APIs for integrating legacy applications with cloud services. This is worse if services from multiple vendors are involved.
-– Software dependencies that must also reside in the cloud for performance reasons, but which may not be ready for licensing on the cloud.
-– Interoperability issues between cloud providers. There are worries about how disparate applications on multiple platforms, deployed in geographically dispersed locations, can interact flawlessly and can provide the expected levels of service.
 
 
 \chapter{L'aspect réseau}
@@ -72,11 +7,21 @@ Dans ce chapitre, les principales problématiques data centre dans un aspect ré
 
 \section{Le réseau dans un data centre}
 As organizations undertake information technology (IT) optimization projects, such as data center consolidation and server virtualization, they need to ensure that the proper level of focus is given to the critical role of the network in terms of planning, execution, and overall project success. While many consider the network early in the planning stages of these projects and spend time considering this aspect of these initiatives, many more feel that additional network planning could have helped their projects be more successful.
+
+
 The most common types of network changes in IT optimization projects include implementing new network equipment, adding greater redundancy, increasing capacity by upgrading switches, improving network security, and adding network bandwidth. However, many network requirements associated with these changes and the overall initiative are typically not identified until after the initial stages of the project and often require rework and add unanticipated costs. Regardless of project type, network challenges run the risk of contributing to increased project time lines and/or costs.
+
+
 The networking aspects of projects can be challenging and user complaints about the network are frequently heard. Important challenges include the inability to perform accurate and timely root-cause analysis, understand application level responsiveness, and address network performance issues. Simply buying more network equipment does not necessarily or appropriately address the real requirements.
+
+
 Looking ahead, many expect that the network will become more important to their companies' overall success. To address this, networking investments related to support of server and storage virtualization are currently at the top of the list for consideration, followed by overall enhancement and optimization of the networking environment.
 To support virtualization of the entire IT infrastructure and to continue to optimize the network, IT organizations need to make architectural decisions in the context of the existing infrastructure, IT strategy, and overall business goals.
+
+
 Developing a plan for the network and associated functional design is critical. Without a strong plan and a solid functional design, networking transitions can be risky, leading to reduced control of IT services delivered over the network, the potential for high costs with insufficient results, and unexpected performance or availability issues for critical business processes.
+
+
 With a plan and a solid functional design, the probability of success is raised: a more responsive network with optimized delivery, lower costs, increased ability to meet application service level commitments, and a network that supports and fully contributes to a responsive IT environment.
 
 \section{Challenges réseau}

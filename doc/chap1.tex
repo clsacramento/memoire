@@ -1,5 +1,5 @@
 
-\chapter{L'évolution des data centres vers le Cloud Computing et le Software-Defined Data Centre}
+\chapter{Du data centre au Cloud Computing et le Software-Defined Data Centre}
 \label{chap-1}
 
 Ce chapitre a pour but de définir un data centre afin de pouvoir analyser ses problématiques, enjeux et possibles solutions. En vue de comprendre l'état actuel des data centres et ses limitations par rapport aux nouveaux besoins et challenges business. Un regard sur le nouveau business model apporté avec le Cloud Computing, les bénéfices de son adoption et les enjeux pour les infrastructures qui doivent répondre à ce nouveau paradigme.
@@ -26,7 +26,7 @@ Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.7\textwidth]{images/racks} 
-\caption{Organisation de racks.}
+\caption{Organisation de racks. \cite{datacenterAsComputerIntro}}
 \end{center}
 \end{figure}
 
@@ -37,7 +37,7 @@ Le stockage dans les data centre peut être fourni en diverses manières. Souven
 Le problème le plus important dans cette structure est la potentielle insuffisance de bande passante. En général, les connexions uplink sont conçues pour supporter un certain taux de 
 demande excédentaire puisque la fourniture d'une bande passante entière n'est toujours possible. Par exemple, 20 serveurs à 1Gbps chacun doit partagé un uplink Ethernet unique de 10Gps à un taux de demande excédentaire de 2. Cette situation peut être problématique si la charge réseau non local monte considérablement. Comme le stockage est traditionnellement fourni dans une tour séparée, tout le trafic de stockage traverse le lien uplink dans le réseau stockage. Par exemple, l'archivage d'un gros volume peut consommer une importante bande passante. À mesure que les data centres augmentent en taille, une architecture réseau plus extensible devient essentiel.
 
-La consommation d'énergie constitue également des préoccupations à la conception des data centres car les coûts liés sont devenus un important composant de la totalité des coûts dette classe de systèmes. Actuellement le CPUs ne sont plus le seul élément cible d'amélioration de l'efficacité énergétique, vu qu'ils ne dominent plus la majorité de la consommation. Des problématiques de ventilation et surconsommation d'énergie sont de facteurs de plus en plus critiques de la conception de data centres.
+La consommation d'énergie constitue également des préoccupations à la conception des data centres car les coûts liés sont devenus un important composant de la totalité des coûts dette classe de systèmes. Actuellement le CPUs ne sont plus le seul élément cible d'amélioration de l'efficacité énergétique, vu qu'ils ne dominent plus la majorité de la consommation. Des problématiques de ventilation et surconsommation d'énergie sont de facteurs de plus en plus critiques de la conception de data centres.\cite{datacenterAsComputerIntro} \cite{dataCenterEvolution}
 
 
 \section{Virtualisation}
@@ -53,7 +53,6 @@ Integrated infrastructure solutions are specifically designed to provide advanta
 •	 Interoperable through simplified design and implementation of systems and components 
 •	 Controllable through planning, monitoring and management over the changing IT environment
 
-\section{Technologies Associées}
 
 \section{Principaux Challenges}
 
@@ -67,12 +66,6 @@ Integrated infrastructure solutions are specifically designed to provide advanta
 
 \section{Tendances des meilleures pratiques}
 
-\subsection{Énergie}
-1. Maximize the return temperature at the cooling units to improve capacity and efficiency
-2. Match cooling capacity and airflow with IT loads
-3. Utilize cooling designs that reduce energy consumption
-4. Select a power system to optimize your availability and efficiency needs
-5. Design for flexibility using scalable architectures that minimizes footprint
 
 %Integrated infrastructure solutions are specifically designed to provide advantages compared to a conventional physical infrastructure because they are: 
 %•	 Efficient in power usage, space utilization and IT employee productivity
@@ -95,3 +88,72 @@ Functional Areas in the Cloud-Ready Data Center
 • Compute and Storage—represents the compute and storage infrastructure appropriate for applications (rack-mount and chassis-based, cost-effective and multi-core, with unstructured content and highly structured transaction databases). The compute and storage functional area hosts all business applications such as Enterprise Resource Planning (ERP), SaaS, SOA and Web 2.0 applications (among others).
 • Services—supports applications with security, user verification, and entitlement, and application support, including application acceleration, deep packet inspection (DPI), and load balancing
 • Management and Orchestration—ties together all of the elements of the cloud-computing infrastructure, enabling efficient and responsive monitoring, management, and planning
+
+
+\section{Définition}
+In very simple terms, cloud computing is a new consumption and delivery model for information technology (IT) and business services and is characterized by:
+ • On-demand self-service
+ • Ubiquitous network access
+ • Location-independent resource pooling
+ • Rapid elasticity and provisioning
+ • Pay-per-use
+Cloud has evolved from on demand and grid computing, while building on significant advances in virtualization, networking, provisioning, and multitenant architectures. As with any new technology, the exciting impact comes from enabling new service consumption and delivery models that support business model innovation.
+
+As we have seen, data centers have grown to serve a wide range of business needs, and there are many factors to consider when designing a solution that meets different objectives. Within the past several years, a powerful new paradigm has emerged that has important implications for data center architectures and how they meet these varied objectives. This is the paradigm of cloud computing.
+
+Cloud computing delivers services dynamically over networks from an abstracted set of resources. The resources are somewhere in the cloud and available on demand. The types of resources and their location are transparent to end users. End users primarily care that their applications, data and content are secure and available, with a desired level of quality.
+
+
+From the infrastructure perspective, cloud computing heavily leverages resource pools in a variety of technologies— compute, storage and network—for dynamic allocation in an automated, orchestrated and logically diversified environment, accommodating a variety of applications. Using orchestration, resources can be pooled within and across multiple data centers to provide an environment that responds dynamically to user needs.
+
+\section{Nouveau business model}
+
+Even within the cloud computing space there is a spectrum of offering types. There are five commonly used categories:
+•  Storage as a Service - SaaS
+Provisioning of database-like services, billed on a utility computing basis, for
+example, per gigabyte per month.
+•  Infrastructure as a Service - IaaS
+Provisioning of hardware or virtual computers where the client has control over the OS, therefore allowing the execution of arbitrary software.
+•  Platform as a Service - PaaS
+Provisioning of hardware and OS, frameworks and databases, for which developers write custom applications. There will be restrictions on the type of software they can write, offset by built-in application scalability.
+•  Software as a Service - SaaS
+Provisioning of hardware, OS, and special-purpose software made available
+through the Internet.
+•  Desktop as a Service - DaaS
+Provisioning of the desktop environment, either within a browser or as a Terminal Server.
+
+\section{Principaux avantages du Cloud Computing}
+Key benefits of cloud computing:
+• Flexibility – There is the ability to update hardware and software quickly to adhere to customer demands and updates in technology.
+• Savings – There is a reduction of capital expenditures and IT personnel.
+• Location \& Hardware Independence – Users can access application from a web browser connected anywhere on the internet.
+• Multi-tenancy – Resources and cost are shared among many users, allowing overall cost reduction.
+• Reliability – Many cloud providers replicate their server environments in multiply data centers around the globe, which accounts for business continuity and disaster recovery.
+• Scalability – Multiply resources load balance peak load capacity and utilization across multiply hard- ware platforms in different locations
+• Security – Centralization of sensitive data improves security by removing data from the users’ com- puters. Cloud providers also have the staff resources to maintain all the latest security features to help protect data.
+• Maintenance – Centralized applications are much easier to maintain than their distributed counter parts. All updates and changes are made in one centralized server instead of on each user’s computer.
+
+
+\section{Barrières au Cloud Computing}
+
+IT organizations have identified four major barriers to large-scale adoption of cloud services:
+•  Security, particularly data security
+Interestingly, the security concerns in a cloud environment are no different from those in a traditional data center and network. However, since most of the information exchange between the organization and the cloud service provider is done over the web or a shared network, and because IT security is handled entirely by an external entity, the overall security risks are perceived as higher for cloud services.
+Some additional factors cited as contributing to this perception:
+– Limited knowledge of the physical location of stored data
+– A belief that multitenant platforms are inherently less secure than single-tenant platforms
+– Use of virtualization as the underlying technology, where virtualization is seen as a relatively new technology
+– Limited capabilities for monitoring access to applications hosted in the cloud
+•  Governance and regulatory compliance
+Large enterprises are still trying to sort out the appropriate data governance model for cloud services, and ensuring data privacy. This is particularly significant when there is a regulatory compliance requirement such as SOX or the European Data Protection Laws.
+•  Service level agreements and quality of service
+Quality of service (availability, reliability, and performance) is still cited as a
+major concern for large organizations:
+– Not all cloud service providers have well-defined SLAs, or SLAs that meet stricter corporate standards. Recovery times may be stated as “as soon as possible” rather than a guaranteed number of hours. Corrective measures specified in the cloud provider's SLAs are often fairly minimal and do not cover the potential consequent losses to the client's business in the event of an outage.
+– Inability to influence the SLA contracts. From the cloud service provider's point of view it is impractical to tailor individual SLAs for every client they support.
+– The risk of poor performance is perceived higher for a complex cloud-delivered application than for a relatively simpler on-site service delivery model. Overall performance of a cloud service is dependent on the performance of components outside the direct control of both the client and the cloud service provider, such as the network connection.
+1. Integrationandinteroperability
+Identifying and migrating appropriate applications to the cloud is made complicated by the interdependencies typically associated with business applications. Integration and interoperability issues include:
+– A lack of standard interfaces or APIs for integrating legacy applications with cloud services. This is worse if services from multiple vendors are involved.
+– Software dependencies that must also reside in the cloud for performance reasons, but which may not be ready for licensing on the cloud.
+– Interoperability issues between cloud providers. There are worries about how disparate applications on multiple platforms, deployed in geographically dispersed locations, can interact flawlessly and can provide the expected levels of service.
