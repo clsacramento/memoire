@@ -1,29 +1,38 @@
-<<<<<<< HEAD
-\chapter{Data centre prêt pour le Cloud Computing}
-=======
+
 \chapter{L'évolution des data centres vers le Cloud Computing et le Software-Defined Data Centre}
->>>>>>> FETCH_HEAD
 \label{chap-1}
 
 Ce chapitre a pour but de définir un data centre afin de pouvoir analyser ses problématiques, enjeux et possibles solutions. En vue de comprendre l'état actuel des data centres et ses limitations par rapport aux nouveaux besoins et challenges business. Un regard sur le nouveau business model apporté avec le Cloud Computing, les bénéfices de son adoption et les enjeux pour les infrastructures qui doivent répondre à ce nouveau paradigme.
 
 \section{Data centres et ses objectifs}
 
-Un data centre (ainsi détoné ferme de serveurs) est un répertoire centralisé pour le stockage, management et distribution de données et informations. Typiquement, un data centre est une installation utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. \cite{understandingCloudWhatDC}
+Un data centre (ainsi dénoté ferme de serveurs) est un répertoire centralisé pour le stockage, management et distribution de données et informations. Typiquement, un data centre est une installation utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. \cite{understandingCloudWhatDC}
 
-Les data centres traditionnels hébergent typiquement des nombreuses applications relativement petites ou moyennes, chacune exécutant dans une infrastructure matérielle dédiée qui est isolée et protégée des autres systèmes dans la même installation. Ces data centres accueillent du matériel et du logiciel pour multiples unités organisationnelles ou même diverses entreprises. Différents systèmes informatiques au sein d'un tel data centre ont souvent très peu en commun en termes de matériel, logiciel ou infrastructure de maintenance, et en général ne se communiquent pas entre eux. 
+Les data centres traditionnels hébergent historiquement des nombreuses applications relativement petites ou moyennes, chacune exécutant dans une infrastructure matérielle dédiée qui est isolée et protégée des autres systèmes dans la même installation. Ces data centres accueillent du matériel et du logiciel pour multiples unités organisationnelles ou même diverses entreprises. Différents systèmes informatiques au sein d'un tel data centre ont souvent très peu en commun en termes de matériel, logiciel ou infrastructure de maintenance, et en général ne se communiquent pas entre eux. 
 
 
-Les tendances vers l'informatique côté serveur et l'explosion en popularité des services sur internet ont changé ce scénario. Des infrastructures data centre entières ont été dédiée à un seul acteur pour faire fonctionner ses services offerts. Dans ce cadre, un data centre appartient à une seule organisation et utilise du matériel et plateforme logicielle relativement homogènes qui partagent une couche commune de systèmes de management. Surtout, ces data centres dédiés exécutent un nombre réduit d'applications (ou services internet) beaucoup plus important en taille, l'infrastructure commune de management permettant une significative flexibilité de déploiement. 
+Les tendances vers l'informatique côté serveur et l'explosion en popularité des services sur internet ont changé ce scénario. Des infrastructures data centre entières ont été dédiée à un seul acteur pour faire fonctionner ses services offerts. Dans ce cadre, un data centre appartient à une seule organisation et utilise du matériel et plateforme logicielle relativement homogènes qui partagent une couche commune de systèmes de management. Surtout, ces data centres dédiés exécutent un nombre réduit d'applications (ou services internet) beaucoup plus importants en taille, l'infrastructure commune de management permettant une significative flexibilité de déploiement. 
 
-Ces infrastructures sont montées pour gérer la taille des applications déployées et la haute disponibilité exigée pour ces services, visant en général 99,99\% de durée de fonctionnement (une heure au maximum de temps d'arrêt par an). Atteindre un fonctionnement libre des failles dans une large collection de systèmes matériel et logiciel dur et devient encore plus difficile avec le grand nombre de serveurs impliqués. Les infrastructures de ces data centres doivent être dimensionnées précisément pour en fonction de la charge des applications supportées. Par conséquence, des nouvelles approches ont été proposées pour la construction et opération de ces systèmes qui doivent être conçus pour tolérer ce nombre important des failles avec très peu ou aucun impact sur la performance et disponibilité des services offerts. \cite{datacenterAsComputerIntro}
+Ces infrastructures sont montées pour gérer la taille des applications déployées et la haute disponibilité exigée pour ces services, visant en général 99,99\% de durée de fonctionnement (une heure au maximum de temps d'arrêt par an). Atteindre un fonctionnement libre des failles dans une large collection de systèmes matériel et logiciel est dur et devient encore plus difficile avec le grand nombre de serveurs impliqués. Les infrastructures de ces data centres doivent être dimensionnées précisément  en fonction de la charge des applications supportées. Par conséquence, des nouvelles approches ont été proposées pour la construction et opération de ces systèmes qui doivent être conçus pour tolérer ce nombre important des failles avec très peu ou aucun impact sur la performance et disponibilité des services offerts. \cite{datacenterAsComputerIntro}
 
 \section{Organisation d'un data centre et difficultés}
 
 %A data center is generally organized in rows of ‘‘racks” where each rack contains modular assets such as servers, switches, storage ‘‘bricks”, or specialized appliances
 Un data centre est en général organisé en lignes de racks où chaque rack contient des dispositifs modulaires tels que serveurs, switches, briques de stockages ou instruments spécialisés. %Trois principaux éléments d'infrastructure constituent les data centres : le stockage, le réseau et l'approvisionnement énergétique.
-Des composants essentiels de l'infrastructure des data centres d'entreprises tels que compute, stockage et réseau sont la base sur laquelle les applications business sont construites qui sont branchés aux racks. Un chassis vient complet avec ses propre ventilateurs, source d'alimentation, panier d'interconnexion et module de management. 
-Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans chassis  L'importante croissance en densité de serveurs, réalisée 
+Des composants essentiels de l'infrastructure qui sont branchés aux racks des data centres d'entreprises tels que compute, stockage et réseau sont la base sur laquelle les applications business sont construites . Un chassis vient complet avec ses propres ventilateurs, source d'alimentation, panier d'interconnexion et module de management. 
+Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans un chassis qui et glissé dans le rack. Un chassis fournit des slots de taille standard où il est possible d'insérer des élément actifs modulaires (ainsi connus tant que "blades"). Un seul chassis peut contenir 16 serveurs 1 U, comme les racks supportent 6 chassis, ils ont une capacité théorique de 96 éléments modulaires.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/racks} 
+\caption{Organisation de racks.}
+\end{center}
+\end{figure}
+
+L'image ci-dessus montre l'organisation des racks dans un data centre. Un serveur occupe 1 U du rack est montré à gauche. Au milieu on affiche un rack et à droite un cluster de racks avec un swtich/routeur de niveau cluster. En général un ensemble de serveurs 1U sont montés dans un rack et inter-connectés avec commutateur Ethernet local. Ces switches au niveau des racks, qui peuvent utiliser des liens de 1 à 10 Gbps, ont un nombre de connexions uplink vers un ou plus switches de niveau cluster (data centre).
+
+Storage in data centers may be provided in multiple ways. Often the high performance storage is housed in spe- cial ‘‘storage towers” that allow transparent remote access to the storage irrespective of the number and types of physical storage devices used. Storage may also be pro- vided in smaller ‘‘storage bricks” located in rack or chassis slots or directly integrated with the servers. In all cases, an efficient network access to the storage is crucial.
 
 \section{Virtualisation}
 
