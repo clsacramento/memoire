@@ -1931,34 +1931,36 @@
     <bcf:datasource type="file" datatype="bibtex">biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="2">cloudCosts</bcf:citekey>
-    <bcf:citekey order="3">cloudCostsAgility</bcf:citekey>
-    <bcf:citekey order="4">algoSecSurvey</bcf:citekey>
-    <bcf:citekey order="5">understandingCloudWhatDC</bcf:citekey>
-    <bcf:citekey order="6">datacenterAsComputerIntro</bcf:citekey>
+    <bcf:citekey order="3">cloudCosts</bcf:citekey>
+    <bcf:citekey order="4">cloudCostsAgility</bcf:citekey>
+    <bcf:citekey order="5">algoSecSurvey</bcf:citekey>
+    <bcf:citekey order="6">understandingCloudWhatDC</bcf:citekey>
     <bcf:citekey order="7">datacenterAsComputerIntro</bcf:citekey>
     <bcf:citekey order="8">datacenterAsComputerIntro</bcf:citekey>
     <bcf:citekey order="9">datacenterAsComputerIntro</bcf:citekey>
-    <bcf:citekey order="10">dataCenterEvolution</bcf:citekey>
-    <bcf:citekey order="11">AbstractionCS</bcf:citekey>
-    <bcf:citekey order="12">IMBigData</bcf:citekey>
-    <bcf:citekey order="13">CloudComputingIntelVisionSpeeding</bcf:citekey>
-    <bcf:citekey order="14">cluster</bcf:citekey>
-    <bcf:citekey order="15">dataCenterDef</bcf:citekey>
-    <bcf:citekey order="16">NetworkFabricSearchSDN</bcf:citekey>
-    <bcf:citekey order="17">fabricExtending</bcf:citekey>
-    <bcf:citekey order="18">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
-    <bcf:citekey order="19">OpenDaylight</bcf:citekey>
-    <bcf:citekey order="20">OpenSource</bcf:citekey>
-    <bcf:citekey order="21">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="22">OpenFlowStanfordSwitch</bcf:citekey>
-    <bcf:citekey order="23">paradigmdef</bcf:citekey>
-    <bcf:citekey order="24">newparadigm</bcf:citekey>
-    <bcf:citekey order="25">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="26">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="27">scalability</bcf:citekey>
-    <bcf:citekey order="28">chevance2001serveurs</bcf:citekey>
-    <bcf:citekey order="29">CloudComputingIntelVisionSpeeding</bcf:citekey>
+    <bcf:citekey order="10">datacenterAsComputerIntro</bcf:citekey>
+    <bcf:citekey order="11">dataCenterEvolution</bcf:citekey>
+    <bcf:citekey order="12">awsScaling</bcf:citekey>
+    <bcf:citekey order="13">awsScaling</bcf:citekey>
+    <bcf:citekey order="14">AbstractionCS</bcf:citekey>
+    <bcf:citekey order="15">IMBigData</bcf:citekey>
+    <bcf:citekey order="16">CloudComputingIntelVisionSpeeding</bcf:citekey>
+    <bcf:citekey order="17">cluster</bcf:citekey>
+    <bcf:citekey order="18">dataCenterDef</bcf:citekey>
+    <bcf:citekey order="19">NetworkFabricSearchSDN</bcf:citekey>
+    <bcf:citekey order="20">fabricExtending</bcf:citekey>
+    <bcf:citekey order="21">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
+    <bcf:citekey order="22">OpenDaylight</bcf:citekey>
+    <bcf:citekey order="23">OpenSource</bcf:citekey>
+    <bcf:citekey order="24">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="25">OpenFlowStanfordSwitch</bcf:citekey>
+    <bcf:citekey order="26">paradigmdef</bcf:citekey>
+    <bcf:citekey order="27">newparadigm</bcf:citekey>
+    <bcf:citekey order="28">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="29">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="30">scalability</bcf:citekey>
+    <bcf:citekey order="31">chevance2001serveurs</bcf:citekey>
+    <bcf:citekey order="32">CloudComputingIntelVisionSpeeding</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

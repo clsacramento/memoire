@@ -1,19 +1,19 @@
 
-\chapter{Du data centre au Cloud Computing et le Software-Defined Data Centre}
+\chapter{Du data centre au Cloud Computing}
 \label{chap-1}
 
 Ce chapitre a pour but de définir un data centre afin de pouvoir analyser ses problématiques, enjeux et possibles solutions. En vue de comprendre l'état actuel des data centres et ses limitations par rapport aux nouveaux besoins et challenges business. Un regard sur le nouveau business model apporté avec le Cloud Computing, les bénéfices de son adoption et les enjeux pour les infrastructures qui doivent répondre à ce nouveau paradigme.
 
 \section{Data centres et ses objectifs}
 
-Un data centre (ainsi dénoté ferme de serveurs) est un répertoire centralisé pour le stockage, management et distribution de données et informations. Typiquement, un data centre est une installation utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. \cite{understandingCloudWhatDC}
+Un data centre (ainsi dénoté ferme de serveurs) est un répertoire centralisé pour le stockage, management et distribution de données et informations. Typiquement, un data centre est une installation utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. 
 
 Les data centres traditionnels hébergent historiquement des nombreuses applications relativement petites ou moyennes, chacune exécutant dans une infrastructure matérielle dédiée qui est isolée et protégée des autres systèmes dans la même installation. Ces data centres accueillent du matériel et du logiciel pour multiples unités organisationnelles ou même diverses entreprises. Différents systèmes informatiques au sein d'un tel data centre ont souvent très peu en commun en termes de matériel, logiciel ou infrastructure de maintenance, et en général ne se communiquent pas entre eux. 
 
 
 Les tendances vers l'informatique côté serveur et l'explosion en popularité des services sur internet ont changé ce scénario. Des infrastructures data centre entières ont été dédiée à un seul acteur pour faire fonctionner ses services offerts. Dans ce cadre, un data centre appartient à une seule organisation et utilise du matériel et plateforme logicielle relativement homogènes qui partagent une couche commune de systèmes de management. Surtout, ces data centres dédiés exécutent un nombre réduit d'applications (ou services internet) beaucoup plus importants en taille, l'infrastructure commune de management permettant une significative flexibilité de déploiement. 
 
-Ces infrastructures sont montées pour gérer la taille des applications déployées et la haute disponibilité exigée pour ces services, visant en général 99,99\% de durée de fonctionnement (une heure au maximum de temps d'arrêt par an). Atteindre un fonctionnement libre des failles dans une large collection de systèmes matériel et logiciel est dur et devient encore plus difficile avec le grand nombre de serveurs impliqués. Les infrastructures de ces data centres doivent être dimensionnées précisément  en fonction de la charge des applications supportées. Par conséquence, des nouvelles approches ont été proposées pour la construction et opération de ces systèmes qui doivent être conçus pour tolérer ce nombre important des failles avec très peu ou aucun impact sur la performance et disponibilité des services offerts. \cite{datacenterAsComputerIntro}
+Ces infrastructures sont montées pour gérer la taille des applications déployées et la haute disponibilité exigée pour ces services, visant en général 99,99\% de durée de fonctionnement (une heure au maximum de temps d'arrêt par an). Atteindre un fonctionnement libre des failles dans une large collection de systèmes matériel et logiciel est dur et devient encore plus difficile avec le grand nombre de serveurs impliqués. Les infrastructures de ces data centres doivent être dimensionnées précisément  en fonction de la charge des applications supportées. Par conséquence, des nouvelles approches ont été proposées pour la construction et opération de ces systèmes qui doivent être conçus pour tolérer ce nombre important des failles avec très peu ou aucun impact sur la performance et disponibilité des services offerts. \cite{understandingCloudWhatDC}  \cite{datacenterAsComputerIntro}
 
 \section{Organisation d'un data centre et difficultés}
 
@@ -40,21 +40,39 @@ demande excédentaire puisque la fourniture d'une bande passante entière n'est 
 La consommation d'énergie constitue également des préoccupations à la conception des data centres car les coûts liés sont devenus un important composant de la totalité des coûts dette classe de systèmes. Actuellement le CPUs ne sont plus le seul élément cible d'amélioration de l'efficacité énergétique, vu qu'ils ne dominent plus la majorité de la consommation. Des problématiques de ventilation et surconsommation d'énergie sont de facteurs de plus en plus critiques de la conception de data centres.\cite{datacenterAsComputerIntro} \cite{dataCenterEvolution}
 
 
-\section{Virtualisation}
-
-Virtualization refers to the abstraction of logical resources away from their underlying physical resources to improve agility and flexibility, reduce costs, and thus enhance business value. Virtualization allows a set of underutilized physical infrastructure components to be consolidated into a smaller number of better utilized devices, contributing to significant cost savings.
-
-Server virtualization is a method of abstracting the operating system from the hardware platform. This allows multiple operating systems or multiple instances of the same operating system to coexist on one or more processors. A hypervisor or virtual machine monitor (VMM) is inserted between the operating system and the hardware to achieve this separation. These operating systems are called “guests” or “guest OSs.” The hypervisor provides hardware emulation to the guest operating systems. It also manages allocation of hardware resources between operating systems.
-
-
-Integrated infrastructure solutions are specifically designed to provide advantages compared to a conventional physical infrastructure because they are: 
-•	 Efficient in power usage, space utilization and IT employee productivity
-•	 Economical in initial cost by making use of existing infrastructure and not requiring expensive room upgrades
-•	 Interoperable through simplified design and implementation of systems and components 
-•	 Controllable through planning, monitoring and management over the changing IT environment
-
-
 \section{Principaux Challenges}
+
+
+Traditionnellement les data centres d'entreprises sont conçus pour durer pour toujours et atteindre les objectives visibles du business. Cela veut dire que les éléments sous-jacents sont dimensionnés et construits pour supporter le pic de charge projeté en termes de performance, disponibilité et sécurité. Quand la croissance volumétrique projetée ne correspond pas à la réalité, cette méthode de dimensionnement peut conduire à une situation de sous-dimensionnement ou sur-dimensionnement. En général, pour atteindre une meilleure disponibilité, les infrastructures sont amenées à une sous-utilisation des ressources. Ce qui apporte un effet négatif pour les investissements et les effort de réduction de coûts.
+
+Une des plus grandes difficultés techniques d'offrir un service en ligne est la capacité de gérer la flexibilité des requis. La charge des applications varient continument dans les business sur internet, donc les choix sont de soit sous-dimensionner la provision et perdre des clients ou sur-dimensionner et gaspiller les ressources. En général, un plan détaillé de capacité est fait et suit d'un investissement important en matériel et logiciel, étant donné que leur capacité est fixe. L'image suivant illustre cette planification et les situations de problèmes de dimensionnement.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.98\textwidth]{images/fixed_capacity_load_prediction} 
+\caption{Capacité fixe de ressources vs charge prévisionnelle. \cite{awsScaling}}
+\end{center}
+\end{figure}
+
+
+
+%One of the biggest technical challenges of running an online business is how well they are able to handle the scalability requirements.  The Load traffic pattern keeps varying for online businesses and accordingly they will have to scale and maintain the acceptable performance levels.  Since the Traffic patterns are fluctuating in online business, they either tend to under provision and loose customers (or) over provision and waste hardware + costs. This problem is well illustrated in the below diagrams.
+%Business usually makes detailed capacity planning and large upfront investment in their hardware and software. This HW/SW’s are usually provisioned with fixed capacity.
+
+%Traditionally, enter-prise data centers are designed to last foreverand meet visible business objectives, meaning that their underlying components are sized and built for a projected workload. They are also sized and built using application volumetric modeling and nonfunctional requirements such as perfor-mance, availability, scalability and security.
+
+%The infrastructure is designed and provisioned considering the specific volumetric for support- ing the business applications and considering the peak load transaction in jobs per second, avail- ability and scalability requirements. When volu- metric and projected growth do not manifest as envisaged, this method of sizing infrastructure compute and storage could lead to either under- sizing or oversizing the footprint. Often, having such islands of infrastructure compute and storage leads to underutilization of resources. This has a cascading effect on investment and the effort expended toward energy consumption, management overheads, software licenses and data center costs.
+
+Les défauts de ce modèle ont amené les tendances de conception d'infrastructures avec des services partagés et virtualisation pour augmenter l'efficacité de l'utilisation des ressources. Virtualisation fait référence à l'abstraction de ressources logiques de leurs couches physiques pour améliorer l'agilité, la flexibilité et la réduction des coûts et ainsi mettre en valeur le business. La virtualisatoin permet de consolider un ensemble de composants d'infrastructures sous-utilisés en un nombre de dispositifs plus petits et meilleur utilisés, contribuant significativement à l'économie des coûts.
+
+La virtualisation de serveurs, en spécial, est une méthode d'abstraire le système d'exploitation de la plateforme matérielle. Cela permet des multiples systèmes exploitation ou multiples instances du même système d'exploitation de coexister dans un ou plus processeurs. 
+
+%The shortcomings of this model led many enter- prises to the next wave of infrastructure design — utilizing shared infrastructure services and virtualized compute to increase efficiency in resource utilization and ensure that infrastruc- ture is designed and fit for the purpose, and not over-engineered.
+
+%Virtualization refers to the abstraction of logical resources away from their underlying physical resources to improve agility and flexibility, reduce costs, and thus enhance business value. Virtualization allows a set of underutilized physical infrastructure components to be consolidated into a smaller number of better utilized devices, contributing to significant cost savings.
+
+%Server virtualization is a method of abstracting the operating system from the hardware platform. This allows multiple operating systems or multiple instances of the same operating system to coexist on one or more processors. A hypervisor or virtual machine monitor (VMM) is inserted between the operating system and the hardware to achieve this separation. These operating systems are called “guests” or “guest OSs.” The hypervisor provides hardware emulation to the guest operating systems. It also manages allocation of hardware resources between operating systems.
 
 %According to a recent Gartner study, the leading challenges facing today’s data centers are intrinsic to many of the aforementioned business drivers and their associated IT solutions. Top challenges cited include: 
 %• Keeping up with data growth 
@@ -63,6 +81,19 @@ Integrated infrastructure solutions are specifically designed to provide advanta
 %• Minimizing power, cooling and space costs
 %• Effectively managing the data center and its infrastructure
 %Furthermore, according to a 2011 survey of the Data Center Users’ Group (DCUG), the leading infrastructure challenges included data center availability, high heat densities, energy efficiency and maintaining adequate power densities (see Figure 1). Each of these challenges resonates closely with the leading data center challenges faced by IT professionals.
+
+
+%\section{Virtualisation}
+
+
+
+%Integrated infrastructure solutions are specifically designed to provide advantages compared to a conventional physical infrastructure because they are: 
+%•	 Efficient in power usage, space utilization and IT employee productivity
+%•	 Economical in initial cost by making use of existing infrastructure and not requiring expensive room upgrades
+%•	 Interoperable through simplified design and implementation of systems and components 
+%•	 Controllable through planning, monitoring and management over the changing IT environment
+
+
 
 \section{Tendances des meilleures pratiques}
 
