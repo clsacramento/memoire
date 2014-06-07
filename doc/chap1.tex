@@ -1,5 +1,5 @@
 
-\chapter{Du data centre au Cloud Computing}
+\chapter{Les évolutions du business modèle des Data Centres}
 \label{chap-1}
 
 Ce chapitre a pour but de définir un data centre afin de pouvoir analyser ses problématiques, enjeux et possibles solutions. En vue de comprendre l'état actuel des data centres et ses limitations par rapport aux nouveaux besoins et challenges business. Un regard sur le nouveau business model apporté avec le Cloud Computing, les bénéfices de son adoption et les enjeux pour les infrastructures qui doivent répondre à ce nouveau paradigme.
@@ -26,11 +26,11 @@ Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.7\textwidth]{images/racks} 
-\caption{Organisation de racks. \cite{datacenterAsComputerIntro}}
+\caption{Organisation de racks. \cite{datacenterAsComputerIntro}}\label{racks}
 \end{center}
 \end{figure}
 
-L'image ci-dessus montre l'organisation des racks dans un data centre. Un serveur occupe 1 U du rack est montré à gauche. Au milieu on affiche un rack et à droite un cluster de racks avec un swtich/routeur de niveau cluster. En général un ensemble de serveurs 1U sont montés dans un rack et inter-connectés avec commutateur Ethernet local. Ces switches au niveau des racks, qui peuvent utiliser des liens de 1 à 10 Gbps, ont un nombre de connexions uplink vers un ou plus switches de niveau cluster (data centre).
+La figure \ref{racks} montre l'organisation des racks dans un data centre. Un serveur occupe 1 U du rack est montré à gauche. Au milieu on affiche un rack et à droite un cluster de racks avec un swtich/routeur de niveau cluster. En général un ensemble de serveurs 1U sont montés dans un rack et inter-connectés avec commutateur Ethernet local. Ces switches au niveau des racks, qui peuvent utiliser des liens de 1 à 10 Gbps, ont un nombre de connexions uplink vers un ou plus switches de niveau cluster (data centre).
 
 Le stockage dans les data centre peut être fourni en diverses manières. Souvent le stockage de haute performance est logé dans des \og  tours de stockage \fg{} qui permettent un accès distant transparent au stockage indépendamment du nombre et des types des dispositifs de stockage physiques installés. Le stockage peut également être fourni dans  plus petit \og  brique de stockage \fg{} localisé dans le rack ou slot de chassis ainsi que directement intégré aux serveurs. Dans tous les cas, un accès réseau efficace au stockage est crucial.
 
@@ -39,13 +39,38 @@ demande excédentaire puisque la fourniture d'une bande passante entière n'est 
 
 La consommation d'énergie constitue également des préoccupations à la conception des data centres car les coûts liés sont devenus un important composant de la totalité des coûts dette classe de systèmes. Actuellement le CPUs ne sont plus le seul élément cible d'amélioration de l'efficacité énergétique, vu qu'ils ne dominent plus la majorité de la consommation. Des problématiques de ventilation et surconsommation d'énergie sont de facteurs de plus en plus critiques de la conception de data centres.\cite{datacenterAsComputerIntro} \cite{dataCenterEvolution}
 
+\section{Virtualisation et partage de ressources}
 
-\section{Principaux Challenges}
+Le besoin d'augmenter l'efficacité de l'utilisation des ressources a amené les tendances de conception d'infrastructures avec le partage de ressources et la virtualisation . Virtualisation fait référence à l'abstraction de ressources logiques de leurs couches physiques pour améliorer l'agilité, la flexibilité et la réduction des coûts et ainsi mettre en valeur le business. La virtualisatoin permet de consolider un ensemble de composants d'infrastructures sous-utilisés en un nombre de dispositifs plus petits et meilleur utilisés, contribuant significativement à l'économie des coûts.
+
+La virtualisation de serveurs, en spécial, est une méthode d'abstraire le système d'exploitation de la plateforme matérielle. Cela permet des multiples systèmes exploitation ou multiples instances du même système d'exploitation de coexister dans un ou plusieurs processeurs. L'image \ref{virtinfra} illustre le partage de ressources par intermédiaire de la virtualisation.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.98\textwidth]{images/shared_infa_virt} 
+\caption{Modèle d'infrastructure à ressources partagées. \cite{journeySDDC}}\label{virtinfra}
+\end{center}
+\end{figure}
+
+Un hyperviseur ou moniteur de machines virtuelles est inséré entre le système d'exploitation et le matériel pour réaliser la séparation entre le logique et le physique. Les instances de systèmes d'exploitation lancées sont appelées invités, ou systèmes d'exploitation invités. L'hyperviseur fournit l'émulation matériel aux systèmes invités et gèrent l'allocation de ressources matérielles.  
+
+Ce modèle apporte des avantages en termes de comment les ressources sont efficacement utilisées avec des charges applicatives idéales. Cependant, quand une application commence à consommer plus ressources que l'estimé, il peut arriver des scénarios où les systèmes d'exploitation invités n'ont pas assez de ressources, impactant la qualité du service business offert. 
+
+Alors que cette approche a apporté une capacité globale de management, monitoring et outillage, elle a aussi mit en évidence que le composant compute de l'infrastructure ressources serveurs se bénéficient clairement l'amélioration et automatisation de leur utilisation. Cette amélioration a été possible grâce à la programmation du contrôle de ressources fournies aux instances invitées. Toutefois, le développement de nouvelles solutions pour gérer la charge dynamique de certaines application restait toujours en manque. \cite{ibmPlanningVirtCCchap2}\cite{journeySDDC}
+
+%This model has its advantages in terms of how resources are efficiently utilized in ideal applica- tion workloads. However, when one or more appli- cation workloads begin to consume more resourc- es than expected, scenarios could arise where several guest operating systems are short of compute resources, thereby impacting business application service level agreements.
+%While this approach brought holistic capacity management, monitoring and tools capabilities, it also provided evidence that infrastructure compute and server resources were truly ben- efiting from improved resource utilization and automation. This was brought about, to a certain extent, by programmatically controlling the resources provided to guest instances. However, new thinking about solutions was still needed to meet the challenges of dynamic workloads of run- the-business applications and compute-intensive enterprise applications.
 
 
-Traditionnellement les data centres d'entreprises sont conçus pour durer pour toujours et atteindre les objectives visibles du business. Cela veut dire que les éléments sous-jacents sont dimensionnés et construits pour supporter le pic de charge projeté en termes de performance, disponibilité et sécurité. Quand la croissance volumétrique projetée ne correspond pas à la réalité, cette méthode de dimensionnement peut conduire à une situation de sous-dimensionnement ou sur-dimensionnement. En général, pour atteindre une meilleure disponibilité, les infrastructures sont amenées à une sous-utilisation des ressources. Ce qui apporte un effet négatif pour les investissements et les effort de réduction de coûts.
 
-Une des plus grandes difficultés techniques d'offrir un service en ligne est la capacité de gérer la flexibilité des requis. La charge des applications varient continument dans les business sur internet, donc les choix sont de soit sous-dimensionner la provision et perdre des clients ou sur-dimensionner et gaspiller les ressources. En général, un plan détaillé de capacité est fait et suit d'un investissement important en matériel et logiciel, étant donné que leur capacité est fixe. L'image suivant illustre cette planification et les situations de problèmes de dimensionnement.
+\section{Le besoin d'un modèle plus dynamique}
+
+
+Traditionnellement les data centres d'entreprises sont conçus pour durer pour toujours et atteindre les objectives visibles du business. Cela veut dire que les éléments sous-jacents sont dimensionnés et construits pour supporter le pic de charge projeté en termes de performance, disponibilité et sécurité. Quand la croissance volumétrique projetée ne correspond pas à la réalité, cette méthode de dimensionnement peut conduire à une situation de sous-dimensionnement ou sur-dimensionnement. Ce qui apporte un effet négatif pour les investissements et les effort de réduction de coûts.
+
+En général, pour atteindre une meilleure disponibilité, les infrastructures sont amenées à une sous-utilisation des ressources. Comme la charge des applications varient continument dans les applications sur internet, il reste deux choix aux business : soit sous-dimensionner la provision et perdre des clients ou alors sur-dimensionner et gaspiller les ressources. 
+
+Dans tous les cas, un plan détaillé de capacité est fait pour spécifier une série d'investissements importants en matériel et logiciel, étant donné que leur capacité est fixe. L'image suivant illustre cette planification et les situations de problèmes de dimensionnement.
 
 
 \begin{figure}[h]
@@ -55,18 +80,18 @@ Une des plus grandes difficultés techniques d'offrir un service en ligne est la
 \end{center}
 \end{figure}
 
+En face à cette problématique, un nouveau modèle de livraison pour adresser les défis du traitement des demandes pour la variation dynamique des charges applicatives. Avec la nouvelle tendance du Cloud Computing et l'infrastructure tant que service (IaaS), la conception de clusters hautement disponibles et des solutions extensibles peuvent être architecturés avec les requis non-fonctionnels comme base. 
+%With the emergence of the cloud, the new age “mantra” and infrastructure as a service (IaaS) as a delivery model (as illustrated in Figure 3), the challenges of processing demands from dynamic workloads is being addressed. Designing high- availability clusters and scalable solutions can be architected based on nonfunctional requirements.
 
+Avec sa nature extensible, le modèle de livraison cloud permet aux ressource d'étendre et de réduire  dynamiquement en fonction de la consommation. Une couche logicielle d'abstraction, implémentée par les hyperviseurs, virtualise le traitement des ressources physiques, ainsi permettant le processeur, la mémoire et le disques durs de s'accommoder aux variations de demande. \cite{awsScaling} \cite{journeySDDC}
 
 %One of the biggest technical challenges of running an online business is how well they are able to handle the scalability requirements.  The Load traffic pattern keeps varying for online businesses and accordingly they will have to scale and maintain the acceptable performance levels.  Since the Traffic patterns are fluctuating in online business, they either tend to under provision and loose customers (or) over provision and waste hardware + costs. This problem is well illustrated in the below diagrams.
 %Business usually makes detailed capacity planning and large upfront investment in their hardware and software. This HW/SW’s are usually provisioned with fixed capacity.
 
-%Traditionally, enter-prise data centers are designed to last foreverand meet visible business objectives, meaning that their underlying components are sized and built for a projected workload. They are also sized and built using application volumetric modeling and nonfunctional requirements such as perfor-mance, availability, scalability and security.
+%Traditionally, enter-prise data centers are designed to last forever and meet visible business objectives, meaning that their underlying components are sized and built for a projected workload. They are also sized and built using application volumetric modeling and nonfunctional requirements such as perfor-mance, availability, scalability and security.
 
 %The infrastructure is designed and provisioned considering the specific volumetric for support- ing the business applications and considering the peak load transaction in jobs per second, avail- ability and scalability requirements. When volu- metric and projected growth do not manifest as envisaged, this method of sizing infrastructure compute and storage could lead to either under- sizing or oversizing the footprint. Often, having such islands of infrastructure compute and storage leads to underutilization of resources. This has a cascading effect on investment and the effort expended toward energy consumption, management overheads, software licenses and data center costs.
 
-Les défauts de ce modèle ont amené les tendances de conception d'infrastructures avec des services partagés et virtualisation pour augmenter l'efficacité de l'utilisation des ressources. Virtualisation fait référence à l'abstraction de ressources logiques de leurs couches physiques pour améliorer l'agilité, la flexibilité et la réduction des coûts et ainsi mettre en valeur le business. La virtualisatoin permet de consolider un ensemble de composants d'infrastructures sous-utilisés en un nombre de dispositifs plus petits et meilleur utilisés, contribuant significativement à l'économie des coûts.
-
-La virtualisation de serveurs, en spécial, est une méthode d'abstraire le système d'exploitation de la plateforme matérielle. Cela permet des multiples systèmes exploitation ou multiples instances du même système d'exploitation de coexister dans un ou plus processeurs. 
 
 %The shortcomings of this model led many enter- prises to the next wave of infrastructure design — utilizing shared infrastructure services and virtualized compute to increase efficiency in resource utilization and ensure that infrastruc- ture is designed and fit for the purpose, and not over-engineered.
 
@@ -95,7 +120,7 @@ La virtualisation de serveurs, en spécial, est une méthode d'abstraire le syst
 
 
 
-\section{Tendances des meilleures pratiques}
+%\section{Tendances des meilleures pratiques}
 
 
 %Integrated infrastructure solutions are specifically designed to provide advantages compared to a conventional physical infrastructure because they are: 
@@ -103,22 +128,10 @@ La virtualisation de serveurs, en spécial, est une méthode d'abstraire le syst
 %•	 Economical in initial cost by making use of existing infrastructure and not requiring expensive room upgrades
 %•	 Interoperable through simplified design and implementation of systems and components 
 %•	 Controllable through planning, monitoring and management over the changing IT environment
-\section{Architecture}
+%\section{Architecture}
 
-\section{Cloud Computing}
+\chapter{Cloud Computing}
 
-Information technology (IT) is at a breaking point, and there is a critical need to improve IT's impact on the business.9
-Consider the following:
- -As much as 85\% of computing capacity sits idle in distributed computing environments.
- -Seventy percent of IT budgets is typically spent on maintaining current IT infrastructures, and only 30\% is typically spent on new capabilities.
- -Over 30\% of consumers notified of a security breach will terminate their relationship with the company that contributed to the breach.
-Clearly, infrastructures need to be more dynamic to free up budgets for new investments and accelerate deployment of superior capabilities being demanded by the business. Nearly all CEOs are adapting business models; cloud adoption can support these changing business dynamics.
-
-Functional Areas in the Cloud-Ready Data Center
-• Network Infrastructure—provides connectivity and transport for applications and services between users and the data center, within the data center and across multiple data centers. The Network infrastructure has three main sub components, namely the access network, the core network and the edge network.
-• Compute and Storage—represents the compute and storage infrastructure appropriate for applications (rack-mount and chassis-based, cost-effective and multi-core, with unstructured content and highly structured transaction databases). The compute and storage functional area hosts all business applications such as Enterprise Resource Planning (ERP), SaaS, SOA and Web 2.0 applications (among others).
-• Services—supports applications with security, user verification, and entitlement, and application support, including application acceleration, deep packet inspection (DPI), and load balancing
-• Management and Orchestration—ties together all of the elements of the cloud-computing infrastructure, enabling efficient and responsive monitoring, management, and planning
 
 
 \section{Définition}
@@ -136,6 +149,21 @@ Cloud computing delivers services dynamically over networks from an abstracted s
 
 
 From the infrastructure perspective, cloud computing heavily leverages resource pools in a variety of technologies— compute, storage and network—for dynamic allocation in an automated, orchestrated and logically diversified environment, accommodating a variety of applications. Using orchestration, resources can be pooled within and across multiple data centers to provide an environment that responds dynamically to user needs.
+
+\section{Besoins qui amènent au Cloud}
+
+Information technology (IT) is at a breaking point, and there is a critical need to improve IT's impact on the business.9
+Consider the following:
+ -As much as 85\% of computing capacity sits idle in distributed computing environments.
+ -Seventy percent of IT budgets is typically spent on maintaining current IT infrastructures, and only 30\% is typically spent on new capabilities.
+ -Over 30\% of consumers notified of a security breach will terminate their relationship with the company that contributed to the breach.
+Clearly, infrastructures need to be more dynamic to free up budgets for new investments and accelerate deployment of superior capabilities being demanded by the business. Nearly all CEOs are adapting business models; cloud adoption can support these changing business dynamics.
+
+Functional Areas in the Cloud-Ready Data Center
+• Network Infrastructure—provides connectivity and transport for applications and services between users and the data center, within the data center and across multiple data centers. The Network infrastructure has three main sub components, namely the access network, the core network and the edge network.
+• Compute and Storage—represents the compute and storage infrastructure appropriate for applications (rack-mount and chassis-based, cost-effective and multi-core, with unstructured content and highly structured transaction databases). The compute and storage functional area hosts all business applications such as Enterprise Resource Planning (ERP), SaaS, SOA and Web 2.0 applications (among others).
+• Services—supports applications with security, user verification, and entitlement, and application support, including application acceleration, deep packet inspection (DPI), and load balancing
+• Management and Orchestration—ties together all of the elements of the cloud-computing infrastructure, enabling efficient and responsive monitoring, management, and planning
 
 \section{Nouveau business model}
 

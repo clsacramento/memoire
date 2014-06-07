@@ -133,6 +133,23 @@
       \field{year}{2009}
       \field{pages}{2939\bibrangedash 2965}
     \endentry
+    \entry{journeySDDC}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=07461606e8de16cfcfe329a6e30d1a21}{Raghuraman}{R\bibinitperiod}{Sandeep}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=07461606e8de16cfcfe329a6e30d1a21}{Raghuraman}{R\bibinitperiod}{Sandeep}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{07461606e8de16cfcfe329a6e30d1a21}
+      \strng{fullhash}{07461606e8de16cfcfe329a6e30d1a21}
+      \field{sortinit}{0}
+      \field{labeltitle}{The Journey Toward the Software-Defined Data Center}
+      \field{howpublished}{White Paper}
+      \field{month}{09}
+      \field{note}{Cognizant (NASDAQ: CTSH)}
+      \field{title}{The Journey Toward the Software-Defined Data Center}
+      \field{year}{2013}
+    \endentry
     \entry{awsScaling}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=51379013d8365d297d34c9449c4a602f}{Ganesan}{G\bibinitperiod}{Harish}{H\bibinitperiod}{}{}{}{}}%
