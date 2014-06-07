@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  7 JUN 2014 21:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  7 JUN 2014 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,24 +1402,23 @@ t line 78.
 (pdftex.def)             Requested size: 439.16641pt x 91.11127pt.
  [8 <./images/fixed_capacity_load_prediction.png>]
 Chapitre 2.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 139.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 139.
-
-Underfull \vbox (badness 2326) has occurred while \output is active []
+Underfull \vbox (badness 7869) has occurred while \output is active []
 
  [9
 
 
 ]
-Underfull \vbox (badness 1571) has occurred while \output is active []
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 179.
 
- [10]
-[11]) [12] [13]
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 179.
+ [10] [11]) [12]
+[13]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex [14
@@ -1512,7 +1511,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ]
-<couverture-ebt.pdf, id=505, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=506, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1537,7 +1536,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 298.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [35 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=511, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=512, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1594,10 +1593,10 @@ r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-d
 ist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (44 pages, 809632 bytes).
+Output written on ebt.pdf (44 pages, 809675 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
- 511 compressed objects within 6 object streams
+ 592 PDF objects out of 1000 (max. 8388607)
+ 512 compressed objects within 6 object streams
  147 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
