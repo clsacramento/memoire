@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  7 JUN 2014 21:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  8 JUN 2014 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,7 +1341,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 L
-      a technique de la virtualisation a réussi à habiliter les processus ...
+      a technique de la virtualisation a permis le déplacement des processu...
 [1
 
 
@@ -1428,41 +1428,48 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 ]
 Chapitre 3.
-[15]
+[15] [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
-[17]
+ [17]
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20])
+[21]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [18
+ (./chap4.tex [22
 
 
 
 
 ]
 Chapitre 4.
-) [19]
+) [23]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [20
+ (./chap5.tex [24
 
 
 
 
 ]
 Chapitre 5.
-) [21]
+) [25]
 \openout2 = `concl.aux'.
 
- (./concl.tex [22
+ (./concl.tex [26
 
 
 
 
-] [23]) [24]
+] [27]) [28]
 No file ebt.ind.
-(./ebt.acr [25
+(./ebt.acr [29
 
 
 
@@ -1470,12 +1477,12 @@ No file ebt.ind.
 
 
 
-]) (./ebt.gls [26] [27
+]) (./ebt.gls [30] [31
 
 
 
 
-] [28]) [29] [30
+] [32]) [33] [34
 
 
 ]
@@ -1496,7 +1503,7 @@ Overfull \hbox (0.85542pt too wide) in paragraph at lines 296--296
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[31]
+[35]
 Overfull \hbox (72.9929pt too wide) in paragraph at lines 296--296
 []\T1/lmr/m/n/12 Margaret \T1/lmr/m/sc/12 Rouse\T1/lmr/m/n/12 . \T1/lmr/m/it/12
  net-work fa-bric\T1/lmr/m/n/12 . Web Site. http://searchsdn.techtarget.com/def
@@ -1507,11 +1514,11 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 295.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [32] [33] [34
+) [36] [37] [38
 
 
 ]
-<couverture-ebt.pdf, id=506, page=3, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=524, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1535,8 +1542,8 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 3>
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 298.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [35 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=512, page=4, 597.50829pt x 845.0471pt>
+ [39 <./couverture-ebt.pdf>]
+<couverture-ebt.pdf, id=529, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1551,7 +1558,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 4>
 Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 298.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [36 <./couverture-ebt.pdf>]
+ [40 <./couverture-ebt.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
  (./ebt.aux
@@ -1559,9 +1566,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
 (./concl.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
-Package rerunfilecheck Info: File `ebt.out' has not changed.
-(rerunfilecheck)             Checksum: CE18AD7E996B37B8F58F7BAC2DAB42F5;1984.
 
+
+Package rerunfilecheck Warning: File `ebt.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ebt.out':
+(rerunfilecheck)             Before: CE18AD7E996B37B8F58F7BAC2DAB42F5;1984
+(rerunfilecheck)             After:  B6D4C0856838BFCC635C82515067224A;1900.
 
 LaTeX Warning: There were undefined references.
 
@@ -1575,28 +1588,31 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20527 strings out of 493315
- 322547 string characters out of 6137904
+ 20531 strings out of 493315
+ 322575 string characters out of 6137904
  863054 words of memory out of 5000000
  23415 multiletter control sequences out of 15000+600000
  43217 words of font info for 36 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,18n,51p,1438b,2418s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
-lic/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr1
-2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (44 pages, 809675 bytes).
+pdfTeX warning (dest): name{section.3.6} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
+c/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/lm/lmtt12.pfb>
+Output written on ebt.pdf (48 pages, 820179 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 512 compressed objects within 6 object streams
- 147 named destinations out of 1000 (max. 500000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 525 compressed objects within 6 object streams
+ 151 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
