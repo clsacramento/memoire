@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Les \IeC {\'e}volutions du business mod\IeC {\`e}le des Data Centres}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Data centres et ses objectifs}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}Data centres et leurs objectifs}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Organisation d'un data centre et difficult\IeC {\'e}s}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 

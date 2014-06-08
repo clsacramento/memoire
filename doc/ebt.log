@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  8 JUN 2014 02:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  8 JUN 2014 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,7 +1223,7 @@ LaTeX Info: Redefining \up on input line 252.
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
 
-<couverture-ebt.pdf, id=126, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=122, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1253,7 +1253,7 @@ Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 253.
 
  <./couverture-ebt.pdf{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updma
 p/pdftex.map}>]
-<couverture-ebt.pdf, id=152, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=148, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1356,49 +1356,45 @@ l.267 \include{intro}
 
  (./chap1.tex
 Chapitre 1.
-[3
+
+Underfull \vbox (badness 1983) has occurred while \output is active []
+
+ [3
 
 
 
 
-] <images/racks.png, id=257, 913.4125pt x 446.66875pt>
+]
+<images/racks.png, id=252, 913.4125pt x 446.66875pt>
 File: images/racks.png Graphic file (type png)
-
-<use images/racks.png>
-Package pdftex.def Info: images/racks.png used on input line 28.
+ <use images/racks.png>
+Package pdftex.def Info: images/racks.png used on input line 31.
 (pdftex.def)             Requested size: 313.69029pt x 153.39206pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 1571) has occurred while \output is active []
-
- [4]
+[4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./images/racks.png>] <images/shared_infa_virt.png, id=275, 927.465pt x 367
+ [5 <./images/racks.png>] <images/shared_infa_virt.png, id=270, 927.465pt x 367
 .3725pt>
 File: images/shared_infa_virt.png Graphic file (type png)
 
 <use images/shared_infa_virt.png>
-Package pdftex.def Info: images/shared_infa_virt.png used on input line 50.
+Package pdftex.def Info: images/shared_infa_virt.png used on input line 52.
 (pdftex.def)             Requested size: 439.16641pt x 173.95999pt.
- [6 <./images/shared_infa_virt.png>]
-
-LaTeX Warning: Citation 'ibmPlanningVirtCCchap2' on page 7 undefined on input l
-ine 59.
 
 
-Underfull \vbox (badness 3989) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [7]
-<images/fixed_capacity_load_prediction.png, id=288, 914.41624pt x 189.70876pt>
+[6] [7 <./images/shared_infa_virt.png>]
+<images/fixed_capacity_load_prediction.png, id=285, 914.41624pt x 189.70876pt>
 File: images/fixed_capacity_load_prediction.png Graphic file (type png)
 
 <use images/fixed_capacity_load_prediction.png>
 Package pdftex.def Info: images/fixed_capacity_load_prediction.png used on inpu
-t line 78.
+t line 82.
 (pdftex.def)             Requested size: 439.16641pt x 91.11127pt.
  [8 <./images/fixed_capacity_load_prediction.png>]
 Chapitre 2.
@@ -1409,14 +1405,14 @@ Underfull \vbox (badness 7869) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 179.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 183.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 179.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 183.
  [10] [11]) [12]
 [13]
 \openout2 = `chap2.aux'.
@@ -1486,6 +1482,12 @@ No file ebt.ind.
 
 
 ]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 295.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Overfull \hbox (7.5189pt too wide) in paragraph at lines 296--296
 \T1/lmr/m/it/12 costs\T1/lmr/m/n/12 . Web Site. http://harish11g.blogspot.fr/20
 13/04/Amazon-Web-Services-AWS-
@@ -1497,28 +1499,23 @@ Overfull \hbox (15.33618pt too wide) in paragraph at lines 296--296
 costs.html. Avr.
  []
 
-
+[35]
 Overfull \hbox (0.85542pt too wide) in paragraph at lines 296--296
 []\T1/lmr/m/it/12 Information Ma-na-ge-ment and Big Data A Re-fe-rence Ar-chi-t
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[35]
+
 Overfull \hbox (72.9929pt too wide) in paragraph at lines 296--296
 []\T1/lmr/m/n/12 Margaret \T1/lmr/m/sc/12 Rouse\T1/lmr/m/n/12 . \T1/lmr/m/it/12
  net-work fa-bric\T1/lmr/m/n/12 . Web Site. http://searchsdn.techtarget.com/def
 inition/network-
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 295.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [36] [37] [38
+[36] [37] [38
 
 
-]
-<couverture-ebt.pdf, id=524, page=3, 597.50829pt x 845.0471pt>
+] <couverture-ebt.pdf, id=523, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1543,7 +1540,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 298.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [39 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=529, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=528, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1573,15 +1570,10 @@ Package rerunfilecheck Warning: File `ebt.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ebt.out':
-(rerunfilecheck)             Before: CE18AD7E996B37B8F58F7BAC2DAB42F5;1984
-(rerunfilecheck)             After:  B6D4C0856838BFCC635C82515067224A;1900.
+(rerunfilecheck)             Before: B6D4C0856838BFCC635C82515067224A;1900
+(rerunfilecheck)             After:  1226A296174607492169F049CD6D2919;1902.
 
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ebt
-(biblatex)                and rerun LaTeX afterwards.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'ebt.run.xml'.
 \openout1 = `ebt.run.xml'.
@@ -1589,30 +1581,27 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  20531 strings out of 493315
- 322575 string characters out of 6137904
+ 322613 string characters out of 6137904
  863054 words of memory out of 5000000
  23415 multiletter control sequences out of 15000+600000
  43217 words of font info for 36 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 57i,18n,51p,1438b,2418s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.3.6} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
-xlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
-c/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (48 pages, 820179 bytes).
+ 57i,18n,51p,1438b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/lm/lmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr1
+2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on ebt.pdf (48 pages, 822436 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
+ 608 PDF objects out of 1000 (max. 8388607)
+ 524 compressed objects within 6 object streams
  151 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
