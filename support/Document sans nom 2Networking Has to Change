@@ -1,0 +1,11 @@
+Networking Has to Change
+Networking must change because the rise of cloud models is changing what is happening on the network:
+• New infrastructure: For example, everything is becoming virtualized, infrastructure is becoming programmable, and servers and applications have mobility
+• New applications: For example, data-intensive analytics, parallel and clustered processing, telemedicine, remote experts, and community cloud services
+• New access: For example, mobile device-based access to everything and virtual desktops
+• New traffic: For example, predominantly server-to-server traffic patterns and location-independent endpoints on both sides of a service or transaction
+What you need to do with and to data has not changed. Data still needs to travel between the computing and storage components of an application and then to the user of the application. Security still must be applied to help make sure that the right users, devices, and systems have access to the right data at the right time while protecting against attacks, intrusions, breaches, and leaks. Different kinds of data and traffic have different levels of importance and network resource needs that still must be met across the entire network with quality-of-service (QoS) capabilities.
+However, how you do these things has to change:
+• Network architecture needs to be flexible, instead of being a static stumbling block
+• Network services need to be location independent: delivered wherever data, applications, and users are and whenever the services are needed
+• Network resources need to be abstracted so that provisioning can be automated and actions orchestrated through common interfaces
