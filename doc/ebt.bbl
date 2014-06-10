@@ -197,6 +197,53 @@
       \field{title}{AWS Cost Saving Tip 5: How Amazon Auto Scaling can save costs}
       \field{year}{2013}
     \endentry
+    \entry{x86ServersVirtualization}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Virtualization \& TCO: Linux vs. Microsoft}
+      \field{howpublished}{Sondage}
+      \field{note}{Gabriel Consulting Group, Inc}
+      \field{title}{Virtualization \& TCO: Linux vs. Microsoft}
+      \field{year}{2009}
+    \endentry
+    \entry{ibmPlanningVirtCCchap1}{book}{}
+      \name{labelname}{5}{}{%
+        {{hash=b63d2d83005b7aa2ae9d6055644873ba}{Girola}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=7a20867077ec43d8982aab33f8b0f2b0}{Friedman}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=72635145f38694e796c88e2ddcfd8ed1}{Lewis}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=16a33a2abd48e54bb057d93e9ffcf352}{Tarenzio}{T\bibinitperiod}{A.M.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7591f96936b56529d48a642f226d7850}{Redbooks}{R\bibinitperiod}{IBM}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=b63d2d83005b7aa2ae9d6055644873ba}{Girola}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=7a20867077ec43d8982aab33f8b0f2b0}{Friedman}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=72635145f38694e796c88e2ddcfd8ed1}{Lewis}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=16a33a2abd48e54bb057d93e9ffcf352}{Tarenzio}{T\bibinitperiod}{A.M.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7591f96936b56529d48a642f226d7850}{Redbooks}{R\bibinitperiod}{IBM}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IBM Redbooks}%
+      }
+      \strng{namehash}{760e8e875ec91bc08dcbbac5ddf0d309}
+      \strng{fullhash}{b04d700dfccea6e6a46d0c7fcf605387}
+      \field{sortinit}{0}
+      \field{labeltitle}{IBM Data Center Networking: Planning for Virtualization and Cloud Computing, chapitre 1 : Drivers for a dynamic infrastructure}
+      \field{isbn}{9780738435398}
+      \field{series}{IBM redbooks}
+      \field{title}{IBM Data Center Networking: Planning for Virtualization and Cloud Computing, chapitre 1 : Drivers for a dynamic infrastructure}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://books.google.fr/books?id=EKjEAgAAQBAJ
+      \endverb
+    \endentry
+    \entry{cloudReadyJuniperReferenceDef}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cloud-Ready Data Center Reference Architecture, Section : Framework}
+      \field{howpublished}{White Paper}
+      \field{month}{05}
+      \field{note}{Juniper Networks, Inc}
+      \field{title}{Cloud-Ready Data Center Reference Architecture, Section : Framework}
+      \field{year}{2010}
+    \endentry
     \entry{AbstractionCS}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=a51045d320f623866a9c2a67cbf1ee82}{Keller}{K\bibinitperiod}{Robert\bibnamedelima M.}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
