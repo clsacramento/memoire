@@ -2,7 +2,7 @@
 
 
 \chapter{L'aspect réseau}
-Dans ce chapitre, les principales problématiques data centre dans un aspect réseau seront présentées et analysées. Les principales problématique des réseaux classiques dans l'essai de répondre aux nouveaux besoins data centres seront abordées. Le chapitre présentera comment divers scénario sont traités aujourd'hui et quels sont ses limites. 
+Dans ce chapitre, les principales problématiques data centre dans un aspect réseau seront présentées et analysées. Seront abordées quelques questionnements sur les réseaux classiques pour l'essai de répondre aux nouveaux besoins data centres. Le chapitre présentera comment divers scénarios sont traités aujourd'hui et quels sont ses limites. 
 
 
 \section{Le rôle du réseau dans les projets de TI}
@@ -29,8 +29,18 @@ Pour supporter la virtualisation complète d'une infrastructure de \gls{ti} et c
 %Developing a plan for the network and associated functional design is critical. Without a strong plan and a solid functional design, networking transitions can be risky, leading to reduced control of IT services delivered over the network, the potential for high costs with insufficient results, and unexpected performance or availability issues for critical business processes.
 
 
-Traditionnellement un plan et conception fonctionnelles solides suffisaient pour augmenter le succès des projets avec un réseau réactif, optimisé, moins cher et répondant mieux aux engagements des services applicatifs. Alors que ce plan reste essentiel, il est difficile dans le contexte d'utilisation actuel de maitriser complètement  à l'avance la charge, dimension et tout autre requis qui doivent être assurés par les réseaux. On cherche plutôt à concevoir des architectures réseaux qui puissent s'étendre ou se rétracter ainsi que supporter des nouveaux services dynamiquement et rapidement  en fonctions des besoins immédiates.
+Traditionnellement un plan et conception fonctionnelle solides suffisaient pour augmenter le succès des projets avec un réseau réactif, optimisé, moins cher et répondant mieux aux engagements des services applicatifs. Alors que ce plan reste essentiel, il est difficile dans le contexte d'utilisation actuel de maitriser complètement  à l'avance la charge, dimension et tout autre requis qui doivent être assurés par les réseaux. On cherche plutôt à concevoir des architectures réseaux qui puissent s'étendre ou se rétracter ainsi que supporter des nouveaux services dynamiquement et rapidement  en fonctions des besoins immédiates. \cite{ibmPlanningVirtCCchap4}
 %With a plan and a solid functional design, the probability of success is raised: a more responsive network with optimized delivery, lower costs, increased ability to meet application service level commitments, and a network that supports and fully contributes to a responsive IT environment.
+
+
+\section{Éléments de base de l'architecture réseau}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.98\textwidth]{images/LegacyNetworkArchitecture} 
+\caption{Architecture réseau typique à trois niveaux. \cite{cloudReadyNetworkJuniper}}
+\end{center}
+\end{figure}
 
 \section{Challenges réseau}
 

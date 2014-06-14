@@ -22,13 +22,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Le r\IeC {\^o}le du r\IeC {\'e}seau dans les projets de TI}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Challenges r\IeC {\'e}seau}{12}{section.2.2}
+\contentsline {section}{\numberline {2.2}\IeC {\'E}l\IeC {\'e}ments de base de l'architecture r\IeC {\'e}seau}{12}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Diff\IeC {\'e}rents usages}{14}{section.2.3}
+\contentsline {section}{\numberline {2.3}Challenges r\IeC {\'e}seau}{12}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Agilit\IeC {\'e}}{14}{section.2.4}
+\contentsline {section}{\numberline {2.4}Diff\IeC {\'e}rents usages}{14}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}S\IeC {\'e}curit\IeC {\'e}}{14}{section.2.5}
+\contentsline {section}{\numberline {2.5}Agilit\IeC {\'e}}{14}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}S\IeC {\'e}curit\IeC {\'e}}{14}{section.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Applications SDN}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 

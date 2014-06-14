@@ -1952,25 +1952,28 @@
     <bcf:citekey order="22">ibmPlanningVirtCCchap1</bcf:citekey>
     <bcf:citekey order="23">cloudReadyJuniperReferenceDef</bcf:citekey>
     <bcf:citekey order="24">journeySDDC</bcf:citekey>
-    <bcf:citekey order="25">AbstractionCS</bcf:citekey>
-    <bcf:citekey order="26">IMBigData</bcf:citekey>
-    <bcf:citekey order="27">CloudComputingIntelVisionSpeeding</bcf:citekey>
-    <bcf:citekey order="28">cluster</bcf:citekey>
-    <bcf:citekey order="29">dataCenterDef</bcf:citekey>
-    <bcf:citekey order="30">NetworkFabricSearchSDN</bcf:citekey>
-    <bcf:citekey order="31">fabricExtending</bcf:citekey>
-    <bcf:citekey order="32">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
-    <bcf:citekey order="33">OpenDaylight</bcf:citekey>
-    <bcf:citekey order="34">OpenSource</bcf:citekey>
-    <bcf:citekey order="35">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="36">OpenFlowStanfordSwitch</bcf:citekey>
-    <bcf:citekey order="37">paradigmdef</bcf:citekey>
-    <bcf:citekey order="38">newparadigm</bcf:citekey>
-    <bcf:citekey order="39">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="40">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="41">scalability</bcf:citekey>
-    <bcf:citekey order="42">chevance2001serveurs</bcf:citekey>
-    <bcf:citekey order="43">CloudComputingIntelVisionSpeeding</bcf:citekey>
+    <bcf:citekey order="25">ibmPlanningVirtCCchap4</bcf:citekey>
+    <bcf:citekey order="26">awsScaling</bcf:citekey>
+    <bcf:citekey order="27">awsScaling</bcf:citekey>
+    <bcf:citekey order="28">AbstractionCS</bcf:citekey>
+    <bcf:citekey order="29">IMBigData</bcf:citekey>
+    <bcf:citekey order="30">CloudComputingIntelVisionSpeeding</bcf:citekey>
+    <bcf:citekey order="31">cluster</bcf:citekey>
+    <bcf:citekey order="32">dataCenterDef</bcf:citekey>
+    <bcf:citekey order="33">NetworkFabricSearchSDN</bcf:citekey>
+    <bcf:citekey order="34">fabricExtending</bcf:citekey>
+    <bcf:citekey order="35">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
+    <bcf:citekey order="36">OpenDaylight</bcf:citekey>
+    <bcf:citekey order="37">OpenSource</bcf:citekey>
+    <bcf:citekey order="38">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="39">OpenFlowStanfordSwitch</bcf:citekey>
+    <bcf:citekey order="40">paradigmdef</bcf:citekey>
+    <bcf:citekey order="41">newparadigm</bcf:citekey>
+    <bcf:citekey order="42">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="43">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="44">scalability</bcf:citekey>
+    <bcf:citekey order="45">chevance2001serveurs</bcf:citekey>
+    <bcf:citekey order="46">CloudComputingIntelVisionSpeeding</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>
