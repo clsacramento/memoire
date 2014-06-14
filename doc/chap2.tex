@@ -35,9 +35,10 @@ Traditionnellement un plan et conception fonctionnelle solides suffisaient pour 
 
 \section{Éléments de base de l'architecture réseau}
 
-La majorité des data centres d'aujourd'hui ont une structure réseau hiérarchique à trois niveaux : couche d'accès, agrégation/distribution et cœur (figure \ref{legacy_archi}). Cette architecture a été conçu pour les applications client-serveurs dans des serveurs applicatifs dédiés. Dans cette conception le flux du trafic se fait essentiellement des serveurs au cœur et ensuite dehors vers internet ou autre. Les commutateurs composant le cœur du réseau contiennent la plus grande majorité de l'intelligence du réseau.
+La majorité des data centres d'aujourd'hui ont une structure réseau hiérarchique à trois niveaux : couche d'accès, agrégation/distribution et cœur (figure \ref{legacy_archi}). Cette architecture a été conçue pour les applications client-serveurs dans des serveurs applicatifs dédiés. Dans cette conception le flux du trafic se fait essentiellement des serveurs au cœur du réseau et ensuite dehors vers internet ou autre (flux Nord/Sud). Les commutateurs composant le cœur du réseau contiennent la plus grande majorité de l'intelligence du réseau. 
 
 %Most data centers today have a three- or four-tier hierarchical networking structure. It consists of access layer switches, aggregation switches, and core switches (Figure 1). Three-tier networking architectures were designed around client-server applications and single-purpose application servers. Client-server applications caused traffic to flow primarily in North/South (N/S) patterns: from a server up to the data center core, to the campus core where it moves out to the campus-wide network or internet. These large core switches usually contain the vast majority of the intelligence in the network.
+
 
 \begin{figure}[h]
 \begin{center}
@@ -46,11 +47,14 @@ La majorité des data centres d'aujourd'hui ont une structure réseau hiérarchi
 \end{center}
 \end{figure}
 
-This network architecture, however, is becoming problematic for the data center. Today’s application environments are more distributed, often with multiple tiers, and oriented toward service delivery. These application architecture changes have resulted in:
-• Greater traffic volume on the Ethernet network, including storage traffic such as FCoE and iSCSI
-• More storage traffic as applications use distributed file systems and increase the amount of
-synchronization and replication data across the network
-• Greater traffic flow between peer servers such as server-to-server or virtual machine-to-virtual machine—that is, East/West (E/W) rather than primarily N/S traffic flows.
+Ce modèle d'architecture a été la principale référence de topologie réseau pour les data centres. Cependant, elle commence à  devenir compliquée à maintenir dans le contexte du Cloud Computing  lors que les applications actuelles commencent à être plus distribués, avec plusieurs couches et orientées livraison de services. Ces changements des applications ont impacté les réseaux en ce qui concerne le volume et le flux du trafic. Le trafic dans le a augmenté avec le déploiement de plus en plus applications et services ; l'utilisation de systèmes de fichier distribués avec des données stockées séparément a contribué pour l'augmentation de la charge réseau à travers le data centre. De ces faits, on constate une tendance plus grande de communications inter-serveurs ou inter-VMs, impliquant un flux plutôt Est/Oust que Nord/Sud.
+
+
+%This network architecture, however, is becoming problematic for the data center. Today’s application environments are more distributed, often with multiple tiers, and oriented toward service delivery. These application architecture changes have resulted in:
+%• Greater traffic volume on the Ethernet network, including storage traffic such as FCoE and iSCSI
+%• More storage traffic as applications use distributed file systems and increase the amount of synchronization and replication data across the network
+%• Greater traffic flow between peer servers such as server-to-server or virtual machine-to-virtual machine—that is, East/West (E/W) rather than primarily N/S traffic flows.
+
 
 This paper won’t answer all your questions about the future of data center networks, but it will identify some industry trends and present some possible solutions. We suggest that you consider adopting technologies that
 • Reduce network hierarchy
