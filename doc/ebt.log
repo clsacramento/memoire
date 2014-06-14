@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  14 JUN 2014 16:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  14 JUN 2014 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,7 +1231,7 @@ LaTeX Info: Redefining \up on input line 256.
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
 
-<couverture-ebt.pdf, id=102, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=106, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1261,7 +1261,7 @@ Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 257.
 
  <./couverture-ebt.pdf{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updma
 p/pdftex.map}>]
-<couverture-ebt.pdf, id=128, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=132, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1311,16 +1311,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 11.
-)
-\tf@toc=\write9
-\openout9 = `ebt.toc'.
-
  [1
 
 
 
 
-] [2]
+])
+\tf@toc=\write9
+\openout9 = `ebt.toc'.
+
+ [2]
 (./ebt.lot)
 \tf@lot=\write10
 \openout10 = `ebt.lot'.
@@ -1364,18 +1364,15 @@ l.271 \include{intro}
 
  (./chap1.tex
 Chapitre 1.
-
-Underfull \vbox (badness 1983) has occurred while \output is active []
-
- [3
+[3
 
 
 
 
-]
-<images/racks.png, id=235, 913.4125pt x 446.66875pt>
+] <images/racks.png, id=240, 913.4125pt x 446.66875pt>
 File: images/racks.png Graphic file (type png)
- <use images/racks.png>
+
+<use images/racks.png>
 Package pdftex.def Info: images/racks.png used on input line 31.
 (pdftex.def)             Requested size: 313.69029pt x 153.39206pt.
 
@@ -1385,7 +1382,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./images/racks.png>] <images/shared_infa_virt.png, id=253, 927.465pt x 367
+ [5 <./images/racks.png>] <images/shared_infa_virt.png, id=258, 927.465pt x 367
 .3725pt>
 File: images/shared_infa_virt.png Graphic file (type png)
 
@@ -1397,7 +1394,7 @@ Package pdftex.def Info: images/shared_infa_virt.png used on input line 52.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7 <./images/shared_infa_virt.png>]
-<images/fixed_capacity_load_prediction.png, id=268, 914.41624pt x 189.70876pt>
+<images/fixed_capacity_load_prediction.png, id=273, 914.41624pt x 189.70876pt>
 File: images/fixed_capacity_load_prediction.png Graphic file (type png)
 
 <use images/fixed_capacity_load_prediction.png>
@@ -1408,7 +1405,7 @@ t line 82.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-<images/CloudRefArchi.png, id=284, 1398.22375pt x 832.10875pt>
+<images/CloudRefArchi.png, id=289, 1398.22375pt x 832.10875pt>
 File: images/CloudRefArchi.png Graphic file (type png)
 
 <use images/CloudRefArchi.png>
@@ -1433,7 +1430,7 @@ LaTeX Warning: Citation 'cloudAutomation' on page 12 undefined on input line 38
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<images/LegacyNetworkArchitecture.png, id=319, 1121.18875pt x 690.58pt>
+<images/LegacyNetworkArchitecture.png, id=324, 1121.18875pt x 690.58pt>
 File: images/LegacyNetworkArchitecture.png Graphic file (type png)
 
 <use images/LegacyNetworkArchitecture.png>
@@ -1527,7 +1524,7 @@ inition/network-
 [32] [33] [34
 
 
-] <couverture-ebt.pdf, id=518, page=3, 597.50829pt x 845.0471pt>
+] <couverture-ebt.pdf, id=522, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1552,7 +1549,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 302.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [35 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=524, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=528, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1575,15 +1572,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
 (./concl.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
+Package rerunfilecheck Info: File `ebt.out' has not changed.
+(rerunfilecheck)             Checksum: 3BED0614AD147EC084224EB028413DCD;1671.
 
-
-Package rerunfilecheck Warning: File `ebt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ebt.out':
-(rerunfilecheck)             Before: A0C793B181698D6046EB21DE3D61B57B;1585
-(rerunfilecheck)             After:  3BED0614AD147EC084224EB028413DCD;1671.
 
 LaTeX Warning: There were undefined references.
 
@@ -1597,10 +1588,10 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20624 strings out of 493315
- 324278 string characters out of 6137904
- 865103 words of memory out of 5000000
- 23504 multiletter control sequences out of 15000+600000
+ 20625 strings out of 493315
+ 324291 string characters out of 6137904
+ 865119 words of memory out of 5000000
+ 23505 multiletter control sequences out of 15000+600000
  43217 words of font info for 36 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,18n,51p,1438b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1616,10 +1607,10 @@ ype1/public/lm/lmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
 pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/
 local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (44 pages, 1042441 bytes).
+Output written on ebt.pdf (44 pages, 1042581 bytes).
 PDF statistics:
- 600 PDF objects out of 1000 (max. 8388607)
- 516 compressed objects within 6 object streams
+ 604 PDF objects out of 1000 (max. 8388607)
+ 520 compressed objects within 6 object streams
  152 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
