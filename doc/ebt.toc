@@ -24,11 +24,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}L'architecture r\IeC {\'e}seau d'un data centre typique}{13}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Diff\IeC {\'e}rents usages}{14}{section.2.3}
+\contentsline {section}{\numberline {2.3}Applications business en transformation}{14}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Agilit\IeC {\'e}}{14}{section.2.4}
+\contentsline {section}{\numberline {2.4}Diff\IeC {\'e}rents usages}{14}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}S\IeC {\'e}curit\IeC {\'e}}{15}{section.2.5}
+\contentsline {section}{\numberline {2.5}Agilit\IeC {\'e}}{14}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}S\IeC {\'e}curit\IeC {\'e}}{15}{section.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Applications SDN}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 
