@@ -197,6 +197,22 @@
       \field{title}{AWS Cost Saving Tip 5: How Amazon Auto Scaling can save costs}
       \field{year}{2013}
     \endentry
+    \entry{ciscoCCDCStrategyArchiSolutions}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=53afa217e525aa6d4824c8bcd6388710}{Bakshi}{B\bibinitperiod}{Kapil}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=53afa217e525aa6d4824c8bcd6388710}{Bakshi}{B\bibinitperiod}{Kapil}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{53afa217e525aa6d4824c8bcd6388710}
+      \strng{fullhash}{53afa217e525aa6d4824c8bcd6388710}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cisco Cloud Computing - Data Center Strategy, Architecture, and Solutions}
+      \field{howpublished}{White Paper}
+      \field{note}{Cisco Systems, Inc.}
+      \field{title}{Cisco Cloud Computing - Data Center Strategy, Architecture, and Solutions}
+      \field{year}{2009}
+    \endentry
     \entry{x86ServersVirtualization}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{Virtualization \& TCO: Linux vs. Microsoft}
@@ -243,6 +259,45 @@
       \field{note}{Juniper Networks, Inc}
       \field{title}{Cloud-Ready Data Center Reference Architecture, Section : Framework}
       \field{year}{2010}
+    \endentry
+    \entry{ibmPlanningVirtCCchap4}{book}{}
+      \name{labelname}{5}{}{%
+        {{hash=b63d2d83005b7aa2ae9d6055644873ba}{Girola}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=7a20867077ec43d8982aab33f8b0f2b0}{Friedman}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=72635145f38694e796c88e2ddcfd8ed1}{Lewis}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=16a33a2abd48e54bb057d93e9ffcf352}{Tarenzio}{T\bibinitperiod}{A.M.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7591f96936b56529d48a642f226d7850}{Redbooks}{R\bibinitperiod}{IBM}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=b63d2d83005b7aa2ae9d6055644873ba}{Girola}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=7a20867077ec43d8982aab33f8b0f2b0}{Friedman}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=72635145f38694e796c88e2ddcfd8ed1}{Lewis}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=16a33a2abd48e54bb057d93e9ffcf352}{Tarenzio}{T\bibinitperiod}{A.M.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7591f96936b56529d48a642f226d7850}{Redbooks}{R\bibinitperiod}{IBM}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IBM Redbooks}%
+      }
+      \strng{namehash}{760e8e875ec91bc08dcbbac5ddf0d309}
+      \strng{fullhash}{b04d700dfccea6e6a46d0c7fcf605387}
+      \field{sortinit}{0}
+      \field{labeltitle}{IBM Data Center Networking: Planning for Virtualization and Cloud Computing, chapitre 4 : The new data center design landscape}
+      \field{isbn}{9780738435398}
+      \field{series}{IBM redbooks}
+      \field{title}{IBM Data Center Networking: Planning for Virtualization and Cloud Computing, chapitre 4 : The new data center design landscape}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://books.google.fr/books?id=EKjEAgAAQBAJ
+      \endverb
+    \endentry
+    \entry{cloudReadyNetworkJuniper}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{The Cloud-Ready Data Center Network, applying the lessons of cloud computing to vastly improve economics of networking and the user experience}
+      \field{howpublished}{White Paper}
+      \field{month}{06}
+      \field{note}{Juniper Networks, Inc}
+      \field{title}{The Cloud-Ready Data Center Network, applying the lessons of cloud computing to vastly improve economics of networking and the user experience}
+      \field{year}{2012}
     \endentry
     \entry{AbstractionCS}{misc}{}
       \name{labelname}{1}{}{%

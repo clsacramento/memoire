@@ -35,16 +35,31 @@ Traditionnellement un plan et conception fonctionnelle solides suffisaient pour 
 
 \section{Éléments de base de l'architecture réseau}
 
+La majorité des data centres d'aujourd'hui ont une structure réseau hiérarchique à trois niveaux : couche d'accès, agrégation/distribution et cœur (figure \ref{legacy_archi}). Cette architecture a été conçu pour les applications client-serveurs dans des serveurs applicatifs dédiés. Dans cette conception le flux du trafic se fait essentiellement des serveurs au cœur et ensuite dehors vers internet ou autre. Les commutateurs composant le cœur du réseau contiennent la plus grande majorité de l'intelligence du réseau.
+
+%Most data centers today have a three- or four-tier hierarchical networking structure. It consists of access layer switches, aggregation switches, and core switches (Figure 1). Three-tier networking architectures were designed around client-server applications and single-purpose application servers. Client-server applications caused traffic to flow primarily in North/South (N/S) patterns: from a server up to the data center core, to the campus core where it moves out to the campus-wide network or internet. These large core switches usually contain the vast majority of the intelligence in the network.
+
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.98\textwidth]{images/LegacyNetworkArchitecture} 
-\caption{Architecture réseau typique à trois niveaux. \cite{cloudReadyNetworkJuniper}}
+\caption{Architecture réseau typique à trois niveaux. \cite{cloudReadyNetworkJuniper}} \label{legacy_archi}
 \end{center}
 \end{figure}
 
-\section{Challenges réseau}
+This network architecture, however, is becoming problematic for the data center. Today’s application environments are more distributed, often with multiple tiers, and oriented toward service delivery. These application architecture changes have resulted in:
+• Greater traffic volume on the Ethernet network, including storage traffic such as FCoE and iSCSI
+• More storage traffic as applications use distributed file systems and increase the amount of
+synchronization and replication data across the network
+• Greater traffic flow between peer servers such as server-to-server or virtual machine-to-virtual machine—that is, East/West (E/W) rather than primarily N/S traffic flows.
 
-Unified Fabric
+This paper won’t answer all your questions about the future of data center networks, but it will identify some industry trends and present some possible solutions. We suggest that you consider adopting technologies that
+• Reduce network hierarchy
+• Optimize E/W traffic flows
+• Simplify operations at the server-network edge with intelligent management capabilities that align with the needs of all operational groups in the data center
+
+%\section{Challenges réseau}
+
+%Unified Fabric
 
 If one studies a typical data center server infrastructure, it is easy to notice that servers have a series of network interfaces connected to multiple types of networks (LAN, SAN, IPC). This arrangement adds complexity in the form of cost, cabling, port count, scalability, power, and cooling. If we follow the same tradition in a cloud data center, this architecture will not scale to the density that is typically expected. Hence, to continue to reduce the total cost of ownership (TCO) and to deploy virtual machines, all servers must have a consistent and ubiquitous set of network and storage capabilities. One of the simplest and most efficient ways to deliver these capabilities is to deploy a unified fabric. The shift to a unified fabric gives all servers (physical and virtual) access to the LAN, SAN, and IPC networks, allowing more to be consolidated in the customer’s network for greater efficiency and costs savings.
 
@@ -60,11 +75,16 @@ The network also has a pivotal role to play in promoting resilience and reliabil
 
 \section{Différents usages}
 
+The growth of server virtualization (virtual machines or VMs), virtualized desktop infrastructures, cloud- computing models, federated or distributed applications, and mobile access devices are all causing shifts in networking traffic patterns toward more E/W traffic flow (Table 1). Industry sources attribute up to 80 percent of network traffic for these next generation applications coming from E/W traffic flows.
+We expect web applications to deliver integrated, context-specific information and services. And, we expect it right now—low-latency, high performance connections are critical. At the same time, cloud computing and service-oriented applications are introducing more stringent service-level and security demands.
+
 \section{Agilité}
+
+Moving workloads dynamically requires VMs to stay within a common VLAN in the same Layer 2 (L2) network. If you want to move a VM outside its L2 domain, you have to use manual processes such as assigning and updating the IP addresses for the failed-over services and updating DNS entries correctly. To provide maximum VM flexibility, many enterprises are evaluating ways to enlarge their L2 networks.
+New capabilities such as Virtual eXtensible LAN (VXLAN) and Network Virtualization using Generic Routing Encapsulation (NVGRE) logically extend an L2 network across L3 networks. However, even with this potential to move VMs across a L3 network, local traffic will still have higher performance and lower latency if it stays within a large L2 network.
 
 \section{Sécurité}
 
-introduction
 Some security risks unique to a virtualization infrastructure include communication blind spots, inter-VM attacks, and mixed trust level VMs. Instant-on gaps and resource contention are also important considerations. This section addresses each of these threats and issues.
 
 communication Blind Spots

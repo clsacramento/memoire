@@ -153,6 +153,8 @@ En termes très simples, le Cloud Computing peut être défini comme un nouveau 
 % • Location-independent resource pooling
 % • Rapid elasticity and provisioning
 % • Pay-per-use
+
+
 Les avancements importants dans la virtualisation, réseau, approvisionnement et architectures multi-tenantes ont permis de faire évoluer radicalement les infrastructures de data centres. Le plus grand impact du Cloud Computing vient de l'instauration de nouveaux modèles de consommation et de livraison de services qui supportent l'innovation du business.
 
 %Cloud has evolved from on demand and grid computing, while building on significant advances in virtualization, networking, provisioning, and multitenant architectures. As with any new technology, the exciting impact comes from enabling new service consumption and delivery models that support business model innovation.
@@ -169,71 +171,27 @@ Le Cloud Computing livre dynamiquement des services sur des réseaux à partir d
 Du point de vue de l'infrastructure, le Cloud Computing fait des fortes demandes aux ressources mutualisées dans une variété de technologies (de compute, de stockage, de réseau) pour leur allocation dynamique. Tout ceci dans un environnement automatisé, orchestré et logiquement diversifié, en conciliant une variété d'applications. L'orchestration permet de mutualiser les ressources à travers multiples data centres pour une réponse dynamique aux besoins clients. 
 
 
-La virtualisation de serveurs a représentée un premier et important pas à la viabilisation de l'approche Cloud Computing. Toutefois, les autres deux éléments de base de l'infrastructure data centre doivent accompagner ces changements pour qu'on puisse avoir un accès complet aux services offerts par le Cloud. Plus spécifiquement la couche d'abstraction assurée par les hyperviseurs qui ont permis la séparation des systèmes logiques des serveurs physiques dans le cas de la virtualisation de serveurs doit être également appliquée aux matériels réseaux et de stockage. Cela permettra la définition d'un data centre entièrement piloté par du logiciel qui gère les ressources physiques les activant selon la charge applicative spécifiée à assurer.
+La virtualisation de serveurs a représentée un premier et important pas à la viabilisation de l'approche Cloud Computing. Toutefois, les autres deux éléments de base de l'infrastructure data centre doivent accompagner ces changements pour qu'on puisse avoir un accès complet aux services offerts par le Cloud. Plus spécifiquement la couche d'abstraction assurée par les hyperviseurs qui ont permis la séparation des systèmes logiques des serveurs physiques dans le cas de la virtualisation de serveurs doit être également appliquée aux matériels réseaux et de stockage. Cela permettra la définition d'un data centre entièrement piloté par du logiciel qui gère les ressources physiques en les activant selon la charge applicative spécifiée à assurer.
+
+\pagebreak
+
+ L'image suivante illustre une vue conceptuelle d'un data centre basé sur ces trois éléments avec des coches d'abstraction permettant de sécuriser, orchestrer et livrer ses ressources aux consommateurs.
+
+\begin{figure}[h]
+\begin{center}
+
+%\begin{wrapfigure}{r}{0.6\textwidth}
+\includegraphics[width=0.6\textwidth]{images/CloudRefArchi} 
+\caption{Vue conceptuelle d'un data centre. \cite{ciscoCCDCStrategyArchiSolutions}} \label{cloud_conceptual_view}
+%\end{wrapfigure} 
+
+\end{center}
+\end{figure}
 
 L'abstraction de ces trois composants matériels est essentielle pour achever le mode de livraison cloud au sein des data centres. La virtualisation des serveurs a déjà atteint son adoption grand public, en 2009 un sondage avait trouvé que 77\% répondant déployait au moins un système virtualisé dans leur data centre \cite{x86ServersVirtualization}. Il se déroule actuellement beaucoup de travail en recherche et développement pour acquérir un niveau équivalent de maturité pour les dispositifs réseau et stockage. 
 
 L'abstraction du stockage signifie la capacité à mutualiser les dispositifs physiques de stockage pour pouvoir les utiliser en tant que volumes de stockage logiques. Cela caractérise la virtulisation du stockage ou le \gls{sds}. Pour l'aspect stockage, il est connu que des solutions \gls{sds} se trouvent disponibles dans le marché, tels que EMC ViPR, HP StoreVirtual, IBM SmartCloud Virtual Storage Center entre autres.
 
 De manière similaire, pour les réseaux il se développe une technologie fournissant une couche d'abstraction pour divers dispositifs réseau pour permettre l'isolation logique et indépendances du matériel. Il se trouve que \gls{sdn} est une des approches proposées pour traiter la problématique de l'abstraction réseau et fait donc l'objet de cette étude. Le chapitre suivant démontrera pour quoi les réseaux traditionnels ne sont pas adaptés aux exigences du Cloud Computing et analysera des exemples sur divers problèmes rencontrés. L'approche SDN et ses apports seront détaillés par la suite.
-\cite{ibmPlanningVirtCCchap1}  \cite{cloudReadyJuniperReferenceDef} \cite{journeySDDC}
+\cite{ibmPlanningVirtCCchap1}  \cite{cloudReadyJuniperReferenceDef} \cite{journeySDDC} \cite{ciscoCCDCStrategyArchiSolutions}
 
-%From the infrastructure perspective, cloud computing heavily leverages resource pools in a variety of technologies— compute, storage and network—for dynamic allocation in an automated, orchestrated and logically diversified environment, accommodating a variety of applications. Using orchestration, resources can be pooled within and across multiple data centers to provide an environment that responds dynamically to user needs.
-
-%\section{Besoins qui amènent au Cloud}
-
-%Information technology (IT) is at a breaking point, and there is a critical need to improve IT's impact on the business.9
-%Consider the following:
-% -As much as 85\% of computing capacity sits idle in distributed computing environments.
-% -Seventy percent of IT budgets is typically spent on maintaining current IT infrastructures, and only 30\% is typically spent on new capabilities.
-% -Over 30\% of consumers notified of a security breach will terminate their relationship with the company that contributed to the breach.
-%Clearly, infrastructures need to be more dynamic to free up budgets for new investments and accelerate deployment of superior capabilities being demanded by the business. Nearly all CEOs are adapting business models; cloud adoption can support these changing business dynamics.
-
-%Functional Areas in the Cloud-Ready Data Center
-%• Network Infrastructure—provides connectivity and transport for applications and services between users and the data center, within the data center and across multiple data centers. The Network infrastructure has three main sub components, namely the access network, the core network and the edge network.
-%• Compute and Storage—represents the compute and storage infrastructure appropriate for applications (rack-mount and chassis-based, cost-effective and multi-core, with unstructured content and highly structured transaction databases). The compute and storage functional area hosts all business applications such as Enterprise Resource Planning (ERP), SaaS, SOA and Web 2.0 applications (among others).
-%• Services—supports applications with security, user verification, and entitlement, and application support, including application acceleration, deep packet inspection (DPI), and load balancing
-%• Management and Orchestration—ties together all of the elements of the cloud-computing infrastructure, enabling efficient and responsive monitoring, management, and planning
-
-%\section{Nouveau business model}
-
-%Even within the cloud computing space there is a spectrum of offering types. There are five commonly used categories:
-%•  Storage as a Service - SaaS Provisioning of database-like services, billed on a utility computing basis, for example, per gigabyte per month.
-%•  Infrastructure as a Service - IaaS Provisioning of hardware or virtual computers where the client has control over the OS, therefore allowing the execution of arbitrary software.
-%•  Platform as a Service - PaaS Provisioning of hardware and OS, frameworks and databases, for which developers write custom applications. There will be restrictions on the type of software they can write, offset by built-in application scalability.
-%•  Software as a Service - SaaS Provisioning of hardware, OS, and special-purpose software made available through the Internet.
-%•  Desktop as a Service - DaaS Provisioning of the desktop environment, either within a browser or as a Terminal Server.
-
-%\section{Principaux avantages du Cloud Computing}
-%Key benefits of cloud computing:
-%• Flexibility – There is the ability to update hardware and software quickly to adhere to customer demands and updates in technology.
-%• Savings – There is a reduction of capital expenditures and IT personnel.
-%• Location \& Hardware Independence – Users can access application from a web browser connected anywhere on the internet.
-%• Multi-tenancy – Resources and cost are shared among many users, allowing overall cost reduction.
-%• Reliability – Many cloud providers replicate their server environments in multiply data centers around the globe, which accounts for business continuity and disaster recovery.
-%• Scalability – Multiply resources load balance peak load capacity and utilization across multiply hard- ware platforms in different locations
-%• Security – Centralization of sensitive data improves security by removing data from the users’ com- puters. Cloud providers also have the staff resources to maintain all the latest security features to help protect data.
-%• Maintenance – Centralized applications are much easier to maintain than their distributed counter parts. All updates and changes are made in one centralized server instead of on each user’s computer.
-
-
-%\section{Barrières au Cloud Computing}
-
-%IT organizations have identified four major barriers to large-scale adoption of cloud services:
-%•  Security, particularly data security
-%Interestingly, the security concerns in a cloud environment are no different from those in a traditional data center and network. However, since %most of the information exchange between the organization and the cloud service provider is done over the web or a shared network, and %because IT security is handled entirely by an external entity, the overall security risks are perceived as higher for cloud services.
-%Some additional factors cited as contributing to this perception:
-%– Limited knowledge of the physical location of stored data
-%– A belief that multitenant platforms are inherently less secure than single-tenant platforms
-%– Use of virtualization as the underlying technology, where virtualization is seen as a relatively new technology
-%– Limited capabilities for monitoring access to applications hosted in the cloud
-%•  Governance and regulatory compliance
-%Large enterprises are still trying to sort out the appropriate data governance model for cloud services, and ensuring data privacy. This is particularly significant when there is a regulatory compliance requirement such as SOX or the European Data Protection Laws.
-%•  Service level agreements and quality of service
-%Quality of service (availability, reliability, and performance) is still cited as amajor concern for large organizations:
-%– Not all cloud service providers have well-defined SLAs, or SLAs that meet stricter corporate standards. Recovery times may be stated as “as soon as possible” rather than a guaranteed number of hours. Corrective measures specified in the cloud provider's SLAs are often fairly minimal and do not cover the potential consequent losses to the client's business in the event of an outage.
-%– Inability to influence the SLA contracts. From the cloud service provider's point of view it is impractical to tailor individual SLAs for every client they support.
-%– The risk of poor performance is perceived higher for a complex cloud-delivered application than for a relatively simpler on-site service delivery model. Overall performance of a cloud service is dependent on the performance of components outside the direct control of both the client and the cloud service provider, such as the network connection.1. Integrationandinteroperability
-I%dentifying and migrating appropriate applications to the cloud is made complicated by the interdependencies typically associated with business applications. Integration and interoperability issues include:
-%– A lack of standard interfaces or APIs for integrating legacy applications with cloud services. This is worse if services from multiple vendors are involved.
-%– Software dependencies that must also reside in the cloud for performance reasons, but which may not be ready for licensing on the cloud.
-%– Interoperability issues between cloud providers. There are worries about how disparate applications on multiple platforms, deployed in geographically dispersed locations, can interact flawlessly and can provide the expected levels of service.

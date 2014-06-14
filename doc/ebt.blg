@@ -1,20 +1,20 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
-[0] Config.pm:390> INFO - Logfile is 'ebt.blg'
-[54] biber-darwin:218> INFO - === Tue Jun 10, 2014, 00:15:31
-[54] Biber.pm:325> INFO - Reading 'ebt.bcf'
-[107] Biber.pm:623> INFO - Found 29 citekeys in bib section 0
-[116] Biber.pm:2995> INFO - Processing section 0
-[128] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[139] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
-[152] bibtex.pm:775> INFO - Found BibTeX data source 'biblio.bib'
-[189] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/ICOSucT3qo/biblio.bib_7177.utf8, line 310, warning: undefined macro "August"
-[189] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/ICOSucT3qo/biblio.bib_7177.utf8, line 319, warning: undefined macro "August"
-[189] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[189] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[216] Utils.pm:169> WARN - The field 'month' in entry 'CloudComputingIntelVisionSpeeding' cannot be null, deleting it
-[302] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[302] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
-[302] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[454] bbl.pm:472> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
-[457] bbl.pm:545> INFO - Output to ebt.bbl
-[465] Biber.pm:105> INFO - WARNINGS: 5
+[1] Config.pm:390> INFO - Logfile is 'ebt.blg'
+[63] biber-darwin:218> INFO - === Sat Jun 14, 2014, 13:12:44
+[63] Biber.pm:325> INFO - Reading 'ebt.bcf'
+[117] Biber.pm:623> INFO - Found 32 citekeys in bib section 0
+[127] Biber.pm:2995> INFO - Processing section 0
+[139] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[151] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[164] bibtex.pm:775> INFO - Found BibTeX data source 'biblio.bib'
+[206] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/0hHvD_zNuc/biblio.bib_3270.utf8, line 346, warning: undefined macro "August"
+[206] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/0hHvD_zNuc/biblio.bib_3270.utf8, line 355, warning: undefined macro "August"
+[206] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[206] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[230] Utils.pm:169> WARN - The field 'month' in entry 'CloudComputingIntelVisionSpeeding' cannot be null, deleting it
+[340] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[340] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
+[340] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[526] bbl.pm:472> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
+[531] bbl.pm:545> INFO - Output to ebt.bbl
+[531] Biber.pm:105> INFO - WARNINGS: 5
