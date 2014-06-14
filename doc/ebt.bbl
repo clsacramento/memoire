@@ -290,6 +290,29 @@
       \verb http://books.google.fr/books?id=EKjEAgAAQBAJ
       \endverb
     \endentry
+    \entry{cloudAutomation}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=123da4796b9618d5320e5dcaf8dc1a5a}{Josyula}{J\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=5738c9a100a0e3af18a3a27c56a17378}{Orr}{O\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a26c3cdbf0747ea501e6007f0593c0b6}{Page}{P\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=123da4796b9618d5320e5dcaf8dc1a5a}{Josyula}{J\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=5738c9a100a0e3af18a3a27c56a17378}{Orr}{O\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a26c3cdbf0747ea501e6007f0593c0b6}{Page}{P\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{c03d4bff3631b2c5d867b98ef1adffde}
+      \strng{fullhash}{c03d4bff3631b2c5d867b98ef1adffde}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cloud Computing: Automating the Virtualized Data Center, chpaitre 3 : Data Center Architecture and Technologies}
+      \field{isbn}{9780132604048}
+      \field{series}{Networking Technology}
+      \field{title}{Cloud Computing: Automating the Virtualized Data Center, chpaitre 3 : Data Center Architecture and Technologies}
+      \field{year}{2011}
+    \endentry
     \entry{cloudReadyNetworkJuniper}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{The Cloud-Ready Data Center Network, applying the lessons of cloud computing to vastly improve economics of networking and the user experience}
