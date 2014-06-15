@@ -313,6 +313,15 @@
       \field{title}{Cloud Computing: Automating the Virtualized Data Center, chpaitre 3 : Data Center Architecture and Technologies}
       \field{year}{2011}
     \endentry
+    \entry{hpCloudEffectsOnNetworkIntro}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Effects of virtualization and cloud computing on data center networks, Section : Introduction}
+      \field{howpublished}{Technology Brief}
+      \field{month}{10}
+      \field{note}{Hewlett-Packard Development Company, L.P.}
+      \field{title}{Effects of virtualization and cloud computing on data center networks, Section : Introduction}
+      \field{year}{2011}
+    \endentry
     \entry{cloudReadyNetworkJuniper}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{The Cloud-Ready Data Center Network, applying the lessons of cloud computing to vastly improve economics of networking and the user experience}
@@ -321,6 +330,48 @@
       \field{note}{Juniper Networks, Inc}
       \field{title}{The Cloud-Ready Data Center Network, applying the lessons of cloud computing to vastly improve economics of networking and the user experience}
       \field{year}{2012}
+    \endentry
+    \entry{cloudReadyJuniperReferenceNetworkInfra}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cloud-Ready Data Center Reference Architecture, Section : Network Infrastructure}
+      \field{howpublished}{White Paper}
+      \field{month}{05}
+      \field{note}{Juniper Networks, Inc}
+      \field{title}{Cloud-Ready Data Center Reference Architecture, Section : Network Infrastructure}
+      \field{year}{2010}
+    \endentry
+    \entry{hpCloudEffectsOnNetworkChanging}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Effects of virtualization and cloud computing on data center networks, Section : Changing business applications}
+      \field{howpublished}{Technology Brief}
+      \field{month}{10}
+      \field{note}{Hewlett-Packard Development Company, L.P.}
+      \field{title}{Effects of virtualization and cloud computing on data center networks, Section : Changing business applications}
+      \field{year}{2011}
+    \endentry
+    \entry{bigDataBookChap4}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=3a29267cb62965ddea9b76c73f6c5b57}{Raj}{R\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=8bdc8954550aca8ed400c0de822a42ba}{Deka}{D\bibinitperiod}{G.C.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=3a29267cb62965ddea9b76c73f6c5b57}{Raj}{R\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=8bdc8954550aca8ed400c0de822a42ba}{Deka}{D\bibinitperiod}{G.C.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IGI Global}%
+      }
+      \strng{namehash}{08b1ff810338dc6a82c9b5fa70a49e2e}
+      \strng{fullhash}{08b1ff810338dc6a82c9b5fa70a49e2e}
+      \field{sortinit}{0}
+      \field{labeltitle}{Handbook of Research on Cloud Infrastructures for Big Data Analytics, chapitre : The Network Infrastructures for Big Data Analytics}
+      \field{isbn}{9781466658653}
+      \field{series}{Advances in data mining and database management (ADMDM) book series}
+      \field{title}{Handbook of Research on Cloud Infrastructures for Big Data Analytics, chapitre : The Network Infrastructures for Big Data Analytics}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://books.google.fr/books?id=m95GAwAAQBAJ
+      \endverb
     \endentry
     \entry{AbstractionCS}{misc}{}
       \name{labelname}{1}{}{%

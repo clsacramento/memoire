@@ -7,6 +7,9 @@
 \glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{10}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{VXLAN?\glossaryentryfield{vxlan}{\glsnamefont{VXLAN}}{Virtual eXtensible LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
+\glossaryentry{NVGRE?\glossaryentryfield{nvgre}{\glsnamefont{NVGRE}}{Network Virtualization using Generic Routing Encapsulation}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
+\glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{15}
 \glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
@@ -16,6 +19,9 @@
 \glossaryentry{VM?\glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{IP?\glossaryentryfield{ip}{\glsnamefont{IP}}{Internet Protocol, Protocole d'Internet}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{VXLAN?\glossaryentryfield{vxlan}{\glsnamefont{VXLAN}}{Virtual eXtensible LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{GRE?\glossaryentryfield{gre}{\glsnamefont{GRE}}{Generic Routing Encapsulation}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{NVGRE?\glossaryentryfield{nvgre}{\glsnamefont{NVGRE}}{Network Virtualization using Generic Routing Encapsulation}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{LAN?\glossaryentryfield{lan}{\glsnamefont{LAN}}{Local Area Network, Réseau local}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{WAN?\glossaryentryfield{wan}{\glsnamefont{WAN}}{Wide Area Network, Réseau étendu}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{NAT?\glossaryentryfield{nat}{\glsnamefont{NAT}}{Network Address Translation, Traduction d'adresse réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
