@@ -1,43 +1,45 @@
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter{page}\glsnumberformat}{1}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter{page}\glsnumberformat}{1}
-\glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter{page}\glsnumberformat}{1}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter{page}\glsnumberformat}{8}
-\glossaryentry{SDS?\glossaryentryfield{sds}{\glsnamefont{SDS}}{Software Defined-Storage, Stockage Défini par Logiciel}{\relax }|setentrycounter{page}\glsnumberformat}{10}
-\glossaryentry{SDS?\glossaryentryfield{sds}{\glsnamefont{SDS}}{Software Defined-Storage, Stockage Défini par Logiciel}{\relax }|setentrycounter{page}\glsnumberformat}{10}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter{page}\glsnumberformat}{10}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter{page}\glsnumberformat}{11}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter{page}\glsnumberformat}{12}
-\glossaryentry{VXLAN?\glossaryentryfield{vxlan}{\glsnamefont{VXLAN}}{Virtual eXtensible LAN}{\relax }|setentrycounter{page}\glsnumberformat}{15}
-\glossaryentry{NVGRE?\glossaryentryfield{nvgre}{\glsnamefont{NVGRE}}{Network Virtualization using Generic Routing Encapsulation}{\relax }|setentrycounter{page}\glsnumberformat}{15}
-\glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter{page}\glsnumberformat}{15}
-\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{NFV?\glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisation des fonctions réseau}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{NOS?\glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System, Système d'exploitation réseau}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{VM?\glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{IP?\glossaryentryfield{ip}{\glsnamefont{IP}}{Internet Protocol, Protocole d'Internet}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{VXLAN?\glossaryentryfield{vxlan}{\glsnamefont{VXLAN}}{Virtual eXtensible LAN}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{GRE?\glossaryentryfield{gre}{\glsnamefont{GRE}}{Generic Routing Encapsulation}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{NVGRE?\glossaryentryfield{nvgre}{\glsnamefont{NVGRE}}{Network Virtualization using Generic Routing Encapsulation}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{LAN?\glossaryentryfield{lan}{\glsnamefont{LAN}}{Local Area Network, Réseau local}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{WAN?\glossaryentryfield{wan}{\glsnamefont{WAN}}{Wide Area Network, Réseau étendu}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{NAT?\glossaryentryfield{nat}{\glsnamefont{NAT}}{Network Address Translation, Traduction d'adresse réseau}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{DHCP?\glossaryentryfield{dhcp}{\glsnamefont{DHCP}}{Dynamic Host Control Protocol, Protocole pour la configuration automatique d'hôte}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{DNS?\glossaryentryfield{dns}{\glsnamefont{DNS}}{Domain Name System, Système de noms de domaine}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{MPLS?\glossaryentryfield{mpls}{\glsnamefont{MPLS}}{MultiProtocol Label Switching, Commutation multi-protocoles par étiquettes}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System, Système de Détection d'Intrusion}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System, Système de Prévention d'Intrusion}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{ONE?\glossaryentryfield{one}{\glsnamefont{ONE}}{Open Network Environment, Environnement Réseau Ouvert}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface, Interface de Programmation}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{ASIC?\glossaryentryfield{asic}{\glsnamefont{ASIC}}{Application Specific Integrated Circuit, Circuit intégré pour application spécifique}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{IaaS?\glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protcol, Protocole de transfert de hypertexte}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{QoS?\glossaryentryfield{qos}{\glsnamefont{QoS}}{Quality of Service, Qualité de service}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{IETF?\glossaryentryfield{ietf}{\glsnamefont{IETF}}{Internet Engineering Task Force, Détachement d'ingénierie d'internet}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{IRTF?\glossaryentryfield{irtf}{\glsnamefont{IRTF}}{Internet Research Task Force, Détachement de recherche d'internet}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{ACI?\glossaryentryfield{aci}{\glsnamefont{ACI}}{Application Centric Infrastructure, Infrastructure centrée sur les applications}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{SDS?\glossaryentryfield{sds}{\glsnamefont{SDS}}{Software Defined-Storage, Stockage Défini par Logiciel}{\relax }|setentrycounter{page}\glsnumberformat}{27}
-\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter{page}\glsnumberformat}{29}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{IaaS?\glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
+\glossaryentry{SDS?\glossaryentryfield{sds}{\glsnamefont{SDS}}{Software Defined-Storage, Stockage Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{SDS?\glossaryentryfield{sds}{\glsnamefont{SDS}}{Software Defined-Storage, Stockage Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{14}
+\glossaryentry{VXLAN?\glossaryentryfield{vxlan}{\glsnamefont{VXLAN}}{Virtual eXtensible LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{NVGRE?\glossaryentryfield{nvgre}{\glsnamefont{NVGRE}}{Network Virtualization using Generic Routing Encapsulation}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{17}
+\glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{SI?\glossaryentryfield{si}{\glsnamefont{SI}}{Système d'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{NFV?\glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisation des fonctions réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{ONF?\glossaryentryfield{onf}{\glsnamefont{ONF}}{Open Networking Foundation}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{NOS?\glossaryentryfield{nos}{\glsnamefont{NOS}}{Network Operating System, Système d'exploitation réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{VM?\glossaryentryfield{vm}{\glsnamefont{VM}}{Virtual Machine, Machine Virtuelle}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{IP?\glossaryentryfield{ip}{\glsnamefont{IP}}{Internet Protocol, Protocole d'Internet}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{VLAN?\glossaryentryfield{vlan}{\glsnamefont{VLAN}}{Virtual Local Area Network, Virtual LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{VXLAN?\glossaryentryfield{vxlan}{\glsnamefont{VXLAN}}{Virtual eXtensible LAN}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{GRE?\glossaryentryfield{gre}{\glsnamefont{GRE}}{Generic Routing Encapsulation}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{NVGRE?\glossaryentryfield{nvgre}{\glsnamefont{NVGRE}}{Network Virtualization using Generic Routing Encapsulation}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{LAN?\glossaryentryfield{lan}{\glsnamefont{LAN}}{Local Area Network, Réseau local}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{WAN?\glossaryentryfield{wan}{\glsnamefont{WAN}}{Wide Area Network, Réseau étendu}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{NAT?\glossaryentryfield{nat}{\glsnamefont{NAT}}{Network Address Translation, Traduction d'adresse réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{DHCP?\glossaryentryfield{dhcp}{\glsnamefont{DHCP}}{Dynamic Host Control Protocol, Protocole pour la configuration automatique d'hôte}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{DNS?\glossaryentryfield{dns}{\glsnamefont{DNS}}{Domain Name System, Système de noms de domaine}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{MPLS?\glossaryentryfield{mpls}{\glsnamefont{MPLS}}{MultiProtocol Label Switching, Commutation multi-protocoles par étiquettes}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{IDS?\glossaryentryfield{ids}{\glsnamefont{IDS}}{Intrusion Detection System, Système de Détection d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{IPS?\glossaryentryfield{ips}{\glsnamefont{IPS}}{Intrusion Prevention System, Système de Prévention d'Intrusion}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{ONE?\glossaryentryfield{one}{\glsnamefont{ONE}}{Open Network Environment, Environnement Réseau Ouvert}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface, Interface de Programmation}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{ASIC?\glossaryentryfield{asic}{\glsnamefont{ASIC}}{Application Specific Integrated Circuit, Circuit intégré pour application spécifique}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{IaaS?\glossaryentryfield{iaas}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que service}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{HTTP?\glossaryentryfield{http}{\glsnamefont{HTTP}}{HyperText Transfer Protcol, Protocole de transfert de hypertexte}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{QoS?\glossaryentryfield{qos}{\glsnamefont{QoS}}{Quality of Service, Qualité de service}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{IETF?\glossaryentryfield{ietf}{\glsnamefont{IETF}}{Internet Engineering Task Force, Détachement d'ingénierie d'internet}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{IRTF?\glossaryentryfield{irtf}{\glsnamefont{IRTF}}{Internet Research Task Force, Détachement de recherche d'internet}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{ACI?\glossaryentryfield{aci}{\glsnamefont{ACI}}{Application Centric Infrastructure, Infrastructure centrée sur les applications}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{SDS?\glossaryentryfield{sds}{\glsnamefont{SDS}}{Software Defined-Storage, Stockage Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{IaaS?\glossaryentryfield{iass}{\glsnamefont{IaaS}}{Infrastructure as a Service, Infrastructure en tant que Service}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}

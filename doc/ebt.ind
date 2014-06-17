@@ -1,0 +1,91 @@
+\begin{theindex}
+
+  \item \IeC {\'E}nergie
+    \subitem \IeC {\'e}nerg\IeC {\'e}tique, \hyperpage{6}
+
+  \indexspace
+
+  \item Abstraction, \hyperpage{11}
+  \item Application, \hyperpage{4}
+
+  \indexspace
+
+  \item Business, \hyperpage{9}
+
+  \indexspace
+
+  \item Charge, \hyperpage{7}, \hyperpage{10}
+  \item Cloud Computing, \hyperpage{3}, \hyperpage{8, 9}
+  \item Cluster, \hyperpage{8}
+  \item Co\IeC {\^u}ts, \hyperpage{6, 7}
+  \item Commutateur
+    \subitem switch, \hyperpage{5}
+  \item Compute, \hyperpage{7}
+    \subitem processeurs, \hyperpage{8}
+    \subitem Virtualisation des serveurs, \hyperpage{9}
+
+  \indexspace
+
+  \item Data Centre, \hyperpage{3}, \hyperpage{7}
+    \subitem Centre de traitement de donn\IeC {\'e}es, \hyperpage{1}
+  \item Delivery Model, \hyperpage{8}
+    \subitem Mode de livraison, \hyperpage{8}
+  \item Dimensionnement, \hyperpage{7}
+
+  \indexspace
+
+  \item Efficacit\IeC {\'e}, \hyperpage{6}
+  \item Extensible, \hyperpage{5}
+    \subitem \IeC {\'e}tendues, \hyperpage{8}
+
+  \indexspace
+
+  \item Gestion, \hyperpage{9}
+
+  \indexspace
+
+  \item HP, \hyperpage{11}
+  \item Hyperviseur, \hyperpage{6}, \hyperpage{9}
+
+  \indexspace
+
+  \item IaaS, \hyperpage{8}
+  \item Infrastructure, \hyperpage{4}
+  \item Innovation, \hyperpage{9}
+
+  \indexspace
+
+  \item Multi-Tenant, \hyperpage{9}
+
+  \indexspace
+
+  \item Orchestration, \hyperpage{9}
+
+  \indexspace
+
+  \item R\IeC {\'e}seau, \hyperpage{9}
+  \item Rack, \hyperpage{4}
+  \item Ressources, \hyperpage{6}, \hyperpage{8, 9}
+  \item Routeur, \hyperpage{5}
+
+  \indexspace
+
+  \item SDN, \hyperpage{11}
+  \item Software-Defined Data Center
+    \subitem Data centre pilot\IeC {\'e} par logiciel, \hyperpage{9}
+  \item Stockage, \hyperpage{3}
+
+  \indexspace
+
+  \item Trafic, \hyperpage{5}
+
+  \indexspace
+
+  \item Virtualisation, \hyperpage{6}, \hyperpage{9}
+  \item Virtualisation du R\IeC {\'e}seau, \hyperpage{9}
+  \item Virtualisation du Stockage, \hyperpage{9}
+  \item VM
+    \subitem machines virtuelles, \hyperpage{6}
+  \item VMware, \hyperpage{6}
+
+\end{theindex}
