@@ -33,7 +33,7 @@ Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans 
 \end{center}
 \end{figure}
 
-La figure \ref{racks} montre l'organisation des racks dans un data centre. Un serveur occupe 1 U du rack est montré à gauche. Au milieu on voit un rack et à droite un cluster de racks avec un swtich/routeur\index{Routeur} de niveau cluster. En général un ensemble de serveurs 1U sont montés dans un rack et inter-connectés avec commutateur Ethernet local. Ces switches\index{Commutateur!switch} au niveau des racks, qui peuvent utiliser des liens de 1 à 10 Gbps, ont un nombre de connexions montantes vers un ou plus switches de niveau cluster (data centre).
+La figure \ref{racks} montre l'organisation des racks dans un data centre. Un serveur occupant 1 U du rack est montré à gauche. Au milieu on voit un rack et à droite un cluster de racks avec un swtich/routeur\index{Routeur} de niveau cluster. En général un ensemble de serveurs 1U sont montés dans un rack et inter-connectés à un commutateur Ethernet local. Ces switches\index{Commutateur!switch} au niveau des racks, qui peuvent utiliser des liens de 1 à 10 Gbps, ont un nombre de connexions montantes vers un ou plus switches de niveau cluster (data centre).
 
 Le stockage dans les data centres peut être proposé de diverses manières. Souvent le stockage de haute performance est logé dans des \og  tours de stockage \fg{} qui permettent un accès distant transparent au stockage, indépendamment du nombre et des types des dispositifs de stockage physiques installés. Le stockage peut également être fourni dans une \og  brique de stockage \fg{} plus petite, localisée dans le rack ou slot de châssis ainsi que directement intégrée aux serveurs. Dans tous les cas, un accès réseau efficace au stockage est crucial.
 
@@ -54,13 +54,13 @@ La virtualisation de serveurs est une méthode pour abstraire le système d'expl
 \end{center}
 \end{figure}
 
-Un hyperviseur\index{Hyperviseur} ou moniteur de machines virtuelles\index{VM!machines virtuelles} est inséré entre le système d'exploitation et le matériel pour réaliser la séparation entre le logique et le physique. Les instances de systèmes d'exploitation lancées sont appelées invités, ou systèmes d'exploitation invités. L'hyperviseur fournit l'émulation matérielle aux systèmes invités et gèrent l'allocation de ressources matérielles.  Les principaux hyperviseurs disponible sur marché aujourd'hui sont : VMware\index{VMware} ESXi, KVM basé sur Linux et supporté par Red Hat, Citrix XEN et Microsoft Hyper-V. 
+Un hyperviseur\index{Hyperviseur} ou moniteur de machines virtuelles\index{VM!machines virtuelles} est inséré entre le système d'exploitation et le matériel pour réaliser la séparation entre le logique et le physique. Les instances de systèmes d'exploitation lancées sont appelées invités, ou systèmes d'exploitation invités. L'hyperviseur fournit l'émulation matérielle aux systèmes invités et gèrent l'allocation de ressources matérielles.  Les principaux hyperviseurs disponibles sur marché aujourd'hui sont : VMware\index{VMware} ESXi, KVM basé sur Linux et supporté par Red Hat, Citrix XEN et Microsoft Hyper-V. 
 
 %Ce modèle apporte des avantages en termes de comment les ressources sont efficacement utilisées avec des charges applicatives idéales.
 Ce modèle apporte des avantages pour l'efficacité\index{Efficacité} dans l'utilisation de ressources avec des charges applicatives idéales.
  Cependant, quand une application commence à consommer plus de ressources que l'estimé, il peut arriver des scénarios où les systèmes d'exploitation invités n'ont pas assez de ressources, impactant ainsi la qualité du service business offert. 
 
-Cette approche a apporté une maitrise globale de management, monitoring et outillage. Elle a aussi mis en évidence que le composant \og compute\index{Compute} \fg{} de l'infrastructure améliore clairement l'utilisation et automatisation des ressources serveurs. Cette amélioration a été possible grâce à la programmation du contrôle de ressources fournies aux instances invitées. Toutefois, le développement de nouvelles solutions pour gérer la charge dynamique de certaines application faisait toujours défaut. \cite{ibmPlanningVirtCCchap2}\cite{journeySDDC}
+Cette approche a apporté une maitrise globale de management, monitoring et outillage. Elle a aussi mis en évidence que le composant \og compute\index{Compute} \fg{} de l'infrastructure améliore clairement l'utilisation et automatisation des ressources serveurs. Cette amélioration a été possible grâce à la programmation du contrôle de ressources fournies aux instances invitées. Toutefois, le développement de nouvelles solutions pour gérer la charge dynamique de certaines application faisait toujours défaut. \cite{journeySDDC} \cite{ibmPlanningVirtCCchap2}
 
 %This model has its advantages in terms of how resources are efficiently utilized in ideal applica- tion workloads. However, when one or more appli- cation workloads begin to consume more resourc- es than expected, scenarios could arise where several guest operating systems are short of compute resources, thereby impacting business application service level agreements.
 %While this approach brought holistic capacity management, monitoring and tools capabilities, it also provided evidence that infrastructure compute and server resources were truly ben- efiting from improved resource utilization and automation. This was brought about, to a certain extent, by programmatically controlling the resources provided to guest instances. However, new thinking about solutions was still needed to meet the challenges of dynamic workloads of run- the-business applications and compute-intensive enterprise applications.
@@ -87,7 +87,7 @@ Dans tous les cas, un plan détaillé de capacité est fait pour spécifier une 
 Face à cette problématique, un nouveau mode de livraison\index{Delivery Model!Mode de livraison} a été proposé pour aborder les défis du traitement des demandes pour la variation dynamique des charges applicatives. Avec la nouvelle tendance du Cloud Computing et l'\gls{iaas}\index{IaaS}, la conception de \glspl{cluster}\index{Cluster} hautement disponibles et des solutions extensibles peut être architecturée avec des requis non-fonctionnels comme base. 
 %With the emergence of the cloud, the new age “mantra” and infrastructure as a service (IaaS) as a delivery model (as illustrated in Figure 3), the challenges of processing demands from dynamic workloads is being addressed. Designing high- availability clusters and scalable solutions can be architected based on nonfunctional requirements.
 
-Avec sa nature extensible, le modèle de livraison cloud permet aux ressources\index{Ressources} d'être étendues\index{Extensible!étendues} et réduites  dynamiquement en fonction de la consommation. Une couche logicielle d'abstraction, implémentée par les hyperviseurs, virtualise le traitement des ressources physiques,  permettant ainsi au processeur\index{Compute!processeurs}, à la mémoire et aux disques durs de s'accommoder aux variations des demandes. \cite{awsScaling} \cite{journeySDDC}
+Avec sa nature extensible, le modèle de livraison cloud permet aux ressources\index{Ressources} d'être étendues\index{Extensible!étendues} et réduites  dynamiquement en fonction de la consommation. Une couche logicielle d'abstraction, implémentée par les hyperviseurs, virtualise le traitement des ressources physiques,  permettant ainsi au processeur\index{Compute!processeurs}, à la mémoire et aux disques durs de s'accommoder aux variations des demandes. \cite{journeySDDC} \cite{awsScaling}
 
 %One of the biggest technical challenges of running an online business is how well they are able to handle the scalability requirements.  The Load traffic pattern keeps varying for online businesses and accordingly they will have to scale and maintain the acceptable performance levels.  Since the Traffic patterns are fluctuating in online business, they either tend to under provision and loose customers (or) over provision and waste hardware + costs. This problem is well illustrated in the below diagrams.
 %Business usually makes detailed capacity planning and large upfront investment in their hardware and software. This HW/SW’s are usually provisioned with fixed capacity.
@@ -154,7 +154,7 @@ En termes très simples, le Cloud Computing\index{Cloud Computing} peut être d�
 % • Rapid elasticity and provisioning
 % • Pay-per-use
 
-
+\par
 Les avancements importants dans la virtualisation\index{Virtualisation}, réseau\index{Réseau}, approvisionnement et architectures multi-tenantes\index{Multi-Tenant} ont permis de faire évoluer radicalement les infrastructures de data centres. Le plus grand impact du Cloud Computing\index{Cloud Computing} vient de l'instauration de nouveaux modèles de consommation et de livraison de services qui supportent l'innovation\index{Innovation} du business\index{Business}.
 
 %Cloud has evolved from on demand and grid computing, while building on significant advances in virtualization, networking, provisioning, and multitenant architectures. As with any new technology, the exciting impact comes from enabling new service consumption and delivery models that support business model innovation.
@@ -173,7 +173,7 @@ Du point de vue de l'infrastructure, le Cloud Computing fait des fortes demandes
 
 La virtualisation de serveurs a représenté un premier et important pas pour la viabilité de l'approche Cloud Computing. Toutefois, les autres deux éléments de base de l'infrastructure data centre doivent accompagner ces changements pour autoriser un accès complet aux services offerts par le Cloud. Plus spécifiquement la couche d'abstraction, assurée par les hyperviseurs\index{Hyperviseur} qui ont permis la séparation des systèmes logiques des serveurs physiques dans le cas de la virtualisation de serveurs\index{Compute!Virtualisation des serveurs}, doit être également appliquée aux matériels réseaux\index{Virtualisation du Réseau} et de stockage\index{Virtualisation du Stockage}. Cela permettra la définition d'un data centre entièrement piloté par du logiciel\index{Software-Defined Data Center!Data centre piloté par logiciel} qui gère\index{Gestion} les ressources physiques, en les activant selon la charge applicative\index{Charge} spécifiée à assurer.
 
-\pagebreak
+%\pagebreak
 
  L'image suivante illustre une vue conceptuelle d'un data centre basé sur ces trois éléments avec des coches d'abstraction permettant de sécuriser, orchestrer et livrer ses ressources aux consommateurs.
 
@@ -181,7 +181,7 @@ La virtualisation de serveurs a représenté un premier et important pas pour la
 \begin{center}
 
 %\begin{wrapfigure}{r}{0.6\textwidth}
-\includegraphics[width=0.6\textwidth]{images/CloudRefArchi} 
+\includegraphics[width=0.85\textwidth]{images/CloudRefArchi} 
 \caption{Vue conceptuelle d'un data centre. \cite{ciscoCCDCStrategyArchiSolutions}} \label{cloud_conceptual_view}
 %\end{wrapfigure} 
 
