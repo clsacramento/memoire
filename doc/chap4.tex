@@ -6,10 +6,29 @@ Le chapitre démontrera également les apports de SDN au sein des data centres p
 
 \section{Redéfinition de SDN}
 
-The definition of network services must be application-centric and simple. The networking requirements of applications should be articulated in an IT-friendly language and used to request desired network behaviors. Today there is limited programmability, resulting in an unfortunate tradeoff. Engineering of cloud applications is either encumbered by detailed network-specific parameters and information, or ignores them and treats the network as a “black box”. Neither is optimal. The first option leads to custom applications for each network type while with the second, applications lack the visibility and control needed to leverage the true capabilities of the network.
-The proper abstraction of network capabilities, consistent with Software Defined Networking (SDN) principles, drives programmability of network services and increases the consumability of network resources.
-The instantiation of network services must be instantaneous, aligned with the needs of applications. The network should act reflexively to establish the required connectivity within and across datacenters, and do so in a manner that is consistent with the defined policies of CSPs and their tenants. Today that process is slow, manual and error-prone, relying on work orders to establish a multitude of vendor- dependent configurations.
+Les requis réseaux des applications devraient être articulés dans un langage simple, utilisé pour demander les comportements réseau souhaités. La  programmation des réseaux est aujourd'hui très limitée, résultant sur un malheureux compromis : le développement d'applications contraint par un paramétrage réseau excessivement détaillé, ou l'ignorance de ces détails par le traitement du réseau comme une boîte noire. Aucune des solutions est convenable ; la première implique des applications spécifiques à chaque type de réseau alors que la deuxième fait défaut du contrôle nécessaire à l'extraction de fonctionnalités réseau. 
+%The definition of network services must be application-centric and simple. The networking requirements of applications should be articulated in an IT-friendly language and used to request desired network behaviors. Today there is limited programmability, resulting in an unfortunate tradeoff. Engineering of cloud applications is either encumbered by detailed network-specific parameters and information, or ignores them and treats the network as a “black box”. Neither is optimal. The first option leads to custom applications for each network type while with the second, applications lack the visibility and control needed to leverage the true capabilities of the network.
 
+Un niveau approprié  d'abstraction des capacités réseaux est nécessaire pour les rendre programmables et améliorer la l'utilisation des ressources. L’instanciation de services réseau doit pouvoir se faire instantanément, de manière alignée aux besoins des applications. Le réseau doit permettre l'établissement de connectivité interne et entre data centres, tout en gardant la cohérence avec les politiques définies par le prestataire cloud et ses tenants. Aujourd'hui, tout cela ce fait lentement, manuellement avec risque élevé d'erreurs, comptant sur les ordres de travail pour établir une  multitude  de configurations selon le fournisseur de chaque équipement.
+%The proper abstraction of network capabilities, consistent with Software Defined Networking (SDN) principles, drives programmability of network services and increases the consumability of network resources. The instantiation of network services must be instantaneous, aligned with the needs of applications. The network should act reflexively to establish the required connectivity within and across datacenters, and do so in a manner that is consistent with the defined policies of CSPs and their tenants. Today that process is slow, manual and error-prone, relying on work orders to establish a multitude of vendor- dependent configurations.
+
+Les principes \gls{SDN} sont plus adaptés à ce scénario, l'approche propose une couche d'abstraction pour permettre la programmation du réseau et autoriser le contrôle dynamique de services. SDN est un nouveau \gls{paradigme} réseau défini comme une architecture qui a pour but de centraliser  sur un contrôleur l'intelligence du réseau qui est traditionnellement distribuée parmi plusieurs équipements réseaux réalisant une fonction spécifique dans l'infrastructure.
+
+Ces dispositifs ont en général une fonctionnalité de commutation de paquets (\gls{dataplane}) et une partie pour traiter ses données appliquant une logique spécifique selon les états et la configuration enregistrés \gls{controlplane}. SDN propose de dissocier ces deux fonctions dans les dispositifs et agréger dans un contrôleur commun l'activité de traitement.
+
+Comme bénéfice cette solution apporte une interface commune de management, permettant la mise en place dynamique de services, indépendante de la marque/modèle des dispositifs réseau. Avec SDN, l'administration réseau devient plus agile car un seul élément (le contrôleur) est à maîtriser au lieu d'avoir à configurer l'ensemble d'équipements du système, accélérant considérablement le temps de convergence du réseau pour l'accommodation de nouvelles applications déployées.
+
+
+
+
+
+\section{Virtualisation des fonctions Réseau, NFV}
+
+%SDN est employé en tant que technologie facilitatrice de la virtualisation des fonctions réseau, favorisant la consolidation des applications réseau dans des dispositifs industriels standards. 
+
+NFV leverages standard virtualization technologies to consolidate network applications – which have traditionally been hosted on proprietary hardware appliances – onto industry standard servers, switches and storage. In addition to reducing expenditure on equipment costs, virtualizing network functions also brings benefits such as rapid scaling of applications, faster speed of innovation, increased high availability and improved resource utilization. 
+
+However, realizing these benefits requires that the underlying network infrastructure is adapted quickly and automatically. For example, for a network function to either scale up or migrate onto a new piece of hardware, the security and policy configuration associated with that network function may have to be provisioned on a large number of switches and other network functions. The complexity of configuring networks in such a dynamic environment increases greatly as the number of network elements increase.
 
 
 \section{Solutions}
@@ -17,3 +36,35 @@ The instantiation of network services must be instantaneous, aligned with the ne
 Nuage NetworksTM removes the constraints of the datacenter network through an innovative Virtualized Services Platform (VSP) that abstracts network capabilities and automates service instantiation. With the Nuage Networks Software Defined Networking solution, cloud service providers, web-scale operators and large tech enterprises can b uild a robust and scalable multi-tenant networking infrastructure that delivers secure virtual slices of readily consumable compute, storage and networking instantaneously across thousands of tenants and user groups.
 
 \section{SDN et le Cloud Computing}
+
+Les approches Cloud permettent aux opérateurs réseau d'assurer une création et un déploiement de service plus rapides. Elles répondent également aux attentes croissantes sur la qualité et performance des solutions, tout en traitant les charges trafics de plus en plus importantes.
+
+%Cloud-based approaches enable network operators to ensure rapid service creation and rollout by delivering new levels of flexibility, scalability and responsiveness. They also satisfy the growing expectations for service performance and QoE, while handling ever-increasing traffic loads.Operators are making use of NFV, SDN and cloud technology in three ways:
+%> Telecom cloud – operators are gradually turning their networks into layered and distributed clouds, in which workloads can be located to optimize QoE or data transport, and to offer the best possible elasticity.
+%> IT cloud – operators are optimizing the use of internal IT resources to deliver an improved customer experience, to accelerate time to market for innovative and compelling services, and to improve their efficiency for cost reduction.
+%> Customer cloud – operators leverage a platform, or their own cloud, to resell or broker value-added cloud services.
+%Although these scenarios are all quite different, they share some common requirements, and operators can benefit from the implementation of a common platform across all three scenarios.
+
+
+%Combining a Network-enabled Cloud approach (which offers flexible management of cloud applications) with NFV (several virtualized applications on a common hardware platform, which reduces opex and capex) and the real-time control capabilities of Service Provider SDN (as shown in Figure 3) yields significant advantages. 
+%First, it enables operators to more easily (and usually automatically) adapt network characteristics and resources to serve the more dynamic and real-time nature of new services. 
+%Second, it extends the virtual infrastructure beyond the traditional computing and storage resources to enable applications to encompass WAN resources – making it easier to engage one or more data centers, as well as any other intelligent nodes in the network.
+%Network-enabled Cloud delivers the flexibility and elasticity to deploy software applications and virtualized network functions wherever they are needed in the network. This improves time to market and enhances innovation, QoE and network efficiency.
+
+The control plane in software-defined networks works in conjunction with cloud management systems in order to dynamically configure network elements to adapt to changing resource usage decisions made by cloud orchestration systems. SDN provides the infrastructure required to truly realize the potential of NFV.
+
+
+However, fully realizing the potential of this technology in today’s service provider networks means doing more than just separating the forwarding and control planes. This expanded definition of Service Provider SDN includes:
+
+> Integrated network control – this unified control layer controls the data center and network as an integrated entity, in order to deliver the best user experience.
+> Orchestrated network and cloud management – a unified approach that includes legacy network management and new cloud management systems. It is this end-to-end orchestration that enables flexible service creation, which in turn makes the network dynamic, adaptive and agile. This cuts introduction and modification cycles for services and removes barriers to innovation.
+> Service exposure – the SDN architecture provides network awareness to the application layer through service exposure application programming interfaces (APIs). These APIs not only provide raw network data, but are instead composed APIs that deliver actionable information at the application level.
+
+The service control layer of the Service Provider SDN architecture brings elastic, real-time allocation of resources for networking services. It enables these services to be defined and provisioned through self-service portals in a matter of minutes, rather than the days, weeks or even months that are traditionally required.
+
+This demands a platform with integrated control across networking domains that exposes “composed APIs” for new revenue generation. An end-to-end network management system across IP and transport infrastructure provides further efficiencies, develops greater responsiveness, and enables more reliable planning, provisioning, activation, adaptation and 
+control of new service connections.
+
+The goal is to couple cloud management to a programmable network, via SDN controllers, to achieve full integration of the cloud and network, where cloud resources are no longer confined to a single data center, but are spread throughout the network.
+
+Using common orchestration for end-to-end service management as well as for operations, administration and maintenance reduces operating costs in areas such as provisioning, monitoring and faultfinding. More importantly, end-to-end orchestration enables flexible service creation, which makes the network dynamic, adaptive and agile.
