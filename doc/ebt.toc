@@ -24,9 +24,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}L'architecture r\IeC {\'e}seau d'un data centre typique}{15}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Applications business en transformation}{16}{section.2.3}
+\contentsline {section}{\numberline {2.3}La transformation des applications business}{16}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Aspect Multi-tenant}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Aspect multi-tenant}{17}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Interconnexion WAN}{18}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 

@@ -8,8 +8,8 @@
 \BOOKMARK [0][-]{chapter.2}{L'aspect r\351seau}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Le r\364le du r\351seau dans les projets de TI}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{L'architecture r\351seau d'un data centre typique}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{Applications business en transformation}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.3.1}{Aspect Multi-tenant}{section.2.3}% 12
+\BOOKMARK [1][-]{section.2.3}{La transformation des applications business}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.3.1}{Aspect multi-tenant}{section.2.3}% 12
 \BOOKMARK [2][-]{subsection.2.3.2}{Interconnexion WAN}{section.2.3}% 13
 \BOOKMARK [1][-]{section.2.4}{Aspects de S\351curit\351}{chapter.2}% 14
 \BOOKMARK [0][-]{chapter.3}{Applications SDN et ses apports aux data centres}{}% 15
