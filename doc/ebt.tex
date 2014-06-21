@@ -6,6 +6,7 @@
 %\addtokomafont{section}{\rmfamily}
 
 \usepackage[utf8]{inputenc}
+%\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{graphicx}
@@ -23,6 +24,8 @@
 
 \usepackage{graphicx,wrapfig}
 
+\DeclareUnicodeCharacter{00A0}{ }
+
 %\usepackage{lipsum}
 %\bibliography{biblio}
 
@@ -37,6 +40,11 @@
 
 \setlength{\parskip}{1em}
 \renewcommand{\baselinestretch}{1.2}
+
+
+\setlength{\belowcaptionskip}{0em}
+\setlength{\textfloatsep}{0em}
+\setlength{\intextsep}{0em}
 
 %\usepackage[xindy={language=french,codepage=utf8},acronym,toc=true,nonumberlist]{glossaries}
 %\usepackage[acronym,toc=true,nonumberlist]{glossaries}
@@ -127,6 +135,8 @@
 
 \newacronym{iass}{IaaS}{Infrastructure as a Service, Infrastructure en tant que Service}
 
+\newacronym{npb}{NPB}{Network Packet Broker}
+
 
 \newglossaryentry{paradigme}
 {
@@ -136,6 +146,15 @@
   Sa genèse et poursuite en tant que tradition de recherche sont conditionnées à un fort engagement et consensus des personnes impliquées. \cite{paradigmdef}
   D'après Dosi \cite{newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement dans la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui implique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie.  }
 }
+
+\newglossaryentry{mpls-glo}
+{
+  name=MPLS,
+  text={MPLS -- Multiprocol Label Switching, Commutation multi-protocoles par étiquettes},
+  description={MPLS introduced an explicit distinction between the network edge and the network core. Edge routers inspect the incoming packet headers (which express the host’s requirements as to where to deliver the packet) and then attach a label onto the packet which is used for all forwarding within the core. The label-based forwarding tables in core routers are built not just to deliver packets to the destination, but also to address operator requirements such as VPNs (tunnels) or traffic engineering. MPLS labels have meaning only within the core, and are completely decoupled from the host protocol (e.g., IPv4 or IPv6) used by the host to express its requirement to the network. Thus, the interface for specifying host requirements is still IP, while the interface for packets to identify themselves is an MPLS label. However, MPLS did not formalize the interface by which operators specified their control requirements. Thus, MPLS distinguished between the Host-Network and Packet-Switch interfaces, but did not develop a general Operator-Network interface. }
+}
+
+
 
 \newglossaryentry{scalability}
 {
@@ -272,21 +291,21 @@
 
 \section*{Remerciements}
 
-Le présent document est à considéré comme résumé de mon cycle d'études \og Master Réseaux Informatique d'Entreprise \fg{}.
+Le présent document peut être considéré comme le résumé de mon cycle d'études \og Master Réseaux Informatique d'Entreprise \fg{}.
 
 Je tiens à  remercier tous ceux qui, à l'Institut National Polytechnique de Grenoble et à l'entreprise Bull, m'ont accompagnée dans ce parcours. 
 
-À tous les intervenants pédagogiques de la formation RIE, j'adresse mes remerciements pour les connaissances transmises,  spécialement à Messieurs Kobylanski et Parouty ainsi qu'à Madame Panne pour leurs conseils et leur accompagnement.
+À tous les intervenants pédagogiques de la formation RIE, j'adresse mes remerciements pour les connaissances transmises,  spécialement à Messieurs Kobylanski et Parouty ainsi qu'à Madame Panne, pour leurs conseils et leur accompagnement.
 
-J'exprime toute ma gratitude à mes collègues de Bull pour leur accueil et convivialité pendant ces deux ans d'alternance. À tous dans l'équipe OSI pour m'avoir intégrée, je témoigne sincèrement de ma reconnaissance : principalement à Claude Casery, mon tuteur, pour son rôle clé dans mon développement professionnel, mais aussi à Julien et à Laure pour leur aide technique et leur disponibilité.
+J'exprime toute ma gratitude à mes collègues de Bull pour leur accueil et convivialité pendant ces deux ans d'alternance ; Spécialement aux membres de l'équipe OSI pour m'avoir intégrée, je témoigne sincèrement de ma reconnaissance : tout d'abord à Claude Casery, mon tuteur, pour son rôle clé dans mon développement professionnel, mais aussi à Julien et à Laure pour leur aide technique et leur disponibilité.
 
-Merci également aux membres de l'équipe OMNIS, qui m'avaient précédemment accueillie pendant mon stage de licence, et qui sont devenus rapidement mes grands amis de France. Leur sagesse, encouragements (notamment de la part de Martine) et drôlerie m'ont beaucoup inspirée et ont contribué à l'aboutissement de cette expérience à l'étranger pour moi. 
+Merci également aux membres de l'équipe OMNIS, qui m'ont précédemment accueillie, pendant mon stage de licence, et qui sont devenus rapidement mes grands amis de France. Leur sagesse, encouragements (notamment de la part de Martine) et drôlerie m'ont beaucoup inspirée et ont contribué à l'aboutissement de cette expérience à l'étranger pour moi. 
 
-Dans l'équipe Storeway, je porte tout autant ma reconnaissance à Emmanuel pour m'avoir initié au sujet SDN, thème choisi pour ce mémoire, ainsi qu'à Renata, ma compatriote, pour sa compréhension et son aide dans la correspondance d'un vocabulaire non évident. 
+Dans l'équipe Storeway, je suis particulièrement reconnaissante envers Emmanuel de m'avoir initiée au sujet SDN, thème choisi pour ce mémoire, ainsi qu'à Renata, ma compatriote, pour sa compréhension et son aide pour l'équivalence d'un vocabulaire non évident. 
 
 J'exprime ma gratitude aussi à tous ceux qui ont relu mon document et m'ont permis de l'améliorer, mais particulièrement à Christine pour les corrections, patience et explications.
 
-Enfin, je remercie ma famille et mes amis qui m'ont soutenue même de loin, sans faire défaut de l'importance du soutien local de ceux pour les lesquels j'ai cultivé une forte appréciation. ...?
+Enfin, je remercie ma famille et mes amis qui m'ont soutenue même de loin. Dans cette ouverture, un merci aussi à ceux pour lesquels j'ai cultivé une forte affection depuis mon arrivée. Tous ont contribué d'une manière ou de l'autre à la réussite de ce parcours.
 
 
 \tableofcontents

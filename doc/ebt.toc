@@ -18,44 +18,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.5}Cloud Computing}{8}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}L'aspect r\IeC {\'e}seau}{13}{chapter.2}
+\contentsline {chapter}{\numberline {2}L'aspect bloquant du r\IeC {\'e}seau}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Le r\IeC {\^o}le du r\IeC {\'e}seau dans les projets de TI}{13}{section.2.1}
+\contentsline {section}{\numberline {2.1}Le r\IeC {\^o}le du r\IeC {\'e}seau dans les projets de TI}{11}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}L'architecture r\IeC {\'e}seau d'un data centre typique}{15}{section.2.2}
+\contentsline {section}{\numberline {2.2}L'architecture r\IeC {\'e}seau d'un data centre typique}{13}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}La transformation des applications business}{16}{section.2.3}
+\contentsline {section}{\numberline {2.3}La transformation des applications et exemples de sc\IeC {\'e}narios critiques}{14}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Aspect multi-tenant}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Aspect multi-tenant}{15}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Interconnexion WAN}{18}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Interconnexion WAN}{16}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Aspects de S\IeC {\'e}curit\IeC {\'e}}{19}{section.2.4}
+\contentsline {subsection}{\numberline {2.3.3}Monitoring dans un data centre}{17}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Applications SDN et ses apports aux data centres}{23}{chapter.3}
+\contentsline {section}{\numberline {2.4}Aspects de s\IeC {\'e}curit\IeC {\'e}}{18}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Red\IeC {\'e}finition de SDN}{23}{section.3.1}
+\contentsline {chapter}{\numberline {3}Applications SDN et leurs apports aux data centres}{21}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Virtualisation des fonctions R\IeC {\'e}seau, NFV}{24}{section.3.2}
+\contentsline {section}{\numberline {3.1}D\IeC {\'e}finition de SDN}{21}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Solutions}{25}{section.3.3}
+\contentsline {section}{\numberline {3.2}Virtualisation des fonctions r\IeC {\'e}seau, NFV}{23}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}SDN et le Cloud Computing}{25}{section.3.4}
+\contentsline {section}{\numberline {3.3}SDN, NFV et le Cloud Computing}{24}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Sc\IeC {\'e}narios d'utilisation}{27}{section.3.5}
+\contentsline {section}{\numberline {3.4}Sc\IeC {\'e}narios d'utilisation}{26}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Complexit\IeC {\'e}}{29}{section.3.6}
+\contentsline {section}{\numberline {3.5}Complexit\IeC {\'e}}{27}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Agilit\IeC {\'e}}{29}{section.3.7}
+\contentsline {section}{\numberline {3.6}Agilit\IeC {\'e}}{27}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}S\IeC {\'e}curit\IeC {\'e}}{29}{section.3.8}
+\contentsline {section}{\numberline {3.7}S\IeC {\'e}curit\IeC {\'e}}{27}{section.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{31}{chapter*.6}
+\contentsline {chapter}{Conclusion}{29}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{33}{chapter*.7}
+\contentsline {chapter}{Index}{31}{chapter*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronymes}{35}{section*.8}
+\contentsline {chapter}{Acronymes}{33}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{37}{section*.10}
+\contentsline {chapter}{Glossaire}{35}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{41}{chapter*.12}
+\contentsline {chapter}{Bibliographie}{39}{chapter*.12}

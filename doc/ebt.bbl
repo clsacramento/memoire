@@ -81,6 +81,14 @@
       \field{title}{Examining the Impact of Security Management on the Business}
       \field{year}{2013}
     \endentry
+    \entry{virtualizedCCCC}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Solving Critical Challeges of the Virtualized Data Center}
+      \field{howpublished}{Executive Summary}
+      \field{note}{Market Pulse}
+      \field{title}{Solving Critical Challeges of the Virtualized Data Center}
+      \field{year}{2011}
+    \endentry
     \entry{understandingCloudWhatDC}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{Understanding Data Centers and Cloud Computing, Section What Is a Data Center?}
@@ -91,18 +99,18 @@
     \endentry
     \entry{datacenterAsComputerIntro}{article}{}
       \name{labelname}{2}{}{%
-        {{hash=8370f4224c102c06e7a66ff9463d03fd}{Barroso}{B\bibinitperiod}{Luiz\bibnamedelima André}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=531728f47c89524d0805ea3cedc9b049}{Hölzle}{H\bibinitperiod}{Urs}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=711e2ad9b469344ccde2663c5a728af6}{Barroso}{B\bibinitperiod}{Luiz\bibnamedelima Andre}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=04d3a2cbaadd45ccb73c25b18924ebf5}{Holzle}{H\bibinitperiod}{Urs}{U\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{2}{}{%
-        {{hash=8370f4224c102c06e7a66ff9463d03fd}{Barroso}{B\bibinitperiod}{Luiz\bibnamedelima André}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=531728f47c89524d0805ea3cedc9b049}{Hölzle}{H\bibinitperiod}{Urs}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=711e2ad9b469344ccde2663c5a728af6}{Barroso}{B\bibinitperiod}{Luiz\bibnamedelima Andre}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=04d3a2cbaadd45ccb73c25b18924ebf5}{Holzle}{H\bibinitperiod}{Urs}{U\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Morgan \& Claypool Publishers}%
       }
-      \strng{namehash}{a24e7ba08a192dc2bbaea6d295cdf6a7}
-      \strng{fullhash}{a24e7ba08a192dc2bbaea6d295cdf6a7}
+      \strng{namehash}{baeb5881de91d0080a99c6c9312293b3}
+      \strng{fullhash}{baeb5881de91d0080a99c6c9312293b3}
       \field{sortinit}{0}
       \field{labeltitle}{The datacenter as a computer: An introduction to the design of warehouse-scale machines, Chapitre 1 : Introduction}
       \field{journaltitle}{Synthesis lectures on computer architecture}
@@ -331,15 +339,6 @@
       \field{title}{The Cloud-Ready Data Center Network, applying the lessons of cloud computing to vastly improve economics of networking and the user experience}
       \field{year}{2012}
     \endentry
-    \entry{cloudReadyJuniperReferenceNetworkInfra}{misc}{}
-      \field{sortinit}{0}
-      \field{labeltitle}{Cloud-Ready Data Center Reference Architecture, Section : Network Infrastructure}
-      \field{howpublished}{White Paper}
-      \field{month}{05}
-      \field{note}{Juniper Networks, Inc}
-      \field{title}{Cloud-Ready Data Center Reference Architecture, Section : Network Infrastructure}
-      \field{year}{2010}
-    \endentry
     \entry{hpCloudEffectsOnNetworkChanging}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{Effects of virtualization and cloud computing on data center networks, Section : Changing business applications}
@@ -348,6 +347,15 @@
       \field{note}{Hewlett-Packard Development Company, L.P.}
       \field{title}{Effects of virtualization and cloud computing on data center networks, Section : Changing business applications}
       \field{year}{2011}
+    \endentry
+    \entry{cloudReadyJuniperReferenceNetworkInfra}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cloud-Ready Data Center Reference Architecture, Section : Network Infrastructure}
+      \field{howpublished}{White Paper}
+      \field{month}{05}
+      \field{note}{Juniper Networks, Inc}
+      \field{title}{Cloud-Ready Data Center Reference Architecture, Section : Network Infrastructure}
+      \field{year}{2010}
     \endentry
     \entry{bigDataBookChap4}{book}{}
       \name{labelname}{2}{}{%
@@ -372,6 +380,37 @@
       \verb{url}
       \verb http://books.google.fr/books?id=m95GAwAAQBAJ
       \endverb
+    \endentry
+    \entry{SurveySDNArchi}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {Anglais}%
+      }
+      \strng{namehash}{10760f02b82bff52a683ffca5569f8b8}
+      \strng{fullhash}{f90573fac01829071a39782c7a32d495}
+      \field{sortinit}{0}
+      \field{labeltitle}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+      \field{month}{01}
+      \field{note}{Section 3. SOFTWARE-DEFINED NETWORKING ARCHITECTURE}
+      \field{title}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
+      \field{year}{2014}
+      \verb{file}
+      \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
+      \endverb
+      \keyw{Programmable Networks, Software Defined Networking (SDN).}
     \endentry
     \entry{AbstractionCS}{misc}{}
       \name{labelname}{1}{}{%
@@ -402,6 +441,7 @@
       \field{sortinit}{0}
       \field{labeltitle}{Intel's Vision of Open Cloud Computing, section Speeding Agility, Reducing Costs, and Accelerating Innovation via Cloud}
       \field{howpublished}{White Paper}
+      \field{month}{08}
       \field{note}{Intel IT Center}
       \field{title}{Intel's Vision of Open Cloud Computing, section Speeding Agility, Reducing Costs, and Accelerating Innovation via Cloud}
       \field{year}{2013}
@@ -551,37 +591,6 @@
       \field{note}{http://opensource.org/}
       \field{title}{Open Source Initiative}
       \field{year}{2014}
-    \endentry
-    \entry{SurveySDNArchi}{misc}{}
-      \name{labelname}{5}{}{%
-        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=1717b0d02e88e1a3514167a894aa8f39}{Mendonça}{M\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=c0f9e5641a2135649c8019a5b9a1149f}{Nguyen}{N\bibinitperiod}{Xuan\bibnamedelima Nam}{X\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=fb64084065efc78474c0bcea76f8416b}{Obraczka}{O\bibinitperiod}{Katia}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=9387aafb8050ad590125dd423f60a2f5}{Turletti}{T\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {Anglais}%
-      }
-      \strng{namehash}{10760f02b82bff52a683ffca5569f8b8}
-      \strng{fullhash}{f90573fac01829071a39782c7a32d495}
-      \field{sortinit}{0}
-      \field{labeltitle}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
-      \field{month}{01}
-      \field{note}{Section 3. SOFTWARE-DEFINED NETWORKING ARCHITECTURE}
-      \field{title}{A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks}
-      \field{year}{2014}
-      \verb{file}
-      \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
-      \endverb
-      \keyw{Programmable Networks, Software Defined Networking (SDN).}
     \endentry
     \entry{OpenFlowStanfordSwitch}{article}{}
       \name{labelname}{8}{}{%
