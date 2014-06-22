@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  22 JUN 2014 13:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  22 JUN 2014 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,7 +1233,7 @@ LaTeX Info: Redefining \up on input line 283.
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
 
-<couverture-ebt.pdf, id=122, page=1, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=118, page=1, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 1>
@@ -1263,7 +1263,7 @@ Package pdftex.def Info: couverture-ebt.pdf, page1 used on input line 284.
 
  <./couverture-ebt.pdf{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updma
 p/pdftex.map}>]
-<couverture-ebt.pdf, id=148, page=2, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=144, page=2, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 2>
@@ -1378,11 +1378,11 @@ Chapitre 1.
 
 
 
-] <images/racks.png, id=287, 913.4125pt x 446.66875pt>
+] <images/racks.png, id=285, 913.4125pt x 446.66875pt>
 File: images/racks.png Graphic file (type png)
 
 <use images/racks.png>
-Package pdftex.def Info: images/racks.png used on input line 31.
+Package pdftex.def Info: images/racks.png used on input line 33.
 (pdftex.def)             Requested size: 313.69029pt x 153.39206pt.
 
 
@@ -1392,18 +1392,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./images/racks.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<images/shared_infa_virt.png, id=304, 927.465pt x 367.3725pt>
+<images/shared_infa_virt.png, id=302, 927.465pt x 367.3725pt>
 File: images/shared_infa_virt.png Graphic file (type png)
 
 <use images/shared_infa_virt.png>
-Package pdftex.def Info: images/shared_infa_virt.png used on input line 52.
+Package pdftex.def Info: images/shared_infa_virt.png used on input line 54.
 (pdftex.def)             Requested size: 403.31511pt x 159.75528pt.
  [6 <./images/shared_infa_virt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
@@ -1411,29 +1411,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 Underfull \vbox (badness 3989) has occurred while \output is active []
 
  [7]
-<images/fixed_capacity_load_prediction.png, id=319, 913.4125pt x 198.7425pt>
+<images/fixed_capacity_load_prediction.png, id=317, 913.4125pt x 198.7425pt>
 File: images/fixed_capacity_load_prediction.png Graphic file (type png)
 
 <use images/fixed_capacity_load_prediction.png>
 Package pdftex.def Info: images/fixed_capacity_load_prediction.png used on inpu
-t line 82.
+t line 84.
 (pdftex.def)             Requested size: 439.16641pt x 95.553pt.
  [8 <./images/fixed_capacity_load_prediction.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-<images/CloudRefArchi.png, id=337, 1398.22375pt x 832.10875pt>
+<images/CloudRefArchi.png, id=340, 1398.22375pt x 832.10875pt>
 File: images/CloudRefArchi.png Graphic file (type png)
 
 <use images/CloudRefArchi.png>
-Package pdftex.def Info: images/CloudRefArchi.png used on input line 184.
-(pdftex.def)             Requested size: 313.69029pt x 186.67041pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9])
-[10 <./images/CloudRefArchi.png>]
+Package pdftex.def Info: images/CloudRefArchi.png used on input line 186.
+(pdftex.def)             Requested size: 268.8813pt x 160.00684pt.
+) [10 <./images/CloudRefArchi.png>]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
@@ -1452,7 +1451,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<images/LegacyNetworkArchitecture.png, id=379, 1121.18875pt x 690.58pt>
+<images/LegacyNetworkArchitecture.png, id=377, 1121.18875pt x 690.58pt>
 File: images/LegacyNetworkArchitecture.png Graphic file (type png)
 
 <use images/LegacyNetworkArchitecture.png>
@@ -1463,7 +1462,7 @@ e 52.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./images/LegacyNetworkArchitecture.png>] [14]
-<images/AspecMultiTenant.png, id=404, 983.675pt x 688.5725pt>
+<images/AspecMultiTenant.png, id=402, 983.675pt x 688.5725pt>
 File: images/AspecMultiTenant.png Graphic file (type png)
 
 <use images/AspecMultiTenant.png>
@@ -1477,7 +1476,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16 <./images/AspecMultiTenant.png>]
-<images/InterconnexionWAN.png, id=426, 549.05125pt x 667.49374pt>
+<images/InterconnexionWAN.png, id=424, 549.05125pt x 667.49374pt>
 File: images/InterconnexionWAN.png Graphic file (type png)
 
 <use images/InterconnexionWAN.png>
@@ -1509,15 +1508,15 @@ Chapitre 3.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<images/TraditionalVsSDN.png, id=478, 691.83469pt x 452.4403pt>
+<images/TraditionalVsSDN.png, id=476, 691.83469pt x 452.4403pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
 <use images/TraditionalVsSDN.png>
-Package pdftex.def Info: images/TraditionalVsSDN.png used on input line 22.
+Package pdftex.def Info: images/TraditionalVsSDN.png used on input line 24.
 (pdftex.def)             Requested size: 313.69029pt x 205.14958pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1526,15 +1525,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<images/cloud-sdn-nfv.png, id=501, 1131.22626pt x 620.3175pt>
+<images/cloud-sdn-nfv.png, id=499, 1131.22626pt x 620.3175pt>
 File: images/cloud-sdn-nfv.png Graphic file (type png)
 
 <use images/cloud-sdn-nfv.png>
-Package pdftex.def Info: images/cloud-sdn-nfv.png used on input line 92.
+Package pdftex.def Info: images/cloud-sdn-nfv.png used on input line 94.
 (pdftex.def)             Requested size: 358.50612pt x 196.5842pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1548,16 +1547,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [28
 
 
-])
-[29]
+]
+<images/RefArchiSDN.png, id=524, 1404.24625pt x 704.6325pt>
+File: images/RefArchiSDN.png Graphic file (type png)
+
+<use images/RefArchiSDN.png>
+Package pdftex.def Info: images/RefArchiSDN.png used on input line 40.
+(pdftex.def)             Requested size: 358.50612pt x 179.88857pt.
+
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+ [29 <./images/RefArchiSDN.png>]
+Underfull \vbox (badness 1442) has occurred while \output is active []
+
+ [30])
+[31]
 \openout2 = `concl.aux'.
 
- (./concl.tex [30
+ (./concl.tex [32
 
 
 
 
-] [31]) [32] (./ebt.ind [33
+] [33]) [34] (./ebt.ind [35
 
 
 
@@ -1566,20 +1578,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-]) (./ebt.acr [34
+]) (./ebt.acr [36
 
 
 
-] [35
+] [37
 
 
 ])
-(./ebt.gls [36] [37
+(./ebt.gls [38] [39
 
 
 
 
-] [38]) [39] [40
+] [40]) [41] [42
 
 
 ]
@@ -1600,23 +1612,23 @@ Overfull \hbox (15.33618pt too wide) in paragraph at lines 346--346
 costs.html. Avr.
  []
 
-[41] [42]
+[43] [44]
 Overfull \hbox (0.85542pt too wide) in paragraph at lines 346--346
 []\T1/lmr/m/it/12 Information Ma-na-ge-ment and Big Data A Re-fe-rence Ar-chi-t
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[43]
+[45]
 Overfull \hbox (72.9929pt too wide) in paragraph at lines 346--346
 []\T1/lmr/m/n/12 Margaret \T1/lmr/m/sc/12 Rouse\T1/lmr/m/n/12 . \T1/lmr/m/it/12
  net-work fa-bric\T1/lmr/m/n/12 . Web Site. http://searchsdn.techtarget.com/def
 inition/network-
  []
 
-[44] [45] [46
+[46] [47] [48
 
 
-] <couverture-ebt.pdf, id=744, page=3, 597.50829pt x 845.0471pt>
+] <couverture-ebt.pdf, id=760, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1640,8 +1652,8 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 3>
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 348.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [47 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=750, page=4, 597.50829pt x 845.0471pt>
+ [49 <./couverture-ebt.pdf>]
+<couverture-ebt.pdf, id=765, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1656,7 +1668,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 <use couverture-ebt.pdf, page 4>
 Package pdftex.def Info: couverture-ebt.pdf, page4 used on input line 348.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [48 <./couverture-ebt.pdf>]
+ [50 <./couverture-ebt.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
  (./ebt.aux
@@ -1665,7 +1677,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
 Package rerunfilecheck Info: File `ebt.out' has not changed.
-(rerunfilecheck)             Checksum: 17177BAD5EEA0D3DB7E6DD4F086675A4;2144.
+(rerunfilecheck)             Checksum: 7B375FA9A9070CDC85F8831DE6BF1EFB;2095.
 
 
 LaTeX Warning: There were undefined references.
@@ -1680,10 +1692,10 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20885 strings out of 493315
- 328917 string characters out of 6137904
- 872987 words of memory out of 5000000
- 23718 multiletter control sequences out of 15000+600000
+ 20892 strings out of 493315
+ 329052 string characters out of 6137904
+ 873067 words of memory out of 5000000
+ 23722 multiletter control sequences out of 15000+600000
  45985 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,18n,51p,1438b,2410s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1696,10 +1708,10 @@ ic/lm/lmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri1
 2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (58 pages, 1475863 bytes).
+Output written on ebt.pdf (60 pages, 1651624 bytes).
 PDF statistics:
- 834 PDF objects out of 1000 (max. 8388607)
- 724 compressed objects within 8 object streams
- 193 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 849 PDF objects out of 1000 (max. 8388607)
+ 734 compressed objects within 8 object streams
+ 195 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 

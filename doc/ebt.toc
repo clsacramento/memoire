@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduction}{1}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Les \IeC {\'e}volutions du business mod\IeC {\`e}le des Data Centres}{3}{chapter.1}
+\contentsline {chapter}{\numberline {1}Les \IeC {\'e}volutions strat\IeC {\'e}giques des Data Centres}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Data centres et leurs objectifs}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
@@ -46,18 +46,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Sc\IeC {\'e}narios d'utilisation}{28}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Complexit\IeC {\'e}}{29}{section.3.5}
+\contentsline {section}{\numberline {3.5}Complexit\IeC {\'e} vs Agilit\IeC {\'e}}{29}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Agilit\IeC {\'e}}{29}{section.3.6}
+\contentsline {section}{\numberline {3.6}S\IeC {\'e}curit\IeC {\'e}}{30}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}S\IeC {\'e}curit\IeC {\'e}}{29}{section.3.7}
+\contentsline {chapter}{Conclusion}{33}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{31}{chapter*.6}
+\contentsline {chapter}{Index}{35}{chapter*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{33}{chapter*.7}
+\contentsline {chapter}{Acronymes}{37}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronymes}{35}{section*.8}
+\contentsline {chapter}{Glossaire}{39}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{37}{section*.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{41}{chapter*.12}
+\contentsline {chapter}{Bibliographie}{43}{chapter*.12}
