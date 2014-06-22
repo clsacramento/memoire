@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  22 JUN 2014 10:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  22 JUN 2014 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,7 +1616,7 @@ inition/network-
 [44] [45] [46
 
 
-] <couverture-ebt.pdf, id=743, page=3, 597.50829pt x 845.0471pt>
+] <couverture-ebt.pdf, id=744, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1641,7 +1641,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 348.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [47 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=748, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=750, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1682,7 +1682,7 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 Here is how much of TeX's memory you used:
  20885 strings out of 493315
  328917 string characters out of 6137904
- 872966 words of memory out of 5000000
+ 872987 words of memory out of 5000000
  23718 multiletter control sequences out of 15000+600000
  45985 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1696,10 +1696,10 @@ ic/lm/lmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri1
 2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (58 pages, 1474675 bytes).
+Output written on ebt.pdf (58 pages, 1475863 bytes).
 PDF statistics:
- 833 PDF objects out of 1000 (max. 8388607)
- 723 compressed objects within 8 object streams
+ 834 PDF objects out of 1000 (max. 8388607)
+ 724 compressed objects within 8 object streams
  193 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
