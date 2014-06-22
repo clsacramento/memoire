@@ -31,7 +31,7 @@ Dans le chapitre précédent, les principaux défis des réseaux traditionnels p
 
 \section{Complexité vs Agilité}
 
-La complexité et l'agilité sont des éléments qui sont fortement accoupler doivent donc être étudiés ensemble. En effet, la complexité est une pour atteindre les objectifs d'agilité, qui en revanche provoque un niveau plus haut de complexité dans l'approche réseau traditionnelle. Cet impasse a pu être observé dans les scénarios présentés précédemment. 
+La complexité et l'agilité sont des éléments qui sont fortement accouplés et doivent donc être étudiés ensemble. En effet, la complexité correspond à une importante restriction aux objectifs d'agilité, qui en revanche provoque un niveau plus élevé de complexité dans l'approche réseau traditionnelle. Cet impasse a pu être observé dans les scénarios présentés précédemment. 
 
 Les architectures réseaux implémentant SDN proposent d'aplatir physiquement la topologie avec l'interconnexion de tous les élément à un \gls{fabric} pour à la fois simplifier le réseau et gagner en agilité. L'image ci-dessous visualise cette proposition. Le contrôleur SDN peut être programmé pour reproduire logiquement l'infrastructure souhaitée par tenant. 
 
@@ -42,14 +42,14 @@ Les architectures réseaux implémentant SDN proposent d'aplatir physiquement la
 \end{center}
 \end{figure} 
 
-Avec les solutions SDN, les changements sur le réseau sont traité par un processus complètement automatisé qui peut réagir instantanément. Ainsi que comme on fait pour les VMs, SDN permet de créer des templates pour les réseaux logiques des tenants qui peuvent être facilement instanciés implémentant tous les aspects réseaux automatiquement. 
+Avec les solutions SDN, les changements sur le réseau sont traités par un processus complètement automatisé qui peut réagir instantanément à divers événements. Ainsi que comme on fait pour les VMs, SDN permet de créer des templates de réseaux logiques des tenants qui peuvent être facilement instanciés pour implémenter tous les aspects réseaux requis de manière automatique. 
 %With the Nuage Networks solution, changes are handled by a fully automated process that can react instantaneously. This makes network operations much simpler across an open cloud environment.
 
 Les templates peuvent être réutilisés plusieurs fois, si l'opération doit être répétée. Les solutions SDN peuvent créer le réseau nécessaire et fournir l'isolation complète entre tenants, ce qui simplifie considérablement les opérations réseaux au sein des data centres. 
 %The Nuage Networks VSP automates the full instantiation of the tenant networking requirements through SDN programmability and abstraction.
 %The template can be used as many times as required, should this operation need to be repeated multiple times. The Nuage Networks VSP solution instantiates the necessary networking and provides full isolation between tenants and through the robust implementation of SDN technology pillars, which simplifies the operation of the data center network substantially.
 
-Cela apporte une réponse plus rapide aux demandes des clients. La simplification opérationnelles grâce à la capacité de programmation et abstraction SDN élimine les opérations manuelles très susceptibles aux erreurs, avec une meileure efficacité du réseau et plus de profit.
+Cela apporte une réponse plus rapide aux demandes des clients avec une simplification opérationnelle. Grâce à sa capacité de programmation et d'abstraction, SDN élimine les opérations manuelles très susceptibles aux erreurs, avec une meilleure efficacité du réseau, réduction de coûts et plus de profit.
 %Faster response time to customer demands, which results in much higher customer satisfaction
 %• Simplified business operations through templates that are created once and used many times
 %• Operational simplification through automation, with SDN programmability and abstraction
@@ -58,7 +58,7 @@ Cela apporte une réponse plus rapide aux demandes des clients. La simplificatio
 
 \section{Sécurité}
 
-La sécurité dans un data centre Cloud doit protéger le trafic entre les clients et serveurs, le trafic entre les machines virtuelles dans les servuers ainsi que le trafic entre serveurs (physiques ou virtuels) et applications ou systèmes dans d'autres data centres. La capacité d'extension est requis de sécurité essentiel dans ces environnements. 
+La sécurité dans un data centre Cloud doit protéger le trafic entre les clients et les serveurs, le trafic entre les machines virtuelles dans les serveurs ainsi que le trafic entre serveurs (physiques ou virtuels) et les applications ou systèmes dans d'autres data centres. La capacité d'extension s'agit d'un requis de sécurité essentiel dans ces environnements. 
 
 
 
@@ -68,17 +68,17 @@ L'importante croissance de l'accès utilisateur ainsi que de la sophistication d
 
 %Increasing user access and the rising sophistication of security threats in a cloud-ready data center also require expanded visibility into threat vectors and related protection . at the same time, security solutions still need to consistently enforce policies, while remaining flexible to adapt to the changes in traffic volumes and data flows that occur because of virtualization, web 2 .0 applications, and cloud services . appropriate policies affect the availability of business critical applications and operations .
 
-Pour aborder ces défis, la sécurité d'un cloud doit réunir des capacités telles que \gls{scalability}, monitoring et contrôles renforcés. Les services de sécurité doivent être consolidés et coordonnés pour complimenter la simplification  et la mutualisation agile du réseau. Cette approche améliore la flexibilité et efficacité du système entier.
+Pour aborder ces défis, la sécurité d'un cloud doit réunir des capacités telles que \gls{scalability}, monitoring et contrôles renforcés. Les services de sécurité doivent être consolidés et coordonnés pour complimenter la simplification et la mutualisation agile du réseau. Cette approche améliore la flexibilité et l'efficacité du système entier.
 %To address these challenges, capabilities such as scale, visibility, and enforcement controls must work together to comprehensively secure a cloud-ready data center . Security services must be consolidated and pooled in a coordinated fashion to complement the simplification and sharing of the network . This approach enhances the flexibility and efficiency of the entire solution .
 
-SDN propose des moyens pour fournir de services dynamiques de sécurité et répondre aux requis de performances tout en accommodant les évolutions futures à la demande. De services tels que supervision, filtrage, détection et prévention d'intrusion et VPNs sont consolidés dans une plateforme extensible avec de ressources affectées dynamiquement. La solution améliore également chaque service de sécurité en augmentant dynamiquement leur capacité d'accès à tout flux de trafic au sein du \gls{fabric} réseau.
+SDN propose des moyens pour fournir des services dynamiques de sécurité et pour répondre aux requis de performances tout en accommodant les évolutions futures à la demande. De services tels que supervision, filtrage, détection et prévention d'intrusion et VPNs sont consolidés dans une plateforme extensible avec de ressources affectées dynamiquement. La solution améliore également chaque service de sécurité en augmentant de manière dynamique leur capacité d'accès à tout flux de trafic au sein du \gls{fabric} réseau.
 %Big Tap enhances the functionality of each network security and monitoring appliance by dynamically extending its reach to any traffic flow within the network fabric. 
 %Juniper networks has developed high- performance, cloud-enabled dynamic security services to meet today’s security and performance requirements, while accommodating future on-demand growth . Services such as application identification and monitoring, stateful firewall, intrusion detection and prevention, and VPns are consolidated on an expandable platform that flexibly and dynamically assigns resources as needed . 
 
-Les services de sécurité doivent être conscient des applications, tout en étant mobiles. L'interface de programmation fournie avec SDN permet l'interaction avec les hyperviseurs assurer la sécurité inter-VMs. Les applications peuvent déployer un ensemble de politiques de sécurité à partir des hyperviseurs et à travers le \gls{fabric} réseau avec l'établissement d'un lien entre les couches virtuelles et physiques. 
+Les services de sécurité doivent être conscients des applications, tout en étant mobiles. L'interface de programmation fournie avec SDN permet l'interaction avec les hyperviseurs en vue d'assurer la sécurité inter-VMs. Les applications peuvent impliquer au déploiement d'un ensemble de politiques de sécurité à partir des hyperviseurs et à travers le \gls{fabric} réseau, grâce à l'établissement d'un lien entre les couches virtuelles et physiques. 
 %Security services must be application- and identity-aware, while providing the mobile workforce with secure access to data center applications . Juniper solutions now include integrated and comprehensive vGw Series virtual machine security capabilities for securing virtualized data centers . Businesses can deploy a consistent set of security policies and services from the hypervisor all the way across the network fabric, bridging virtual and physical network layers . 
 
-Comme résultat, les consommateurs peuvent apercevoir la complète de la virtualisation, tout en étant protéger contre les risques de sécurité associés. SDN franchi les deux principaux préoccupations concernant les plateformes Cloud : la sécurité et le contrôle. Le réseau, ayant contact à tous les éléments de l'infrastructure, est le meilleur endroit pour placer la sécurité et la gestion. Avec SDN, ces défis peuvent être abordés pour libérer le Cloud Computing. 
+Comme résultat, les consommateurs peuvent apercevoir la complète de la virtualisation, tout en étant protégés contre les risques de sécurité associés. SDN franchi les deux principales préoccupations concernant les plateformes Cloud : la sécurité et le contrôle. Le réseau, ayant contact à tous les éléments de l'infrastructure, est le meilleur endroit pour placer la sécurité et la gestion. Avec SDN, ces défis peuvent être abordés pour libérer le Cloud Computing. 
 %As a result, customers can realize the full value of virtualization, while protecting against the associated security risks .
 
 %The network is the best place to secure and manage the cloud: The two biggest barriers to broader use of cloud computing remains security and control (see Exhibit 2). Many IT managers are unclear as to how to secure and manage resources that they no longer own, and are not on-premises. Pushing control and security points to the network allows IT managers to meet these challenges. The network is the only IT asset that touches every other IT resource.

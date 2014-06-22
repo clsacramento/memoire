@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  22 JUN 2014 20:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  23 JUN 2014 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1708,7 +1708,7 @@ ic/lm/lmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri1
 2.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></us
 r/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (60 pages, 1651624 bytes).
+Output written on ebt.pdf (60 pages, 1651328 bytes).
 PDF statistics:
  849 PDF objects out of 1000 (max. 8388607)
  734 compressed objects within 8 object streams
