@@ -82,7 +82,7 @@ Les data centres d'aujourd'hui exigent des réseaux qui sont agiles et flexibles
 %Such operational challenges are further compounded if these devices are running different versions of software or have different configurations, since software must be carefully managed across devices to ensure consistent functionality and limit exposure to bugs or other vulnerabilities. Special training or expertise may also be needed to support these configurations. as a result, the manpower required to adequately operate, maintain, and troubleshoot the unique requirements of each network device can be enormously time-consuming and costly.
 
 
-Afin de mieux visualiser ces difficultés, quelques scénarios critiques pour les réseaux traditionnels seront étudiés en détail. Ces scénarios supposent des infrastructures basées sur cette architecture à trois niveaux (présentée précédemment) et avec l'objectif de fonctionner en mode Cloud Computing. \cite{hpCloudEffectsOnNetworkChanging} \cite{cloudReadyJuniperReferenceNetworkInfra}  \cite{cloudReadyNetworkJuniper} \cite{bigDataBookChap4}
+Afin de mieux visualiser ces difficultés, quelques scénarios critiques pour les réseaux traditionnels seront étudiés en détail. Ces scénarios supposent des infrastructures basées sur cette architecture à trois niveaux (présentée précédemment) et avec l'objectif de fonctionner en mode Cloud Computing.  \cite{cloudReadyNetworkJuniper} \cite{hpCloudEffectsOnNetworkChanging} \cite{cloudReadyJuniperReferenceNetworkInfra} \cite{bigDataBookChap4}
 
 \section{La transformation des applications et exemples de scénarios critiques}
 
@@ -101,16 +101,30 @@ Le déplacement dynamique de charges exige également que les VMs restent dans u
 
 %Moving workloads dynamically requires VMs to stay within a common VLAN in the same Layer 2 (L2) network. If you want to move a VM outside its L2 domain, you have to use manual processes such as assigning and updating the IP addresses for the failed-over services and updating DNS entries correctly. To provide maximum VM flexibility, many enterprises are evaluating ways to enlarge their L2 networks.
 
-De nouveaux moyens tels que  \gls{vxlan} et \gls{nvgre} étendent les réseaux couche 2 avec des réseaux couche 3. Même si cette capacité devient possible avec ces technologies, le trafic local aura toujours une meilleure performance et une latence inférieure s'ils restent dans un réseau niveau 2 plus grand.
+De nouveaux moyens tels que  \gls{vxlan} et \gls{nvgre} étendent les réseaux couche 2 avec des réseaux couche 3. Même si cette capacité devient possible avec ces technologies, le trafic local aura toujours une meilleure performance et une latence inférieure s'ils restent dans un réseau niveau 2. 
+\cite{hpCloudEffectsOnNetworkChanging} \cite{vm7Challenges} \cite{zkCloudArrived}
+
+
+%Parce que le rôle des réseaux a changé, les stratégies classiques ne suffisent plus pour 
+%Because the role of the network has changed, current network strategies are no longer sufficient to enable a shift to the cloud. The network has shifted from a tactical, best-effort resource to a key enabler, raising corporate productivity to unprecedented levels. Customers that do not embrace the network as a foundation for cloud delivery put their organizations at risk, as users will experience inconsistent application performance, security exposure and poor business continuity. Leveraged correctly, the network plays a key role helping any organization shift business applications to the cloud.
+
 
 
 %New capabilities such as Virtual eXtensible LAN (VXLAN) and Network Virtualization using Generic Routing Encapsulation (NVGRE) logically extend an L2 network across L3 networks. However, even with this potential to move VMs across a L3 network, local traffic will still have higher performance and lower latency if it stays within a large L2 network.
 
 \subsection{Aspect multi-tenant}
 
-Cet exemple traite l'aspect multi-tenant des infrastructures Cloud. Pour simplifier, on assume une configuration avec deux réseaux : une pour le groupe d'ingénieurs et l'autre pour les ventes. 
+Cet exemple traite l'aspect multi-tenant des infrastructures Cloud. Pour simplifier, on assume une configuration avec deux réseaux : un pour le groupe d'ingénieurs et l'autre pour la vente. Pour réaliser cela avec les technologies réseaux traditionnelles, on utilise le concept de \gls{vlan}. Par exemple, le réseau d'ingénieurs peut être affecté au VLAN-1 et le réseau des ventes au VLAN-2 comme illustré dans l'image suivante.
 
-Pour réaliser cela avec les technologies réseaux traditionnelles, on utilise le concept de \gls{vlan}. Par exemple, le réseau d'ingénieurs peut être affecté au VLAN-1 et le réseau des ventes au VLAN-2. Cette attribution doit être réalisée par le système de gestion des switches virtuels dans l'hyperviseur. Ensuite, la configuration doit être réalisée dans tous les switches du réseau data centre et dans le switch physique auquel le routeur est connecté. Quand le VLAN est déjà utilisé, l'interconnexion n'est pas possible, cela veut dire qu'une administration continue des VLANs attribués doit être mise en place. Tout cela est fait de manière fastidieuse et manuelle par l'opérateur du réseau.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{images/AspecMultiTenant} 
+\caption{Architecture réseau typique à trois niveaux. \cite{leveragingSDNCloudNetworkServiceExample}} \label{AspecMultiTenant}
+\end{center}
+\end{figure} 
+
+Cette attribution doit être réalisée par le système de gestion des switches virtuels dans l'hyperviseur. Ensuite, la configuration doit être réalisée dans tous les switches du réseau data centre et dans le switch physique auquel le routeur est connecté. Quand le VLAN est déjà utilisé, l'interconnexion n'est pas possible, cela veut dire qu'une administration continue des VLANs attribués doit être mise en place. Tout cela est fait de manière fastidieuse et manuelle par l'opérateur du réseau.
 
 Chaque réseau est connecté à un routeur, qui doit être configuré pour prendre en compte ces VLANs. Cela veut dire que le trafic doit toujours monter et descendre pour passer par ce router (réseau accès et de distribution), ce qui n'est pas très performant. La capacité du routeur peut limiter les communication inter-départements. 
 
@@ -120,12 +134,21 @@ Le routeur doit implémenter les règles de sécurité pour permettre le trafic 
 
 Cet exemple illustre la complexité opérationnelle de la configuration d'un réseau pour supporter une application. L'intervention exige un haut niveau de manipulation manuelle et concerne différents éléments de l'architecture. La totalité de la procédure est complexe et susceptible de provoquer diverses erreurs. Tout changement associé, comme le déplacement d'un serveur, l'extension d'un des réseaux, la modification de la configuration des tenants, implique quasiment la répétition complète du procédé et de la validation.
 
-Dans le cas où la situation décrite doit être réalisée simultanément pour multiples consommateurs, il y aura clairement un grand délai d'implémentation. Dans un contexte Cloud, le traitement de demandes réseau durant plusieurs jours ou semaines devient critique et inacceptable. 
+Dans le cas où la situation décrite doit être réalisée simultanément pour multiples consommateurs, il y aura clairement un grand délai d'implémentation. Dans un contexte Cloud, le traitement de demandes réseau durant plusieurs jours ou semaines devient critique et inacceptable.  \cite{hpCloudEffectsOnNetworkLimitations} \cite{leveragingSDNCloudNetworkServiceExample} \cite{zkCloudArrived}
 
 
 \subsection{Interconnexion WAN}
 
-Ce scénario illustre la connexion des réseaux tenants au WAN pour l'accès aux sites distants. Dans l'approche traditionnelle, un VLAN doit être créé entre le routeur du data centre et le routeur WAN.
+Ce scénario illustre la connexion des réseaux tenants au WAN pour l'accès aux sites distants. Par exemple, on pourrait imaginer, dans le cas précédent, l'interconnexion des deux tenants proposés à un autre site de l'entreprise (image \ref{InterconnexionWAN}). Dans l'approche traditionnelle, un VLAN doit être créé entre le routeur du data centre et le routeur WAN.
+
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.4\textwidth]{images/InterconnexionWAN} 
+\caption{Interconnexion des réseaux tenants sur deux sites. \cite{leveragingSDNCloudDCWAN}} \label{InterconnexionWAN}
+\end{center}
+\end{figure} 
 
 
 %The example assumes a customer tenant configuration with two networks: one to be used by the engineering group, and the other by sales. The engineering department can only communicate with the sales department through web traffic; all other communication should be blocked. Both the engineering and sales teams are allowed to communicate with the Internet. 
@@ -134,22 +157,24 @@ Un protocole de routage doit être défini pour fournir une résilience en cas d
 
 Traditionnellement,  les réseaux du data centre et du WAN sont gérés  par des responsables distincts. Cela implique la coordination entre les deux personnels réseaux, en général via une structure formelle de projet et procédures manuelles. Par ailleurs, avec les demandes de divers tenants, ce modèle introduit des délais ainsi que des problèmes d'extensibilités supplémentaires lorsqu'ils requièrent des VLANs ou protocoles de routage dédiés.
 
+Avec l'ajout de sites et tenants, une variété de requis et configurations doivent être gérés et la complexité de déploiement de ce scénario devient critique. L'hétérogénéité des systèmes impliqués impose des défis difficiles à surmonter avec des délais de réalisation incompatibles. \cite{leveragingSDNCloudDCWAN} \cite{zkCloudIntelligentNetwork}
+
 
 \subsection{Monitoring dans un data centre}
 
-Historiquement, les systèmes de monitoring se sont appuyés sur une variété de protocoles et une série fragmentée d'outils. Ces outils incluent le monitoring de la performance du réseau, des applications et des analyses de sécurité, tels que \gls{ids} et \gls{ips}. En complément l'inspection des paquets, ces outils utilisent plusieurs meta protocoles pour fournir des données sur les réseaux, tels que SNMP. NetFlow et sFlow.
+Historiquement, les systèmes de monitoring se sont appuyés sur une variété de protocoles et une série fragmentée d'outils. Ces outils incluent la supervision de la performance du réseau, des applications et des analyses de sécurité, tels que \gls{ids} et \gls{ips}. En complément à l'inspection des paquets, ces outils utilisent plusieurs meta protocoles pour fournir des données sur les réseaux, tels que SNMP, NetFlow et sFlow.
 %Historically, monitoring systems have relied on a variety of protocols and a fragmented set of tools. Such tools include network performance monitoring, application performance monitoring, and security analysis tools, such as IDS/IPS. In addition to packet data, those tools use any of several meta protocols for providing data about networks, such as SNMP, NetFlow, and sFlow.
 
 L'ajout de ces outils à l'opération du réseau est le premier pas vers une visibilité opérationnel, permettant de détecter et solutionner les problèmes plus rapidement. La difficulté qui reste est d'alimenter ces outils avec la redirection du trafic vers leurs capteurs, pour qu'ils puissent superviser et gérer la massive quantité de données passantes d'une manière flexible et efficace. 
 %Adding those tools to network operations is the first step towards operational visibility.  The problem that remains, however, is stitching these tools to the traffic so that they can monitor and manage in a flexible, cost-effective manner. Sifting through terabytes of data or even getting access to the data has posed challenges, increasing the time to resolution for many network problems. Getting traffic to these tools is the root of many barriers to more efficient network troubleshooting and problem resolution.
 
-La localisation des pannes considérablement simplifié si les données des paquets sont filtrées et rendues disponibles aux administrateurs du réseau. Précédemment, les flux de données circulaient principalement en direction Nord/Sud, le placement de la capture ou redirection du trafic était évidente : dans les points d'entrée / sorties du réseau. Toutefois, avec les tendances actuelles de flux plutôt Est/Ouest, de mobilité des hôtes et de demandes plus importantes pour performance, la supervision est devenue plus difficile et couteuse dans les data centres modernes.
+La localisation des pannes est considérablement simplifiée si les données des paquets sont filtrées et rendues disponibles aux administrateurs du réseau. Précédemment, les flux de données circulaient principalement en direction Nord/Sud, le placement de la capture ou redirection du trafic était donc évident : dans les points d'entrée/sortie du réseau. Toutefois, avec les tendances actuelles de flux plutôt Est/Ouest, de mobilité des hôtes et de demandes plus importantes pour performance, la supervision est devenue plus difficile et couteuse dans les data centres modernes.
 %Troubleshooting is dramatically simplified if filtered packet data is available to network administrators. In the past, when most data center traffic egressed the local site and headed “north” to an external network or came inbound, for example from the Internet, there was an obvious place to tap traffic or install a probe. Monitoring the ports where traffic enters and exits a DMZ or by duplicating traffic on a port used by a load balancer were obvious points to monitor. Traffic patterns shifted dramatically, from the north-south model, where security boundaries and load-balancers provided an obvious place to capture traffic, to an east-west model where the traffic never leaves the local network and instead is sent to hosts within the data center. In a modern data center, host mobility, performance, and east-west traffic make monitoring more difficult and expensive.
 
 Les approches initiales pour la résolution de ces problèmes étaient l'agrégation du trafic drainé à des systèmes haute performance et envoyé aux outils de monitoring. Dispositifs comme les \glspl{npb} offrent des fonctionnalités additionnelles telles que manipulation ou enregistrement de la charge utile. 
 %Initial approaches to solving these problems involved aggregating tapped traffic in high performance systems and then forwarding that traffic to monitoring tools. Devices, such as NPBs, often offer additional features, like payload manipulation or recording.
 
-Le déploiement de ces outils pour chaque tranche réseau des tenants n'est pas efficace, particulièrement quand plusieurs instances des outils sont requises pour supporter le traitement du trafic excessivement important pour être traité par une seule instance. En outre, l'ajout d'instances et outils exige des attentes répétitives pour la maintenance et implique diverses étapes pour le routage du trafic, connexion de systèmes de drainage et ensuite réversion à la configuration de routage initiale. Tout cela effectué manuellement par l'administrateur réseau. Une fois déployés, ces solutions fixent le trafic statiquement un ensemble d'outils, ce qui conduit au cloisonnement des informations et difficultés à les partager entre tenants.
+Le déploiement de ces outils pour chaque tranche réseau des tenants n'est pas efficace, particulièrement quand plusieurs instances des outils sont requises pour le traitement d'un trafic excessivement important pour être supporté par une seule instance. En outre, l'ajout d'instances et outils exige des attentes répétitives pour la maintenance et implique diverses étapes pour le routage du trafic, connexion de systèmes de drainage et ensuite réversion à la configuration de routage initiale. Tout cela effectué manuellement par l'administrateur réseau. Une fois déployées, ces solutions fixent le trafic statiquement à un ensemble d'outils, ce qui peut conduire au cloisonnement des informations et difficultés à les partager entre tenants. \cite{bigSwitchTapModernDC}
 % Deploying tools to every “silo” within the network is inefficient, especially when multiple instances of tools are required because traffic levels are too high for a single instance to handle. Further, adding aggregation systems and tools sometimes requires repeated waits on maintenance windows, which can delay deployment or require multiple steps because traffic must first be routed around the desired port, then the tap must be added, and then administrator must revert to original routing configuration. These approaches, once deployed, fix the traffic to a single toolset in a static fashion, which can lead to “port contention” and “stove-piping,” where information available to one team is hidden or difficult for another team to access.
 
 %\section{Différents usages}
@@ -178,14 +203,14 @@ Comme développé précédemment, on exige de nos jours que les applications liv
 Les applications de sécurité réseaux traditionnelles ne voient pas la communication entre VMs au sein du même hyperviseur, à moins que toutes leurs communications ne soient routées à l'extérieur de la machine hôte vers l'application de sécurité et re-routées à l'intérieur. Cette manière de traiter la problématique introduit un ralentissement considérable du réseau. 
 %In virtualized environments, traditional network security appliances are blind to the communication between VMs on the same host unless all communications are routed outside the host machine to this separate appliance. But this security configuration introduces significant time lags. 
 
-Dans le Cloud Computing, le moyen de traiter ces deux problèmes est d'intégrer des modules de sécurité dans chaque VM pour qu'elles puissent s'auto-protéger. Cette solution oblige la re-configuration de tous les systèmes en cas de mise à jour des politiques de sécurité. Il manque dans l'architecture actuelle un contrôleur central qui pourrait diffuser les politiques dans tous les nœuds. 
+Dans le Cloud Computing, le moyen de traiter ce problème est d'intégrer des modules de sécurité dans chaque VM pour qu'elles puissent s'auto-protéger. Cette solution oblige la re-configuration de tous les systèmes en cas de mise à jour des politiques de sécurité. Il manque dans l'architecture actuelle un contrôleur central qui pourrait diffuser les politiques dans tous les nœuds. 
 %Une manière de traiter ces deux problèmes est de placer une VM dédiée à la sécurité dans l'hôte qui gère la communication entre plusieurs VMs. La VM dédiée à la sécurité est intégrée à l'hyperviseur pour
 %One way to eliminate blind spots while reducing time lags is to place a dedicated scanning security VM on the host that coordinates communication between VMs. This solution works well in a virtualized environment. However, a dedicated security VM is not ideal for a cloud environment. The dedicated security VM integrates with the hypervisor to communicate with other guest VMs. In some cloud environments, such as in a multi-tenant public cloud, users do not have access to the hypervisor. In the cloud, protection is best provided as self-defending VMs. Protection is self contained on each VM and does not require communication outside of the VM to remain secure.
 
 %inter-Vm attacks and hypervisor compromises
 \textbf{Attaques entre VMs et exposition de l'hyperviseur}
 
-Les serveurs virtualisés utilisent les même systèmes d'exploitation et applications que le serveurs physiques. Les vulnérabilités retrouvées alors représentent donc des menaces pour les systèmes physiques ainsi que pour les environnements virtuels. De cette manière, quand un élément de l'environnement virtuel est compromis, l'ensemble du système est en risque dès lors qu'un système de sécurité conscient de la virtualisation n'est pas en place. 
+Les serveurs virtualisés utilisent les mêmes systèmes d'exploitation et applications que le serveurs physiques. Les vulnérabilités retrouvées alors représentent donc des menaces pour les systèmes physiques ainsi que pour les environnements virtuels. De cette manière, quand un élément de l'environnement virtuel est compromis, l'ensemble du système est en risque dès lors qu'un système de sécurité conscient de la virtualisation n'est pas en place. 
 %Virtualized servers use the same operating systems, enterprise applications, and web applications as physical servers. Hence, the ability of an attacker to remotely exploit vulnerabilities in these systems and applications is a significant threat to virtualized environments as well. And once an attacker compromises one element of a virtual environment, oather elements may also be compromised if virtualization-aware security is not implemented.
 
 Dans ce scénario, un hacker peut attaquer un système invité, qui peut ensuite infecter d'autres VMs. Le risque augmente avec le nombre de VMs hébergées. Une protection capable de détecter des activités malveillantes au niveau des VMs doit être mise en place, indépendamment de la localisation des VMs dans l'environnement virtuel.
@@ -224,11 +249,24 @@ Quand ces VMs sont réactivées ou clonées, elles représentent une vulnérabil
 Quand des opérations gourmandes en ressources sont appliquées aux VMs, elle peuvent rapidement surcharger le système. Par exemple, quand les balayages ou mise-à-jour des antivirus sont réalisés simultanément sur plusieurs VMs dans un même serveur physique, le système peut ne pas supporter la consommation intensive des ressources (mémoire, CPU, réseau, stockage). Cela peut impacter la performance globale des applications en exécution.
 %￼When resource intensive operations such as regular antivirus scans and pattern file updates designed for physical environments are applied to VMs, these operations can quickly result in an extreme load on the system. When antivirus scans or scheduled updates simultaneously kick into action on all VMs on a single physical system, the result is an antivirus storm. This storm is like a run on the bank, where the bank is the underlying virtualized resource pool of memory, storage, and CPU. This performance impact hampers server applications and VDI environments.
 
-Dans les systèmes physiques, des anti-virus installés dans chaque système d'exploitation consomment une mémoire additionnelle importante. L'application de cette architecture aux systèmes virtuels signifie une perte indésirable d'efficacité sur l'utilisation des ressources. Les produits qui ignorent la virtualisation proposent la randomisation ou le regroupement pour éviter la charge intensive des opération simultanées.
+Dans les systèmes physiques, des anti-virus installés dans chaque système d'exploitation consomment une mémoire additionnelle importante. L'application de cette architecture aux systèmes virtuels signifie une perte indésirable d'efficacité sur l'utilisation des ressources. Les produits qui ignorent la virtualisation proposent la randomisation ou le regroupement pour éviter la charge intensive d'opérations simultanées.
 %The legacy security architecture also results in linear growth of memory allocation as the number of VMs on a single host grows. In physical environments, antivirus software must be installed on each operating system. Applying this architecture to virtual systems means that each VM requires additional significant memory footprint  an unwanted drain on server consolidation efforts. Products that are not virtualization-aware suggest the use of randomization or grouping to avoid resource contention.
 
-Malheureusement, la randomisation ne permet pas d'éviter les longues périodes de haute consommation du système pour les cycles complets de balayage. Le groupement ne contribue pas à la nature mobile de la virtualisation et exige une reconfiguration lors de la migration ou du clonage de VMs. %"Grouping does not allow for the mobile nature of virtualization, requiring reconfiguration when VMs are migrated or cloned."
+Malheureusement, la randomisation ne permet pas d'éviter les longues périodes de haute consommation du système pour les cycles complets de balayage. Le groupement ne contribue pas à la nature mobile de la virtualisation et exige une reconfiguration lors de la migration ou du clonage de VMs. 
+%"Grouping does not allow for the mobile nature of virtualization, requiring reconfiguration when VMs are migrated or cloned."
 %However, randomization does not help to avoid times of high system usage and requires that a long period of time be reserved for the full scan cycle. Grouping does not allow for the mobile nature of virtualization, requiring reconfiguration when VMs are migrated or cloned.
 
+\cite{cloudSecurityThreats}
 
 
+\section{Complexité, Agilité et Sécurité : l'adaptation du réseau au Cloud}
+
+Les applications data centres ont évolué vers une nature beaucoup plus dynamique pour accompagner le rythme des demandes des consommateurs Cloud Computing. Ce nouveau mode de livraison et consommation exige une infrastructure beaucoup plus flexible, capable de s'adapter rapidement pour fournir les ressources sollicitées. 
+
+En vue des scénarios étudiés, l'agilité est devenue cruciale dans ce contexte où les décisions se font de plus en plus en temps réel. Cet objectif ne peut pas être atteint sans la mise en place d'outils pour automatiser et orchestrer les éléments dans l'infrastructure. Dans l'aspect réseau, diverses opérations nécessaires sont toujours essentiellement manuelles et freinent le passage à ce modèle.
+
+Le nombre de modules à gérer et ses interfaces implique à  de contraintes pour le déploiement de nouvelles applications et services. La réponse aux divers cas d'utilisation Cloud Computing impose à la fois des opérations manuelles et une complexité de réalisation. Le développement d'outils pour automatiser ces scénarios introduit encore plus de complexité et ne s'adapte pas à tout data centre selon les modèles des équipements et protocoles utilisés.
+
+En plus de ces exigences difficiles à traiter au moyen des réseaux traditionnels, l'environnement Cloud Computing exige une sécurité plus élevée du \gls{si}. Dans ce modèle, la performance, la haute disponibilité et la protection de données sont requises à un niveau plus important par rapport aux data centres traditionnels. L'architecture réseau actuelle n'est pas adaptée aux questions de sécurité ressortant de la virtualisation et du Cloud.
+
+En résumé, il est difficile aujourd'hui d'atteindre le niveau d'agilité et sécurité exigé avec les technologies réseaux classiques sans introduire une complexité excessivement contraignante et donc bloquante pour la libération du Cloud Computing. Dans le chapitre suivant, il sera analysé de nouvelles applications SDN qui proposent des solutions pour aborder ces problématiques. 

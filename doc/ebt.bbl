@@ -381,6 +381,92 @@
       \verb http://books.google.fr/books?id=m95GAwAAQBAJ
       \endverb
     \endentry
+    \entry{vm7Challenges}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=b130764470c78e75f02708fecca5024b}{Alan\bibnamedelima Murphy}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{Virtualization}{V\bibinitperiod}{}{}{Technical\bibnamedelimb Marketing\bibnamedelima Manager}{T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b130764470c78e75f02708fecca5024b}{Alan\bibnamedelima Murphy}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{Virtualization}{V\bibinitperiod}{}{}{Technical\bibnamedelimb Marketing\bibnamedelima Manager}{T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}%
+      }
+      \strng{namehash}{b130764470c78e75f02708fecca5024b}
+      \strng{fullhash}{b130764470c78e75f02708fecca5024b}
+      \field{sortinit}{0}
+      \field{labeltitle}{Keeping Your Head Above the Cloud: Seven Data Center Challenges to Consider Before Going Virtual, section, section Virtual Machine Deployment Challenges}
+      \field{howpublished}{White Paper}
+      \field{note}{F5 Networks, Inc.}
+      \field{title}{Keeping Your Head Above the Cloud: Seven Data Center Challenges to Consider Before Going Virtual, section, section Virtual Machine Deployment Challenges}
+      \field{year}{2008}
+    \endentry
+    \entry{zkCloudArrived}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=fc24d4b3f25f41b8ce9b401c8e6c01a5}{Kerravala}{K\bibinitperiod}{Zeus}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fc24d4b3f25f41b8ce9b401c8e6c01a5}{Kerravala}{K\bibinitperiod}{Zeus}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fc24d4b3f25f41b8ce9b401c8e6c01a5}
+      \strng{fullhash}{fc24d4b3f25f41b8ce9b401c8e6c01a5}
+      \field{sortinit}{0}
+      \field{labeltitle}{Why Cloud Computing Needs a Cloud-Intelligent Network, section Cloud Computing has Arrived}
+      \field{howpublished}{White Paper}
+      \field{month}{04}
+      \field{note}{ZK Research}
+      \field{title}{Why Cloud Computing Needs a Cloud-Intelligent Network, section Cloud Computing has Arrived}
+      \field{year}{2012}
+    \endentry
+    \entry{leveragingSDNCloudNetworkServiceExample}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Leveraging SDN to Create Consumable, Programmable and Scalable Cloud Networks, section : Network service example}
+      \field{howpublished}{Strategic White Paper}
+      \field{month}{12}
+      \field{note}{Alcatel-Lucent}
+      \field{title}{Leveraging SDN to Create Consumable, Programmable and Scalable Cloud Networks, section : Network service example}
+      \field{year}{2013}
+    \endentry
+    \entry{hpCloudEffectsOnNetworkLimitations}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Effects of virtualization and cloud computing on data center networks, Section : Limitations of a hierarchical networking structure}
+      \field{howpublished}{Technology Brief}
+      \field{month}{10}
+      \field{note}{Hewlett-Packard Development Company, L.P.}
+      \field{title}{Effects of virtualization and cloud computing on data center networks, Section : Limitations of a hierarchical networking structure}
+      \field{year}{2011}
+    \endentry
+    \entry{leveragingSDNCloudDCWAN}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Leveraging SDN to Create Consumable, Programmable and Scalable Cloud Networks, section Data center connectivity to the wan}
+      \field{howpublished}{Strategic White Paper}
+      \field{month}{12}
+      \field{note}{Alcatel-Lucent}
+      \field{title}{Leveraging SDN to Create Consumable, Programmable and Scalable Cloud Networks, section Data center connectivity to the wan}
+      \field{year}{2013}
+    \endentry
+    \entry{zkCloudIntelligentNetwork}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=fc24d4b3f25f41b8ce9b401c8e6c01a5}{Kerravala}{K\bibinitperiod}{Zeus}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fc24d4b3f25f41b8ce9b401c8e6c01a5}{Kerravala}{K\bibinitperiod}{Zeus}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fc24d4b3f25f41b8ce9b401c8e6c01a5}
+      \strng{fullhash}{fc24d4b3f25f41b8ce9b401c8e6c01a5}
+      \field{sortinit}{0}
+      \field{labeltitle}{Why Cloud Computing Needs a Cloud-Intelligent Network, section A Cloud-Intelligent Network}
+      \field{howpublished}{White Paper}
+      \field{month}{04}
+      \field{note}{ZK Research}
+      \field{title}{Why Cloud Computing Needs a Cloud-Intelligent Network, section A Cloud-Intelligent Network}
+      \field{year}{2012}
+    \endentry
+    \entry{bigSwitchTapModernDC}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Open SDN for Network Visibility, Section Monitoring in a Modern Data Center}
+      \field{howpublished}{Solution Guide}
+      \field{month}{07}
+      \field{note}{Big Switch Networks}
+      \field{title}{Open SDN for Network Visibility, Section Monitoring in a Modern Data Center}
+      \field{year}{2013}
+    \endentry
     \entry{SurveySDNArchi}{misc}{}
       \name{labelname}{5}{}{%
         {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%

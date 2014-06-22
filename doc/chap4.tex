@@ -35,7 +35,7 @@ Des leçons acquises dans la conception des réseaux mobiles ont apporté la tec
 %En complément de ces principes, SDN propose également une interface commune de programmation du réseau sous-jacent, grâce à l'abstraction de ses capacités.
 %Bringing common IT language to programming the underlying network by abstracting the network capabilities into IT and business logic terminology.
 
-Cette solution apporte le comme bénéfice d'avoir, l'introduction d'une interface commune de management, permettant la mise en place dynamique de services, indépendante de la marque/modèle des dispositifs réseau. Avec SDN, l'administration réseau devient plus agile car un seul élément (le contrôleur) est à maîtriser au lieu d'avoir à configurer l'ensemble des équipements du système, accélérant considérablement le temps de convergence du réseau pour l'accommodation de nouvelles applications déployées.
+Cette solution apporte le comme bénéfice l'introduction d'une interface commune de management, permettant la mise en place dynamique de services, indépendamment de la marque/modèle des dispositifs réseau. Avec SDN, l'administration réseau devient plus agile car un seul élément (le contrôleur) est à maîtriser au lieu d'avoir à configurer l'ensemble des équipements du système, accélérant considérablement le temps de convergence du réseau pour l'accommodation de nouvelles applications déployées.
 
 
 
@@ -85,19 +85,28 @@ Afin de supprimer les contraintes des réseaux dans les data centres, une platef
 Le \gls{controlplane} dans SDN fonctionne en lien avec le système de management cloud afin de configurer dynamiquement des éléments réseaux pour s'adapter aux décisions des systèmes d'orchestration pour le changement d'utilisations des ressources. SDN fourni l'infrastructure nécessaire pour réaliser cette capacité de NFV.
 %The control plane in software-defined networks works in conjunction with cloud management systems in order to dynamically configure network elements to adapt to changing resource usage decisions made by cloud orchestration systems. SDN provides the infrastructure required to truly realize the potential of NFV.
 
+La figure \ref{cloud-sdn-nfv} affiche comment SDN et NFV s'intègrent dans une infrastructure Cloud pour atteindre les objectifs de virtualisation du réseau. \\
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/cloud-sdn-nfv} 
+\caption{SDN, NFV et Cloud Computing. \cite{leveragingSDNCloudNetworkServiceExample}} \label{cloud-sdn-nfv}
+\end{center}
+\end{figure} 
+
+L'image montre également les protocoles et standards ouverts qui émergent pour chaque technologie comme OpenFlow pour la communication entre les dispositifs réseau et le contrôleur SDN (OpenDaylight), OpenStack pour la gestion Cloud et ETSI pour le NFV. Il est important à noter que de grands noms de l’industrie (comme Cisco, Microsoft, Google etc.) se sont engagé à ces projets pour accélérer le développement de ces technologies.
 
 
-However, fully realizing the potential of this technology in today’s service provider networks means doing more than just separating the forwarding and control planes. This expanded definition of Service Provider SDN includes:
+%However, fully realizing the potential of this technology in today’s service provider networks means doing more than just separating the forwarding and control planes. This expanded definition of Service Provider SDN includes:
 
-> Integrated network control – this unified control layer controls the data center and network as an integrated entity, in order to deliver the best user experience.
-> Orchestrated network and cloud management – a unified approach that includes legacy network management and new cloud management systems. It is this end-to-end orchestration that enables flexible service creation, which in turn makes the network dynamic, adaptive and agile. This cuts introduction and modification cycles for services and removes barriers to innovation.
-> Service exposure – the SDN architecture provides network awareness to the application layer through service exposure application programming interfaces (APIs). These APIs not only provide raw network data, but are instead composed APIs that deliver actionable information at the application level.
+%> Integrated network control – this unified control layer controls the data center and network as an integrated entity, in order to deliver the best user experience.
+%> Orchestrated network and cloud management – a unified approach that includes legacy network management and new cloud management systems. It is this end-to-end orchestration that enables flexible service creation, which in turn makes the network dynamic, adaptive and agile. This cuts introduction and modification cycles for services and removes barriers to innovation.
+%> Service exposure – the SDN architecture provides network awareness to the application layer through service exposure application programming interfaces (APIs). These APIs not only provide raw network data, but are instead composed APIs that deliver actionable information at the application level.
 
-The service control layer of the Service Provider SDN architecture brings elastic, real-time allocation of resources for networking services. It enables these services to be defined and provisioned through self-service portals in a matter of minutes, rather than the days, weeks or even months that are traditionally required.
+%The service control layer of the Service Provider SDN architecture brings elastic, real-time allocation of resources for networking services. It enables these services to be defined and provisioned through self-service portals in a matter of minutes, rather than the days, weeks or even months that are traditionally required.
 
-This demands a platform with integrated control across networking domains that exposes “composed APIs” for new revenue generation. An end-to-end network management system across IP and transport infrastructure provides further efficiencies, develops greater responsiveness, and enables more reliable planning, provisioning, activation, adaptation and 
-control of new service connections.
+%This demands a platform with integrated control across networking domains that exposes “composed APIs” for new revenue generation. An end-to-end network management system across IP and transport infrastructure provides further efficiencies, develops greater responsiveness, and enables more reliable planning, provisioning, activation, adaptation and control of new service connections.
 
-The goal is to couple cloud management to a programmable network, via SDN controllers, to achieve full integration of the cloud and network, where cloud resources are no longer confined to a single data center, but are spread throughout the network.
+%The goal is to couple cloud management to a programmable network, via SDN controllers, to achieve full integration of the cloud and network, where cloud resources are no longer confined to a single data center, but are spread throughout the network.
 
-Using common orchestration for end-to-end service management as well as for operations, administration and maintenance reduces operating costs in areas such as provisioning, monitoring and faultfinding. More importantly, end-to-end orchestration enables flexible service creation, which makes the network dynamic, adaptive and agile.
+%Using common orchestration for end-to-end service management as well as for operations, administration and maintenance reduces operating costs in areas such as provisioning, monitoring and faultfinding. More importantly, end-to-end orchestration enables flexible service creation, which makes the network dynamic, adaptive and agile.
