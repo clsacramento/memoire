@@ -6,7 +6,7 @@ Le chapitre démontrera également les apports de SDN au sein des data centres p
 
 \section{Définition de SDN}
 
-Les requis réseaux des applications devraient être articulés dans un langage simple, utilisé pour demander les comportements réseau souhaités. La  programmation des réseaux est aujourd'hui très limitée, introduisant un malheureux compromis : obligation de développer les applications par un paramétrage réseau excessivement détaillé, ou l'ignorance de ces détails par le traitement du réseau comme une boîte noire.
+Les requis réseaux des applications devraient être articulés dans un langage simple, utilisé pour demander les comportements réseau souhaités. La  programmation des réseaux est aujourd'hui très limitée, introduisant un malheureux compromis : obligation de développer les applications par un paramétrage réseau excessivement détaillé, ou ignorer de ces détails par le traitement du réseau comme une boîte noire.
 %le développement d'applications contraint par un paramétrage réseau excessivement détaillé, ou l'ignorance de ces détails par le traitement du réseau comme une boîte noire. 
 Aucune de ces solutions n'est convenable ; la première implique des applications spécifiques à chaque type de réseau alors que dans la deuxième, le contrôle nécessaire à l'extraction de fonctionnalités réseau n'est pas présent. 
 %The definition of network services must be application-centric and simple. The networking requirements of applications should be articulated in an IT-friendly language and used to request desired network behaviors. Today there is limited programmability, resulting in an unfortunate tradeoff. Engineering of cloud applications is either encumbered by detailed network-specific parameters and information, or ignores them and treats the network as a “black box”. Neither is optimal. The first option leads to custom applications for each network type while with the second, applications lack the visibility and control needed to leverage the true capabilities of the network.
@@ -16,13 +16,13 @@ Un niveau approprié  d'abstraction des capacités réseaux est nécessaire pour
 
 Les principes \gls{sdn} sont plus adaptés à ce scénario, l'approche propose une couche d'abstraction pour permettre la programmation du réseau et autoriser le contrôle dynamique de services. SDN est un nouveau \gls{paradigme} réseau défini comme une architecture qui a pour but de centraliser  sur un contrôleur l'intelligence du réseau. Cette intelligence étant traditionnellement distribuée parmi plusieurs équipements réseaux réalisant une fonction spécifique dans l'infrastructure.
 
-Ces dispositifs ont en général une fonctionnalité de commutation de paquets (\gls{dataplane}) et une partie pour traiter ses données appliquant une logique spécifique selon les états et la configuration enregistrés (\gls{controlplane}). SDN propose de dissocier ces deux fonctions dans les dispositifs et d'agréger dans un contrôleur commun l'activité de traitement. L'image ci-dessous permet de visualiser les différences entre les architectures traditionnelles et SDN. \\
+Ces dispositifs ont en général une fonctionnalité de commutation de paquets (\gls{dataplane}) et une partie pour traiter les données en appliquant une logique spécifique selon les états et la configuration enregistrés (\gls{controlplane}). SDN propose de dissocier ces deux fonctions dans les dispositifs et d'agréger dans un contrôleur commun l'activité de traitement. L'image ci-dessous permet de visualiser les différences entre les architectures traditionnelle et SDN. \\
 
 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=0.7\textwidth]{images/TraditionalVsSDN} 
-\caption{Architecture réseau traditionnel et SDN. \cite{SurveySDNArchi}} \label{TraditionalVsSDN}
+\caption{Architectures : réseau traditionnel et SDN. \cite{SurveySDNArchi}} \label{TraditionalVsSDN}
 \end{center}
 \end{figure}
 
@@ -37,7 +37,7 @@ Les leçons acquises lors de la conception des réseaux mobiles ont apporté la 
 %En complément de ces principes, SDN propose également une interface commune de programmation du réseau sous-jacent, grâce à l'abstraction de ses capacités.
 %Bringing common IT language to programming the underlying network by abstracting the network capabilities into IT and business logic terminology.
 
-Cette solution apporte le comme bénéfice l'introduction d'une interface commune de management, permettant la mise en place dynamique de services, indépendamment de la marque/modèle des dispositifs réseau. Avec SDN, l'administration réseau devient plus agile car un seul élément (le contrôleur) est à maîtriser au lieu d'avoir à configurer l'ensemble des équipements du système, ce qui accélère considérablement le temps de convergence du réseau pour l'accommodation de nouvelles applications déployées.
+Cette solution apporte comme bénéfice l'introduction d'une interface commune de management, permettant la mise en place dynamique de services, indépendamment de la marque/modèle des dispositifs réseau. Avec SDN, l'administration réseau devient plus agile car un seul élément (le contrôleur) est à maîtriser au lieu d'avoir à configurer l'ensemble des équipements du système, ce qui accélère considérablement le temps de convergence du réseau pour l'accommodation de nouvelles applications déployées.
 
 
 
@@ -46,15 +46,15 @@ Cette solution apporte le comme bénéfice l'introduction d'une interface commun
 \section{Virtualisation des fonctions réseau, NFV}
 
 
-Un concept qui est très souvent discuté en parallèle à \gls{sdn} est \gls{nfv}. \gls{nfv} pousse les technologies de virtualisation à consolider les applications réseau sur des serveurs, switches et baies de stockage standards de l'industrie. La virtualisation des fonctions réseau non seulement réduit les dépenses en équipements, mais aussi apporte d'autres bénéfices tels que l'extension agile d'applications, l'innovation à une vitesse plus rapide, une plus haute disponibilité et une meilleure utilisation de ressources.
+Un concept qui est très souvent discuté en parallèle à \gls{sdn} est \gls{nfv}. \gls{nfv} pousse les technologies de virtualisation à consolider les applications réseau sur des serveurs, switches et baies de stockage standard de l'industrie. La virtualisation des fonctions réseau non seulement réduit les dépenses en équipements, mais aussi apporte d'autres bénéfices tels que l'extension agile d'applications, l'innovation à une vitesse plus rapide, une plus haute disponibilité et une meilleure utilisation de ressources.
 %A concept that often gets discussed in conjunction with SDN is Network Function Virtualization (NFV).
 %NFV leverages standard virtualization technologies to consolidate network applications – which have traditionally been hosted on proprietary hardware appliances – onto industry standard servers, switches and storage. In addition to reducing expenditure on equipment costs, virtualizing network functions also brings benefits such as rapid scaling of applications, faster speed of innovation, increased high availability and improved resource utilization. 
 
-Toutefois, pour bénéficier des apports, il est nécessaire que l'infrastructure réseau sous-jacente s'adapte rapidement et automatiquement. Par exemple, pour migrer une fonction réseau  dans un nouveau matériel, les politiques et les configurations associées à ce service doivent être provisionnées dans beaucoup d'autres équipements et d'autres fonctions. La complexité de configurer les réseaux dans un environnement si dynamique augmente énormément avec l'introduction de nouveaux éléments réseaux.
+Toutefois, pour bénéficier des apports, il est nécessaire que l'infrastructure réseau sous-jacente s'adapte rapidement et automatiquement. Par exemple, pour migrer une fonction réseau  dans un nouveau matériel, les politiques et les configurations associées à ce service doivent être provisionnées dans beaucoup d'autres équipements et fonctions. La complexité de configurer les réseaux dans un environnement si dynamique augmente énormément avec l'introduction de nouveaux éléments réseaux.
 %However, realizing these benefits requires that the underlying network infrastructure is adapted quickly and automatically. For example, for a network function to either scale up or migrate onto a new piece of hardware, the security and policy configuration associated with that network function may have to be provisioned on a large number of switches and other network functions. The complexity of configuring networks in such a dynamic environment increases greatly as the number of network elements increase.
 
 
-Bien que le développement de SDN et NFV puissent progresser indépendamment, l'association des deux principes est d'un fort intérêt pour le progrès des solutions cloud. SDN peut être employé en tant que technologie facilitatrice de la virtualisation des fonctions réseau, favorisant la consolidation des applications réseau dans des dispositifs industriels standards. 
+Bien que le développement de SDN et NFV puissent progresser indépendamment, l'association des deux principes est d'un fort intérêt pour le progrès des solutions cloud. SDN peut être employé en tant que technologie facilitatrice de la virtualisation des fonctions réseau, favorisant la consolidation des applications réseau dans des dispositifs industriels standard. 
 
 %Mainstream industry adoption and deployment of Cloud Telecoms will be hindered, or even blocked, until carrier grade telecom requirements have been fully proven on the key technologies underpinning the Cloud Telecoms concept, namely Network Functions Virtualisation (NFV), Software Defined Networking (SDN) and deployment on industry-standard, high- volume servers.
 %While the development of SDN and the development of NFV can proceed independently, there are some areas of possible overlap and cooperation.
