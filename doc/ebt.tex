@@ -137,6 +137,8 @@
 
 \newacronym{npb}{NPB}{Network Packet Broker}
 
+\newacronym{dpi}{DPI}{Deep Packet Inspection, Inspection de Paquets en Pronfondeur}
+
 
 \newglossaryentry{paradigme}
 {
@@ -150,10 +152,18 @@
 \newglossaryentry{mpls-glo}
 {
   name=MPLS,
-  text={MPLS -- Multiprocol Label Switching, Commutation multi-protocoles par étiquettes},
+  text={MPLS},
   description={MPLS introduced an explicit distinction between the network edge and the network core. Edge routers inspect the incoming packet headers (which express the host’s requirements as to where to deliver the packet) and then attach a label onto the packet which is used for all forwarding within the core. The label-based forwarding tables in core routers are built not just to deliver packets to the destination, but also to address operator requirements such as VPNs (tunnels) or traffic engineering. MPLS labels have meaning only within the core, and are completely decoupled from the host protocol (e.g., IPv4 or IPv6) used by the host to express its requirement to the network. Thus, the interface for specifying host requirements is still IP, while the interface for packets to identify themselves is an MPLS label. However, MPLS did not formalize the interface by which operators specified their control requirements. Thus, MPLS distinguished between the Host-Network and Packet-Switch interfaces, but did not develop a general Operator-Network interface. }
 }
 
+
+
+\newglossaryentry{dpi-glo}
+{
+  name=DPI,
+  text={DPI},
+  description={DPI is a network packet filtering technology that examines a packet as it passes an inspection point, searching for protocol non-compliance, viruses, spam, intrusions or other defined criteria. The tool then decides whether the packet may pass or if it needs to be rerouted. DPI provides the information to enable advanced network automation, policy, compliance and security functions throughout the network.}
+}
 
 
 \newglossaryentry{scalability}
