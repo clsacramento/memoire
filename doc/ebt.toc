@@ -18,44 +18,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.5}Cloud Computing}{8}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}L'aspect bloquant du r\IeC {\'e}seau}{11}{chapter.2}
+\contentsline {chapter}{\numberline {2}L'aspect bloquant du r\IeC {\'e}seau}{13}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Le r\IeC {\^o}le du r\IeC {\'e}seau dans les projets de TI}{11}{section.2.1}
+\contentsline {section}{\numberline {2.1}Le r\IeC {\^o}le du r\IeC {\'e}seau dans les projets de TI}{13}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}L'architecture r\IeC {\'e}seau d'un data centre typique}{13}{section.2.2}
+\contentsline {section}{\numberline {2.2}L'architecture r\IeC {\'e}seau d'un data centre typique}{15}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}La transformation des applications et exemples de sc\IeC {\'e}narios critiques}{14}{section.2.3}
+\contentsline {section}{\numberline {2.3}La transformation des applications et exemples de sc\IeC {\'e}narios critiques}{16}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Aspect multi-tenant}{15}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Aspects de s\IeC {\'e}curit\IeC {\'e}}{21}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Interconnexion WAN}{17}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.5}Complexit\IeC {\'e}, Agilit\IeC {\'e} et S\IeC {\'e}curit\IeC {\'e} : l'adaptation du r\IeC {\'e}seau au Cloud}{24}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Monitoring dans un data centre}{18}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}Applications SDN et leurs apports aux data centres}{27}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Aspects de s\IeC {\'e}curit\IeC {\'e}}{19}{section.2.4}
+\contentsline {section}{\numberline {3.1}D\IeC {\'e}finition de SDN}{27}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Complexit\IeC {\'e}, Agilit\IeC {\'e} et S\IeC {\'e}curit\IeC {\'e} : l'adaptation du r\IeC {\'e}seau au Cloud}{22}{section.2.5}
+\contentsline {section}{\numberline {3.2}Virtualisation des fonctions r\IeC {\'e}seau, NFV}{29}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Applications SDN et leurs apports aux data centres}{23}{chapter.3}
+\contentsline {section}{\numberline {3.3}SDN, NFV et le Cloud Computing}{30}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}D\IeC {\'e}finition de SDN}{23}{section.3.1}
+\contentsline {section}{\numberline {3.4}Sc\IeC {\'e}narios d'utilisation}{32}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Virtualisation des fonctions r\IeC {\'e}seau, NFV}{25}{section.3.2}
+\contentsline {section}{\numberline {3.5}Complexit\IeC {\'e} vs Agilit\IeC {\'e}}{33}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}SDN, NFV et le Cloud Computing}{26}{section.3.3}
+\contentsline {section}{\numberline {3.6}S\IeC {\'e}curit\IeC {\'e}}{34}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Sc\IeC {\'e}narios d'utilisation}{28}{section.3.4}
+\contentsline {chapter}{Conclusion}{37}{chapter*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Complexit\IeC {\'e} vs Agilit\IeC {\'e}}{29}{section.3.5}
+\contentsline {chapter}{Index}{39}{chapter*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}S\IeC {\'e}curit\IeC {\'e}}{30}{section.3.6}
+\contentsline {chapter}{Acronymes}{41}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{33}{chapter*.6}
+\contentsline {chapter}{Glossaire}{43}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{35}{chapter*.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronymes}{37}{section*.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{39}{section*.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{43}{chapter*.12}
+\contentsline {chapter}{Bibliographie}{47}{chapter*.20}

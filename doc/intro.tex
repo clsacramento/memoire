@@ -4,19 +4,20 @@
 
 %When equipped with a highly efficient, shared, and dynamic infrastructure, along with the tools needed to free up resources from traditional operational demands, IT can more efficiently respond to new business needs. As a result, organizations can focus on innovation and on aligning resources to broader strategic priorities. Decisions can be based on real-time information.
 
-Les centres de traitement de données\index{Data Centre} évoluent aujourd'hui à un rythme intense pour accompagner l'explosion constatée dans l'utilisation de données. L'accélération de l'innovation\index{Innovation} dans l'informatique impose une rénovation constante des entreprises. La virtualisation\index{Virtualisation} a permis aux centres de données d'améliorer la productivité de ses serveurs, mais pour arriver à l'agilité\index{Agilité} souhaitée, les data centres doivent faire évoluer leurs réseaux pour pouvoir passer au Cloud Computing\index{Cloud Computing}. Cette étude analyse les applications \gls{sdn}\index{SDN} pour distinguer quels sont les apports dans le contexte des data centres et habiliter le passage au Cloud Computing.
+Les centres de traitement de données\index{Data Centre} évoluent aujourd'hui à un rythme intense pour accompagner l'explosion constatée dans l'utilisation (en volume et en diversité) de données. L'accélération de l'innovation\index{Innovation} dans l'informatique impose une rénovation constante des infrastructures des entreprises. La virtualisation\index{Virtualisation} a permis aux centres de données d'améliorer la productivité de ses serveurs, mais pour arriver à l'agilité\index{Agilité} souhaitée, les data centres doivent faire évoluer leurs réseaux.% pour pouvoir passer au Cloud Computing. 
+Cette étude analyse les applications \gls{sdn}\index{SDN} pour distinguer quels sont les apports dans le contexte actuel et futur des data centres et habiliter le passage au \gls{cloudcomputing}.\index{Cloud Computing}
 
 \par 
-La plupart des infrastructures de \gls{ti} n'ont pas été construites pour supporter la croissance explosive de la capacité de traitement de l'information observée aujourd'hui. Plusieurs centres de données sont devenus hautement distribués et relativement fragmentés. Ils se trouvent donc limités dans leur capacité à évoluer rapidement et à supporter l'intégration des nouveaux types de technologies ou à se mettre à l'échelle selon les besoins de ses consommateurs.
+La plupart des infrastructures de \gls{ti} n'ont pas été construites pour supporter la croissance explosive des données ni la capacité de traitement de l'information observée aujourd'hui. Plusieurs centres de traitement de données sont devenus hautement distribués et relativement fragmentés par rapport aux besoins des différents profils des clients. Ils se trouvent donc limités dans leur capacité à évoluer rapidement et à supporter l'intégration des nouveaux types de technologies ou à se mettre à l'échelle des besoins de ses utilisateurs.
 
 \par 
-Lorsqu'ils sont équipés d'infrastructures performantes, partagées et dynamiques ainsi qu'avec des outils nécessaires pour libérer les ressources de la demande traditionnelle, les \gls{si} peuvent alors répondre plus efficacement aux besoins métiers. Ainsi, les structures pourraient se focaliser sur l'innovation et ajuster les ressources à leurs priorités stratégiques. Cela soulagerait la prise de décisions, qui pourrait être concentrée sur l'information en temps-réel. \cite{hpAlcatelCreatinCloudDCchallenges}
+Lorsqu'ils sont équipés d'infrastructures performantes, partagées et dynamiques ainsi que des outils nécessaires pour adapter les ressources à la demande, les \gls{si} peuvent répondre efficacement aux besoins métiers. Ainsi, les structures pourraient se focaliser sur l'innovation l'adaptation des ressources selon leurs priorités stratégiques métiers. Cela faciliterait la prise de décisions, qui pourrait être concentrée sur l'information en temps-réel. \cite{hpAlcatelCreatinCloudDCchallenges}
 
 \par
 Alors que le coût du réseau dans un data centre est estimé à 15\% du total, sans être un des plus élevés, il est largement établi qu'il représente un élément clé pour la réduction des coûts et l'augmentation du retour sur investissement. Les coûts d'investissement dans les serveurs ont été évalués à 45\% des coûts des data centres. Malheureusement la charge utile des serveurs est remarquablement basse, arrivant à seulement 10\% d'utilisation dans certains exemples.  \cite{cloudCosts}
 
 \par 
-La technique de la virtualisation\index{Virtualisation} a permis le déplacement des processus entre machines, mais des contraintes réseau continuent à limiter l'agilité\index{Agilité} dans les data centres. L'agilité est définie par la capacité d'affecter tout service n'importe où dans le data centre, tout en assurant la sécurité\index{Sécurité}, la performance et l'isolation entre tous les services. Les designs des réseaux conventionnels dans un data centre empêchent cette agilité ; par nature ils fragmentent  à la fois les réseaux et la capacité des serveurs, limitant et réduisant la croissance dynamique des pools de serveur. \cite{cloudCostsAgility}
+La technique de la virtualisation\index{Virtualisation} a permis le partage des processus entre machines, mais des contraintes réseau continuent à limiter l'agilité\index{Agilité} dans les data centres. L'agilité est définie par la capacité d'affecter tout service n'importe où dans le data centre, tout en assurant la sécurité\index{Sécurité}, la performance et l'isolation entre tous les services. Les designs des réseaux conventionnels dans un data centre empêchent cette agilité ; par nature ils fragmentent  à la fois les réseaux et la capacité des serveurs, limitant et réduisant la croissance dynamique des pools de serveur et de traitement de l'information. \cite{cloudCostsAgility}
 
 
 
@@ -25,15 +26,15 @@ L'agilité est donc un élément clé ; certaines entreprises s'évertuent à d�
 
 
 \par
-Cependant, lors du passage au Cloud, les entreprises réalisent que la virtualisation\index{Virtualisation} des serveurs est considérablement limitée par les designs Ethernet classiques et les contrôles de sécurité réseau traditionnels. Avec l'augmentation de la virtualisation au sein des data centres, quatre tâches critiques deviennent contraignantes :
+Cependant, lors du passage au Cloud, les entreprises réalisent que la virtualisation\index{Virtualisation} des serveurs est considérablement limitée par les designs Ethernet classiques et les contrôles de sécurité réseau traditionnels. Avec l'augmentation de la virtualisation au sein des data centres, quatre tâches majeurs deviennent critiques :
 \begin{itemize}
 \item Prévention de la congestion du trafic ;
-\item Réduction de la complexité des politiques réseau et maintien du niveau de service;
+\item Réduction de la complexité mise en place des politiques réseau et maintien du niveau de service;
 \item Élimination des points aveugles qui conduisent à des pannes ;
 \item  Scellement des failles de sécurité pour protéger les données. \cite{virtualizedCCCC}\\
 \end{itemize}
 %But as businesses move to the private cloud, they are finding server virtualization is severely limited by clas- sic Ethernet designs and traditional network security controls. As data center virtualization scales, four critical tasks become increasingly cumbersome:n Preventing traffic bottlenecksn Reducing complexity of network policy and service level assurancen Eliminating management blind spots that lead to outagesn Sealing up security loopholes to protect data
 
 \par
-Cette étude a pour but de démontrer comment SDN peut être appliqué aux data centres pour libérer le Cloud Computing et en dépasser les limites. Dans le premier chapitre, le contexte des data centres sera défini. Ensuite, les problématiques dans l'aspect réseau seront exposées. Enfin, le dernier chapitre présentera SDN et démontrera ses apports dans ce cadre.
+Cette étude a pour but de démontrer comment SDN peut être appliqué aux data centres pour permettre le Cloud Computing et en dépasser ces limites du réseau typique actuel. Dans le premier chapitre, le contexte des data centres sera défini. Ensuite, les problématiques dans l'aspect réseau seront exposées. Enfin, le dernier chapitre présentera SDN et démontrera ses apports dans ce cadre.
 

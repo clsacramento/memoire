@@ -19,6 +19,14 @@
 
 \refsection{0}
   \sortlist{entry}{none}
+    \entry{hpAlcatelCreatinCloudDCchallenges}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Creating the Cloud-Ready Data Center, section 2. The challenges of the virtualized data center}
+      \field{howpublished}{Technology White Paper}
+      \field{note}{Alcatel-Lucent, HP}
+      \field{title}{Creating the Cloud-Ready Data Center, section 2. The challenges of the virtualized data center}
+      \field{year}{2010}
+    \endentry
     \entry{cloudCosts}{article}{}
       \name{labelname}{4}{}{%
         {{hash=8a2713cd3a286d6c3afe169095c435aa}{Greenberg}{G\bibinitperiod}{Albert}{A\bibinitperiod}{}{}{}{}}%
@@ -391,10 +399,10 @@
       \strng{namehash}{b130764470c78e75f02708fecca5024b}
       \strng{fullhash}{b130764470c78e75f02708fecca5024b}
       \field{sortinit}{0}
-      \field{labeltitle}{Keeping Your Head Above the Cloud: Seven Data Center Challenges to Consider Before Going Virtual, section, section Virtual Machine Deployment Challenges}
+      \field{labeltitle}{Keeping Your Head Above the Cloud: Seven Data Center Challenges to Consider Before Going Virtual, section Virtual Machine Deployment Challenges}
       \field{howpublished}{White Paper}
       \field{note}{F5 Networks, Inc.}
-      \field{title}{Keeping Your Head Above the Cloud: Seven Data Center Challenges to Consider Before Going Virtual, section, section Virtual Machine Deployment Challenges}
+      \field{title}{Keeping Your Head Above the Cloud: Seven Data Center Challenges to Consider Before Going Virtual, section Virtual Machine Deployment Challenges}
       \field{year}{2008}
     \endentry
     \entry{zkCloudArrived}{misc}{}
@@ -467,6 +475,15 @@
       \field{title}{Open SDN for Network Visibility, Section Monitoring in a Modern Data Center}
       \field{year}{2013}
     \endentry
+    \entry{cloudSecurityThreats}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Security threats to evolving data centers}
+      \field{howpublished}{White Paper}
+      \field{month}{12}
+      \field{note}{Trend Micro}
+      \field{title}{Security threats to evolving data centers}
+      \field{year}{2011}
+    \endentry
     \entry{SurveySDNArchi}{misc}{}
       \name{labelname}{5}{}{%
         {{hash=a8f753998bb69afcd3eafd651df9762f}{Astuto}{A\bibinitperiod}{Bruno\bibnamedelima Nunes}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -497,6 +514,56 @@
       \verb http://hal.inria.fr/hal-00825087/PDF/hal\_final.pdf
       \endverb
       \keyw{Programmable Networks, Software Defined Networking (SDN).}
+    \endentry
+    \entry{SDNNewNormONFExecutiveSummary}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Software-Defined Networking: The New Norm for Networks, Section Executive Summary}
+      \field{howpublished}{White Paper}
+      \field{month}{04}
+      \field{note}{Open Networking Foundation}
+      \field{title}{Software-Defined Networking: The New Norm for Networks, Section Executive Summary}
+      \field{year}{2012}
+    \endentry
+    \entry{ImplementationChallengesForSDNBackground}{article}{}
+      \name{labelname}{9}{}{%
+        {{hash=b6cea6bdc21430c2853492a6aa80ecee}{Sezer}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ff7959cf78f11aa9b9282d3f17d97704}{Scott-Hayward}{S\bibinithyphendelim H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=09f3f685a25fd4316926a2da26851b68}{Chouhan}{C\bibinitperiod}{P.K.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=b1c93c20eec78e3e02e9e5ee0df5dee7}{Fraser}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5f1d08c0cc0429e72731f2feba427643}{Lake}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=6e3d59ac85e4715c445c0616c651c96b}{Finnegan}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=0ab27e39f687ea1246b03f89bd846de0}{Viljoen}{V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=e216a59e7c6beded03b974b7e2e71e95}{Miller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=58b72d2f11b8b9933b306c3285fb6fdb}{Rao}{R\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=b6cea6bdc21430c2853492a6aa80ecee}{Sezer}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ff7959cf78f11aa9b9282d3f17d97704}{Scott-Hayward}{S\bibinithyphendelim H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=09f3f685a25fd4316926a2da26851b68}{Chouhan}{C\bibinitperiod}{P.K.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=b1c93c20eec78e3e02e9e5ee0df5dee7}{Fraser}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5f1d08c0cc0429e72731f2feba427643}{Lake}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=6e3d59ac85e4715c445c0616c651c96b}{Finnegan}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=0ab27e39f687ea1246b03f89bd846de0}{Viljoen}{V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=e216a59e7c6beded03b974b7e2e71e95}{Miller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=58b72d2f11b8b9933b306c3285fb6fdb}{Rao}{R\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{95a538f10dbf5ae9e67772628244a40a}
+      \strng{fullhash}{e8fe385cfe037228cbf1cc467b9355e5}
+      \field{sortinit}{0}
+      \field{labeltitle}{Are we ready for SDN? Implementation challenges for software-defined networks, Section 2 BACKGROUND - Why SDN?}
+      \field{abstract}{Cloud services are exploding, and organizations are converging their data centers in order to take advantage of the predictability, continuity, and quality of service delivered by virtualization technologies. In parallel, energy-efficient and high-security networking is of increasing importance. Network operators, and service and product providers require a new network solution to efficiently tackle the increasing demands of this changing network landscape. Software-defined networking has emerged as an efficient network technology capable of supporting the dynamic nature of future network functions and intelligent applications while lowering operating costs through simplified hardware, software, and management. In this article, the question of how to achieve a successful carrier grade network with software-defined networking is raised. Specific focus is placed on the challenges of network performance, scalability, security, and interoperability with the proposal of potential solution directions.}
+      \field{issn}{0163-6804}
+      \field{journaltitle}{Communications Magazine, IEEE}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{Are we ready for SDN? Implementation challenges for software-defined networks, Section 2 BACKGROUND - Why SDN?}
+      \field{volume}{51}
+      \field{year}{2013}
+      \field{pages}{36\bibrangedash 43}
+      \verb{doi}
+      \verb 10.1109/MCOM.2013.6553676
+      \endverb
+      \keyw{cloud computing;computer centres;computer network management;computer network performance evaluation;computer network security;open systems;quality of service;software radio;virtual private networks;virtualisation;SDN;carrier grade network;cloud service;data center;energy efficient networking;interoperability;network operator;network performance;network scalability;network security;quality of service;software defined network;virtualization technology;Cloud computing;Data centers;Network security;Quality of service;Routing;Switches}
     \endentry
     \entry{AbstractionCS}{misc}{}
       \name{labelname}{1}{}{%

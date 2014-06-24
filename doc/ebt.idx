@@ -1,12 +1,25 @@
-\indexentry{Data Centre!Centre de traitement de donn\IeC {\'e}es|hyperpage}{1}
+\indexentry{Data Centre|hyperpage}{1}
+\indexentry{Innovation|hyperpage}{1}
+\indexentry{Virtualisation|hyperpage}{1}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{1}
+\indexentry{SDN|hyperpage}{1}
+\indexentry{Cloud Computing|hyperpage}{1}
+\indexentry{Virtualisation|hyperpage}{2}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{2}
+\indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{2}
+\indexentry{Virtualisation|hyperpage}{2}
+\indexentry{Data Centre|hyperpage}{3}
+\indexentry{Mode de livraison|hyperpage}{3}
 \indexentry{Cloud Computing|hyperpage}{3}
 \indexentry{Stockage|hyperpage}{3}
 \indexentry{Data Centre|hyperpage}{3}
 \indexentry{Infrastructure|hyperpage}{4}
 \indexentry{Application|hyperpage}{4}
+\indexentry{Charge|hyperpage}{4}
 \indexentry{Rack|hyperpage}{4}
 \indexentry{Routeur|hyperpage}{5}
 \indexentry{Commutateur!switch|hyperpage}{5}
+\indexentry{Stockage|hyperpage}{5}
 \indexentry{Trafic|hyperpage}{5}
 \indexentry{Extensible|hyperpage}{5}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{6}
@@ -15,7 +28,6 @@
 \indexentry{Virtualisation|hyperpage}{6}
 \indexentry{Ressources|hyperpage}{6}
 \indexentry{Hyperviseur|hyperpage}{7}
-\indexentry{VM!machines virtuelles|hyperpage}{7}
 \indexentry{VMware|hyperpage}{7}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{7}
 \indexentry{Compute|hyperpage}{7}
@@ -47,7 +59,7 @@
 \indexentry{Virtualisation du Stockage|hyperpage}{9}
 \indexentry{Software-Defined Data Center!Data centre pilot\IeC {\'e} par logiciel|hyperpage}{9}
 \indexentry{Gestion|hyperpage}{9}
-\indexentry{Charge|hyperpage}{9}
+\indexentry{Charge|hyperpage}{10}
 \indexentry{Abstraction|hyperpage}{10}
 \indexentry{Virtualisation du stockage!\gls{sds}|hyperpage}{10}
 \indexentry{HP|hyperpage}{10}
