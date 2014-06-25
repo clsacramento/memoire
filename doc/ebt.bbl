@@ -565,6 +565,62 @@
       \endverb
       \keyw{cloud computing;computer centres;computer network management;computer network performance evaluation;computer network security;open systems;quality of service;software radio;virtual private networks;virtualisation;SDN;carrier grade network;cloud service;data center;energy efficient networking;interoperability;network operator;network performance;network scalability;network security;quality of service;software defined network;virtualization technology;Cloud computing;Data centers;Network security;Quality of service;Routing;Switches}
     \endentry
+    \entry{OFSDNNFVintro}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{OpenFlow-enabled SDN and Network Functions Virtualization, section Introduction to NFV}
+      \field{howpublished}{ONF Solution Brief}
+      \field{note}{Open Networking Foundation}
+      \field{title}{OpenFlow-enabled SDN and Network Functions Virtualization, section Introduction to NFV}
+      \field{year}{2014}
+    \endentry
+    \entry{realTimeCloudNFV}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{The real-time cloud, section NETWORK FUNCTIONS VIRTUALIZATION}
+      \field{howpublished}{White Paper}
+      \field{note}{Ericsson}
+      \field{title}{The real-time cloud, section NETWORK FUNCTIONS VIRTUALIZATION}
+      \field{year}{2014}
+    \endentry
+    \entry{IntelCloudEPC}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=0f618c9b24af45746e528711172cd96f}{Intel}{I\bibinitperiod}{Tieto}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0f618c9b24af45746e528711172cd96f}{Intel}{I\bibinitperiod}{Tieto}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0f618c9b24af45746e528711172cd96f}
+      \strng{fullhash}{0f618c9b24af45746e528711172cd96f}
+      \field{sortinit}{0}
+      \field{labeltitle}{Carrier Cloud Telecoms – Exploring the Challenges of Deploying Virtualisation and SDN in Telecoms Networks}
+      \field{howpublished}{White Paper}
+      \field{note}{Section Summary and Conclusions}
+      \field{title}{Carrier Cloud Telecoms – Exploring the Challenges of Deploying Virtualisation and SDN in Telecoms Networks}
+      \field{year}{2013}
+    \endentry
+    \entry{OFSDNNFVand}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{OpenFlow-enabled SDN and Network Functions Virtualization, section NFV AND SDN}
+      \field{howpublished}{ONF Solution Brief}
+      \field{note}{Open Networking Foundation}
+      \field{title}{OpenFlow-enabled SDN and Network Functions Virtualization, section NFV AND SDN}
+      \field{year}{2014}
+    \endentry
+    \entry{realTimeCloudNetworkEnabled}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{The real-time cloud, section NETWORK-ENABLED CLOUD}
+      \field{howpublished}{White Paper}
+      \field{note}{Ericsson}
+      \field{title}{The real-time cloud, section NETWORK-ENABLED CLOUD}
+      \field{year}{2014}
+    \endentry
+    \entry{realTimeCloudUseCases}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{The real-time cloud, section USE CASES}
+      \field{howpublished}{White Paper}
+      \field{note}{Ericsson}
+      \field{title}{The real-time cloud, section USE CASES}
+      \field{year}{2014}
+    \endentry
     \entry{AbstractionCS}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=a51045d320f623866a9c2a67cbf1ee82}{Keller}{K\bibinitperiod}{Robert\bibnamedelima M.}{R\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
@@ -640,6 +696,24 @@
       \field{title}{High-performance data centers: A research roadmap}
       \field{year}{2004}
     \endentry
+    \entry{DPISearchSDN}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=982a4f0afb5b54dce62d920268f13ac9}{Doyle}{D\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=982a4f0afb5b54dce62d920268f13ac9}{Doyle}{D\bibinitperiod}{Lee}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{982a4f0afb5b54dce62d920268f13ac9}
+      \strng{fullhash}{982a4f0afb5b54dce62d920268f13ac9}
+      \field{sortinit}{0}
+      \field{labeltitle}{Where SDN and DPI technology meet: Centralized control and automation}
+      \field{howpublished}{Web Site}
+      \field{title}{Where SDN and DPI technology meet: Centralized control and automation}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://searchsdn.techtarget.com/tip/Where-SDN-and-DPI-technology-meet-Centralized-control-and-automation
+      \endverb
+    \endentry
     \entry{NetworkFabricSearchSDN}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=d6ebb0634de22e70618460d3fc936297}{Rouse}{R\bibinitperiod}{Margaret}{M\bibinitperiod}{}{}{}{}}%
@@ -650,12 +724,14 @@
       \strng{namehash}{d6ebb0634de22e70618460d3fc936297}
       \strng{fullhash}{d6ebb0634de22e70618460d3fc936297}
       \field{sortinit}{0}
-      \field{labeltitle}{network fabric}
+      \field{labeltitle}{Network Fabric}
       \field{howpublished}{Web Site}
       \field{month}{03}
-      \field{note}{http://searchsdn.techtarget.com/definition/network-fabric}
-      \field{title}{network fabric}
+      \field{title}{Network Fabric}
       \field{year}{2014}
+      \verb{url}
+      \verb http://searchsdn.techtarget.com/definition/network-fabric
+      \endverb
     \endentry
     \entry{fabricExtending}{inproceedings}{}
       \name{labelname}{4}{}{%
@@ -726,6 +802,43 @@
       \verb{url}
       \verb http://dx.doi.org/10.1007/978-3-642-15187-3_12
       \endverb
+    \endentry
+    \entry{fabric}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0fb6f28a8534be6adff8778bd2dda1de}{Casado}{C\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=4b4b1c19e65a22e44c8491e7046d6666}{Koponen}{K\bibinitperiod}{Teemu}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=8d2fd528d2484047352789c731e250a5}{Shenker}{S\bibinitperiod}{Scott}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fcc62c4e0713dc79b333520f4dfc49d0}{Tootoonchian}{T\bibinitperiod}{Amin}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Helsinki, Finland}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{4c0a8ce5999513249566e77135bcf2ad}
+      \strng{fullhash}{683e0c576b719befd3f966fb522fb209}
+      \field{sortinit}{0}
+      \field{labeltitle}{Fabric: A Retrospective on Evolving SDN}
+      \field{booktitle}{Proceedings of the First Workshop on Hot Topics in Software Defined Networks}
+      \field{isbn}{978-1-4503-1477-0}
+      \field{series}{HotSDN '12}
+      \field{title}{Fabric: A Retrospective on Evolving SDN}
+      \field{year}{2012}
+      \field{pages}{85\bibrangedash 90}
+      \verb{doi}
+      \verb 10.1145/2342441.2342459
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2342441.2342459
+      \endverb
+      \keyw{network architecture}
     \endentry
     \entry{OpenDaylight}{misc}{}
       \field{sortinit}{0}

@@ -14,32 +14,35 @@
 \indexentry{Stockage|hyperpage}{3}
 \indexentry{Data Centre|hyperpage}{3}
 \indexentry{Infrastructure|hyperpage}{4}
-\indexentry{Application|hyperpage}{4}
 \indexentry{Charge|hyperpage}{4}
 \indexentry{Rack|hyperpage}{4}
+\indexentry{Switch|hyperpage}{4}
+\indexentry{Stockage|hyperpage}{4}
 \indexentry{Routeur|hyperpage}{5}
-\indexentry{Commutateur!switch|hyperpage}{5}
+\indexentry{Switch|hyperpage}{5}
 \indexentry{Stockage|hyperpage}{5}
 \indexentry{Trafic|hyperpage}{5}
-\indexentry{Extensible|hyperpage}{5}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{5}
+\indexentry{\IeC {\'E}nergie|hyperpage}{6}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{6}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{6}
-\indexentry{\IeC {\'E}nergie!\IeC {\'e}nerg\IeC {\'e}tique|hyperpage}{6}
+\indexentry{\IeC {\'E}nergie|hyperpage}{6}
 \indexentry{Virtualisation|hyperpage}{6}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{6}
 \indexentry{Ressources|hyperpage}{6}
 \indexentry{Hyperviseur|hyperpage}{7}
-\indexentry{VMware|hyperpage}{7}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{7}
 \indexentry{Compute|hyperpage}{7}
 \indexentry{Data Centre|hyperpage}{7}
 \indexentry{Dimensionnement|hyperpage}{7}
 \indexentry{Charge|hyperpage}{7}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{7}
-\indexentry{Delivery Model!Mode de livraison|hyperpage}{8}
-\indexentry{IaaS|hyperpage}{8}
+\indexentry{Planification|hyperpage}{8}
+\indexentry{Mode de livraison|hyperpage}{8}
 \indexentry{Cluster|hyperpage}{8}
 \indexentry{Ressources|hyperpage}{8}
-\indexentry{Extensible!\IeC {\'e}tendues|hyperpage}{8}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{8}
+\indexentry{Abstraction|hyperpage}{8}
 \indexentry{Compute!processeurs|hyperpage}{8}
 \indexentry{Cloud Computing|hyperpage}{8}
 \indexentry{Delivery Model|hyperpage}{8}
@@ -54,13 +57,59 @@
 \indexentry{Orchestration|hyperpage}{9}
 \indexentry{Ressources|hyperpage}{9}
 \indexentry{Hyperviseur|hyperpage}{9}
-\indexentry{Compute!Virtualisation des serveurs|hyperpage}{9}
+\indexentry{Compute|hyperpage}{9}
+\indexentry{Abstraction|hyperpage}{9}
 \indexentry{Virtualisation du R\IeC {\'e}seau|hyperpage}{9}
-\indexentry{Virtualisation du Stockage|hyperpage}{9}
-\indexentry{Software-Defined Data Center!Data centre pilot\IeC {\'e} par logiciel|hyperpage}{9}
-\indexentry{Gestion|hyperpage}{9}
+\indexentry{Virtualisation du Stockage|hyperpage}{10}
+\indexentry{Software-Defined Data Center|hyperpage}{10}
+\indexentry{Gestion|hyperpage}{10}
 \indexentry{Charge|hyperpage}{10}
 \indexentry{Abstraction|hyperpage}{10}
+\indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{10}
+\indexentry{Abstraction|hyperpage}{10}
 \indexentry{Virtualisation du stockage!\gls{sds}|hyperpage}{10}
-\indexentry{HP|hyperpage}{10}
-\indexentry{SDN|hyperpage}{10}
+\indexentry{SDN|hyperpage}{11}
+\indexentry{Planification|hyperpage}{13}
+\indexentry{Co\IeC {\^u}ts|hyperpage}{13}
+\indexentry{Critiques|hyperpage}{13}
+\indexentry{Co\IeC {\^u}ts|hyperpage}{14}
+\indexentry{Critiques|hyperpage}{14}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{14}
+\indexentry{Stockage|hyperpage}{15}
+\indexentry{Mode de livraison|hyperpage}{15}
+\indexentry{Stockage|hyperpage}{16}
+\indexentry{Co\IeC {\^u}ts|hyperpage}{16}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{16}
+\indexentry{\IeC {\'E}nergie|hyperpage}{16}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{16}
+\indexentry{Mode de livraison|hyperpage}{16}
+\indexentry{efficacit\IeC {\'e}|hyperpage}{16}
+\indexentry{Virtualisation|hyperpage}{16}
+\indexentry{Compute|hyperpage}{17}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{20}
+\indexentry{Virtualisation|hyperpage}{21}
+\indexentry{Virtualisation|hyperpage}{22}
+\indexentry{Stockage|hyperpage}{23}
+\indexentry{Mode de livraison|hyperpage}{24}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{24}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{24}
+\indexentry{Abstraction|hyperpage}{25}
+\indexentry{Abstraction|hyperpage}{26}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{26}
+\indexentry{Mode de livraison|hyperpage}{27}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{27}
+\indexentry{Stockage|hyperpage}{27}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{27}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{27}
+\indexentry{Abstraction|hyperpage}{28}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{28}
+\indexentry{Virtualisation|hyperpage}{28}
+\indexentry{Virtualisation du Stockage|hyperpage}{28}
+\indexentry{Virtualisation du R\IeC {\'e}seau|hyperpage}{28}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{29}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{30}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{31}
+\indexentry{Abstraction|hyperpage}{32}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{32}
+\indexentry{Scalabilit\IeC {\'e}|hyperpage}{32}
+\indexentry{Agilit\IeC {\'e}|hyperpage}{32}

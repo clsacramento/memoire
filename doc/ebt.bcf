@@ -2006,20 +2006,22 @@
     <bcf:citekey order="83">CloudComputingIntelVisionSpeeding</bcf:citekey>
     <bcf:citekey order="84">cluster</bcf:citekey>
     <bcf:citekey order="85">dataCenterDef</bcf:citekey>
-    <bcf:citekey order="86">NetworkFabricSearchSDN</bcf:citekey>
-    <bcf:citekey order="87">fabricExtending</bcf:citekey>
-    <bcf:citekey order="88">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
-    <bcf:citekey order="89">OpenDaylight</bcf:citekey>
-    <bcf:citekey order="90">OpenSource</bcf:citekey>
-    <bcf:citekey order="91">SurveySDNArchi</bcf:citekey>
-    <bcf:citekey order="92">OpenFlowStanfordSwitch</bcf:citekey>
-    <bcf:citekey order="93">paradigmdef</bcf:citekey>
-    <bcf:citekey order="94">newparadigm</bcf:citekey>
-    <bcf:citekey order="95">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="96">sdnbookControlDataPlanes</bcf:citekey>
-    <bcf:citekey order="97">scalability</bcf:citekey>
-    <bcf:citekey order="98">chevance2001serveurs</bcf:citekey>
-    <bcf:citekey order="99">CloudComputingIntelVisionSpeeding</bcf:citekey>
+    <bcf:citekey order="86">DPISearchSDN</bcf:citekey>
+    <bcf:citekey order="87">NetworkFabricSearchSDN</bcf:citekey>
+    <bcf:citekey order="88">fabricExtending</bcf:citekey>
+    <bcf:citekey order="89">InternetEvolutionRoleSoftwareEngineeringRealInternet</bcf:citekey>
+    <bcf:citekey order="90">fabric</bcf:citekey>
+    <bcf:citekey order="91">OpenDaylight</bcf:citekey>
+    <bcf:citekey order="92">OpenSource</bcf:citekey>
+    <bcf:citekey order="93">SurveySDNArchi</bcf:citekey>
+    <bcf:citekey order="94">OpenFlowStanfordSwitch</bcf:citekey>
+    <bcf:citekey order="95">paradigmdef</bcf:citekey>
+    <bcf:citekey order="96">newparadigm</bcf:citekey>
+    <bcf:citekey order="97">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="98">sdnbookControlDataPlanes</bcf:citekey>
+    <bcf:citekey order="99">scalability</bcf:citekey>
+    <bcf:citekey order="100">chevance2001serveurs</bcf:citekey>
+    <bcf:citekey order="101">CloudComputingIntelVisionSpeeding</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

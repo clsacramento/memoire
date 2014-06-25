@@ -24,7 +24,7 @@
 
 \usepackage{graphicx,wrapfig}
 
-%\DeclareUnicodeCharacter{00A0}{ }
+\DeclareUnicodeCharacter{00A0}{ }
 
 %\usepackage{lipsum}
 %\bibliography{biblio}
@@ -133,11 +133,20 @@
 
 \newacronym{sds}{SDS}{Software Defined-Storage, Stockage Défini par Logiciel}
 
-\newacronym{iass}{IaaS}{Infrastructure as a Service, Infrastructure en tant que Service}
-
 \newacronym{npb}{NPB}{Network Packet Broker}
 
 \newacronym{dpi}{DPI}{Deep Packet Inspection, Inspection de Paquets en Pronfondeur}
+
+\newacronym{vpn}{VPN}{Virtual Private Network}
+
+\newacronym{ets}{ETSI}{European Telecommunications Standards Institute}
+
+\newacronym{opex}{OpEx}{Operational Expenditure, Coûts Opérationnels}
+
+\newacronym{caex}{CapEx}{Capital Expenditure, Coûts d'Investissement}
+
+\newacronym{roi}{ROI}{Return of Investiments, Retour sur Investissement}
+
 
 
 \newglossaryentry{paradigme}
@@ -153,7 +162,9 @@
 {
   name=MPLS,
   text={MPLS},
-  description={MPLS introduced an explicit distinction between the network edge and the network core. Edge routers inspect the incoming packet headers (which express the host’s requirements as to where to deliver the packet) and then attach a label onto the packet which is used for all forwarding within the core. The label-based forwarding tables in core routers are built not just to deliver packets to the destination, but also to address operator requirements such as VPNs (tunnels) or traffic engineering. MPLS labels have meaning only within the core, and are completely decoupled from the host protocol (e.g., IPv4 or IPv6) used by the host to express its requirement to the network. Thus, the interface for specifying host requirements is still IP, while the interface for packets to identify themselves is an MPLS label. However, MPLS did not formalize the interface by which operators specified their control requirements. Thus, MPLS distinguished between the Host-Network and Packet-Switch interfaces, but did not develop a general Operator-Network interface. }
+  description={
+	MPLS a proposé une distinction explicite entre la périphérie et le cœur du réseau.  Les routeurs dans la périphérie inspectent les entêtes des paquets entrants rajoute une étiquette utilisée pour les transmissions dans le cœur du réseau. Cette commutation basée sur les étiquettes sont utiliser pour délivrer les paquets et répondre aux pré-requis des opérateurs, comme tunnel \gls{vpn}. ou l'ingénierie du trafic. Les étiquettes MPLS ont du sens seulement dans le cœur du réseau et sont complètement indépendantes des protocoles spécifique aux hôtes (IPv4, IPv6 ou autre).  MPLS n'a pas formalisé l'interface entre interface de contrôle pour les opérateurs. Ainsi, MPLS a distingué les réseaux hôtes des interfaces de commutation des paquets, mais n'a pas développé une interface générale pour les opérateur réseau. \cite{fabric}}
+  %MPLS introduced an explicit distinction between the network edge and the network core. Edge routers inspect the incoming packet headers (which express the host’s requirements as to where to deliver the packet) and then attach a label onto the packet which is used for all forwarding within the core. The label-based forwarding tables in core routers are built not just to deliver packets to the destination, but also to address operator requirements such as VPNs (tunnels) or traffic engineering. MPLS labels have meaning only within the core, and are completely decoupled from the host protocol (e.g., IPv4 or IPv6) used by the host to express its requirement to the network. Thus, the interface for specifying host requirements is still IP, while the interface for packets to identify themselves is an MPLS label. However, MPLS did not formalize the interface by which operators specified their control requirements. Thus, MPLS distinguished between the Host-Network and Packet-Switch interfaces, but did not develop a general Operator-Network interface. 
 }
 
 
@@ -162,7 +173,8 @@
 {
   name=DPI,
   text={DPI},
-  description={DPI is a network packet filtering technology that examines a packet as it passes an inspection point, searching for protocol non-compliance, viruses, spam, intrusions or other defined criteria. The tool then decides whether the packet may pass or if it needs to be rerouted. DPI provides the information to enable advanced network automation, policy, compliance and security functions throughout the network.}
+  description={ DPI est une technologie de filtrage de paquets qui les examine au moment où ils passent par le point d'inspection pour rechercher une non conformité de protocole, virus, spam, intrusion ou autre critère défini. L'outil décide alors si le paquet doit être transmit à la destination, re-routé ou bloqué. DPI fourni des données pour permettre une automatisation du réseau, une conformité aux règles définies et d'autres fonctions de sécurité. \cite{DPISearchSDN}}
+  %DPI is a network packet filtering technology that examines a packet as it passes an inspection point, searching for protocol non-compliance, viruses, spam, intrusions or other defined criteria. The tool then decides whether the packet may pass or if it needs to be rerouted. DPI provides the information to enable advanced network automation, policy, compliance and security functions throughout the network.}
 }
 
 
@@ -269,15 +281,7 @@
 \newglossaryentry{opendaylight}
 {
   name=Open Daylight,
-  description={ Association initiée par Linux Foundation pour l'union des géants du marché réseau dans le but de développer un contrôleur SDN \gls{opnesource}, pour l'innover, l'encourager et pour permettre son adoption accélérée. \cite{OpenDaylight} }
-}
-
-\newglossaryentry{openstack}
-{
-  name=OpenStack,
-  description={ OpenStack est un projet pour le développement d'une plateforme Cloud Computing \gls{opnesource}. Le projet a été initié par NASA et Rackspace en 2010, et actuellement a été rejoint par diverses entreprise telles que HP, Dell, Cisco etc.
-  %OpenStack is an open-source IaaS provider project supported by multiple vendors. The project was started by NASA and Rackspace in 2010, while currently more companies have joined (e.g. HP, Dell, Cisco, etc). 
-  \cite{openstack} }
+  description={ Association initiée par Linux Foundation pour l'union des géants du marché réseau dans le but de développer un contrôleur SDN \gls{opensource}, pour l'innover, l'encourager et pour permettre son adoption accélérée. \cite{OpenDaylight} }
 }
 
 
@@ -296,8 +300,21 @@
 {
   name=Compute,
   text=compute,
-  description={ Le terme \og compute \lg{} a été utilisé tout au long du document pour faire référence à la capacité de calcul et traitement de l'information des serveurs physiques. C'est l'élément qui est virtualisé au moyen des hyperviseurs permettant la mutualisation de ces ressources entre différentes applications.}
+  description={ Le terme compute  a été utilisé tout au long du document pour faire référence à la capacité de calcul et traitement de l'information des serveurs physiques. C'est l'élément qui est virtualisé au moyen des hyperviseurs permettant la mutualisation de ces ressources entre différentes applications.}
 }
+
+
+\newglossaryentry{openstack}
+{
+  name=OpenStack,
+  text=OpenStack,
+  description={ OpenStack est un projet pour le développement d'une plateforme Cloud Computing \gls{opnesource}. Le projet a été initié par NASA et Rackspace en 2010, et actuellement a été rejoint par diverses entreprises telles que HP, Dell, Cisco etc.
+  %OpenStack is an open-source IaaS provider project supported by multiple vendors. The project was started by NASA and Rackspace in 2010, while currently more companies have joined (e.g. HP, Dell, Cisco, etc). 
+  \cite{openstack} }
+}
+
+
+
 
 \usepackage[english,francais]{babel}
 \frenchbsetup{og=«, fg=»}

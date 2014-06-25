@@ -17,7 +17,7 @@ Un des cas d'utilisation est l'infrastructure virtuelle d'entreprise, dans laque
 
 
 
-Un des scénarios les plus traditionnels de l'intégration des services dynamiques avec SDN consiste à en resserrer l'interaction entre le réseau et le cloud. Pour les services "inline" tels que filtrage, modification des entêtes et \gls{nat}, les opérateurs utilisent diverses "appliances", ou d'autres services pour gérer le trafic utilisateur. Ces services sont hébergés dans du matériel physique ou en machines virtuelles. L’enchaînement de services est nécessaire pour router le trafic client à travers ces services. Les solutions traditionnelles sont soit statiques ou très limitées en flexibilité et \gls{scalability}.
+Un des scénarios les plus traditionnels de l'intégration des services dynamiques avec SDN consiste à en resserrer l'interaction entre le réseau et le cloud. Pour les services "inline" tels que filtrage, modification des entêtes et \gls{nat}, les opérateurs utilisent diverses "appliances", ou d'autres services pour gérer le trafic utilisateur. Ces services sont hébergés dans du matériel physique ou en machines virtuelles. L’enchaînement de services est nécessaire pour router le trafic client à travers ces services. Les solutions traditionnelles sont soit statiques ou très limitées en flexibilité et \gls{scalability}\index{Scalabilité}.
 %The more traditional and now widely accepted Service Provider SDN use case of dynamic service chaining* itself relies on tight interaction between the network and the cloud. For inline services, such as content filtering, header enrichment, firewalls and Network Address Translation (NAT), operators use different appliances, or value-added services to manage subscriber traffic. These inline services can be hosted on dedicated physical hardware or on virtual machines (software appliances running in a virtualized cloud environment). Service chaining is required to route certain subscriber traffic through more than one such service. Solutions currently available are either static or their flexibility is significantly limited by scalability inefficiencies.
 
 %Dynamic service chaining can optimize the use of extensive high-touch services by either selectively steering traffic through specific services or bypassing them completely. This can provide capex savings through efficient use of capacity. Greater control over traffic and the use of subscriber-based selection of inline services can lead to the creation of new offerings and new ways to monetize networks.
@@ -29,9 +29,9 @@ Un des scénarios les plus traditionnels de l'intégration des services dynamiqu
 Dans le chapitre précédent, les principaux défis des réseaux traditionnels pour fonctionner en mode Cloud ont été détaillés. Un résumé simplifié des principales difficultés a été proposé. Les prochaines sections, traitent ces points et illustrent comment ces objectifs peuvent être atteints en utilisant SDN. \cite{realTimeCloudUseCases} 
 
 
-\section{Complexité vs Agilité}
+\section{Complexité et Agilité}
 
-La complexité et l'agilité sont des éléments qui sont fortement associés et doivent donc être étudiés ensemble. En effet, la complexité réduit considérablement l'atteinte des objectifs d'agilité, et l'agilité augmente la complexité dans l'approche réseau traditionnelle. Cette impasse a pu être observé dans les scénarios présentés précédemment. 
+La complexité et l'agilité\index{Agilité} sont des éléments qui sont fortement associés et doivent donc être étudiés ensemble. En effet, la complexité réduit considérablement l'atteinte des objectifs d'agilité, et l'agilité augmente la complexité dans l'approche réseau traditionnelle. Cette impasse a pu être observé dans les scénarios présentés précédemment. 
 
 Les architectures réseaux implémentant SDN proposent d'aplatir physiquement la topologie avec l'interconnexion de tous les élément à un \gls{fabric} pour à la fois simplifier le réseau et gagner en agilité. L'image ci-dessous visualise cette proposition. Le contrôleur SDN peut être programmé pour reproduire logiquement l'infrastructure souhaitée par chaque tenant. 
 
@@ -49,7 +49,7 @@ Les templates peuvent être réutilisés plusieurs fois, si l'opération doit ê
 %The Nuage Networks VSP automates the full instantiation of the tenant networking requirements through SDN programmability and abstraction.
 %The template can be used as many times as required, should this operation need to be repeated multiple times. The Nuage Networks VSP solution instantiates the necessary networking and provides full isolation between tenants and through the robust implementation of SDN technology pillars, which simplifies the operation of the data center network substantially.
 
-Autre avantage est une réponse plus rapide aux demandes des clients avec une simplification opérationnelle. Grâce à sa capacité de programmation et d'abstraction, SDN élimine les opérations manuelles très sensibles aux erreurs, avec une meilleure efficacité du réseau, réduction de coûts opérationnels et d'investissement. \cite{leveragingSDNCloudNetworkServiceExample} \cite{leveragingSDNCloudDCWAN}
+Autre avantage est une réponse plus rapide aux demandes des clients avec une simplification opérationnelle. Grâce à sa capacité de programmation et d'abstraction\index{Abstraction}, SDN élimine les opérations manuelles très sensibles aux erreurs, avec une meilleure efficacité du réseau, réduction de coûts opérationnels et d'investissement. \cite{leveragingSDNCloudNetworkServiceExample} \cite{leveragingSDNCloudDCWAN}
 %Faster response time to customer demands, which results in much higher customer satisfaction
 %• Simplified business operations through templates that are created once and used many times
 %• Operational simplification through automation, with SDN programmability and abstraction
@@ -58,7 +58,7 @@ Autre avantage est une réponse plus rapide aux demandes des clients avec une si
 
 \section{Sécurité}
 
-La sécurité dans un data centre Cloud doit protéger le trafic entre les clients et les serveurs, le trafic entre les machines virtuelles dans les serveurs ainsi que le trafic entre serveurs (physiques ou virtuels) et les applications ou systèmes dans d'autres data centres. La capacité d'extension représente une requis de sécurité essentiel dans ces environnements. 
+La sécurité dans un data centre Cloud doit protéger le trafic entre les clients et les serveurs, le trafic entre les machines virtuelles dans les serveurs ainsi que le trafic entre serveurs (physiques ou virtuels) et les applications ou systèmes dans d'autres data centres. La capacité d'extension\index{Scalabilité} représente une requis de sécurité essentiel dans ces environnements. 
 
 
 
@@ -68,7 +68,7 @@ L'importante croissance de l'accès utilisateur ainsi que de la sophistication d
 
 %Increasing user access and the rising sophistication of security threats in a cloud-ready data center also require expanded visibility into threat vectors and related protection . at the same time, security solutions still need to consistently enforce policies, while remaining flexible to adapt to the changes in traffic volumes and data flows that occur because of virtualization, web 2 .0 applications, and cloud services . appropriate policies affect the availability of business critical applications and operations .
 
-Pour aborder ces défis, la sécurité d'un cloud doit réunir des capacités telles que \gls{scalability}, monitoring et contrôles renforcés. Les services de sécurité doivent être consolidés et coordonnés en complément de la simplification et la mutualisation agile du réseau. Cette approche améliore la flexibilité et l'efficacité du système entier.
+Pour aborder ces défis, la sécurité d'un cloud doit réunir des capacités telles que \gls{scalability}\index{Scalabilité}, monitoring et contrôles renforcés. Les services de sécurité doivent être consolidés et coordonnés en complément de la simplification et la mutualisation agile\index{Agilité} du réseau. Cette approche améliore la flexibilité et l'efficacité du système entier.
 %To address these challenges, capabilities such as scale, visibility, and enforcement controls must work together to comprehensively secure a cloud-ready data center . Security services must be consolidated and pooled in a coordinated fashion to complement the simplification and sharing of the network . This approach enhances the flexibility and efficiency of the entire solution .
 
 SDN propose des moyens pour fournir des services dynamiques de sécurité et pour répondre aux pré-requis de performances tout en accommodant les évolutions futures pour répondre aux nouvelles demandes. De services tels que supervision, filtrage, détection et prévention d'intrusion et VPNs sont consolidés dans une plateforme extensible avec de ressources affectées dynamiquement. La solution améliore également chaque service de sécurité en augmentant de manière dynamique la capacité d'accès à tout flux de trafic au sein du \gls{fabric} réseau.
