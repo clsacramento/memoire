@@ -24,7 +24,7 @@
 
 \usepackage{graphicx,wrapfig}
 
-\DeclareUnicodeCharacter{00A0}{ }
+%\DeclareUnicodeCharacter{00A0}{ }
 
 %\usepackage{lipsum}
 %\bibliography{biblio}
@@ -33,7 +33,7 @@
 \addbibresource{biblio.bib}
 
 %\usepackage{hyperref} 
-\usepackage[pdfauthor={Cynthia Lopes do Sacramento}, pdftitle={Applications SDN}]{hyperref}
+\usepackage[pdfauthor={Cynthia Lopes do Sacramento}, pdftitle={SDN et le passage au Cloud Computing}]{hyperref}
 
 \usepackage{makeidx}
 \makeindex
@@ -269,13 +269,15 @@
 \newglossaryentry{opendaylight}
 {
   name=Open Daylight,
-  description={ Association initiée par Linux Foundation pour l'union des géants du marché réseau dans le but de développer un contrôleur SDN open source, pour l'innover, l'encourager et pour permettre son adoption accélérée. \cite{OpenDaylight} }
+  description={ Association initiée par Linux Foundation pour l'union des géants du marché réseau dans le but de développer un contrôleur SDN \gls{opnesource}, pour l'innover, l'encourager et pour permettre son adoption accélérée. \cite{OpenDaylight} }
 }
 
 \newglossaryentry{openstack}
 {
   name=OpenStack,
-  description={ ... }
+  description={ OpenStack est un projet pour le développement d'une plateforme Cloud Computing \gls{opnesource}. Le projet a été initié par NASA et Rackspace en 2010, et actuellement a été rejoint par diverses entreprise telles que HP, Dell, Cisco etc.
+  %OpenStack is an open-source IaaS provider project supported by multiple vendors. The project was started by NASA and Rackspace in 2010, while currently more companies have joined (e.g. HP, Dell, Cisco, etc). 
+  \cite{openstack} }
 }
 
 
@@ -287,6 +289,14 @@
   Sous ce terme généralement admis par l'industrie réseau, un fabric est une topologie réseau dans laquelle les composants transmettent des données l'un à l'autre  à travers les switches d’interconnexion.
   % En théorie, un \textit{fabric} devrait être capable de supporter un grand nombre de conceptions de pointe y compris des schémas d'adressage et des modèles de politique. 
   \cite{NetworkFabricSearchSDN} \cite{fabricExtending}}
+}
+
+
+\newglossaryentry{compute}
+{
+  name=Compute,
+  text=compute,
+  description={ Le terme \og compute \lg{} a été utilisé tout au long du document pour faire référence à la capacité de calcul et traitement de l'information des serveurs physiques. C'est l'élément qui est virtualisé au moyen des hyperviseurs permettant la mutualisation de ces ressources entre différentes applications.}
 }
 
 \usepackage[english,francais]{babel}
@@ -311,7 +321,7 @@ Le présent document peut être considéré comme le résumé de mon cycle d'ét
 
 Je tiens à  remercier tous ceux qui, à l'Institut National Polytechnique de Grenoble et à l'entreprise Bull, m'ont accompagnée dans ce parcours. 
 
-À tous les intervenants pédagogiques de la formation RIE, j'adresse mes remerciements pour les connaissances transmises,  spécialement à Messieurs Kobylanski et Parouty ainsi qu'à Madame Panne, pour leurs conseils et leur accompagnement.
+À tous les intervenants pédagogiques de la formation RIE, j'adresse mes remerciements pour les connaissances transmises,  spécialement à Messieurs Kobylanski, Miller et Parouty ainsi qu'à Madame Panne, pour leurs conseils et leur accompagnement.
 
 J'exprime toute ma gratitude à mes collègues de Bull pour leur accueil et leur sens de la convivialité pendant ces deux années d'alternance. Toute ma reconnaissance va spécialement aux membres de l'équipe OSI pour m'avoir intégrée : tout d'abord à Claude Casery, mon tuteur, pour son rôle clé dans mon développement professionnel, mais aussi à Julien et à Laure pour leur aide technique et leur disponibilité.
 
@@ -325,7 +335,7 @@ Enfin, je remercie ma famille et mes amis qui m'ont soutenue même de loin, ains
 
 
 \tableofcontents
-\listoftables
+%\listoftables
 \listoffigures
 
 \mainmatter
