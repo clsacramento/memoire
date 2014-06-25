@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  25 JUN 2014 20:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  25 JUN 2014 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1486,10 +1486,7 @@ Underfull \vbox (badness 2277) has occurred while \output is active []
 Underfull \vbox (badness 4205) has occurred while \output is active []
 
  [22]
-Underfull \vbox (badness 1430) has occurred while \output is active []
-
- [23])
-[24]
+[23]) [24]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
@@ -1548,7 +1545,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<images/RefArchiSDN_T.png, id=562, 1284.8pt x 645.41125pt>
+<images/RefArchiSDN_T.png, id=565, 1284.8pt x 645.41125pt>
 File: images/RefArchiSDN_T.png Graphic file (type png)
 
 <use images/RefArchiSDN_T.png>
@@ -1633,7 +1630,7 @@ ec-ture\T1/lmr/m/n/12 . An Oracle White
 [48] [49] [50
 
 
-] <couverture-ebt.pdf, id=874, page=3, 597.50829pt x 845.0471pt>
+] <couverture-ebt.pdf, id=891, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1658,7 +1655,7 @@ File: couverture-ebt.pdf Graphic file (type pdf)
 Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 391.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [51 <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=879, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=896, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1688,15 +1685,18 @@ Package logreq Info: Writing requests to 'ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21150 strings out of 493315
- 333989 string characters out of 6137904
+ 21151 strings out of 493315
+ 334002 string characters out of 6137904
  878851 words of memory out of 5000000
  23959 multiletter control sequences out of 15000+600000
  51967 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  57i,18n,51p,1438b,2420s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:etsi} has been referenced but does not exist,
- replaced by a fixed one
+pdfTeX warning (dest): name{glo:openstack} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:etsi} has been referenced but does not exist, r
+eplaced by a fixed one
 
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2013
@@ -1708,10 +1708,10 @@ b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/lo
 cal/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texliv
 e/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (60 pages, 1671283 bytes).
+Output written on ebt.pdf (60 pages, 1676602 bytes).
 PDF statistics:
- 974 PDF objects out of 1000 (max. 8388607)
- 853 compressed objects within 9 object streams
- 217 named destinations out of 1000 (max. 500000)
+ 991 PDF objects out of 1000 (max. 8388607)
+ 870 compressed objects within 9 object streams
+ 218 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
