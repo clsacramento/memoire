@@ -19,6 +19,7 @@
 \glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{26}
 \glossaryentry{SDN?\glossaryentryfield{sdn}{\glsnamefont{SDN}}{Software-Defined Networking : Réseau Informatique Défini par Logiciel}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{NFV?\glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisation des fonctions réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{ETSI?\glossaryentryfield{etsi}{\glsnamefont{ETSI}}{European Telecommunications Standards Institute}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{NFV?\glossaryentryfield{nfv}{\glsnamefont{NFV}}{Network Functions Virtualization, Virtualisation des fonctions réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{API?\glossaryentryfield{api}{\glsnamefont{API}}{Application Programming Interface, Interface de Programmation}{\relax }|setentrycounter[]{page}\glsnumberformat}{29}
 \glossaryentry{NAT?\glossaryentryfield{nat}{\glsnamefont{NAT}}{Network Address Translation, Traduction d'adresse réseau}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
@@ -56,5 +57,9 @@
 \glossaryentry{NPB?\glossaryentryfield{npb}{\glsnamefont{NPB}}{Network Packet Broker}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{DPI?\glossaryentryfield{dpi}{\glsnamefont{DPI}}{Deep Packet Inspection, Inspection de Paquets en Pronfondeur}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{VPN?\glossaryentryfield{vpn}{\glsnamefont{VPN}}{Virtual Private Network}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{ETSI?\glossaryentryfield{etsi}{\glsnamefont{ETSI}}{European Telecommunications Standards Institute}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{OpEx?\glossaryentryfield{opex}{\glsnamefont{OpEx}}{Operational Expenditure, Coûts Opérationnels}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{CapEx?\glossaryentryfield{caex}{\glsnamefont{CapEx}}{Capital Expenditure, Coûts d'Investissement}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{ROI?\glossaryentryfield{roi}{\glsnamefont{ROI}}{Return of Investiments, Retour sur Investissement}{\relax }|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{TI?\glossaryentryfield{ti}{\glsnamefont{TI}}{Technologie de l'Information}{\relax }|setentrycounter[]{page}\glsnumberformat}{41}
 \glossaryentry{VPN?\glossaryentryfield{vpn}{\glsnamefont{VPN}}{Virtual Private Network}{\relax }|setentrycounter[]{page}\glsnumberformat}{42}

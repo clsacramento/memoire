@@ -94,7 +94,8 @@
 		\setentrycounter[]{page}\glsnumberformat{16}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{38}}}%
 \glossaryentryfield{vpn}{\glsnamefont{VPN}}{Virtual Private Network}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{38}}}%
+		\setentrycounter[]{page}\glsnumberformat{38}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{42}}}%
 \glossaryentryfield{vxlan}{\glsnamefont{VXLAN}}{Virtual eXtensible LAN}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{38}}}\glsgroupskip
