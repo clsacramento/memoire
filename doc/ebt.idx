@@ -1,10 +1,10 @@
-\indexentry{Data Centre|hyperpage}{1}
 \indexentry{Innovation|hyperpage}{1}
 \indexentry{Virtualisation|hyperpage}{1}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{1}
 \indexentry{SDN|hyperpage}{1}
 \indexentry{Cloud Computing|hyperpage}{1}
 \indexentry{Compute|hyperpage}{1}
+\indexentry{Ressources|hyperpage}{1}
 \indexentry{Innovation|hyperpage}{1}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{1}
 \indexentry{Charge|hyperpage}{1}
@@ -14,11 +14,10 @@
 \indexentry{Compute|hyperpage}{2}
 \indexentry{Virtualisation|hyperpage}{2}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{2}
-\indexentry{Data Centre|hyperpage}{3}
+\indexentry{SDN|hyperpage}{2}
 \indexentry{Mode de livraison|hyperpage}{3}
 \indexentry{Cloud Computing|hyperpage}{3}
 \indexentry{Stockage|hyperpage}{3}
-\indexentry{Data Centre|hyperpage}{3}
 \indexentry{Infrastructure|hyperpage}{4}
 \indexentry{Dimensionnement|hyperpage}{4}
 \indexentry{Charge|hyperpage}{4}
@@ -35,6 +34,7 @@
 \indexentry{Co\IeC {\^u}ts|hyperpage}{6}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{6}
 \indexentry{\IeC {\'E}nergie|hyperpage}{6}
+\indexentry{Ressources|hyperpage}{6}
 \indexentry{Virtualisation|hyperpage}{6}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{6}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{6}
@@ -42,13 +42,15 @@
 \indexentry{Hyperviseur|hyperpage}{7}
 \indexentry{Virtualisation|hyperpage}{7}
 \indexentry{Gestion|hyperpage}{7}
+\indexentry{Ressources|hyperpage}{7}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{7}
+\indexentry{Ressources|hyperpage}{7}
 \indexentry{Gestion|hyperpage}{7}
 \indexentry{Compute|hyperpage}{7}
-\indexentry{Data Centre|hyperpage}{7}
 \indexentry{Dimensionnement|hyperpage}{7}
 \indexentry{Charge|hyperpage}{7}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{7}
+\indexentry{Ressources|hyperpage}{7}
 \indexentry{Planification|hyperpage}{8}
 \indexentry{Mode de livraison|hyperpage}{8}
 \indexentry{Cloud Computing|hyperpage}{8}
@@ -61,11 +63,12 @@
 \indexentry{Compute|hyperpage}{8}
 \indexentry{Cloud Computing|hyperpage}{8}
 \indexentry{Mode de livraison|hyperpage}{8}
+\indexentry{Ressources|hyperpage}{8}
 \indexentry{Virtualisation|hyperpage}{9}
 \indexentry{Tenants|hyperpage}{9}
 \indexentry{Cloud Computing|hyperpage}{9}
 \indexentry{Innovation|hyperpage}{9}
-\indexentry{R\IeC {\'e}seau|hyperpage}{9}
+\indexentry{Ressources|hyperpage}{9}
 \indexentry{Cloud Computing|hyperpage}{9}
 \indexentry{Ressources|hyperpage}{9}
 \indexentry{Compute|hyperpage}{9}
@@ -80,6 +83,7 @@
 \indexentry{Charge|hyperpage}{10}
 \indexentry{Abstraction|hyperpage}{10}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{10}
+\indexentry{Ressources|hyperpage}{10}
 \indexentry{Abstraction|hyperpage}{10}
 \indexentry{Mode de livraison|hyperpage}{10}
 \indexentry{Virtualisation du Stockage|hyperpage}{10}
@@ -113,20 +117,25 @@
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{16}
 \indexentry{Cloud Computing|hyperpage}{16}
 \indexentry{Virtualisation|hyperpage}{16}
+\indexentry{Switch|hyperpage}{16}
 \indexentry{Charge|hyperpage}{17}
 \indexentry{Compute|hyperpage}{17}
 \indexentry{Charge|hyperpage}{17}
 \indexentry{Tenants|hyperpage}{17}
 \indexentry{Cloud Computing|hyperpage}{17}
 \indexentry{Gestion|hyperpage}{18}
+\indexentry{Hyperviseur|hyperpage}{18}
 \indexentry{Switch|hyperpage}{18}
 \indexentry{Routeur|hyperpage}{18}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{18}
 \indexentry{Routeur|hyperpage}{18}
 \indexentry{Trafic|hyperpage}{18}
 \indexentry{Routeur|hyperpage}{18}
+\indexentry{Routeur|hyperpage}{18}
+\indexentry{Routeur|hyperpage}{18}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{18}
 \indexentry{Trafic|hyperpage}{18}
+\indexentry{Routeur|hyperpage}{18}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{18}
 \indexentry{Tenants|hyperpage}{19}
 \indexentry{Cloud Computing|hyperpage}{19}
@@ -146,107 +155,149 @@
 \indexentry{Trafic|hyperpage}{21}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{21}
 \indexentry{Cloud Computing|hyperpage}{21}
+\indexentry{Ressources|hyperpage}{21}
 \indexentry{Tenants|hyperpage}{21}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{21}
 \indexentry{Traditionnel|hyperpage}{21}
 \indexentry{Virtualisation|hyperpage}{21}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{21}
 \indexentry{Traditionnel|hyperpage}{21}
+\indexentry{Hyperviseur|hyperpage}{21}
 \indexentry{Cloud Computing|hyperpage}{22}
 \indexentry{Traditionnel|hyperpage}{22}
 \indexentry{Contr\IeC {\^o}le|hyperpage}{22}
 \indexentry{Virtualisation|hyperpage}{22}
+\indexentry{Hyperviseur|hyperpage}{22}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{22}
 \indexentry{Virtualisation|hyperpage}{22}
+\indexentry{Ressources|hyperpage}{22}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{22}
 \indexentry{Cloud Computing|hyperpage}{23}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{23}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{23}
+\indexentry{Ressources|hyperpage}{23}
 \indexentry{Charge|hyperpage}{23}
 \indexentry{Compute|hyperpage}{23}
 \indexentry{Stockage|hyperpage}{23}
 \indexentry{Charge|hyperpage}{23}
 \indexentry{Cloud Computing|hyperpage}{24}
 \indexentry{Mode de livraison|hyperpage}{24}
+\indexentry{Ressources|hyperpage}{24}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{24}
 \indexentry{Traditionnel|hyperpage}{24}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{24}
 \indexentry{Cloud Computing|hyperpage}{24}
 \indexentry{Innovation|hyperpage}{24}
+\indexentry{SDN|hyperpage}{24}
+\indexentry{SDN|hyperpage}{25}
 \indexentry{Abstraction|hyperpage}{25}
+\indexentry{Ressources|hyperpage}{25}
+\indexentry{SDN|hyperpage}{26}
 \indexentry{Abstraction|hyperpage}{26}
+\indexentry{Switch|hyperpage}{26}
+\indexentry{SDN|hyperpage}{26}
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{26}
 \indexentry{Innovation|hyperpage}{26}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{27}
 \indexentry{Mode de livraison|hyperpage}{27}
+\indexentry{SDN|hyperpage}{27}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{27}
+\indexentry{SDN|hyperpage}{27}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{27}
 \indexentry{Virtualisation|hyperpage}{27}
+\indexentry{Switch|hyperpage}{27}
 \indexentry{Stockage|hyperpage}{27}
 \indexentry{Abstraction|hyperpage}{27}
+\indexentry{Ressources|hyperpage}{27}
 \indexentry{Virtualisation du R\IeC {\'e}seau|hyperpage}{27}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{27}
 \indexentry{Infrastructure|hyperpage}{27}
 \indexentry{Tenants|hyperpage}{27}
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{27}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{27}
+\indexentry{Ressources|hyperpage}{27}
+\indexentry{SDN|hyperpage}{28}
+\indexentry{SDN|hyperpage}{28}
 \indexentry{Cloud Computing|hyperpage}{28}
 \indexentry{Cloud Computing|hyperpage}{28}
 \indexentry{Charge|hyperpage}{28}
 \indexentry{Trafic|hyperpage}{28}
 \indexentry{Innovation|hyperpage}{28}
 \indexentry{Abstraction|hyperpage}{28}
+\indexentry{SDN|hyperpage}{28}
 \indexentry{Tenants|hyperpage}{28}
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{28}
 \indexentry{Virtualisation|hyperpage}{28}
 \indexentry{Virtualisation du Stockage|hyperpage}{28}
 \indexentry{Virtualisation du R\IeC {\'e}seau|hyperpage}{28}
+\indexentry{SDN|hyperpage}{28}
 \indexentry{Gestion|hyperpage}{28}
+\indexentry{Ressources|hyperpage}{28}
+\indexentry{SDN|hyperpage}{28}
 \indexentry{Infrastructure|hyperpage}{28}
+\indexentry{SDN|hyperpage}{28}
 \indexentry{Cloud Computing|hyperpage}{28}
 \indexentry{Virtualisation du R\IeC {\'e}seau|hyperpage}{28}
 \indexentry{Innovation|hyperpage}{29}
 \indexentry{Contr\IeC {\^o}le|hyperpage}{29}
+\indexentry{SDN|hyperpage}{29}
 \indexentry{Innovation|hyperpage}{29}
+\indexentry{SDN|hyperpage}{29}
 \indexentry{Charge|hyperpage}{29}
 \indexentry{Virtualisation du R\IeC {\'e}seau|hyperpage}{29}
 \indexentry{Trafic|hyperpage}{29}
 \indexentry{Abstraction|hyperpage}{29}
 \indexentry{Contr\IeC {\^o}le|hyperpage}{29}
+\indexentry{SDN|hyperpage}{29}
+\indexentry{Ressources|hyperpage}{29}
 \indexentry{Traditionnel|hyperpage}{29}
+\indexentry{Ressources|hyperpage}{29}
 \indexentry{Planification|hyperpage}{29}
+\indexentry{SDN|hyperpage}{30}
 \indexentry{Cloud Computing|hyperpage}{30}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{30}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{30}
+\indexentry{SDN|hyperpage}{30}
 \indexentry{Mode de livraison|hyperpage}{30}
 \indexentry{Infrastructure|hyperpage}{30}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{31}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{31}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{31}
+\indexentry{SDN|hyperpage}{31}
 \indexentry{Abstraction|hyperpage}{31}
 \indexentry{Tenants|hyperpage}{31}
 \indexentry{Trafic|hyperpage}{31}
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{31}
+\indexentry{SDN|hyperpage}{31}
 \indexentry{Contr\IeC {\^o}le|hyperpage}{31}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{31}
+\indexentry{SDN|hyperpage}{32}
 \indexentry{Tenants|hyperpage}{32}
+\indexentry{SDN|hyperpage}{32}
 \indexentry{Contr\IeC {\^o}le|hyperpage}{32}
+\indexentry{SDN|hyperpage}{32}
 \indexentry{Tenants|hyperpage}{32}
+\indexentry{Ressources|hyperpage}{32}
 \indexentry{Abstraction|hyperpage}{32}
 \indexentry{Infrastructure|hyperpage}{32}
+\indexentry{SDN|hyperpage}{32}
 \indexentry{Trafic|hyperpage}{32}
 \indexentry{Traditionnel|hyperpage}{32}
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{32}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{33}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{33}
 \indexentry{Traditionnel|hyperpage}{33}
+\indexentry{SDN|hyperpage}{33}
 \indexentry{Contr\IeC {\^o}le|hyperpage}{33}
 \indexentry{Abstraction|hyperpage}{33}
 \indexentry{Infrastructure|hyperpage}{33}
 \indexentry{Tenants|hyperpage}{33}
+\indexentry{SDN|hyperpage}{33}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{33}
+\indexentry{SDN|hyperpage}{34}
 \indexentry{Tenants|hyperpage}{34}
 \indexentry{Abstraction|hyperpage}{34}
+\indexentry{SDN|hyperpage}{34}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{34}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{34}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{34}
@@ -255,6 +306,8 @@
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{34}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{34}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{34}
+\indexentry{Ressources|hyperpage}{34}
+\indexentry{Hyperviseur|hyperpage}{35}
 \indexentry{Virtualisation|hyperpage}{35}
 \indexentry{Abstraction|hyperpage}{35}
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{35}
@@ -265,6 +318,9 @@
 \indexentry{Cloud Computing|hyperpage}{37}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{37}
 \indexentry{Innovation|hyperpage}{37}
+\indexentry{SDN|hyperpage}{37}
+\indexentry{SDN|hyperpage}{37}
 \indexentry{Contr\IeC {\^o}le|hyperpage}{37}
+\indexentry{SDN|hyperpage}{37}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{38}
 \indexentry{Cloud Computing|hyperpage}{38}

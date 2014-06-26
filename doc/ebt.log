@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  26 JUN 2014 14:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.24)  26 JUN 2014 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1488,14 +1488,7 @@ Package pdftex.def Info: images/InterconnexionWAN_T.png used on input line 148.
 
 Underfull \vbox (badness 2277) has occurred while \output is active []
 
- [19 <./images/InterconnexionWAN_T.png>]
-
-LaTeX Warning: Citation 'netflow' on page 20 undefined on input line 165.
-
-
-LaTeX Warning: Citation 'sflow' on page 20 undefined on input line 165.
-
-[20] [21]
+ [19 <./images/InterconnexionWAN_T.png>] [20] [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
@@ -1517,7 +1510,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<images/TraditionalVsSDN.png, id=531, 691.83469pt x 452.4403pt>
+<images/TraditionalVsSDN.png, id=535, 691.83469pt x 452.4403pt>
 File: images/TraditionalVsSDN.png Graphic file (type png)
 
 <use images/TraditionalVsSDN.png>
@@ -1531,7 +1524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<images/cloud-sdn-nfv.png, id=569, 1131.22626pt x 620.3175pt>
+<images/cloud-sdn-nfv.png, id=573, 1131.22626pt x 620.3175pt>
 File: images/cloud-sdn-nfv.png Graphic file (type png)
 
 <use images/cloud-sdn-nfv.png>
@@ -1552,7 +1545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-<images/NFVIaaS.png, id=599, 1344.02126pt x 599.23875pt>
+<images/NFVIaaS.png, id=603, 1344.02126pt x 599.23875pt>
 File: images/NFVIaaS.png Graphic file (type png)
 
 <use images/NFVIaaS.png>
@@ -1568,7 +1561,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<images/RefArchiSDN_T.png, id=631, 1284.8pt x 645.41125pt>
+<images/RefArchiSDN_T.png, id=635, 1284.8pt x 645.41125pt>
 File: images/RefArchiSDN_T.png Graphic file (type png)
 
 <use images/RefArchiSDN_T.png>
@@ -1611,18 +1604,11 @@ Underfull \vbox (badness 8113) has occurred while \output is active []
 
 
 
-] [44]
-
-LaTeX Warning: Citation 'openstack' on page 45 undefined on input line 47.
-
-[45]
-
-LaTeX Warning: Citation 'SNMP' on page 46 undefined on input line 69.
-
-) [46]
+] [44] [45]) [46]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 400.
 
- (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Overfull \hbox (7.5189pt too wide) in paragraph at lines 401--401
@@ -1657,7 +1643,7 @@ Overfull \hbox (0.85542pt too wide) in paragraph at lines 401--401
 ec-ture\T1/lmr/m/n/12 . An Oracle White
  []
 
-[50] [51] [52] <couverture-ebt.pdf, id=1038, page=3, 597.50829pt x 845.0471pt>
+[50] [51] [52] <couverture-ebt.pdf, id=1063, page=3, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 3>
@@ -1685,7 +1671,7 @@ Package pdftex.def Info: couverture-ebt.pdf, page3 used on input line 403.
 
 
  <./couverture-ebt.pdf>]
-<couverture-ebt.pdf, id=1044, page=4, 597.50829pt x 845.0471pt>
+<couverture-ebt.pdf, id=1069, page=4, 597.50829pt x 845.0471pt>
 File: couverture-ebt.pdf Graphic file (type pdf)
 
 <use couverture-ebt.pdf, page 4>
@@ -1710,27 +1696,18 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
 Package rerunfilecheck Info: File `ebt.out' has not changed.
 (rerunfilecheck)             Checksum: D4FEA79476A4292288D9D2E917A3BD36;2537.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ebt
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'ebt.run.xml'.
 \openout1 = `ebt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21233 strings out of 493315
- 335276 string characters out of 6137904
+ 21242 strings out of 493315
+ 335419 string characters out of 6137904
  881329 words of memory out of 5000000
- 24031 multiletter control sequences out of 15000+600000
+ 24036 multiletter control sequences out of 15000+600000
  51967 words of font info for 39 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 57i,18n,51p,1438b,2419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,51p,1438b,2422s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2013/texmf-d
@@ -1741,10 +1718,10 @@ pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/
 local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2013
 /texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on ebt.pdf (62 pages, 1741065 bytes).
+Output written on ebt.pdf (62 pages, 1743057 bytes).
 PDF statistics:
- 1141 PDF objects out of 1200 (max. 8388607)
- 1014 compressed objects within 11 object streams
- 227 named destinations out of 1000 (max. 500000)
+ 1167 PDF objects out of 1200 (max. 8388607)
+ 1040 compressed objects within 11 object streams
+ 231 named destinations out of 1000 (max. 500000)
  360 words of extra memory for PDF output out of 10000 (max. 10000000)
 

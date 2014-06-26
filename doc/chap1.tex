@@ -2,11 +2,11 @@
 \chapter{Les évolutions stratégiques des Data Centres}
 \label{chap-1}
 
-Ce chapitre a pour but de définir un data centre\index{Data Centre} et d'en analyser les problématiques, enjeux et solutions possibles, en vue de comprendre sa situation actuelle ainsi que ses limites par rapport aux nouveaux besoins et défis business. Les éléments les plus importants de la conception et de l'architecture du data centre seront présentés ainsi que les difficultés qui ont amené à faire évoluer le mode de livraison\index{Mode de livraison} de services informatiques vers une approche Cloud Computing\index{Cloud Computing}.
+Ce chapitre a pour but de définir un data centre et d'en analyser les problématiques, enjeux et solutions possibles, en vue de comprendre sa situation actuelle ainsi que ses limites par rapport aux nouveaux besoins et défis business. Les éléments les plus importants de la conception et de l'architecture du data centre seront présentés ainsi que les difficultés qui ont amené à faire évoluer le mode de livraison\index{Mode de livraison} de services informatiques vers une approche Cloud Computing\index{Cloud Computing}.
 
 \section{Data centres et leurs objectifs}
 
-Un data centre (aussi nommé \og ferme de serveurs \fg{}) est un répertoire centralisé pour le stockage\index{Stockage}, le management et la distribution de données et d'informations. Typiquement, un data centre\index{Data Centre} est une installation physique utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. 
+Un data centre (aussi nommé \og ferme de serveurs \fg{}) est un répertoire centralisé pour le stockage\index{Stockage}, le management et la distribution de données et d'informations. Typiquement, un data centre est une installation physique utilisée pour loger des systèmes informatiques et ses composants associés, tels que systèmes de télécommunication et stockage. 
 
 Les data centres traditionnels hébergent historiquement de nombreuses applications relativement peu sollicitées, chacune s'exécutant dans une infrastructure matérielle dédiée qui est isolée et protégée des autres systèmes dans la même installation physique. Ces data centres accueillent du matériel et du logiciel pour multiples unités organisationnelles ou même diverses entreprises. Différents systèmes informatiques au sein d'un tel data centre ont souvent très peu d'éléments en commun en termes de matériel, logiciel ou infrastructure de maintenance, et en général ne communiquent pas entre eux. 
 
@@ -46,7 +46,7 @@ La consommation d'énergie\index{Énergie} et les coûts\index{Coûts} liés son
 
 \section{Virtualisation et partage de ressources}
 
-Le besoin d'augmenter l'efficacité dans l'utilisation des ressources a conduit à une conception d'infrastructures avec partage et virtualisation des composants. La virtualisation\index{Virtualisation} fait référence à l'abstraction des ressources logiques de leurs couches physiques pour améliorer l'agilité\index{Agilité}, la flexibilité et la réduction des coûts\index{Coûts} et ainsi privilégier les activités du business. La virtualisation permet de consolider un ensemble de composants d'infrastructures sous-utilisés en un nombre de dispositifs plus petits et mieux utilisés, contribuant à l'économie des coûts et efficacité de l'utilisation des composants.
+Le besoin d'augmenter l'efficacité dans l'utilisation des ressources\index{Ressources} a conduit à une conception d'infrastructures avec partage et virtualisation des composants. La virtualisation\index{Virtualisation} fait référence à l'abstraction des ressources logiques de leurs couches physiques pour améliorer l'agilité\index{Agilité}, la flexibilité et la réduction des coûts\index{Coûts} et ainsi privilégier les activités du business. La virtualisation permet de consolider un ensemble de composants d'infrastructures sous-utilisés en un nombre de dispositifs plus petits et mieux utilisés, contribuant à l'économie des coûts et efficacité de l'utilisation des composants.
 
 La virtualisation de serveurs est une méthode pour abstraire le système d'exploitation de la plateforme matérielle. Cela permet aux multiples systèmes d'exploitation ou multiples instances du même système d'exploitation de coexister dans un ou plusieurs clusters de processeurs. L'image \ref{virtinfra} illustre le partage de ressources\index{Ressources} par l'intermédiaire de la virtualisation.\\
 
@@ -57,11 +57,11 @@ La virtualisation de serveurs est une méthode pour abstraire le système d'expl
 \end{center}
 \end{figure}
 
-Un hyperviseur\index{Hyperviseur} est inséré entre le système d'exploitation et le matériel pour réaliser la séparation entre le logique et le physique. Les instances de systèmes d'exploitation lancées sont appelées invités, ou systèmes d'exploitation invités. Selon la technologie utilisée, l'hyperviseur\index{Virtualisation} peut fournir l'émulation matérielle aux systèmes invités et gère\index{Gestion} l'allocation de ressources matérielles.  Les principaux hyperviseurs disponibles sur le marché aujourd'hui sont : VMware ESXi, KVM basé sur Linux et supporté par Red Hat, Citrix XEN et Microsoft Hyper-V. 
+Un hyperviseur\index{Hyperviseur} est inséré entre le système d'exploitation et le matériel pour réaliser la séparation entre le logique et le physique. Les instances de systèmes d'exploitation lancées sont appelées invités, ou systèmes d'exploitation invités. Selon la technologie utilisée, l'hyperviseur\index{Virtualisation} peut fournir l'émulation matérielle aux systèmes invités et gère\index{Gestion} l'allocation de ressources\index{Ressources} matérielles.  Les principaux hyperviseurs disponibles sur le marché aujourd'hui sont : VMware ESXi, KVM basé sur Linux et supporté par Red Hat, Citrix XEN et Microsoft Hyper-V. 
 
 %Ce modèle apporte des avantages en termes de comment les ressources sont efficacement utilisées avec des charges applicatives idéales.
 Ce modèle apporte des avantages pour l'efficacité\index{Efficacité} dans l'utilisation de ressources avec des charges applicatives idéales.
- Cependant, quand une application commence à consommer plus de ressources que l'estimé, il peut arriver des scénarios où les systèmes d'exploitation invités n'ont pas assez de ressources, impactant ainsi la qualité du service dispensé. 
+ Cependant, quand une application commence à consommer plus de ressources\index{Ressources} que l'estimé, il peut arriver des scénarios où les systèmes d'exploitation invités n'ont pas assez de ressources, impactant ainsi la qualité du service dispensé. 
 
 Cette approche a apporté une maîtrise globale de gestion\index{Gestion}, supervision et outillage. Elle a aussi mis en évidence que le composant \og \gls{compute}\index{Compute} \fg{} de l'infrastructure améliore nettement l'utilisation et l'automatisation d'allocation des ressources serveurs. Cette amélioration a été possible grâce à la programmation du contrôle de ressources fournies aux instances invitées. Toutefois, le développement de nouvelles solutions pour gérer la charge dynamique de certaines applications faisait toujours défaut. \cite{journeySDDC} \cite{ibmPlanningVirtCCchap2}
 
@@ -73,9 +73,9 @@ Cette approche a apporté une maîtrise globale de gestion\index{Gestion}, super
 \section{Le besoin d'un modèle plus dynamique}
 
 
-Traditionnellement, les data centres\index{Data Centre} d'entreprises sont conçus pour perdurer et atteindre les objectifs déterminés. Cela veut dire que les éléments sous-jacents sont dimensionnés\index{Dimensionnement} et construits pour supporter le pic de charge\index{Charge} projeté en termes de performance, disponibilité et sécurité. Quand la croissance volumétrique projetée ne correspond pas à la réalité, cette méthode de dimensionnement peut conduire à une situation de sous-dimensionnement ou sur-dimensionnement. Ce qui apporte un effet négatif pour les investissements et les efforts de réduction de coûts\index{Coûts}.
+Traditionnellement, les data centres d'entreprises sont conçus pour perdurer et atteindre les objectives déterminés. Cela veut dire que les éléments sous-jacents sont dimensionnés\index{Dimensionnement} et construits pour supporter le pic de charge\index{Charge} projeté en termes de performance, disponibilité et sécurité. Quand la croissance volumétrique projetée ne correspond pas à la réalité, cette méthode de dimensionnement peut conduire à une situation de sous-dimensionnement ou sur-dimensionnement. Ce qui apporte un effet négatif pour les investissements et les efforts de réduction de coûts\index{Coûts}.
 
-En général, pour atteindre une meilleure disponibilité, les infrastructures sont amenées à une sous-utilisation des ressources. Comme la charge des applications varient continuellement dans les applications sur internet, il reste deux choix : soit sous-dimensionner la provision des ressources et perdre des clients ou alors sur-dimensionner et gaspiller les ressources. 
+En général, pour atteindre une meilleure disponibilité, les infrastructures sont amenées à une sous-utilisation des ressources\index{Ressources}. Comme la charge des applications varient continuellement dans les applications sur internet, il reste deux choix : soit sous-dimensionner la provision des ressources et perdre des clients ou alors sur-dimensionner et gaspiller les ressources. 
 
 Dans tous les cas, un plan\index{Planification} détaillé de capacité est fait pour spécifier une série d'investissements importants en matériel et logiciel, dont la charge maximale est déterminée. L'image suivante illustre cette planification et les situations de problèmes de dimensionnement.\\
 
@@ -90,7 +90,7 @@ Dans tous les cas, un plan\index{Planification} détaillé de capacité est fait
 Face à cette problématique, un nouveau mode de livraison\index{Mode de livraison} de service a été proposé pour aborder les défis du traitement des demandes pour la variation dynamique des charges applicatives. Avec la nouvelle tendance du Cloud Computing\index{Cloud Computing} et l'\gls{iaas}, la conception de \glspl{cluster} hautement disponibles et leurs solutions extensibles peuvent être architecturées avec des requis non-fonctionnels comme base. 
 %With the emergence of the cloud, the new age “mantra” and infrastructure as a service (IaaS) as a delivery model (as illustrated in Figure 3), the challenges of processing demands from dynamic workloads is being addressed. Designing high- availability clusters and scalable solutions can be architected based on nonfunctional requirements.
 
-De par sa nature adaptable, le modèle de livraison\index{Mode de livraison} cloud permet aux ressources\index{Ressources} d'être étendues\index{Scalabilité} et réduites  dynamiquement en fonction de la consommation. Une couche logicielle d'abstraction\index{Abstraction}, implémentée par les hyperviseurs\index{Hyperviseur}, virtualise\index{Virtualisation} le traitement des ressources physiques,  permettant ainsi au processeur\index{Compute}, à la mémoire et aux disques durs de s'adapter aux variations des demandes. Le réseau physique est également partagé mais n'a pas d'implémentation permettant l'adaptabilité de ces ressources. \cite{journeySDDC} \cite{awsScaling}
+Avec sa nature adaptable, le modèle de livraison\index{Mode de livraison} cloud permet aux ressources\index{Ressources} d'être étendues\index{Scalabilité} et réduites  dynamiquement en fonction de la consommation. Une couche logicielle d'abstraction\index{Abstraction}, implémentée par les hyperviseurs\index{Hyperviseur}, virtualise\index{Virtualisation} le traitement des ressources physiques,  permettant ainsi au processeur\index{Compute}, à la mémoire et aux disques durs de s'adapter aux variations des demandes. Le réseau physique est également partagé mais n'a pas d'implémentation permettant l'adaptabilité de ces ressources. \cite{journeySDDC} \cite{awsScaling}
 
 %One of the biggest technical challenges of running an online business is how well they are able to handle the scalability requirements.  The Load traffic pattern keeps varying for online businesses and accordingly they will have to scale and maintain the acceptable performance levels.  Since the Traffic patterns are fluctuating in online business, they either tend to under provision and loose customers (or) over provision and waste hardware + costs. This problem is well illustrated in the below diagrams.
 %Business usually makes detailed capacity planning and large upfront investment in their hardware and software. This HW/SW’s are usually provisioned with fixed capacity.
@@ -142,7 +142,7 @@ De par sa nature adaptable, le modèle de livraison\index{Mode de livraison} clo
 % Un regard sur le nouveau \og business model \fg{} apporté par le Cloud Computing, les bénéfices de son adoption et les enjeux pour les infrastructures qui doivent répondre à ce nouveau paradigme, est l'objet de ce chapitre. Il sera démontré pour quelles raisons il nécessaires de faire évoluer les infrastructures actuelles vers le Cloud et pourquoi il n'est pas encore largement adopté.
 
 \section{Cloud Computing}
-Le Cloud Computing\index{Cloud Computing} peut être défini comme un nouveau modèle de consommation et livraison\index{Mode de livraison} de ressources et services de \gls{ti}, et a pour principales caractéristiques :
+Le Cloud Computing\index{Cloud Computing} peut être défini comme un nouveau modèle de consommation et livraison\index{Mode de livraison} de ressources\index{Ressources} et services de \gls{ti}, et a pour principales caractéristiques :
 \begin{itemize}
 \item Libre service à la demande;
 \item Mobilité d'accès au service réseau ;
@@ -168,7 +168,7 @@ L'évolution des data centres a permis de satisfaire une plus grande variété d
 
 %As we have seen, data centers have grown to serve a wide range of business needs, and there are many factors to consider when designing a solution that meets different objectives. Within the past several years, a powerful new paradigm has emerged that has important implications for data center architectures and how they meet these varied objectives. This is the paradigm of cloud computing.
 
-Le Cloud Computing livre dynamiquement des services sur des réseaux\index{Réseau} à partir d'un ensemble abstrait de ressources. Ces ressources se retrouvent quelque part dans le \og nuage \fg{} \footnote{symbole qui fait allusion à la représentation d'internet dans les topologies réseau} et sont disponibles immédiatement à la demande. Les types de ressources ainsi que leur localisation sont transparents aux utilisateurs finaux. Ces utilisateurs ont pour principale préoccupation que leurs applications, données et contenus soient sécurisés et disponibles, avec un niveau de qualité de service.
+Le Cloud Computing livre dynamiquement des services sur des réseaux à partir d'un ensemble abstrait de ressources\index{Ressources}. Ces ressources se retrouvent quelque part dans le \og nuage \fg{} \footnote{symbole qui fait allusion à la représentation d'internet dans les topologies réseau} et sont disponibles immédiatement à la demande. Les types de ressources ainsi que leur localisation sont transparents aux utilisateurs finaux. Ces utilisateurs ont pour principale préoccupation que leurs applications, données et contenus soient sécurisés et disponibles, avec un niveau de qualité de service.
 
 %Cloud computing delivers services dynamically over networks from an abstracted set of resources. The resources are somewhere in the cloud and available on demand. The types of resources and their location are transparent to end users. End users primarily care that their applications, data and content are secure and available, with a desired level of quality.
 
@@ -179,7 +179,7 @@ La virtualisation de serveurs a représenté un premier et important pas pour la
 
 %\pagebreak
 
- L'image suivante illustre une vue conceptuelle d'un data centre basé sur ces trois éléments avec des couches d'abstraction\index{Abstraction} permettant de sécuriser\index{Sécurité}, orchestrer et livrer ses ressources aux consommateurs.\\
+ L'image suivante illustre une vue conceptuelle d'un data centre basé sur ces trois éléments avec des couches d'abstraction\index{Abstraction} permettant de sécuriser\index{Sécurité}, orchestrer et livrer ses ressources\index{Ressources} aux consommateurs.\\
 
 \begin{figure}[h]
 \begin{center}

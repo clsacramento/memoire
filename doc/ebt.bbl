@@ -466,6 +466,57 @@
       \field{title}{Why Cloud Computing Needs a Cloud-Intelligent Network, section A Cloud-Intelligent Network}
       \field{year}{2012}
     \endentry
+    \entry{netflow}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=3d8b7276f8d2674a37b5765c8bf17266}{Kapoor}{K\bibinitperiod}{R.D.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=20d1a19df53acf8cbc735e20ae2e6a59}{Calabrese}{C\bibinitperiod}{A.D.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ee6b7e1e574f39b12193bac537e3b876}{Dubey}{D\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=6b699e15e4dc4cb03a3c14fff272d725}{Goldberg}{G\bibinitperiod}{C.I.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=3d8b7276f8d2674a37b5765c8bf17266}{Kapoor}{K\bibinitperiod}{R.D.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=20d1a19df53acf8cbc735e20ae2e6a59}{Calabrese}{C\bibinitperiod}{A.D.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ee6b7e1e574f39b12193bac537e3b876}{Dubey}{D\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=6b699e15e4dc4cb03a3c14fff272d725}{Goldberg}{G\bibinitperiod}{C.I.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Google Patents}%
+      }
+      \strng{namehash}{8bc40410459f31195a01173ff91eeb38}
+      \strng{fullhash}{b77d9a328042f11d1d9ec2a453f30ce0}
+      \field{sortinit}{0}
+      \field{labeltitle}{Sample netflow for network traffic data collection}
+      \field{month}{03~20}
+      \field{note}{US Patent 7,193,968}
+      \field{title}{Sample netflow for network traffic data collection}
+      \field{year}{2007}
+      \verb{url}
+      \verb http://www.google.com/patents/US7193968
+      \endverb
+    \endentry
+    \entry{sflow}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=fe27b7202ab0d37cbf494ee0ec48e1c2}{Wang}{W\bibinitperiod}{Mea}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1f853aff050faa6ed1f316f2b3d91e6f}{Li}{L\bibinitperiod}{Baochun}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3adb66a7c5f736db8848b7b1d0f2c9a5}{Li}{L\bibinitperiod}{Zongpeng}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=fe27b7202ab0d37cbf494ee0ec48e1c2}{Wang}{W\bibinitperiod}{Mea}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1f853aff050faa6ed1f316f2b3d91e6f}{Li}{L\bibinitperiod}{Baochun}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3adb66a7c5f736db8848b7b1d0f2c9a5}{Li}{L\bibinitperiod}{Zongpeng}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c4f84914c0b5496fda42d1fc1fa72f26}
+      \strng{fullhash}{c4f84914c0b5496fda42d1fc1fa72f26}
+      \field{sortinit}{0}
+      \field{labeltitle}{sFlow: Towards resource-efficient and agile service federation in service overlay networks}
+      \field{booktitle}{Distributed Computing Systems, 2004. Proceedings. 24th International Conference on}
+      \field{title}{sFlow: Towards resource-efficient and agile service federation in service overlay networks}
+      \field{year}{2004}
+      \field{pages}{628\bibrangedash 635}
+    \endentry
     \entry{bigSwitchTapModernDC}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{Open SDN for Network Visibility, Section Monitoring in a Modern Data Center}
@@ -915,6 +966,32 @@
       \endverb
       \keyw{ethernet switch, flow-based, virtualization}
     \endentry
+    \entry{openstack}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=9ce3a1cfd9745003b7cfc71f6312991a}{Kostantos}{K\bibinitperiod}{Konstantinos}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9312750a1e1903056239481ccec32a44}{Kapsalis}{K\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=adb94157b40c7a9b2a75fb51cc1a0a56}{Kyriazis}{K\bibinitperiod}{Dimosthenis}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=6905a6931aba40850a15c7155b2b41fc}{Themistocleous}{T\bibinitperiod}{Marinos}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=aaa9a977751f069706d9e037ac17e337}{Cunha}{C\bibinitperiod}{Paulo\bibnamedelima Rupino}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{da}{d\bibinitperiod}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9ce3a1cfd9745003b7cfc71f6312991a}{Kostantos}{K\bibinitperiod}{Konstantinos}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=9312750a1e1903056239481ccec32a44}{Kapsalis}{K\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=adb94157b40c7a9b2a75fb51cc1a0a56}{Kyriazis}{K\bibinitperiod}{Dimosthenis}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=6905a6931aba40850a15c7155b2b41fc}{Themistocleous}{T\bibinitperiod}{Marinos}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=aaa9a977751f069706d9e037ac17e337}{Cunha}{C\bibinitperiod}{Paulo\bibnamedelima Rupino}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{da}{d\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{bcdd13505e1f702540d09793cae0f997}
+      \strng{fullhash}{625d43d471dcc6bd47b628a0ca486f70}
+      \field{sortinit}{0}
+      \field{labeltitle}{Open-Source Iaas Fit For Purpose: A Comparison Between Opennebula and Openstack}
+      \field{journaltitle}{International Journal of Electronic Business}
+      \field{number}{3}
+      \field{title}{Open-Source Iaas Fit For Purpose: A Comparison Between Opennebula and Openstack}
+      \field{volume}{11}
+      \field{year}{2013}
+      \field{pages}{191\bibrangedash 201}
+    \endentry
     \entry{paradigmdef}{article}{}
       \name{labelname}{2}{}{%
         {{hash=9f457e84fab3527a576716a803bfd2d4}{S.\bibnamedelimi Cvetanovi}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{D.\bibnamedelimi Despotovi}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
@@ -1029,6 +1106,17 @@
       \field{title}{Serveurs multiprocesseurs et SGBD parallélisés}
       \field{year}{2001}
       \field{pages}{H2068\bibrangedash 1}
+    \endentry
+    \entry{SNMP}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Simple Network Management Protocol (SNMP)}
+      \field{howpublished}{Web site}
+      \field{month}{06}
+      \field{title}{Simple Network Management Protocol (SNMP)}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.net-snmp.org/
+      \endverb
     \endentry
   \endsortlist
 \endrefsection

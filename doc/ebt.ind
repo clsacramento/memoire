@@ -33,7 +33,6 @@
 
   \indexspace
 
-  \item Data Centre, \hyperpage{1}, \hyperpage{3}, \hyperpage{7}
   \item Dimensionnement, \hyperpage{4}, \hyperpage{7}, \hyperpage{14}
 
   \indexspace
@@ -50,7 +49,8 @@
 
   \indexspace
 
-  \item Hyperviseur, \hyperpage{7--9}
+  \item Hyperviseur, \hyperpage{7--9}, \hyperpage{18}, 
+		\hyperpage{21, 22}, \hyperpage{35}
 
   \indexspace
 
@@ -72,7 +72,9 @@
 
   \indexspace
 
-  \item Ressources, \hyperpage{6}, \hyperpage{8, 9}
+  \item Ressources, \hyperpage{1}, \hyperpage{6--10}, 
+		\hyperpage{21--25}, \hyperpage{27--29}, \hyperpage{32}, 
+		\hyperpage{34}
   \item Routeur, \hyperpage{5}, \hyperpage{18, 19}
 
   \indexspace
@@ -82,10 +84,12 @@
   \item Scalabilit\IeC {\'e}, \hyperpage{5}, \hyperpage{8}, 
 		\hyperpage{14}, \hyperpage{16}, \hyperpage{20}, 
 		\hyperpage{26--28}, \hyperpage{31, 32}, \hyperpage{34}
-  \item SDN, \hyperpage{1}, \hyperpage{11}
+  \item SDN, \hyperpage{1, 2}, \hyperpage{11}, \hyperpage{24--34}, 
+		\hyperpage{37}
   \item Stockage, \hyperpage{3--5}, \hyperpage{15, 16}, \hyperpage{23}, 
 		\hyperpage{27}
-  \item Switch, \hyperpage{4, 5}, \hyperpage{18}
+  \item Switch, \hyperpage{4, 5}, \hyperpage{16}, \hyperpage{18}, 
+		\hyperpage{26, 27}
 
   \indexspace
 
