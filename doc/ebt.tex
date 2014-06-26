@@ -155,9 +155,9 @@
 {
   name=Paradigme,
   text=paradigme,
-  description={Un paradigme consiste en une collection de règles, standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. 
+  description={Un paradigme consiste en une collection de règles, de standards et exemples de pratiques scientifiques, partagés par un groupe de scientifiques. 
   Sa genèse et poursuite en tant que tradition de recherche sont conditionnées à un fort engagement et consensus des personnes impliquées. \cite{paradigmdef}
-  D'après Dosi \cite{newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement dans la manière de penser. Ce changement apporté par le paradigme est souvent lié à une sorte d'innovation radicale qui implique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie.  }
+  D'après Dosi \cite{newparadigm}, quand un nouveau paradigme technologique apparaît, il représente une discontinuité ou un changement dans la manière de penser. Ce changement apporté par le paradigme est souvent lié à une tentative d'innovation radicale qui implique une nouvelle technologie. Dans ce document, le terme paradigme sera employé dans ce sens d'innovation et application de nouvelle technologie.  }
 }
 
 \newglossaryentry{mpls-glo}
@@ -165,7 +165,7 @@
   name=MPLS,
   text={MPLS},
   description={
-	MPLS a proposé une distinction explicite entre la périphérie et le cœur du réseau.  Les routeurs dans la périphérie inspectent les entêtes des paquets entrants rajoute une étiquette utilisée pour les transmissions dans le cœur du réseau. Cette commutation basée sur les étiquettes sont utiliser pour délivrer les paquets et répondre aux pré-requis des opérateurs, comme tunnel \gls{vpn}. ou l'ingénierie du trafic. Les étiquettes MPLS ont du sens seulement dans le cœur du réseau et sont complètement indépendantes des protocoles spécifique aux hôtes (IPv4, IPv6 ou autre).  MPLS n'a pas formalisé l'interface entre interface de contrôle pour les opérateurs. Ainsi, MPLS a distingué les réseaux hôtes des interfaces de commutation des paquets, mais n'a pas développé une interface générale pour les opérateur réseau. \cite{fabric}}
+	MPLS définit une distinction explicite entre la périphérie et le cœur du réseau.  Les routeurs dans la périphérie inspectent les entêtes des paquets entrants et rajoutent une étiquette utilisée pour les transmissions dans le cœur du réseau. Cette commutation basée sur les étiquettes qui sont utilisées pour délivrer les paquets et répondre aux pré-requis des opérateurs, comme tunnel \gls{vpn}. ou l'ingénierie du trafic. Les étiquettes MPLS ont du sens uniquement dans le cœur du réseau et sont complètement indépendantes des protocoles spécifiques aux hôtes (IPv4, IPv6 ou autre).  MPLS ne formalise pas l'interface de contrôle pour les opérateurs. MPLS distingue ainsi les réseaux hôtes des interfaces de commutation des paquets, mais ne développe pas une interface générale pour les opérateurs réseau. \cite{fabric}}
   %MPLS introduced an explicit distinction between the network edge and the network core. Edge routers inspect the incoming packet headers (which express the host’s requirements as to where to deliver the packet) and then attach a label onto the packet which is used for all forwarding within the core. The label-based forwarding tables in core routers are built not just to deliver packets to the destination, but also to address operator requirements such as VPNs (tunnels) or traffic engineering. MPLS labels have meaning only within the core, and are completely decoupled from the host protocol (e.g., IPv4 or IPv6) used by the host to express its requirement to the network. Thus, the interface for specifying host requirements is still IP, while the interface for packets to identify themselves is an MPLS label. However, MPLS did not formalize the interface by which operators specified their control requirements. Thus, MPLS distinguished between the Host-Network and Packet-Switch interfaces, but did not develop a general Operator-Network interface. 
 }
 
@@ -175,7 +175,7 @@
 {
   name=DPI,
   text={DPI},
-  description={ DPI est une technologie de filtrage de paquets qui les examine au moment où ils passent par le point d'inspection pour rechercher une non conformité de protocole, virus, spam, intrusion ou autre critère défini. L'outil décide alors si le paquet doit être transmit à la destination, re-routé ou bloqué. DPI fourni des données pour permettre une automatisation du réseau, une conformité aux règles définies et d'autres fonctions de sécurité. \cite{DPISearchSDN}}
+  description={ DPI est une technologie de filtrage de paquets conçue pour les examiner au moment où ils passent par le point d'inspection pour rechercher une non conformité de protocole, virus, spam, intrusion ou autre critère défini. L'outil décide alors si le paquet doit être transmis à la destination, re-routé ou bloqué. DPI fournit des données pour permettre une automatisation du réseau, une conformité aux règles définies et d'autres fonctions de sécurité. \cite{DPISearchSDN}}
   %DPI is a network packet filtering technology that examines a packet as it passes an inspection point, searching for protocol non-compliance, viruses, spam, intrusions or other defined criteria. The tool then decides whether the packet may pass or if it needs to be rerouted. DPI provides the information to enable advanced network automation, policy, compliance and security functions throughout the network.}
 }
 
@@ -184,7 +184,7 @@
 {
   name=Scalabilité,
   text=scalabilité,
-  description={ Terme provenant de l'anglicisme \textit{scalability} qui exprime la capacité d'être mis à échelle. En informatique cela désigne la capacité d'un système, d'un réseau ou un processus de gérer l'augmentation ou la réduction de la charge de manière à pouvoir la gérer. \cite{scalability}. Le terme est souvent employé pour exprimer une extensibilité, évolutivité ou passage à l'échelle, mais il n'y <<a pas d'équivalent communément admis en français >>. \cite{chevance2001serveurs}  }
+  description={ Terme provenant de l'anglais \textit{scalability} qui exprime la capacité à être mis à échelle. En informatique cela désigne la capacité d'un système, d'un réseau ou un processus à gérer l'augmentation ou la réduction de la charge de manière à pouvoir la gérer. \cite{scalability}. Le terme est souvent employé pour exprimer une extensibilité, évolutivité ou passage à l'échelle, mais il n'y a << pas d'équivalent communément admis en français >>. \cite{chevance2001serveurs}  }
 }
 
 %n'a pas d'équivalent communément admis en français
@@ -195,7 +195,7 @@
   name=Abstraction,
   text=abstraction,
   description={  En informatique, l'abstraction est un terme souvent employé pour désigner le mécanisme et la pratique qui réduisent et factorisent les détails négligeables de l'idée exprimée afin de se focaliser sur moins de concepts à la fois.
-     C'est aussi la notion de couches d'abstraction utilisée comme moyen pour gérer la complexité des systèmes informatiques où les couches correspondent à des niveaux de détails appliqués. \cite{AbstractionCS}
+     C'est aussi la notion de couches d'abstraction utilisée comme moyen pour gérer la complexité des systèmes informatiques lorsque les couches correspondent à des niveaux de détails appliqués. \cite{AbstractionCS}
   }
 }
 
@@ -205,7 +205,7 @@
 \newglossaryentry{bigdata}
 {
   name=Big Data,
-  description={Big Data est un terme appliqué aux ensembles de données dont la taille (ou le format) est au-delà de la capacité des outils logiciels communs, qui ne peuvent plus les capturer, les gérer et les traiter. Une nouvelle classe de technologies et outils a été développée pour attribuer une valeur commerciale à ces données grâce à une analyse complexe. Le terme est employé en  référence à ce type de données ainsi qu'aux technologies utilisées pour les stocker et les traiter.
+  description={Big Data est un terme appliqué aux ensembles de données dont la taille (ou le format) est supérieure à la capacité des outils logiciels communs, qui ne peuvent plus les capturer, les gérer et les traiter. Une nouvelle classe de technologies et outils a été développée pour attribuer une valeur commerciale à ces données grâce à une analyse complexe. Le terme est employé en  référence à ce type de données ainsi qu'aux technologies utilisées pour les stocker et les traiter.
   \cite{IMBigData}    }
 }
 
@@ -214,7 +214,7 @@
 {
   name=Cluster,
   text=cluster,
-  description={  En réseaux informatiques, un cluster désigne un groupe des machines reliées entre elles à l'aide d'un réseau de communication. Cette configuration est souvent utilisée pour réaliser des calculs à haute performance. \cite{cluster} }
+  description={  En réseaux informatiques, un cluster désigne un groupe de machines reliées entre elles à l'aide d'un réseau de communication. Cette configuration est souvent utilisée pour réaliser des calculs de haute performance. \cite{cluster} }
 }
 
 
@@ -222,7 +222,7 @@
 {
   name=Cloud Computing,
   text=cloud computing,
-  description={  Cloud Computing, ou informatique dans les nuages, est une évolution de la fourniture de services \gls{ti} qui offre un moyen d'optimiser l'usage et le déploiement rapide de ressources. Cela se fait par des systèmes et solutions plus efficaces et \glslink{scalability}{scalables}, fournissant un niveau plus haut d'automatisation. Diverses entreprises ont adopté le cloud computing et réalisent des avantages significatifs en agilité, réduction de coûts et soutien de la croissance du business. \cite{CloudComputingIntelVisionSpeeding}      }
+  description={  Cloud Computing, ou informatique dans les nuages, est une évolution de la livraison de services \gls{ti}. Le Cloud Computing offre un moyen d'optimiser l'usage et le déploiement rapide de ressources. Cela se fait par des systèmes et solutions plus efficaces et \glslink{scalability}{scalables}, en fournissant un niveau plus haut d'automatisation. Diverses entreprises ont adopté le Cloud Computing et obtiennent des avantages significatifs en agilité, réduction de coûts et croissance du business. \cite{CloudComputingIntelVisionSpeeding}      }
 }
 
 
@@ -231,22 +231,22 @@
 {
   name=Virtualisation,
   text=virtualisation,
-  description={  Pour diverses entreprises, l'infrastructure serveur virtualisée est la base sur laquelle le \glslink{cloudcomputing}{cloud} est construit. Initialement, les technologies de virtualisation ont permis aux data centers de consolider leurs infrastructures pour réduire les coûts. Avec le temps, l'intégration des technologies pour le management flexible de ressources a facilité une allocation plus dynamique. Cela a aidé à réduire les coûts et a également augmenté la flexibilité et la performance. \cite{CloudComputingIntelVisionSpeeding}  }
+  description={  Pour diverses entreprises, l'infrastructure serveur virtualisée est la base sur laquelle le \glslink{cloudcomputing}{cloud} est construit. Initialement, les technologies de virtualisation ont permis aux data centers de consolider leurs infrastructures pour réduire les coûts. Avec le temps, l'intégration des technologies pour le management flexible de ressources a facilité une allocation plus dynamique. Cela a permis la réduction des coûts et a également augmenté la flexibilité et la performance. \cite{CloudComputingIntelVisionSpeeding}  }
 }
 
 
 
 \newglossaryentry{datacenter}
 {
-  name=Data  Center,
-  text=data center,
-  description={  Centre de traitement de données. Il s'agit d'une installation utilisée pour héberger des systèmes informatiques et les composants associés, comme les systèmes de télécommunication et de stockage. En général, un data center inclut alimentation et  connexions des données redondantes, contrôles d'environnements comme la climatisation ainsi que divers dispositifs de sécurité. \cite{dataCenterDef} }
+  name=Data  Centre,
+  text=data centre,
+  description={  Centre de traitement de données. Il s'agit d'une installation utilisée pour héberger des systèmes informatiques et les composants associés, comme les systèmes de télécommunication et de stockage. En général, un data centre inclut alimentation et connexions des données redondantes, contrôles d'environnements comme la climatisation ainsi que divers dispositifs de sécurité. \cite{dataCenterDef} }
 }
 \newglossaryentry{middlebox}
 {
   name=Middlebox,
   text=middlebox,
-  description={  Boîtier intermédiaire. Un middlebox est un serveur conservant des états de la communication entre deux hôtes. Ils se différencient des hôtes qui représentent les extrémités de la communication. Ils sont encore différents des routeurs qui ne gardent pas d'états concernant les sessions de communications.  \cite{InternetEvolutionRoleSoftwareEngineeringRealInternet}  },
+  description={  Boîtier intermédiaire. Un middlebox est un serveur conservant les états de la communication entre deux hôtes. Ils se différencient des hôtes qui représentent les extrémités de la communication. Ils sont encore différents des routeurs qui ne gardent pas d'états sur les sessions de communications.  \cite{InternetEvolutionRoleSoftwareEngineeringRealInternet}  },
   plural=middleboxes
 }
 
@@ -269,7 +269,7 @@
 {
   name=Plan de Données,
   text=plan de données,
-  description={  Le plan de donnés traite les data-grammes entrants dans le média à travers une série d'opérations au niveau des liens qui collectent ces data-grammes et réalisent divers tests de cohérence basiques. Ensuite les data-grammes sont transférés en accord avec des tableaux pré-remplis par le \gls{controlplane}.  \cite{sdnbookControlDataPlanes}},
+  description={  Le plan de donnés traite les data-grammes entrant dans le média à travers une série d'opérations au niveau des liens qui collectent ces data-grammes et réalisent divers tests basiques de cohérence. Ensuite les data-grammes sont transférés en accord avec des tableaux pré-remplis par le \gls{controlplane}.  \cite{sdnbookControlDataPlanes}},
   plural={plans de données}
 }
 
@@ -277,7 +277,7 @@
 {
   name=Open Source,
   text=open source,
-  description={ Logiciel avec code source ouvert, qui peut donc être utilisé librement, modifié et partagé par quelqu'un. Un logiciel open source est développé par plusieurs personnes et distribué sous des licences qui se conforment à la définition d'open source.  \cite{OpenSource}  }
+  description={ Logiciel avec code source ouvert, qui peut donc être utilisé librement, modifié et partagé par quiconque. Un logiciel open source est développé par plusieurs personnes et est distribué sous des licences qui se conforment à la définition d'open source.  \cite{OpenSource}  }
 }
 
 \newglossaryentry{opendaylight}
@@ -291,8 +291,8 @@
 {
   name=Fabric,
   text=fabric,
-  description={ En informatique, fabric (qui signifie tissu en anglais) est un synonyme de plate-forme ou structure.  En général, le terme fabric décrit la façon dont différents composants travaillent ensemble pour former une entité unique. Dans ces systèmes la liaison entre les composants est tellement dense qu'un schéma représentant leurs relations rassemblerait à une pièce de tissu tricotée.
-  Sous ce terme généralement admis par l'industrie réseau, un fabric est une topologie réseau dans laquelle les composants transmettent des données l'un à l'autre  à travers les switches d’interconnexion.
+  description={ En informatique, fabric (qui signifie tissu en anglais) est un synonyme de plate-forme ou structure.  En général, le terme fabric décrit la façon dont différents composants travaillent ensemble pour former une entité unique. Dans ces systèmes la liaison entre les composants est tellement dense qu'un schéma représentant leurs relations ressemblerait à une pièce de tissu tricotée.
+  Sous ce terme généralement admis par l'industrie réseau, un fabric est une topologie réseau dans laquelle les composants se transmettent des données l'un à l'autre à travers les switches d’interconnexion.
   % En théorie, un \textit{fabric} devrait être capable de supporter un grand nombre de conceptions de pointe y compris des schémas d'adressage et des modèles de politique. 
   \cite{NetworkFabricSearchSDN} \cite{fabricExtending}}
 }
@@ -302,7 +302,7 @@
 {
   name=Compute,
   text=compute,
-  description={ Le terme compute  a été utilisé tout au long du document pour faire référence à la capacité de calcul et traitement de l'information des serveurs physiques. C'est l'élément qui est virtualisé au moyen des hyperviseurs permettant la mutualisation de ces ressources entre différentes applications.}
+  description={ Le terme compute  a été utilisé tout au long du document pour faire référence à la capacité de calcul et traitement de l'information des serveurs physiques. C'est l'élément qui est virtualisé au moyen des hyperviseurs qui permettent la mutualisation de ces ressources entre différentes applications.}
 }
 
 
@@ -310,7 +310,7 @@
 {
   name=OpenStack,
   text=OpenStack,
-  description={ OpenStack est un projet pour le développement d'une plateforme Cloud Computing \gls{opensource}. Le projet a été initié par NASA et Rackspace en 2010, et actuellement a été rejoint par diverses entreprises telles que HP, Dell, Cisco etc.
+  description={ OpenStack est un projet pour le développement d'une plateforme Cloud Computing \gls{opensource}. Le projet a été initié par la NASA et Rackspace en 2010, et est rejoint actuellement par diverses entreprises telles que HP, Dell, Cisco etc.
   %OpenStack is an open-source IaaS provider project supported by multiple vendors. The project was started by NASA and Rackspace in 2010, while currently more companies have joined (e.g. HP, Dell, Cisco, etc). 
   \cite{openstack} }
 }
@@ -354,11 +354,11 @@ Je tiens à  remercier tous ceux qui, à l'Institut National Polytechnique de Gr
 
 J'exprime toute ma gratitude à mes collègues de Bull pour leur accueil et leur sens de la convivialité pendant ces deux années d'alternance. Toute ma reconnaissance va spécialement aux membres de l'équipe OSI pour m'avoir intégrée : tout d'abord à Claude Casery, mon tuteur, pour son rôle clé dans mon développement professionnel, mais aussi à Julien et à Laure pour leur aide technique et leur disponibilité.
 
-Merci également aux membres de l'équipe OMNIS, et spécialement Martine de m'avoir précédemment accueillie, lors de mon stage de licence, et d'être devenus rapidement mes grands amis de France. Leur façon d'être, leurs encouragements et leur drôlerie m'ont beaucoup inspirée et ont contribué à la réussite de cette expérience. 
+Merci également aux membres de l'équipe OMNIS, de m'avoir précédemment accueillie lors de mon stage de licence, et d'être devenus rapidement mes grands amis de France. Leur façon d'être, leurs encouragements (particulièrement de la part de Martine) et leur drôlerie m'ont beaucoup inspirée et ont contribué à l'aboutissement de mon expérience à l'étranger. 
 
 Dans l'équipe Storeway, je suis particulièrement reconnaissante envers Emmanuel de m'avoir initiée au sujet SDN, thème choisi pour ce mémoire, ainsi qu'à Renata, ma compatriote, pour sa compréhension et son aide pour déterminer l'équivalence d'un vocabulaire particulier. 
 
-J'exprime ma gratitude aussi à tous ceux qui ont relu mon document et m'ont permis de l'améliorer, et particulièrement à Christine pour les corrections, explications et sa patience.
+J'exprime ma gratitude aussi à tous ceux qui ont relu mon document et m'ont permis de l'améliorer, et particulièrement à Christine pour ses explications, corrections et sa patience.
 
 Enfin, je remercie ma famille et mes amis qui m'ont soutenue même de loin, ainsi que tous les nouveaux amis rencontrés localement pour lesquels j'ai développé une forte affection depuis mon arrivée. Tous ont contribué d'une manière ou d'une autre à la réussite de mon parcours.
 
