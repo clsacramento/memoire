@@ -49,6 +49,7 @@
 \indexentry{Compute|hyperpage}{7}
 \indexentry{Dimensionnement|hyperpage}{7}
 \indexentry{Charge|hyperpage}{7}
+\indexentry{Planification|hyperpage}{7}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{7}
 \indexentry{Ressources|hyperpage}{7}
 \indexentry{Planification|hyperpage}{8}
@@ -93,6 +94,7 @@
 \indexentry{Co\IeC {\^u}ts|hyperpage}{13}
 \indexentry{Critiques|hyperpage}{13}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{14}
+\indexentry{Traditionnel|hyperpage}{14}
 \indexentry{Planification|hyperpage}{14}
 \indexentry{Charge|hyperpage}{14}
 \indexentry{Dimensionnement|hyperpage}{14}
@@ -260,6 +262,9 @@
 \indexentry{SDN|hyperpage}{30}
 \indexentry{Mode de livraison|hyperpage}{30}
 \indexentry{Infrastructure|hyperpage}{30}
+\indexentry{Compute|hyperpage}{30}
+\indexentry{Virtualisation du Stockage|hyperpage}{31}
+\indexentry{Virtualisation du R\IeC {\'e}seau|hyperpage}{31}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{31}
 \indexentry{Co\IeC {\^u}ts|hyperpage}{31}
 \indexentry{Complexit\IeC {\'e}|hyperpage}{31}
@@ -303,6 +308,7 @@
 \indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{34}
 \indexentry{Trafic|hyperpage}{34}
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{34}
+\indexentry{S\IeC {\'e}curit\IeC {\'e}|hyperpage}{34}
 \indexentry{Scalabilit\IeC {\'e}|hyperpage}{34}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{34}
 \indexentry{Efficacit\IeC {\'e}|hyperpage}{34}
@@ -316,6 +322,7 @@
 \indexentry{Gestion|hyperpage}{35}
 \indexentry{Cloud Computing|hyperpage}{35}
 \indexentry{Cloud Computing|hyperpage}{37}
+\indexentry{Complexit\IeC {\'e}|hyperpage}{37}
 \indexentry{Agilit\IeC {\'e}|hyperpage}{37}
 \indexentry{Innovation|hyperpage}{37}
 \indexentry{SDN|hyperpage}{37}

@@ -25,8 +25,8 @@ Un data centre est en général organisé en rangées de racks où chaque rack c
 Les composants essentiels de l'infrastructure, branchés aux racks des data centres d'entreprises, sont classés en tant que compute\index{Compute}, stockage et réseau et représentent la base sur laquelle les applications business sont construites. 
 
 Un châssis se présente avec ses propres ventilateurs, source d'alimentation, fond de panier et module de gestion\index{Gestion}. 
-Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans un châssis qui est glissé dans le rack. Un châssis fournit des slots de %taille standard 
-où il est possible d'insérer des élément actifs modulaires (aussi connus en tant que \og blades \fg{}). Par exemple, un seul châssis peut contenir 16 serveurs 1 U; étant donné que les racks supportent 6 châssis, ils ont une capacité théorique de 96 éléments modulaires.
+Pour réduire l'espace occupé, des serveurs peuvent être compartimentés dans un châssis qui est glissé dans le rack. Un châssis fournit des slots %taille standard 
+où il est possible d'insérer des élément actifs modulaires (aussi connus en tant que \og blades \fg{}). Par exemple, un seul châssis peut contenir 16 serveurs 1 U; étant donné que les racks supportent 6 châssis, ils ont donc une capacité théorique de 96 éléments modulaires.
 
 
 \begin{figure}[h]
@@ -46,7 +46,7 @@ La consommation d'énergie\index{Énergie} et les coûts\index{Coûts} liés son
 
 \section{Virtualisation et partage de ressources}
 
-Le besoin d'augmenter l'efficacité dans l'utilisation des ressources\index{Ressources} a conduit à une conception d'infrastructures avec partage et virtualisation des composants. La virtualisation\index{Virtualisation} fait référence à l'abstraction des ressources logiques de leurs couches physiques pour améliorer l'agilité\index{Agilité}, la flexibilité et la réduction des coûts\index{Coûts} et ainsi privilégier les activités du business. La virtualisation permet de consolider un ensemble de composants d'infrastructures sous-utilisés en un nombre de dispositifs plus petits et mieux utilisés, contribuant à l'économie des coûts et efficacité de l'utilisation des composants.
+Le besoin d'augmenter l'efficacité dans l'utilisation des ressources\index{Ressources} a conduit à une conception d'infrastructures avec partage et virtualisation des composants. La virtualisation\index{Virtualisation} fait référence à l'abstraction des ressources logiques de leurs couches physiques pour améliorer l'agilité\index{Agilité}, la flexibilité et la réduction des coûts\index{Coûts} et ainsi privilégier les activités du business. La virtualisation permet de consolider un ensemble de composants d'infrastructures sous-utilisés en un nombre de dispositifs plus petits et mieux utilisés, contribuant à l'économie des coûts et à l'efficacité de l'utilisation des composants.
 
 La virtualisation de serveurs est une méthode pour abstraire le système d'exploitation de la plateforme matérielle. Cela permet aux multiples systèmes d'exploitation ou multiples instances du même système d'exploitation de coexister dans un ou plusieurs clusters de processeurs. L'image \ref{virtinfra} illustre le partage de ressources\index{Ressources} par l'intermédiaire de la virtualisation.\\
 
@@ -73,7 +73,7 @@ Cette approche a apporté une maîtrise globale de gestion\index{Gestion}, super
 \section{Le besoin d'un modèle plus dynamique}
 
 
-Traditionnellement, les data centres d'entreprises sont conçus pour perdurer et atteindre les objectives déterminés. Cela veut dire que les éléments sous-jacents sont dimensionnés\index{Dimensionnement} et construits pour supporter le pic de charge\index{Charge} projeté en termes de performance, disponibilité et sécurité. Quand la croissance volumétrique projetée ne correspond pas à la réalité, cette méthode de dimensionnement peut conduire à une situation de sous-dimensionnement ou sur-dimensionnement. Ce qui apporte un effet négatif pour les investissements et les efforts de réduction de coûts\index{Coûts}.
+Traditionnellement, les data centres d'entreprises sont conçus pour perdurer et atteindre les objectives déterminés. Cela veut dire que les éléments sous-jacents sont dimensionnés\index{Dimensionnement} et construits pour supporter le pic de charge\index{Charge} prévu\index{Planification} en termes de performance, disponibilité et sécurité. Quand la croissance volumétrique escomptée ne correspond pas à la réalité, cette méthode de dimensionnement peut conduire à une situation de sous-dimensionnement ou sur-dimensionnement. Ce qui produit un effet négatif pour les investissements et les efforts de réduction de coûts\index{Coûts}.
 
 En général, pour atteindre une meilleure disponibilité, les infrastructures sont amenées à une sous-utilisation des ressources\index{Ressources}. Comme la charge des applications varient continuellement dans les applications sur internet, il reste deux choix : soit sous-dimensionner la provision des ressources et perdre des clients ou alors sur-dimensionner et gaspiller les ressources. 
 
@@ -159,27 +159,27 @@ Le Cloud Computing\index{Cloud Computing} peut être défini comme un nouveau mo
 % • Pay-per-use
 
 \par
-Les avancées importantes dans la virtualisation\index{Virtualisation}, réseau, approvisionnement et architectures multi-tenantes\index{Tenants} ont permis de faire évoluer radicalement les infrastructures de data centres. Le plus grand impact du Cloud Computing\index{Cloud Computing} vient de l'instauration de nouveaux modèles de consommation et de livraison de services qui supportent l'innovation\index{Innovation} du business.
+Les avancées importantes dans les domaines de virtualisation\index{Virtualisation}, réseau, approvisionnement et architectures multi-tenantes\index{Tenants} ont permis de faire évoluer radicalement les infrastructures de data centres. Le plus grand impact du Cloud Computing\index{Cloud Computing} vient de l'instauration de nouveaux modèles de consommation et de livraison de services qui encouragent l'innovation\index{Innovation}.
 
 %Cloud has evolved from on demand and grid computing, while building on significant advances in virtualization, networking, provisioning, and multitenant architectures. As with any new technology, the exciting impact comes from enabling new service consumption and delivery models that support business model innovation.
 
 
-L'évolution des data centres a permis de satisfaire une plus grande variété de besoins dans le monde du travail, ce qui implique la prise en compte de plusieurs facteurs lors de la conception de l'architecture selon les différents objectifs de chaque entreprise. Le Cloud Computing est donc né en tant que nouveau paradigme pour les architectures des data centres.
+L'évolution des data centres a permis de satisfaire une plus grande variété de besoins dans le monde du travail, ce qui implique la prise en compte de plusieurs facteurs lors de la conception de l'architecture selon les différents objectifs de chaque entreprise. Le Cloud Computing est donc le produit d'un nouveau paradigme pour les architectures des data centres.
 
 %As we have seen, data centers have grown to serve a wide range of business needs, and there are many factors to consider when designing a solution that meets different objectives. Within the past several years, a powerful new paradigm has emerged that has important implications for data center architectures and how they meet these varied objectives. This is the paradigm of cloud computing.
 
-Le Cloud Computing livre dynamiquement des services sur des réseaux à partir d'un ensemble abstrait de ressources\index{Ressources}. Ces ressources se retrouvent quelque part dans le \og nuage \fg{} \footnote{symbole qui fait allusion à la représentation d'internet dans les topologies réseau} et sont disponibles immédiatement à la demande. Les types de ressources ainsi que leur localisation sont transparents aux utilisateurs finaux. Ces utilisateurs ont pour principale préoccupation que leurs applications, données et contenus soient sécurisés et disponibles, avec un niveau de qualité de service.
+Le Cloud Computing livre dynamiquement des services sur des réseaux à partir d'un ensemble abstrait de ressources\index{Ressources}. Ces ressources se retrouvent quelque part dans le \og nuage \fg{} \footnote{symbole qui fait allusion à la représentation d'internet dans les topologies réseau} et sont disponibles immédiatement à la demande. Les types de ressources ainsi que leur localisation sont transparents aux utilisateurs finaux. Ces utilisateurs ont pour principale préoccupation que leurs applications, données et contenus soient sécurisés et disponibles, avec un certain niveau de qualité de service.
 
 %Cloud computing delivers services dynamically over networks from an abstracted set of resources. The resources are somewhere in the cloud and available on demand. The types of resources and their location are transparent to end users. End users primarily care that their applications, data and content are secure and available, with a desired level of quality.
 
-Du point de vue de l'infrastructure, le Cloud Computing\index{Cloud Computing} sollicite fortement les ressources\index{Ressources} mutualisées dans une grande variété de technologies (de compute\index{Compute}, de stockage, de réseau) pour leur allocation dynamique. Tout ceci dans un environnement automatisé, orchestré et logiquement diversifié, en conciliant une variété d'applications. L'orchestration permet de mutualiser les ressources\index{Ressources} au travers de multiples data centres pour une réponse dynamique\index{Agilité} aux besoins clients. 
+Du point de vue de l'infrastructure, le Cloud Computing\index{Cloud Computing} sollicite fortement les ressources\index{Ressources} mutualisées dans une grande variété de technologies (compute\index{Compute}, stockage, réseau) pour leur allocation dynamique. Tout ceci dans un environnement automatisé, orchestré et logiquement diversifié, en conciliant une variété d'applications. L'orchestration permet de mutualiser les ressources\index{Ressources} au travers de multiples data centres pour une réponse dynamique\index{Agilité} aux besoins clients. 
 
 
 La virtualisation de serveurs a représenté un premier et important pas pour la viabilité de l'approche Cloud Computing. Toutefois, les deux autres éléments de base de l'infrastructure des data centres doivent accompagner ces changements pour permettre un accès complet aux services offerts par le Cloud. Les hyperviseurs\index{Hyperviseur} ont permis la séparation des systèmes logiques des serveurs physiques dans le cas de la virtualisation de serveurs\index{Compute} ; cette abstraction\index{Abstraction} doit être également appliquée aux matériels réseaux\index{Virtualisation du Réseau} et de stockage\index{Virtualisation du Stockage}. Cela permettra la définition d'un data centre entièrement piloté par un logiciel qui gère\index{Gestion} les ressources physiques, en les activant dynamiquement selon la charge applicative\index{Charge}.
 
 %\pagebreak
 
- L'image suivante illustre une vue conceptuelle d'un data centre basé sur ces trois éléments avec des couches d'abstraction\index{Abstraction} permettant de sécuriser\index{Sécurité}, orchestrer et livrer ses ressources\index{Ressources} aux consommateurs.\\
+ L'image suivante illustre une vue conceptuelle d'un data centre basé sur ces trois éléments avec des couches d'abstraction\index{Abstraction} permettant de sécuriser\index{Sécurité}, orchestrer et livrer ses ressources\index{Ressources} au consommateur.\\
 
 \begin{figure}[h]
 \begin{center}
@@ -192,7 +192,7 @@ La virtualisation de serveurs a représenté un premier et important pas pour la
 \end{center}
 \end{figure}
 
-L'abstraction\index{Abstraction} de ces trois composants matériels est essentielle pour achever le mode de livraison\index{Mode de livraison} de services Cloud au sein des data centres. L'adoption de la virtualisation des serveurs a déjà atteint son public ; en 2009 un sondage avait révélé que 77\% des entreprises consultées déployaient au moins un système virtualisé dans leur data centre \cite{x86ServersVirtualization}. On observe que beaucoup de travaux se déroulent actuellement en recherche et développement pour acquérir un niveau équivalent de maturité pour les dispositifs réseau et stockage. 
+L'abstraction\index{Abstraction} de ces trois composants matériels est essentielle pour permettre la distribution\index{Mode de livraison} de services Cloud au sein des data centres. L'adoption de la virtualisation des serveurs a déjà atteint son public ; en 2009 un sondage avait révélé que 77\% des entreprises consultées déployaient au moins un système virtualisé dans leur data centre \cite{x86ServersVirtualization}. On observe que beaucoup de travaux se déroulent actuellement en recherche et développement pour acquérir un niveau équivalent de maturité pour les dispositifs réseau et stockage. 
 
 L'abstraction du stockage signifie la capacité à mutualiser les dispositifs physiques de stockage pour pouvoir les utiliser en tant que volumes de stockage logiques. Cela caractérise la virtualisation du stockage ou le \gls{sds}.\index{Virtualisation du Stockage} Pour l'aspect stockage, il est reconnu que des solutions \gls{sds} se trouvent disponibles sur le marché, telles que EMC ViPR, HP StoreVirtual, IBM SmartCloud Virtual Storage Center, Red Hat Storage Server entre autres.
 

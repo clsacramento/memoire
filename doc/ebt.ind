@@ -24,9 +24,10 @@
 		\hyperpage{13, 14}, \hyperpage{16}, \hyperpage{27}, 
 		\hyperpage{30, 31}, \hyperpage{34}
   \item Complexit\IeC {\'e}, \hyperpage{2}, \hyperpage{18}, 
-		\hyperpage{20--22}, \hyperpage{31}, \hyperpage{33}
+		\hyperpage{20--22}, \hyperpage{31}, \hyperpage{33}, 
+		\hyperpage{37}
   \item Compute, \hyperpage{1, 2}, \hyperpage{4}, \hyperpage{7--9}, 
-		\hyperpage{17}, \hyperpage{23}
+		\hyperpage{17}, \hyperpage{23}, \hyperpage{30}
   \item Contr\IeC {\^o}le, \hyperpage{22}, \hyperpage{29}, 
 		\hyperpage{31--33}, \hyperpage{35}, \hyperpage{37}
   \item Critiques, \hyperpage{13, 14}
@@ -67,7 +68,7 @@
 
   \indexspace
 
-  \item Planification, \hyperpage{8}, \hyperpage{13, 14}, 
+  \item Planification, \hyperpage{7, 8}, \hyperpage{13, 14}, 
 		\hyperpage{29}
 
   \indexspace
@@ -95,8 +96,8 @@
 
   \item Tenants, \hyperpage{9}, \hyperpage{17}, \hyperpage{19}, 
 		\hyperpage{21}, \hyperpage{27, 28}, \hyperpage{31--34}
-  \item Traditionnel, \hyperpage{19--22}, \hyperpage{24}, 
-		\hyperpage{29}, \hyperpage{32, 33}
+  \item Traditionnel, \hyperpage{14}, \hyperpage{19--22}, 
+		\hyperpage{24}, \hyperpage{29}, \hyperpage{32, 33}
   \item Trafic, \hyperpage{5}, \hyperpage{18}, \hyperpage{20, 21}, 
 		\hyperpage{28, 29}, \hyperpage{31, 32}, \hyperpage{34}
 
@@ -106,7 +107,8 @@
 		\hyperpage{16}, \hyperpage{21, 22}, \hyperpage{27, 28}, 
 		\hyperpage{35}
   \item Virtualisation du R\IeC {\'e}seau, \hyperpage{9}, 
-		\hyperpage{27--29}
-  \item Virtualisation du Stockage, \hyperpage{10}, \hyperpage{28}
+		\hyperpage{27--29}, \hyperpage{31}
+  \item Virtualisation du Stockage, \hyperpage{10}, \hyperpage{28}, 
+		\hyperpage{31}
 
 \end{theindex}
