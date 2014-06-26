@@ -38,11 +38,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Attaques entre VMs et exposition de l'hyperviseur}{22}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}VMs \IeC {\`a} niveaux de confiance mixtes}{22}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Lacunes sur les instantan\IeC {\'e}es}{23}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Lacunes sur les instantan\IeC {\'e}es}{23}{subsection.2.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.5}Blocage de ressources}{23}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.4}Blocage de ressources}{23}{subsection.2.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Complexit\IeC {\'e}, Agilit\IeC {\'e} et S\IeC {\'e}curit\IeC {\'e} : l'adaptation du r\IeC {\'e}seau au Cloud}{24}{section.2.5}
 \defcounter {refsection}{0}\relax 

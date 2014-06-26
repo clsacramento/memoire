@@ -4,95 +4,105 @@
 
   \indexspace
 
-  \item Abstraction, \hyperpage{8--10}, \hyperpage{25, 26}, 
-		\hyperpage{28}, \hyperpage{32}
+  \item Abstraction, \hyperpage{8--10}, \hyperpage{25--29}, 
+		\hyperpage{31--35}
   \item Agilit\IeC {\'e}, \hyperpage{1, 2}, \hyperpage{6}, 
-		\hyperpage{16}, \hyperpage{24}, \hyperpage{27}, 
-		\hyperpage{29}, \hyperpage{31, 32}, \hyperpage{35, 36}
+		\hyperpage{9}, \hyperpage{16}, \hyperpage{24}, 
+		\hyperpage{27}, \hyperpage{30}, \hyperpage{33, 34}, 
+		\hyperpage{37, 38}
 
   \indexspace
 
   \item Charge, \hyperpage{1}, \hyperpage{4}, \hyperpage{7}, 
 		\hyperpage{10}, \hyperpage{14}, \hyperpage{16, 17}, 
 		\hyperpage{21}, \hyperpage{23}, \hyperpage{28, 29}
-  \item Cloud Computing, \hyperpage{1}, \hyperpage{3}, \hyperpage{8, 9}
-  \item Cluster, \hyperpage{8}
-  \item Co\IeC {\^u}ts, \hyperpage{6, 7}, \hyperpage{13, 14}, 
-		\hyperpage{16}
-  \item Compute, \hyperpage{7}, \hyperpage{9}, \hyperpage{17}
-    \subitem processeurs, \hyperpage{8}
+  \item Cloud Computing, \hyperpage{1}, \hyperpage{3}, \hyperpage{8, 9}, 
+		\hyperpage{11}, \hyperpage{14--17}, \hyperpage{19}, 
+		\hyperpage{21--24}, \hyperpage{28}, \hyperpage{30}, 
+		\hyperpage{35}, \hyperpage{37, 38}
+  \item Co\IeC {\^u}ts, \hyperpage{1}, \hyperpage{6, 7}, 
+		\hyperpage{13, 14}, \hyperpage{16}, \hyperpage{27}, 
+		\hyperpage{30, 31}, \hyperpage{34}
+  \item Complexit\IeC {\'e}, \hyperpage{2}, \hyperpage{18}, 
+		\hyperpage{20--22}, \hyperpage{31}, \hyperpage{33}
+  \item Compute, \hyperpage{1, 2}, \hyperpage{4}, \hyperpage{7--9}, 
+		\hyperpage{17}, \hyperpage{23}
+  \item Contr\IeC {\^o}le, \hyperpage{22}, \hyperpage{29}, 
+		\hyperpage{31--33}, \hyperpage{35}, \hyperpage{37}
   \item Critiques, \hyperpage{13, 14}
 
   \indexspace
 
   \item Data Centre, \hyperpage{1}, \hyperpage{3}, \hyperpage{7}
-  \item Delivery Model, \hyperpage{8}
   \item Dimensionnement, \hyperpage{4}, \hyperpage{7}, \hyperpage{14}
 
   \indexspace
 
-  \item Efficacit\IeC {\'e}, \hyperpage{6, 7}
-  \item efficacit\IeC {\'e}, \hyperpage{16}
+  \item Efficacit\IeC {\'e}, \hyperpage{6, 7}, \hyperpage{16}, 
+		\hyperpage{21}, \hyperpage{23}, \hyperpage{31}, 
+		\hyperpage{34}
 
   \indexspace
 
-  \item Gestion, \hyperpage{10}
-
-  \indexspace
-
-  \item Hyperviseur, \hyperpage{7}, \hyperpage{9}
-
-  \indexspace
-
-  \item Infrastructure, \hyperpage{4}
-  \item Innovation, \hyperpage{1}, \hyperpage{9}, \hyperpage{26}, 
+  \item Gestion, \hyperpage{4}, \hyperpage{7}, \hyperpage{10}, 
+		\hyperpage{14}, \hyperpage{18}, \hyperpage{20}, 
 		\hyperpage{28}, \hyperpage{35}
 
   \indexspace
 
-  \item Mode de livraison, \hyperpage{3}, \hyperpage{8}, 
-		\hyperpage{15, 16}, \hyperpage{24}, \hyperpage{27}
-  \item Multi-Tenant, \hyperpage{9}
+  \item Hyperviseur, \hyperpage{7--9}
 
   \indexspace
 
-  \item Orchestration, \hyperpage{9}
+  \item Infrastructure, \hyperpage{4}, \hyperpage{28}, \hyperpage{30}, 
+		\hyperpage{32, 33}, \hyperpage{35}
+  \item Innovation, \hyperpage{1}, \hyperpage{9}, \hyperpage{24}, 
+		\hyperpage{26}, \hyperpage{28, 29}, \hyperpage{37}
 
   \indexspace
 
-  \item Planification, \hyperpage{8}, \hyperpage{13}
+  \item Mode de livraison, \hyperpage{3}, \hyperpage{8}, \hyperpage{10}, 
+		\hyperpage{15, 16}, \hyperpage{24}, \hyperpage{27}, 
+		\hyperpage{30}
 
   \indexspace
 
-  \item R\IeC {\'e}seau, \hyperpage{9}
-  \item Rack, \hyperpage{4}
+  \item Planification, \hyperpage{8}, \hyperpage{13, 14}, 
+		\hyperpage{29}
+
+  \indexspace
+
   \item Ressources, \hyperpage{6}, \hyperpage{8, 9}
-  \item Routeur, \hyperpage{5}
+  \item Routeur, \hyperpage{5}, \hyperpage{18, 19}
 
   \indexspace
 
-  \item S\IeC {\'e}curit\IeC {\'e}, \hyperpage{2}, \hyperpage{10}
+  \item S\IeC {\'e}curit\IeC {\'e}, \hyperpage{2}, \hyperpage{10}, 
+		\hyperpage{18}, \hyperpage{21--23}, \hyperpage{34, 35}
   \item Scalabilit\IeC {\'e}, \hyperpage{5}, \hyperpage{8}, 
 		\hyperpage{14}, \hyperpage{16}, \hyperpage{20}, 
-		\hyperpage{26--28}, \hyperpage{30}, \hyperpage{32}
+		\hyperpage{26--28}, \hyperpage{31, 32}, \hyperpage{34}
   \item SDN, \hyperpage{1}, \hyperpage{11}
-  \item Software-Defined Data Center, \hyperpage{10}
   \item Stockage, \hyperpage{3--5}, \hyperpage{15, 16}, \hyperpage{23}, 
 		\hyperpage{27}
-  \item Switch, \hyperpage{4, 5}
+  \item Switch, \hyperpage{4, 5}, \hyperpage{18}
 
   \indexspace
 
-  \item Trafic, \hyperpage{5}
+  \item Tenants, \hyperpage{9}, \hyperpage{17}, \hyperpage{19}, 
+		\hyperpage{21}, \hyperpage{27, 28}, \hyperpage{31--34}
+  \item Traditionnel, \hyperpage{19--22}, \hyperpage{24}, 
+		\hyperpage{29}, \hyperpage{32, 33}
+  \item Trafic, \hyperpage{5}, \hyperpage{18}, \hyperpage{20, 21}, 
+		\hyperpage{28, 29}, \hyperpage{31, 32}, \hyperpage{34}
 
   \indexspace
 
-  \item Virtualisation, \hyperpage{1, 2}, \hyperpage{6}, \hyperpage{9}, 
-		\hyperpage{16}, \hyperpage{21, 22}, \hyperpage{28}
+  \item Virtualisation, \hyperpage{1, 2}, \hyperpage{6--9}, 
+		\hyperpage{16}, \hyperpage{21, 22}, \hyperpage{27, 28}, 
+		\hyperpage{35}
   \item Virtualisation du R\IeC {\'e}seau, \hyperpage{9}, 
-		\hyperpage{28}
+		\hyperpage{27--29}
   \item Virtualisation du Stockage, \hyperpage{10}, \hyperpage{28}
-  \item Virtualisation du stockage
-    \subitem \gls{sds}, \hyperpage{10}
 
 \end{theindex}

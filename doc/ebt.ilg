@@ -1,6 +1,6 @@
 This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
-Scanning input file ebt.idx....done (133 entries accepted, 0 rejected).
-Sorting entries....done (968 comparisons).
-Generating output file ebt.ind....done (98 lines written, 0 warnings).
+Scanning input file ebt.idx....done (268 entries accepted, 0 rejected).
+Sorting entries.....done (2250 comparisons).
+Generating output file ebt.ind....done (108 lines written, 0 warnings).
 Output written in ebt.ind.
 Transcript written in ebt.ilg.
