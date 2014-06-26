@@ -23,7 +23,7 @@ Ces dispositifs ont en général une fonctionnalité de commutation de paquets (
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.7\textwidth]{images/TraditionalVsSDN} 
+\includegraphics[width=0.6\textwidth]{images/TraditionalVsSDN} 
 \caption{Architectures : réseau traditionnel et SDN. \cite{SurveySDNArchi}} \label{TraditionalVsSDN}
 \end{center}
 \end{figure}
@@ -48,14 +48,19 @@ Cette solution apporte comme bénéfice l'introduction d'une interface commune e
 \section{Virtualisation des fonctions réseau, NFV}
 
 
-Un concept qui est très souvent discuté en parallèle à \gls{sdn} est \gls{nfv}, une initiative fédérée à la base par des plus large fournisseurs de services  de télécommunication du monde avec l'\gls{etsi} et qui a généré grand intérêt de l'industrie. L'initiative a été créée pour aborder les principaux défis opérationnels et les coûts de gestion des applications réseau propriétaires et fermés qui sont actuellement déployées.
+Un concept qui est très souvent évoqué en parallèle à \gls{sdn} est \gls{nfv}, une initiative fédérée à la base par les plus grands fournisseurs de services  de télécommunication du monde avec l'\gls{etsi} et qui a généré un grand intérêt chez les industriels. L'initiative a été créée pour aborder les principaux défis opérationnels et les coûts de gestion des applications réseau propriétaires et fermées qui sont actuellement déployées.
 
 
-\gls{nfv} pousse les technologies de virtualisation à consolider les applications réseau sur des serveurs, switches et baies de stockage\index{Stockage} standard de l'industrie. La virtualisation des fonctions réseau non seulement réduit les dépenses en équipements, mais aussi apporte d'autres bénéfices tels que l'extension\index{Scalabilité} agile\index{Agilité} d'applications, à une vitesse plus rapide, une plus haute disponibilité et une meilleure utilisation de ressources.
+\gls{nfv} pousse les technologies de virtualisation à consolider les applications réseau sur des serveurs, switches et baies de stockage\index{Stockage} physiques et standard de l'industrie dans une couche logique qui met en disposition des ressources réseau. Une ressource réseau virtualisée représente une \gls{vnf}. Le principe des \glspl{vnf} peut augmenter la flexibilité à partager ressources et réduire les coûts de configuration et gestion. Un fournisseur de services peut mettre en disposition un ensemble d'applications et éléments d'infrastructure dans une plateforme qui fournit aux tenants les ressources dont ils ont besoin pour déployer leurs propres applications réseau adaptées à leurs objectifs métier.
+
+
+%The principles of Virtual Network Functions can increase the flexibility to share resources and decrease setup and management costs. The Service provider can make available a suite of infrastructure and applications as a platform on which the Enterprise can deploy their network applications. With this platform the Enterprise could develop their own Network Service customized to their business purposes.
+
 %A concept that often gets discussed in conjunction with SDN is Network Function Virtualization (NFV).
 %NFV leverages standard virtualization technologies to consolidate network applications – which have traditionally been hosted on proprietary hardware appliances – onto industry standard servers, switches and storage. In addition to reducing expenditure on equipment costs, virtualizing network functions also brings benefits such as rapid scaling of applications, faster speed of innovation, increased high availability and improved resource utilization. 
 
-Toutefois, pour bénéficier de ces apports, il est nécessaire que l'infrastructure réseau sous-jacente s'adapte rapidement et automatiquement. Par exemple, pour migrer une fonction réseau  dans un nouveau matériel, les politiques et les configurations associées à ce service doivent être provisionnées dans beaucoup d'autres équipements et fonctions. La complexité à configurer les réseaux dans un environnement si dynamique augmente énormément avec l'introduction de nouveaux éléments réseaux.
+
+La virtualisation des fonctions réseau non seulement réduit les dépenses en équipements, mais aussi apporte d'autres bénéfices tels que l'extension\index{Scalabilité} agile\index{Agilité} d'applications, à une vitesse plus rapide, une plus haute disponibilité et une meilleure utilisation de ressources. Toutefois, pour bénéficier de ces apports, il est nécessaire que l'infrastructure réseau sous-jacente s'adapte rapidement et automatiquement. Par exemple, pour migrer une fonction réseau  dans un nouveau matériel, les politiques et les configurations associées à ce service doivent être provisionnées dans beaucoup d'autres équipements et fonctions. La complexité à configurer les réseaux dans un environnement si dynamique augmente énormément avec l'introduction de nouveaux éléments réseaux, ce pourquoi des technologies supportant la programmation du réseau telles que SDN pourront habiliter la virtualisation des fonctions réseau.
 %However, realizing these benefits requires that the underlying network infrastructure is adapted quickly and automatically. For example, for a network function to either scale up or migrate onto a new piece of hardware, the security and policy configuration associated with that network function may have to be provisioned on a large number of switches and other network functions. The complexity of configuring networks in such a dynamic environment increases greatly as the number of network elements increase.
 
 
@@ -96,7 +101,7 @@ La figure \ref{cloud-sdn-nfv} affiche comment SDN et NFV s'intègrent dans une i
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{images/cloud-sdn-nfv} 
+\includegraphics[width=0.7\textwidth]{images/cloud-sdn-nfv} 
 \caption{SDN, NFV et Cloud Computing. \cite{OFSDNNFVand}} \label{cloud-sdn-nfv}
 \end{center}
 \end{figure} 
@@ -122,3 +127,35 @@ SDN permet de coupler la gestion du cloud au réseau programmable, achevant une 
 %The goal is to couple cloud management to a programmable network, via SDN controllers, to achieve full integration of the cloud and network, where cloud resources are no longer confined to a single data center, but are spread throughout the network.
 
 %Using common orchestration for end-to-end service management as well as for operations, administration and maintenance reduces operating costs in areas such as provisioning, monitoring and faultfinding. More importantly, end-to-end orchestration enables flexible service creation, which makes the network dynamic, adaptive and agile.
+
+\subsection{Cas d'utilisation SDN-NFV : NFVIaaS}
+
+Pour illustrer un exemple d'utilisation de NFV favorisé par SDN, il est présenté un cas d'utilisation proposé par l'\gls{etsi} : \gls{nfv}\gls{iaas}, Infrastructure NFV en tant que service pour la virtualisation générale du réseau. L'exemple illustre NFV et met en évidence les bénéfices du comportement hautement flexible et dynamique d'un réseau SDN.
+%To illustrate the challenges that operators face in migrating to NFV over today’s static inflexible network architectures, we present a use case that is defined in the ETSI NFV ISG Use Cases document : NFV infrastructure as a service (NFVIaaS) to virtualize the global network. The use case will benefit from the highly flexible and dynamic behavior of an OpenFlow-based SDN network, especially at scale.
+
+Le cas d'utilisation NFVIaaS est présenté comme étant essentiel pour la livraison de services Cloud. Dans ce scénario, le fournisseur de services peut les offrir en utilisant une infrastructure NFV (NFVI) d'un autre fournisseur de services. L'importance de cette capacité est qu'elle permet d'étendre la portée d'un fournisseur à des localisations où il ne maintien pas d'atouts physiques.
+%Another NFV use case promoted by ETSI is NFVIaaS, which is required for the delivery of cloud services. In this use case, one service provider can offer services using the NFV infrastructure (NFVI) of another service provider. This approach can greatly expand a carrier’s reach in locations where it maintains no physical network assets.
+
+La figure ci-dessous illustre le concept de NFVIaaS. Dans l'exemple, le fournisseur de service X offre un service de répartition de charges. Quelques clients de l'opérateur X ont besoin de ces services dans une localisation où l'entreprise ne possède pas d'infrastructure, mais le fournisseur Z oui.\\
+%Figure 4 illustrates the concept of NFVIaaS. In this example, service provider X offers a virtualized load balancing service. Some of carrier X’s customers need load balancing services at locations where that company doesn’t maintain NFVI, but where service provider Z does.\\
+
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/NFVIaaS} 
+\caption{Infrastructure NFV en tant que Service. \cite{OFSDNNFVand}} \label{nfviaas}
+\end{center}
+\end{figure} 
+
+NFVIaaS offre un moyen pour que l'opérateur Z loue son infrastructure NFV (compute, stockage, réseau) à X, lui permettant l'accès à une infrastructure que serait autrement d'un coût prohibitif à obtenir.
+%NFVIaaS offers a means for carrier Z to lease NFV infrastructure (compute, network, hypervisors, etc.) to service provider X, which gives the latter access to infrastructure that would otherwise be prohibitively expensive to obtain. Through leasing, such capacity is available on demand, and can be scaled as needed.
+
+La valeur de la proposition de ce scénario est considérable. En éliminant le coût et la complexité à déployer du nouveau matériel pour les louer à coûts fixes, l'opérateur X peut déployer et étendre des services virtualisés rapidement. Z se bénéfice avec la monétisation d'une capacité excédante associée à une plus grande efficacité des ses investissement en infrastructure NFV et SDN.
+%The value proposition for this NFV use case is significant. By eliminating the cost and complexity of deploying new hardware or leasing fixed services, Carrier X can deploy and scale virtualized services rapidly, and extend the reach across other service providers as well. Carrier Z benefits by monetizing excess capacity and leveraging its investments in NFV and SDN infrastructure.
+
+NFVIaaS représente également la simplification du déploiement par l'abstraction des différences parmi divers opérateurs, autrement gérées avec de la tunnelisation, la \gls{qos}, renforcement de politiques de sécurité et procédures opérationnelles. Autres besoins importants incluent l'aspect multi-tenant pour l'isolation suffisante du trafic, renforcement de politiques spécifiques aux tenants et la \gls{scalability}\index{Scalabilité}.
+%NFVIaaS also simplifies deployment by abstracting differences among diverse carriers in tunneling, addressing, QoS, policy enforcement, security, and operational procedures. Other key requirements include multi-tenancy to ensure sufficient traffic isolation, and tenant-specific policy enforcement and elasticity to reduce the cost and complexity of scaling in a dynamic cloud-services environment.
+
+Autant que SDN, NFV est fondée sur un environnement ouvert et multi-vendeur pour maximiser les choix et réduire le \gls{capex}. Une plateforme commune d'automatisation doit être capable d'approvisionner l'infrastructure (physique et virtuelle) et être accompagnée d'un modèle de déploiement qui élargie les limites géographiques du fournisseur de services. Tout cela, ne pouvant pas être accompli sans un contrôle automatisé du réseau, pouvant être implémenté de manière efficace par SDN. \cite{OFSDNNFVand} \cite{nfvUseCases}
+%Like SDN, NFV is predicated upon an open and multi-vendor environment to maximize choice and reduce CapEx costs. A common automation framework capable of provisioning both physical and virtual infrastructures is required, along with a common deployment model that spans service provider and geographical boundaries.

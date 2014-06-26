@@ -1,29 +1,29 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
 [0] Config.pm:390> INFO - Logfile is 'ebt.blg'
-[57] biber-darwin:218> INFO - === Wed Jun 25, 2014, 20:04:18
-[57] Biber.pm:325> INFO - Reading 'ebt.bcf'
-[121] Biber.pm:623> INFO - Found 57 citekeys in bib section 0
-[132] Biber.pm:2995> INFO - Processing section 0
-[144] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[157] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
-[172] bibtex.pm:775> INFO - Found BibTeX data source 'biblio.bib'
-[225] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/QVwBm3jR1T/biblio.bib_21492.utf8, line 302, warning: undefined macro "Fev"
-[225] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/QVwBm3jR1T/biblio.bib_21492.utf8, line 311, warning: undefined macro "Fev"
-[225] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/QVwBm3jR1T/biblio.bib_21492.utf8, line 320, warning: undefined macro "Fev"
-[225] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/QVwBm3jR1T/biblio.bib_21492.utf8, line 329, warning: undefined macro "Fev"
-[225] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/QVwBm3jR1T/biblio.bib_21492.utf8, line 338, warning: undefined macro "Fev"
-[225] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/QVwBm3jR1T/biblio.bib_21492.utf8, line 1281, warning: undefined macro "Juin"
-[225] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[226] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[259] Utils.pm:169> WARN - The field 'month' in entry 'OFSDNNFVintro' cannot be null, deleting it
-[260] Utils.pm:169> WARN - The field 'month' in entry 'realTimeCloudNFV' cannot be null, deleting it
-[260] Utils.pm:169> WARN - The field 'month' in entry 'OFSDNNFVand' cannot be null, deleting it
-[260] Utils.pm:169> WARN - The field 'month' in entry 'realTimeCloudNetworkEnabled' cannot be null, deleting it
-[261] Utils.pm:169> WARN - The field 'month' in entry 'realTimeCloudUseCases' cannot be null, deleting it
-[262] Utils.pm:169> WARN - The field 'month' in entry 'DPISearchSDN' cannot be null, deleting it
-[409] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[409] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
-[409] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[733] bbl.pm:472> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
-[738] bbl.pm:545> INFO - Output to ebt.bbl
-[747] Biber.pm:105> INFO - WARNINGS: 14
+[54] biber-darwin:218> INFO - === Thu Jun 26, 2014, 02:00:16
+[55] Biber.pm:325> INFO - Reading 'ebt.bcf'
+[115] Biber.pm:623> INFO - Found 58 citekeys in bib section 0
+[124] Biber.pm:2995> INFO - Processing section 0
+[136] Biber.pm:3129> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[148] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[161] bibtex.pm:775> INFO - Found BibTeX data source 'biblio.bib'
+[214] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/OFIFGrYEPj/biblio.bib_22594.utf8, line 302, warning: undefined macro "Fev"
+[214] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/OFIFGrYEPj/biblio.bib_22594.utf8, line 311, warning: undefined macro "Fev"
+[214] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/OFIFGrYEPj/biblio.bib_22594.utf8, line 320, warning: undefined macro "Fev"
+[215] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/OFIFGrYEPj/biblio.bib_22594.utf8, line 329, warning: undefined macro "Fev"
+[215] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/OFIFGrYEPj/biblio.bib_22594.utf8, line 338, warning: undefined macro "Fev"
+[215] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/kw/9pgq66hs78j4wprx437vd0pr0000gn/T/OFIFGrYEPj/biblio.bib_22594.utf8, line 1290, warning: undefined macro "Juin"
+[215] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[215] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[262] Utils.pm:169> WARN - The field 'month' in entry 'OFSDNNFVintro' cannot be null, deleting it
+[262] Utils.pm:169> WARN - The field 'month' in entry 'realTimeCloudNFV' cannot be null, deleting it
+[262] Utils.pm:169> WARN - The field 'month' in entry 'OFSDNNFVand' cannot be null, deleting it
+[263] Utils.pm:169> WARN - The field 'month' in entry 'realTimeCloudNetworkEnabled' cannot be null, deleting it
+[263] Utils.pm:169> WARN - The field 'month' in entry 'realTimeCloudUseCases' cannot be null, deleting it
+[264] Utils.pm:169> WARN - The field 'month' in entry 'DPISearchSDN' cannot be null, deleting it
+[419] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[419] Biber.pm:2887> INFO - Sorting 'entry' list 'none' keys
+[419] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[745] bbl.pm:472> INFO - Writing 'ebt.bbl' with encoding 'UTF-8'
+[751] bbl.pm:545> INFO - Output to ebt.bbl
+[759] Biber.pm:105> INFO - WARNINGS: 14

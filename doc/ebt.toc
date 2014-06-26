@@ -26,7 +26,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}La transformation des applications et exemples de sc\IeC {\'e}narios critiques}{16}{section.2.3}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Aspect multi-tenant}{17}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Interconnexion WAN}{19}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Monitoring dans un data centre}{20}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Aspects de s\IeC {\'e}curit\IeC {\'e}}{21}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Points invisibles de la communication}{21}{subsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Attaques entre VMs et exposition de l'hyperviseur}{22}{subsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}VMs \IeC {\`a} niveaux de confiance mixtes}{22}{subsection.2.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.4}Lacunes sur les instantan\IeC {\'e}es}{23}{subsection.2.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.5}Blocage de ressources}{23}{subsection.2.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Complexit\IeC {\'e}, Agilit\IeC {\'e} et S\IeC {\'e}curit\IeC {\'e} : l'adaptation du r\IeC {\'e}seau au Cloud}{24}{section.2.5}
 \defcounter {refsection}{0}\relax 
@@ -38,18 +54,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}SDN, NFV et le Cloud Computing}{28}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Sc\IeC {\'e}narios d'utilisation}{30}{section.3.4}
+\contentsline {subsection}{\numberline {3.3.1}Cas d'utilisation SDN-NFV : NFVIaaS}{30}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Complexit\IeC {\'e} et Agilit\IeC {\'e}}{31}{section.3.5}
+\contentsline {section}{\numberline {3.4}Sc\IeC {\'e}narios d'utilisation}{32}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}S\IeC {\'e}curit\IeC {\'e}}{32}{section.3.6}
+\contentsline {section}{\numberline {3.5}Complexit\IeC {\'e} et Agilit\IeC {\'e}}{33}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{35}{chapter*.13}
+\contentsline {section}{\numberline {3.6}S\IeC {\'e}curit\IeC {\'e}}{34}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{37}{chapter*.14}
+\contentsline {chapter}{Conclusion}{37}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acronymes}{39}{section*.15}
+\contentsline {chapter}{Index}{39}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossaire}{41}{section*.17}
+\contentsline {chapter}{Acronymes}{41}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{45}{chapter*.19}
+\contentsline {chapter}{Glossaire}{43}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliographie}{47}{chapter*.11}

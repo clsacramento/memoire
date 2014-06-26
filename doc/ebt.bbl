@@ -613,6 +613,15 @@
       \field{title}{The real-time cloud, section NETWORK-ENABLED CLOUD}
       \field{year}{2014}
     \endentry
+    \entry{nfvUseCases}{misc}{}
+      \field{sortinit}{0}
+      \field{labeltitle}{Network Functions Virtualisation (NFV); Use Cases, section 5 Use Case \#1: Network Functions Virtualisation Infrastructure as a Service}
+      \field{howpublished}{Group Specification}
+      \field{month}{10}
+      \field{note}{ETSI}
+      \field{title}{Network Functions Virtualisation (NFV); Use Cases, section 5 Use Case \#1: Network Functions Virtualisation Infrastructure as a Service}
+      \field{year}{2013}
+    \endentry
     \entry{realTimeCloudUseCases}{misc}{}
       \field{sortinit}{0}
       \field{labeltitle}{The real-time cloud, section USE CASES}

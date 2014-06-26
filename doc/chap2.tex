@@ -112,7 +112,7 @@ De nouveaux moyens qui utilisent l'encapsulation de tunnels tels que  \gls{vxlan
 
 %New capabilities such as Virtual eXtensible LAN (VXLAN) and Network Virtualization using Generic Routing Encapsulation (NVGRE) logically extend an L2 network across L3 networks. However, even with this potential to move VMs across a L3 network, local traffic will still have higher performance and lower latency if it stays within a large L2 network.
 
-\subsection*{Aspect multi-tenant}
+\subsection{Aspect multi-tenant}
 
 Cet exemple traite l'aspect multi-tenant des infrastructures Cloud. Pour simplifier, on considère une configuration avec deux réseaux : un pour le groupe d'ingénieurs et l'autre pour l'équipe des ventes. Pour réaliser cela avec les technologies réseaux traditionnelles, on utilise le concept de \gls{vlan}. Par exemple, le réseau d'ingénieurs peut être affecté au VLAN-1 et le réseau des ventes au VLAN-2 comme illustré dans l'image \ref{AspecMultiTenant}.
 
@@ -137,7 +137,7 @@ Cet exemple illustre la complexité opérationnelle de la configuration d'un ré
 Dans le cas où la situation décrite doit être réalisée simultanément pour multiples consommateurs, il y aura un grand délai d'implémentation. Dans un contexte Cloud, le traitement de demandes réseau durant plusieurs jours ou semaines devient critique et inacceptable.  \cite{hpCloudEffectsOnNetworkLimitations} \cite{leveragingSDNCloudNetworkServiceExample} \cite{zkCloudArrived}
 
 
-\subsection*{Interconnexion WAN}
+\subsection{Interconnexion WAN}
 
 Ce scénario illustre la connexion des réseaux tenants au WAN pour l'accès aux sites distants. Par exemple, on pourrait imaginer, dans le cas précédent, l'interconnexion des deux tenants proposés à un autre site de l'entreprise (image \ref{InterconnexionWAN}). Dans l'approche traditionnelle, un VLAN doit être créé entre le routeur du data centre et le routeur WAN. Il peut être identifié par exemple comme VLAN-3.
 
@@ -160,7 +160,7 @@ Traditionnellement,  les réseaux du data centre et du WAN sont gérés  par des
 Avec l'ajout de sites et tenants, une variété de pré-requis et configurations doivent être gérés et la complexité de déploiement de ce scénario devient critique. L'hétérogénéité des systèmes impliqués impose des défis difficiles à surmonter avec des délais de réalisation incompatibles. \cite{leveragingSDNCloudDCWAN} \cite{zkCloudIntelligentNetwork}
 
 
-\subsection*{Monitoring dans un data centre}
+\subsection{Monitoring dans un data centre}
 
 Historiquement, les systèmes de monitoring se sont appuyés sur une variété de protocoles et une série fragmentée d'outils. Ces outils incluent la supervision de la performance du réseau, des applications et des analyses de sécurité, telles que \gls{ids} et \gls{ips}. En complément à l'inspection des paquets, ces outils utilisent plusieurs meta protocoles pour fournir des données sur les réseaux, tels que SNMP, NetFlow et sFlow.
 %Historically, monitoring systems have relied on a variety of protocols and a fragmented set of tools. Such tools include network performance monitoring, application performance monitoring, and security analysis tools, such as IDS/IPS. In addition to packet data, those tools use any of several meta protocols for providing data about networks, such as SNMP, NetFlow, and sFlow.
@@ -198,7 +198,7 @@ Comme développé précédemment, on exige de nos jours que les applications dé
 
 
 %communication Blind Spots
-\subsection*{Points invisibles de la communication}
+\subsection{Points invisibles de la communication}
 
 Les applications de sécurité réseaux traditionnelles ne voient pas la communication entre VMs au sein du même hyperviseur, à moins que toutes leurs communications ne soient routées à l'extérieur de la machine hôte vers l'application de sécurité et re-routées à l'intérieur. Cette manière de traiter la problématique introduit un ralentissement considérable du réseau. 
 %In virtualized environments, traditional network security appliances are blind to the communication between VMs on the same host unless all communications are routed outside the host machine to this separate appliance. But this security configuration introduces significant time lags. 
@@ -208,7 +208,7 @@ Dans le Cloud Computing, le moyen de traiter ce problème est d'intégrer des mo
 %One way to eliminate blind spots while reducing time lags is to place a dedicated scanning security VM on the host that coordinates communication between VMs. This solution works well in a virtualized environment. However, a dedicated security VM is not ideal for a cloud environment. The dedicated security VM integrates with the hypervisor to communicate with other guest VMs. In some cloud environments, such as in a multi-tenant public cloud, users do not have access to the hypervisor. In the cloud, protection is best provided as self-defending VMs. Protection is self contained on each VM and does not require communication outside of the VM to remain secure.
 
 %inter-Vm attacks and hypervisor compromises
-\subsection*{Attaques entre VMs et exposition de l'hyperviseur}
+\subsection{Attaques entre VMs et exposition de l'hyperviseur}
 
 Les serveurs virtualisés\index{Virtualisation} utilisent les mêmes systèmes d'exploitation et applications que les serveurs physiques. Les vulnérabilités retrouvées alors représentent des menaces pour les systèmes physiques et pour les environnements virtuels. De cette manière, quand un élément de l'environnement virtuel est compromis, l'ensemble du système est en position de risque dès lors qu'un système de sécurité intelligent et autonome n'est pas en place. 
 %Virtualized servers use the same operating systems, enterprise applications, and web applications as physical servers. Hence, the ability of an attacker to remotely exploit vulnerabilities in these systems and applications is a significant threat to virtualized environments as well. And once an attacker compromises one element of a virtual environment, oather elements may also be compromised if virtualization-aware security is not implemented.
@@ -225,13 +225,13 @@ Un autre mode d'attaque concerne l'hyperviseur qui devient une cible d'attaque e
 %When attackers targeted a zero-day vulnerability in a virtualization application called HyperVM made by LXLabs, as many as 100,000 web sites were destroyed [1]. In addition, certain virtualization vendors like Amazon Web Services have made their APIs public. These will undoubtedly become interesting targets for cybercriminals. Vendors that have not made their APIs public like vSphere, while not usually externally exposed, can also become potential targets for attacks within their perimeters. There is a risk that, owing to the rapid change in the API space and the current race to market, virtualization management systems will not be secure in the future.
 
 %mixed trust level Vms
-\subsection*{VMs à niveaux de confiance mixtes}
+\subsection{VMs à niveaux de confiance mixtes}
 
 Les VMs qui contiennent des données sensibles peuvent finir par résider dans le même hôte qu'une autre VM traitant des données moins critique, ce qui entraine différents niveaux de confiance dans un groupement de VMs. Il serait possible de séparer les VMs selon leurs niveaux de sécurité, mais ce principe contredit l'intention de la virtulisation de faire une meilleure utilisation des ressources. Cette problématique implique un système de protection par VM, malgré la complexité déjà évoquée à synchroniser les politiques entre tous les systèmes.
 %VMs with mission-critical data may reside on the same host as VMs with less critical data – resulting in mixed trust level VMs. Enterprises can attempt to segregate these different levels of secure information on separate host machines, but in some cases, this can defeat the purpose of a virtualized environment – to make the most efficient use of resources. Enterprises need to ensure that mission-critical information is protected while still realizing the benefits of virtualization. With self-defending VM security, VMs can remain safe even in mixed trust level environments, with protection such as intrusion detection and prevention, a firewall, integrity monitoring, log inspection, and antivirus capabilities.
 
 %instant-on gaps
-\subsection*{Lacunes sur les instantanées}
+\subsection{Lacunes sur les instantanées}
 
 La virtualisation et le Cloud Computing apportent des fonctionnalités telles que : approvisionnement, clonage, migration et désaffectation à la demande. Il en résulte que les VMs sont activées et inactivées à cycles rapides et il peut être difficile d'assurer une sécurité efficace de ces systèmes tout en les gardant à jour.
 %Virtualized environments are not necessarily inherently less secure than their physical counterparts. However, in some cases, the practical uses of virtualization can introduce vulnerabilities, unless administrators are aware of these vulnerabilities and take steps to eliminate them. Instant-on gaps are an example of such a vulnerability.
@@ -244,7 +244,7 @@ Quand ces VMs sont réactivées ou clonées, elles représentent une vulnérabil
 %When dormant, reactivated, or cloned VMs have out-of-date security, attackers may be able to leverage an exploit for a longer period of time – the attack may have more longevity. Generally, if a guest VM is not online during the deployment or updating of antivirus software, it will lie dormant in an unprotected state and be instantly vulnerable when it does come online. One solution is a dedicated security VM on each host that automatically updates VMs with the latest security when activated or cloned, and safely allows enterprises to realize the benefits of virtualization.
 
 %resource contention 
-\subsection*{Blocage de ressources}
+\subsection{Blocage de ressources}
 
 Quand des opérations gourmandes en termes de ressources sont affectées aux VMs, elle peuvent rapidement surcharger\index{Charge} le système. Par exemple, quand les balayages ou mise-à-jour des antivirus sont réalisés simultanément sur plusieurs VMs dans un même serveur physique, le système peut ne pas supporter la consommation intensive des ressources (mémoire, CPU, réseau, stockage\index{Stockage}). Cela peut impacter la performance globale des applications en exécution.
 %￼When resource intensive operations such as regular antivirus scans and pattern file updates designed for physical environments are applied to VMs, these operations can quickly result in an extreme load on the system. When antivirus scans or scheduled updates simultaneously kick into action on all VMs on a single physical system, the result is an antivirus storm. This storm is like a run on the bank, where the bank is the underlying virtualized resource pool of memory, storage, and CPU. This performance impact hampers server applications and VDI environments.
